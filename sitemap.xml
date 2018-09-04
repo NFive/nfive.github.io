@@ -5,6 +5,7 @@
 <url> <loc>https://nfive.io/docs/en/components</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://nfive.io/docs/en/components" /> </url>
 <url> <loc>https://nfive.io/docs/en/overview</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://nfive.io/docs/en/overview" /> </url>
 <url> <loc>https://nfive.io/docs/en/quickstart</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://nfive.io/docs/en/quickstart" /> </url>
+<url> <loc>https://nfive.io/docs/en/plugin-manager/commands</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://nfive.io/docs/en/plugin-manager/commands" /> </url>
 <url> <loc>https://nfive.io/docs/en/plugin-manager/plugin-manager</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://nfive.io/docs/en/plugin-manager/plugin-manager" /> </url>
 <url> <loc>https://nfive.io/docs/en/plugins/plugins</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://nfive.io/docs/en/plugins/plugins" /> </url>
 <url> <loc>https://nfive.io/docs/en/sdk/sdk</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://nfive.io/docs/en/sdk/sdk" /> </url>
