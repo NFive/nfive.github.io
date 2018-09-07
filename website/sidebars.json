@@ -1,0 +1,10 @@
+{
+  "docs": {
+    "Getting Started": ["overview", "components", "quickstart", "troubleshooting"],
+    "Server": ["server/server"],
+    "Client": ["client/client"],
+    "Plugins": ["plugins/plugins"],
+    "Plugin Manager": ["plugin-manager/plugin-manager", "plugin-manager/commands"],
+    "SDK": ["sdk/sdk"]
+  }
+}
