@@ -1,6 +1,6 @@
 ---
-id: quickstart
-title: Quickstart
+id: setup
+title: Server Setup
 ---
 
 NFive aims to be very easy to setup and configure, so you can quickly get a server up and running.
@@ -35,6 +35,26 @@ root-directory
         └── config
             ├── nfive.yml
             └── database.yml
+```
+
+## Database Connection
+
+NFive requires a Database connection, todo this we need to supply it with the details in the ``config/database.yml`` file
+1. Linux may require some extra steps since you may have to run through ``./mysql_secure_install`` use a different password depending on your distro. <---- A google search will fix that.
+2. On a windows install MariaDB defaults don't set and should be okay to fill out the ``config/database.yml`` password field like so:
+```yaml
+# MySQL database connection
+connection:
+  host: db
+  port: 3306
+  database: fivem
+  user: root
+  password:
+  charset: utf8mb4
+  logging: false
+
+migrations:
+automatic: true
 ```
 
 ## Starting the Server

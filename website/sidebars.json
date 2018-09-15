@@ -1,10 +1,7 @@
 {
   "docs": {
-    "Getting Started": ["overview", "components", "quickstart", "troubleshooting"],
-    "Server": ["server/server"],
-    "Client": ["client/client"],
-    "Plugins": ["plugins/plugins"],
-    "Plugin Manager": ["plugin-manager/plugin-manager", "plugin-manager/commands"],
-    "SDK": ["sdk/sdk"]
+    "Getting Started": ["overview", "components", "dbsetup", "setup", "plugins", "troubleshooting"],
+    "Plugin Manager": ["nfpm/nfpm", "nfpm/commands-server", "nfpm/commands-plugins"],
+    "Plugin Development": ["sdk/sdk"]
   }
 }
