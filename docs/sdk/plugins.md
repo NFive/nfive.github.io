@@ -1,5 +1,5 @@
 ---
-title: Overview
+title: Plugins SDK
 ---
 
 All game functionality is provided by plugins which NFive manages and loads.
