@@ -2,7 +2,7 @@
 title: Overview
 ---
 
-> `NFive` and all of the `SDK's` is still in early development and not yet stable - this documentation is subject to change
+> `NFive` and all of the `SDK's` are still in early development and not yet stable - this documentation is subject to change
 
 ## Useful Tools
 

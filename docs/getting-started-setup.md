@@ -7,7 +7,7 @@ NFive aims to be very easy to setup and configure, so you can quickly get a serv
 
 ## Setup
 
-The easiest way to quickly install a FiveM server and setup NFive is to use the [nfpm](#) tool:
+The easiest way to quickly install a FiveM server and setup NFive is to use the [nfpm](nfpm/nfpm) tool:
 
 1. Download the latest version of [nfpm](https://github.com/NFive/nfpm): [development build](https://ci.appveyor.com/api/projects/NFive/nfpm/artifacts/bin/Release/nfpm.exe)
 

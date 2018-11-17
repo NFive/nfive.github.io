@@ -34,6 +34,30 @@ nfpm list
 
 ---
 
+### `remove`
+
+Remove installed NFive plugins
+
+**Example**
+
+```bash
+nfpm remove 
+```
+
+---
+
+### `search`
+
+Searches [NFive Hub](http://hub.nfive.io/) for NFive Plugins
+
+**Example**
+
+```bash
+nfpm search
+```
+
+---
+
 ### `update`
 
 Update installed NFive plugins.
@@ -58,7 +82,7 @@ Generates a new plugin configuration.
 nfpm init
 ```
 
-See the [plugins docs](plugins/plugins) to learn more.
+See the [plugin developmet](sdk/sdk-setup) to learn more.
 
 ---
 
@@ -72,7 +96,7 @@ Generate the boilerplate code for a new server plugin.
 nfpm scaffold
 ```
 
-See the [plugins docs](plugins/plugins) to learn more.
+See the [plugin developmet](sdk/sdk-setup) to learn more.
 
 ---
 
