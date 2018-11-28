@@ -8,7 +8,31 @@ title: Plugin Commands
 
 ## Using Plugins
 
-### `install`
+## `search`
+
+Searches [NFive Hub](http://hub.nfive.io/) for NFive Plugins
+
+**Example**
+
+```bash
+nfpm search <plugin>
+```
+
+---
+
+## `list`
+
+List currently installed NFive plugins.
+
+**Example**
+
+```bash
+nfpm list
+```
+
+---
+
+## `install`
 
 Installs a plugin or processes the current lock file.
 
@@ -22,19 +46,7 @@ nfpm install <plugin>@<version>
 
 ---
 
-### `list`
-
-List currently installed NFive plugins.
-
-**Example**
-
-```bash
-nfpm list
-```
-
----
-
-### `remove`
+## `remove`
 
 Remove installed NFive plugins
 
@@ -42,58 +54,30 @@ Remove installed NFive plugins
 
 ```bash
 nfpm remove 
-```
-
----
-
-### `search`
-
-Searches [NFive Hub](http://hub.nfive.io/) for NFive Plugins
-
-**Example**
-
-```bash
-nfpm search
-```
-
----
-
-### `update`
-
-Update installed NFive plugins.
-
-**Example**
-
-```bash
-nfpm update
+nfpm remove <plugin>
+nfpm remove <plugin>@<version>
 ```
 
 ---
 
 ## Developing Plugins
 
-### `init`
+## `scaffold`
 
-Generates a new plugin configuration.
-
-**Example**
-
-```bash
-nfpm init
-```
-
-See the [plugin developmet](sdk/sdk-setup) to learn more.
-
----
-
-### `scaffold`
-
-Generate the boilerplate code for a new server plugin.
+Generate the boilerplate code for a new plugin. 
 
 **Example**
 
 ```bash
 nfpm scaffold
+```
+Scaffold can also optionally pointed to different skeleton files that are either local or remote, here are some examples:
+```bash
+nfpm scaffold http://site.com/some.zip
+nfpm scaffold some_dir/
+nfpm scaffold someLocal.zip
+nfpm scaffold MyGithub/MyRepo
+nfpm scaffold MyGithub/MyRepo#MyBranch
 ```
 
 See the [plugin developmet](sdk/sdk-setup) to learn more.

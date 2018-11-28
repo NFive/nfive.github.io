@@ -6,21 +6,22 @@ title: Server Commands
 
 ---
 
-## Reference
+# Reference
 
-### `setup`
+## `setup`
 
-Install a new FiveM server and configures it to run NFive.
+Install a new FiveM server that includes NFive. Running `setup` without specifying a location will use the current directory.
 
 **Example**
 
 ```bash
 nfpm setup
+nfpm setup <location>
 ```
 
 ---
 
-### `start`
+## `start`
 
 Starts the FiveM server process in a new window.
 
@@ -32,7 +33,19 @@ nfpm start
 
 ---
 
-### `self-update`
+## `status`
+
+Show the current status of NFive, nfpm and currently installed resources.
+
+**Example**
+
+```bash
+nfpm status
+```
+
+---
+
+## `self-update`
 
 Downloads and updates the newest NFive Plugin Manager (nfpm)
 
@@ -45,3 +58,14 @@ nfpm self-update
 ---
 
 
+## `rcon`
+
+Connect to a running FiveM server over RCON
+
+**Example**
+
+```bash
+nfpm rcon --host <host> --port <port>
+```
+
+---
