@@ -1,7 +1,7 @@
 {
   "docs": {
     "Getting Started": ["overview", "components", "dbsetup", "setup", "plugins", "troubleshooting"],
-    "Plugin Manager": ["nfpm/nfpm", "nfpm/commands-server", "nfpm/commands-plugins"],
+    "Plugin Manager": ["nfpm/nfpm", "nfpm/command-reference"],
     "Plugin Development": ["plugindev/overview", "plugindev/setup", "plugindev/hub" ]
   }
 }
