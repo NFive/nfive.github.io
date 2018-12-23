@@ -57,6 +57,17 @@ nfpm self-update
 
 ---
 
+## `clean-cache`
+
+Remove locally cached NFive Plugin Manager (nfpm) packages.
+
+**Example**
+
+```bash
+nfpm clean-cache
+```
+
+---
 
 ## `rcon`
 
