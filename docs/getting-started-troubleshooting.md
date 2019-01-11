@@ -18,6 +18,10 @@ The following FiveM server warnings are expected and safe to ignore:
 
   Check your `resources\nfive\config\database.yml` configuration and that a MySQL database is running and available.
 
+- `MySql.Data.MySqlClient.MySqlPacket.ReadString` or similar MySQL string error
+
+  Make sure your database charset is correctly set for NFive. See [Database Setup](dbsetup#configure) for instructions.
+
 ### FiveM License Key
 
 - `GlobalError: Could not authenticate server license key.`
