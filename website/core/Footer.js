@@ -10,7 +10,10 @@ const React = require('react');
 class Footer extends React.Component {
   docUrl(doc, language) {
     const baseUrl = this.props.config.baseUrl;
-    return `${baseUrl}docs/${language ? `${language}/` : ''}${doc}`;
+    const docsUrl = this.props.config.docsUrl;
+    const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
+    const langPart = `${language ? `${language}/` : ''}`;
+    return `${baseUrl}${docsPart}${langPart}${doc}`;
   }
 
   pageUrl(doc, language) {
@@ -28,6 +31,7 @@ class Footer extends React.Component {
                 src={this.props.config.baseUrl + this.props.config.footerIcon}
                 alt={this.props.config.title}
                 width="66"
+                height="58"
               />
             )}
           </a>
@@ -36,39 +40,35 @@ class Footer extends React.Component {
             <a href={this.docUrl('overview', this.props.language)}>
               Getting Started
             </a>
-            <a href={this.docUrl('plugin-manager/plugin-manager', this.props.language)}>
+            <a href={this.docUrl('nfpm/nfpm', this.props.language)}>
               Plugin Manager
             </a>
-            <a href={this.docUrl('sdk/sdk', this.props.language)}>
+            <a href={this.docUrl('plugindev/overview', this.props.language)}>
               SDK Reference
             </a>
           </div>
-          <div style={{display: 'none'}}>
+          <div>
             <h5>Community</h5>
-            <a href={this.pageUrl('users', this.props.language)}>
-              User Showcase
+            <a href={this.pageUrl('help', this.props.language)}>
+              Getting Help
             </a>
-            <a
-              href="http://stackoverflow.com/questions/tagged/nfive"
-              target="_blank"
-              rel="noreferrer noopener">
-              Stack Overflow
-            </a>
-            <a href="https://discordapp.com/nfive">Project Chat</a>
-            <a
-              href="https://twitter.com/NFive"
-              target="_blank"
-              rel="noreferrer noopener">
-              Twitter
-            </a>
+            <a href="https://discord.nfive.io/">Project Chat</a>
+            <a href="https://discord.nfive.io/"><img alt="Discord NFive chat" src="https://img.shields.io/discord/525451790876016651.svg?style=social&logo=discord&logoColor=black"></img></a>
           </div>
           <div>
-            <h5>Projects</h5>
-            <a href="https://github.com/NFive/NFive">NFive</a>
-            <a href="https://github.com/NFive/nfpm">nfpm</a>
-            <a href="https://github.com/NFive/SDK.Core">NFive.SDK.Core</a>
-            <a href="https://github.com/NFive/SDK.Client">NFive.SDK.Client</a>
-            <a href="https://github.com/NFive/SDK.Server">NFive.SDK.Server</a>
+            <h5>More</h5>
+            <a href="https://hub.nfive.io/">Plugin Hub</a>
+            <a href="https://github.com/NFive">GitHub</a>
+            <a
+              className="github-button"
+              href={this.props.config.repoUrl}
+              data-icon="octicon-star"
+              data-count-href="/NFive/nfive/stargazers"
+              data-show-count="true"
+              data-count-aria-label="# stargazers on GitHub"
+              aria-label="Star this project on GitHub">
+              Star
+            </a>
           </div>
         </section>
       </footer>
