@@ -38,26 +38,26 @@ class Footer extends React.Component {
           <div>
             <h5>Docs</h5>
             <a href={this.docUrl('overview', this.props.language)}>
-              Getting Started
+              <translate>Getting Started</translate>
             </a>
             <a href={this.docUrl('nfpm/nfpm', this.props.language)}>
-              Plugin Manager
+              <translate>Plugin Manager</translate>
             </a>
             <a href={this.docUrl('plugindev/overview', this.props.language)}>
-              SDK Reference
+              <translate>SDK Reference</translate>
             </a>
           </div>
           <div>
             <h5>Community</h5>
             <a href={this.pageUrl('help', this.props.language)}>
-              Getting Help
+              <translate>Getting Help</translate>
             </a>
-            <a href="https://discord.nfive.io/">Project Chat</a>
+            <a href="https://discord.nfive.io/"><translate>Project Chat</translate></a>
             <a href="https://discord.nfive.io/"><img alt="Discord NFive chat" src="https://img.shields.io/discord/525451790876016651.svg?style=social&logo=discord&logoColor=black"></img></a>
           </div>
           <div>
             <h5>More</h5>
-            <a href="https://hub.nfive.io/">Plugin Hub</a>
+            <a href="https://hub.nfive.io/"><translate>Plugin Hub</translate></a>
             <a href="https://github.com/NFive">GitHub</a>
             <a
               className="github-button"

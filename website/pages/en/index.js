@@ -38,7 +38,7 @@ class HomeSplash extends React.Component {
     const ProjectTitle = () => (
       <h2 className="projectTitle">
         {siteConfig.title}
-        <small>{siteConfig.tagline}</small>
+        <small><translate desc="tagline">{siteConfig.tagline}</translate></small>
       </h2>
     );
 
@@ -64,9 +64,9 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
-            <Button href={docUrl('overview')}>Get Started</Button>
+            <Button href={docUrl('overview')}><translate>Get Started</translate></Button>
             <Button href='https://github.com/NFive'>GitHub</Button>
-            <Button href='https://hub.nfive.io/'>Find Plugins</Button>
+            <Button href='https://hub.nfive.io/'><translate>Find Plugins</translate></Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -147,26 +147,26 @@ class Index extends React.Component {
           {
             image: `${baseUrl}img/cogs.svg`,
             imageAlign: 'top',
-            title: 'Completely Managed',
-            content: 'NFive is 100% written in C# .NET and runs as a single server resource.',
+            title: <translate>Completely Managed</translate>,
+            content: <translate>NFive is 100% written in C# .NET and runs as a single server resource.</translate>,
           },
           {
             image: `${baseUrl}img/plug.svg`,
             imageAlign: 'top',
-            title: 'Modular Design',
-            content: 'NFive\'s plugin system is modular and designed for complex dependencies, with full semantic versioning.',
+            title: <translate>Modular Design</translate>,
+            content: <translate>NFive's plugin system is modular and designed for complex dependencies, with full semantic versioning.</translate>,
           },
           {
             image: `${baseUrl}img/book.svg`,
             imageAlign: 'top',
-            title: 'Software Development Kit',
-            content: 'NFive has a full featured SDK which simplices and eases plugin and mod development.',
+            title: <translate>Software Development Kit</translate>,
+            content: <translate>NFive has a full featured SDK which simplices and eases plugin and mod development.</translate>,
           },
           {
             image: `${baseUrl}img/osi.svg`,
             imageAlign: 'top',
-            title: '100% Open Source',
-            content: 'Every NFive component is completely public, open source and free.',
+            title: <translate>100% Open Source</translate>,
+            content: <translate>Every NFive component is completely public, open source and free.</translate>,
           },
         ]}
       </Block>
