@@ -13,6 +13,8 @@ const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
 const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
 
+const translate = require('../../server/translate.js').translate;
+
 class HomeSplash extends React.Component {
   render() {
     const {siteConfig, language = ''} = this.props;

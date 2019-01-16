@@ -7,6 +7,8 @@
 
 const React = require('react');
 
+const translate = require('../../server/translate.js').translate;
+
 class Footer extends React.Component {
   docUrl(doc, language) {
     const baseUrl = this.props.config.baseUrl;
