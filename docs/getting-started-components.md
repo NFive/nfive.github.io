@@ -7,7 +7,7 @@ NFive is modular by design and comes in multiple components.
 
 ## NFive (Required)
 
-The NFive runtime is a [FiveM server resource](https://docs.fivem.net/resources/) which handles loading the installed plugins and handling RPC.
+The NFive runtime is a [FiveM server resource](https://docs.fivem.net/resources/) which handles loading the installed plugins and handling RPC (Remote Procedure Call) and events.
 
 ## MySQL Database (Required)
 
