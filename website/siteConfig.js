@@ -18,7 +18,7 @@ const siteConfig = {
   organizationName: 'NFive',
 
   cname: 'nfive.io',
-  editUrl: 'https://github.com/NFive/nfive.github.io/blob/src/docs/',
+  editUrl: 'https://github.com/NFive/nfive.github.io/edit/src/docs/',
 
   headerLinks: [
     { doc: 'overview', label: 'Documentation' },
