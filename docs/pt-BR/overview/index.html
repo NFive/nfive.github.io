@@ -1,0 +1,80 @@
+<!DOCTYPE html><html lang="pt-BR"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Resumo · NFive</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;blockquote&gt;
+&lt;p&gt;Este projeto está em seu desenvolvimento inicial e ainda não é estável - essa documentação está sujeita a alterações&lt;/p&gt;
+&lt;/blockquote&gt;
+"/><meta name="docsearch:language" content="pt-BR"/><meta property="og:title" content="Resumo · NFive"/><meta property="og:type" content="website"/><meta property="og:url" content="https://nfive.io/index.html"/><meta property="og:description" content="&lt;blockquote&gt;
+&lt;p&gt;Este projeto está em seu desenvolvimento inicial e ainda não é estável - essa documentação está sujeita a alterações&lt;/p&gt;
+&lt;/blockquote&gt;
+"/><meta property="og:image" content="https://nfive.io/img/logo.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://nfive.io/img/logo.svg"/><link rel="shortcut icon" href="/img/favicon.png"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="https://unpkg.com/vanilla-back-to-top@7.1.14/dist/vanilla-back-to-top.min.js"></script><script>
+        document.addEventListener('DOMContentLoaded', function() {
+          addBackToTop(
+            {"zIndex":100}
+          )
+        });
+        </script><link rel="stylesheet" href="/css/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/pt-BR"><img class="logo" src="/img/logo-light.svg" alt="NFive"/><h2 class="headerTitleWithLogo">NFive</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive siteNavItemActive"><a href="/docs/pt-BR/overview" target="_self">Documentação</a></li><li class=""><a href="/api" target="_self">API</a></li><li class=""><a href="https://github.com/NFive" target="_self">GitHub</a></li><li class=""><a href="/pt-BR/help" target="_self">Ajuda</a></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/img/language.svg" alt="Languages icon"/>Português (Brasil)</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/docs/en/overview">English</a></li></ul></div></li><script>
+        const languagesMenuItem = document.getElementById("languages-menu");
+        const languagesDropDown = document.getElementById("languages-dropdown");
+        languagesMenuItem.addEventListener("click", function(event) {
+          event.preventDefault();
+
+          if (languagesDropDown.className == "hide") {
+            languagesDropDown.className = "visible";
+          } else {
+            languagesDropDown.className = "hide";
+          }
+        });
+      </script></span><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Primeiros passos</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Primeiros passos</h3><ul><li class="navListItem navListItemActive"><a class="navItem" href="/docs/pt-BR/overview">Resumo</a></li><li class="navListItem"><a class="navItem" href="/docs/pt-BR/components">Componentes</a></li><li class="navListItem"><a class="navItem" href="/docs/pt-BR/dbsetup">Configurando Database</a></li><li class="navListItem"><a class="navItem" href="/docs/pt-BR/setup">Configurando Servidor</a></li><li class="navListItem"><a class="navItem" href="/docs/pt-BR/plugins">Instalando Plugins</a></li><li class="navListItem"><a class="navItem" href="/docs/pt-BR/troubleshooting">Solução de problemas</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Gerenciador de Plugins</h3><ul><li class="navListItem"><a class="navItem" href="/docs/pt-BR/nfpm/nfpm">Resumo</a></li><li class="navListItem"><a class="navItem" href="/docs/pt-BR/nfpm/command-reference">Lista de comandos</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Desenvolvimento de Plugins</h3><ul><li class="navListItem"><a class="navItem" href="/docs/pt-BR/plugindev/overview">Resumo</a></li><li class="navListItem"><a class="navItem" href="/docs/pt-BR/plugindev/setup">Configuração</a></li><li class="navListItem"><a class="navItem" href="/docs/pt-BR/plugindev/hub">Hub</a></li></ul></div></div></section></div><script>
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              const headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                if (event.target.tagName === 'A') {
+                  document.body.classList.remove('tocActive');
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/NFive/nfive.github.io/blob/src/docs/getting-started-overview.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">Resumo</h1></header><article><div><span><blockquote>
+<p>Este projeto está em seu desenvolvimento inicial e ainda não é estável - essa documentação está sujeita a alterações</p>
+</blockquote>
+<p>NFive é um gerenciador da plataforma .NET para <a href="https://fivem.net/">FiveM</a> construída para ajudar na administração de servidores e facilitar o desenvolvimento provendo plugins modulares.</p>
+<h2><a class="anchor" aria-hidden="true" id="conceito"></a><a href="#conceito" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Conceito</h2>
+<p>Nfive foi desenvolvido para simplificar a complexa forma de gerenciar servidores e prover uma experiencia de desenvolvimento moderna aos usuários.</p>
+<p>Como os usuários a cada dia têm demandado mais e mais detalhes nos servidores os sistemas de mod se tornam enormes, tendo assim a necessidade de uma gestão mais fácil e unificada.</p>
+<h2><a class="anchor" aria-hidden="true" id="aplicacão"></a><a href="#aplicacão" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Aplicação</h2>
+<p>NFive não oferece nenhuma funcionalidade dentro do jogo (isso fica por sua conta), NFive é puramente um sistema de gerenciamento e plataforma para desenvolvimento de plugins. Isso permite NFive permanecer agnóstico e ser utilizado com qualquer tipo de modo de jogo ou mod.</p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-next button" href="/docs/pt-BR/components"><span>Componentes</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#conceito">Conceito</a></li><li><a href="#aplicacão">Aplicação</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/logo-light.svg" alt="NFive" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/pt-BR/overview">Getting Started</a><a href="/docs/pt-BR/nfpm/nfpm">Plugin Manager</a><a href="/docs/pt-BR/plugindev/overview">SDK Reference</a></div><div><h5>Community</h5><a href="/pt-BR/help">Getting Help</a><a href="https://discord.nfive.io/">Project Chat</a><a href="https://discord.nfive.io/"><img alt="Discord NFive chat" src="https://img.shields.io/discord/525451790876016651.svg?style=social&amp;logo=discord&amp;logoColor=black"/></a></div><div><h5>More</h5><a href="https://hub.nfive.io/">Plugin Hub</a><a href="https://github.com/NFive">GitHub</a><a class="github-button" href="https://github.com/NFive/NFive" data-icon="octicon-star" data-count-href="/NFive/nfive/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: '326831da3dca93a8edf49bdc3b33fa2c',
+                indexName: 'nfive',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {"facetFilters":["language:pt-BR","version:undefined"]}
+              });
+            </script></body></html>
