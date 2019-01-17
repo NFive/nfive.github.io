@@ -112,7 +112,7 @@ const languages = [
     tag: 'nl',
   },
   {
-    enabled: false,
+    enabled: true,
     name: 'Norsk',
     tag: 'no-NO',
   },
