@@ -3,7 +3,7 @@ id: dbsetup
 title: Database Setup
 ---
 
-NFive makes use of a MySQL Databse. The guide will use the recommended and tested [MariaDB](https://mariadb.org/).
+NFive makes use of a MySQL Database. The guide will use the recommended and tested [MariaDB](https://mariadb.org/).
 
 ## Setup
 
