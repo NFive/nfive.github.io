@@ -59,16 +59,7 @@ class Footer extends React.Component {
             <h5>More</h5>
             <a href="https://hub.nfive.io/">Plugin Hub</a>
             <a href="https://github.com/NFive">GitHub</a>
-            <a
-              className="github-button"
-              href={this.props.config.repoUrl}
-              data-icon="octicon-star"
-              data-count-href="/NFive/nfive/stargazers"
-              data-show-count="true"
-              data-count-aria-label="# stargazers on GitHub"
-              aria-label="Star this project on GitHub">
-              Star
-            </a>
+            <a href="https://github.com/NFive/NFive/stargazers"><img alt="NFive stargazers on GitHub" src="https://img.shields.io/github/stars/NFive/NFive.svg?label=Stars&style=social"></img></a>
           </div>
         </section>
       </footer>

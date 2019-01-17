@@ -21,10 +21,11 @@ const siteConfig = {
   editUrl: 'https://github.com/NFive/nfive.github.io/blob/src/docs/',
 
   headerLinks: [
-    {doc: 'overview', label: 'Documentation'},
-    { href: "/api", label: "API" },
-    { href: "https://github.com/NFive", label: "GitHub" },
+    { doc: 'overview', label: 'Documentation' },
     { page: 'help', label: 'Help' },
+    { href: '/api', label: 'API' },
+    { href: 'https://hub.nfive.io/', label: 'Plugins' },
+    { href: 'https://github.com/NFive', label: 'GitHub' },
   ],
 
   headerIcon: 'img/logo-light.svg',
@@ -42,8 +43,6 @@ const siteConfig = {
     theme: 'atom-one-dark',
   },
 
-  scripts: ['https://buttons.github.io/buttons.js'],
-
   onPageNav: 'separate',
   cleanUrl: true,
 
@@ -57,13 +56,11 @@ const siteConfig = {
 
   enableUpdateTime: true,
 
-  repoUrl: 'https://github.com/NFive/NFive',
-
   algolia: {
     apiKey: '326831da3dca93a8edf49bdc3b33fa2c',
     indexName: 'nfive',
     algoliaOptions: {
-      facetFilters: [ "language:LANGUAGE", "version:VERSION" ]
+      facetFilters: [ 'language:LANGUAGE', 'version:VERSION' ]
     }
   },
 };
