@@ -23,7 +23,7 @@ const siteConfig = {
   headerLinks: [
     { doc: 'overview', label: 'Documentation' },
     { page: 'help', label: 'Help' },
-    { href: '/api', label: 'API' },
+    // { href: '/api', label: 'API' },
     { href: 'https://hub.nfive.io/', label: 'Plugins' },
     { href: 'https://github.com/NFive', label: 'GitHub' },
   ],
@@ -37,7 +37,7 @@ const siteConfig = {
     secondaryColor: '#b11b1b',
   },
 
-  translationRecruitingLink: 'https://crowdin.com/project/nfive-website',
+  translationRecruitingLink: 'https://translate.nfive.io/',
 
   copyright: `Copyright © 2018-${new Date().getFullYear()} NFive`,
 
