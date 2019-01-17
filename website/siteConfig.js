@@ -37,6 +37,8 @@ const siteConfig = {
     secondaryColor: '#b11b1b',
   },
 
+  translationRecruitingLink: 'https://crowdin.com/project/nfive-website',
+
   copyright: `Copyright © 2018-${new Date().getFullYear()} NFive`,
 
   highlight: {
