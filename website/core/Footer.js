@@ -7,8 +7,6 @@
 
 const React = require('react');
 
-const translate = require('../server/translate.js').translate;
-
 class Footer extends React.Component {
   docUrl(doc, language) {
     const baseUrl = this.props.config.baseUrl;
@@ -40,26 +38,26 @@ class Footer extends React.Component {
           <div>
             <h5>Docs</h5>
             <a href={this.docUrl('overview', this.props.language)}>
-              <translate>Getting Started</translate>
+              Getting Started
             </a>
             <a href={this.docUrl('nfpm/nfpm', this.props.language)}>
-              <translate>Plugin Manager</translate>
+              Plugin Manager
             </a>
             <a href={this.docUrl('plugindev/overview', this.props.language)}>
-              <translate>SDK Reference</translate>
+              SDK Reference
             </a>
           </div>
           <div>
             <h5>Community</h5>
             <a href={this.pageUrl('help', this.props.language)}>
-              <translate>Getting Help</translate>
+              Getting Help
             </a>
-            <a href="https://discord.nfive.io/"><translate>Project Chat</translate></a>
+            <a href="https://discord.nfive.io/">Project Chat</a>
             <a href="https://discord.nfive.io/"><img alt="Discord NFive chat" src="https://img.shields.io/discord/525451790876016651.svg?style=social&logo=discord&logoColor=black"></img></a>
           </div>
           <div>
             <h5>More</h5>
-            <a href="https://hub.nfive.io/"><translate>Plugin Hub</translate></a>
+            <a href="https://hub.nfive.io/">Plugin Hub</a>
             <a href="https://github.com/NFive">GitHub</a>
             <a
               className="github-button"
