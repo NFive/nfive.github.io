@@ -6,6 +6,11 @@
   margin-bottom: 0;
 }
 
+.imageAlignSide .blockImage {
+  flex:unset;
+  max-width: unset;
+}
+
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
 

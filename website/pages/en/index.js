@@ -66,9 +66,9 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
-            <Button href={docUrl('overview')}><translate>Get Started</translate></Button>
+            <Button href={docUrl('overview')}><translate desc="homepage get started button">Get Started</translate></Button>
             <Button href='https://github.com/NFive'>GitHub</Button>
-            <Button href='https://hub.nfive.io/'><translate>Find Plugins</translate></Button>
+            <Button href='https://hub.nfive.io/'><translate desc="homepage plugin hub button">Find Plugins</translate></Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -87,132 +87,90 @@ class Index extends React.Component {
         id={props.id}
         background={props.background}>
         <GridBlock
-          align="center"
+          align={props.align}
           contents={props.children}
           layout={props.layout}
         />
       </Container>
     );
 
-    const FeatureCallout = () => (
-      <div
-        className="productShowcaseSection paddingBottom"
-        style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
-      </div>
-    );
-
     const TryOut = () => (
-      <Block id="try">
+      <Block>
         {[
           {
-            content: 'Talk about trying this out',
-            image: `${baseUrl}img/logo.svg`,
+            title: <translate desc="homepage block one title">Try It Out</translate>,
+            content: <translate desc="homepage block one content">Setup your own FiveM and NFive server in seconds, try it now!</translate>,
+            image: `${baseUrl}img/setup.gif`,
             imageAlign: 'left',
-            title: 'Try it Out',
           },
         ]}
       </Block>
     );
 
-    const Description = () => (
-      <Block background="dark">
+    const Tech = () => (
+      <Block background="dark" align="center">
         {[
           {
-            content:
-              'This is another description of how this project is useful',
-            image: `${baseUrl}img/logo.svg`,
-            imageAlign: 'right',
-            title: 'Description',
+            title: <translate desc="homepage block two title">Modern Technologies</translate>,
+            content: <translate desc="homepage block two content">NFive is built using modern programming practises and technologies. Harness the power of CI/CD, unit testing, I18N, semantic versioning and more in your code.</translate>,
           },
         ]}
       </Block>
     );
 
-    const LearnHow = () => (
-      <Block background="light">
+    const Tools = () => (
+      <Block>
         {[
           {
-            content: 'Talk about learning how to use this',
-            image: `${baseUrl}img/logo.svg`,
+            title: <translate desc="homepage block three title">Automated Tools</translate>,
+            content: <translate desc="homepage block three content">Getting started building new plugins in seconds with built-in tools and utilities. Scaffold a plugin with one command or automatically generate a database migration; let the tooling does the boilerplate for you.</translate>,
+            image: `${baseUrl}img/scaffold.gif`,
             imageAlign: 'right',
-            title: 'Quick Setup',
           },
         ]}
       </Block>
     );
 
     const Features = () => (
-      <Block layout="fourColumn">
+      <Block background="light" layout="fourColumn" align="center">
         {[
           {
             image: `${baseUrl}img/cogs.svg`,
             imageAlign: 'top',
-            title: <translate>Completely Managed</translate>,
-            content: <translate>NFive is 100% written in C# .NET and runs as a single server resource.</translate>,
+            alignCenter: true,
+            title: <translate desc="homepage feature one title">Completely Managed</translate>,
+            content: <translate desc="homepage feature one content">NFive is 100% written in C# .NET and runs as a single server resource.</translate>,
           },
           {
             image: `${baseUrl}img/plug.svg`,
             imageAlign: 'top',
-            title: <translate>Modular Design</translate>,
-            content: <translate>NFive's plugin system is modular and designed for complex dependencies, with full semantic versioning.</translate>,
+            title: <translate desc="homepage feature two title">Modular Design</translate>,
+            content: <translate desc="homepage feature two content">NFive's plugin system is modular and designed for complex dependencies, with full semantic versioning.</translate>,
           },
           {
             image: `${baseUrl}img/book.svg`,
             imageAlign: 'top',
-            title: <translate>Software Development Kit</translate>,
-            content: <translate>NFive has a full featured SDK which simplices and eases plugin and mod development.</translate>,
+            title: <translate desc="homepage feature three title">Software Development Kit</translate>,
+            content: <translate desc="homepage feature three content">NFive has a full featured SDK which simplices and eases plugin and mod development.</translate>,
           },
           {
             image: `${baseUrl}img/osi.svg`,
             imageAlign: 'top',
-            title: <translate>100% Open Source</translate>,
-            content: <translate>Every NFive component is completely public, open source and free.</translate>,
+            title: <translate desc="homepage feature four title">100% Open Source</translate>,
+            content: <translate desc="homepage feature four content"e>Every NFive component is completely public, open source and free.</translate>,
           },
         ]}
       </Block>
     );
-
-    const Showcase = () => {
-      if ((siteConfig.users || []).length === 0) {
-        return null;
-      }
-
-      const showcase = siteConfig.users
-        .filter(user => user.pinned)
-        .map(user => (
-          <a href={user.infoLink} key={user.infoLink}>
-            <img src={user.image} alt={user.caption} title={user.caption} />
-          </a>
-        ));
-
-      const pageUrl = page => baseUrl + (language ? `${language}/` : '') + page;
-
-      return (
-        <div className="productShowcaseSection paddingBottom">
-          <h2>Who is Using This?</h2>
-          <p>This project is used by all these people</p>
-          <div className="logos">{showcase}</div>
-          <div className="more-users">
-            <a className="button" href={pageUrl('users.html')}>
-              More {siteConfig.title} Users
-            </a>
-          </div>
-        </div>
-      );
-    };
 
     return (
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
           <Features />
-          {/* <FeatureCallout />
-          <LearnHow />
           <TryOut />
-          <Description />
-          <Showcase /> */}
+          <Tech />
+          <Tools />
         </div>
       </div>
     );
