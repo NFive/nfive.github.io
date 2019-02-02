@@ -1,8 +1,7 @@
 ---
+id: overview
 title: Overview
 ---
-
-> `NFive` and `nfpm` are still in early development and not yet stable - this documentation is subject to change
 
 The NFive Plugin Manager (`nfpm`) is a standalone tool to help manage NFive installations, plugins and FiveM server management.
 
@@ -10,12 +9,12 @@ The NFive Plugin Manager (`nfpm`) is a standalone tool to help manage NFive inst
 
 ## `help`
 
-If you want to explore the commands without referecening the docs they are all displayed with help.
+If you want to explore the commands without refereeing the docs they are all displayed with help.
 `help` can also be used on a specific command which provide arguments that can be passed.
 
-**Example**
+### Example
 
-```bash
+```sh
 nfpm help
 nfpm help <command>
 ```
@@ -26,9 +25,9 @@ nfpm help <command>
 
 Displays the current version of `nfpm`
 
-**Example**
+### Example
 
-```bash
+```sh
 nfpm version
 ```
 

@@ -3,24 +3,23 @@ id: troubleshooting
 title: Troubleshooting
 ---
 
-## Server Errors
-
-### Expected Warnings
+## Expected Warnings
 
 The following FiveM server warnings are expected and safe to ignore:
 
-- `INFO: No channel links found in configuration file.`
 - `Couldn't find resource sessionmanager.`
+
+## Server Errors
 
 ### Database
 
 - `mysql Error: -1 : Unable to connect to any of the specified MySQL hosts.`
 
-  Check your `resources\nfive\config\database.yml` configuration and that a MySQL database is running and available.
+  Check your `nfive\config\database.yml` configuration is correct and that a MySQL database is running and available.
 
-- `MySql.Data.MySqlClient.MySqlPacket.ReadString` or similar MySQL string error
+- `MySql.Data.MySqlClient.MySqlPacket.ReadString` or similar MySQL read error
 
-  Make sure your database charset is correctly set for NFive. See [Database Setup](dbsetup#configure) for instructions.
+  Make sure your database charset is correctly set for NFive. See [Database Setup](database#configuration) for instructions.
 
 ### FiveM License Key
 
@@ -28,10 +27,10 @@ The following FiveM server warnings are expected and safe to ignore:
 
   ![FiveM license key warning dialog](assets/troubleshooting-fivem-license-key.png)
 
-  This error means you do not have a valid [FiveM license key](https://keymaster.fivem.net/) in `server.cfg`, make sure the file contains a `sv_licensekey` line.
+  This error means you do not have a valid [FiveM license key](https://keymaster.fivem.net/) in `server.cfg`, make sure the file contains a valid `sv_licensekey` line.
 
 ## Client Errors
 
 - `System.Runtime.Serialization.dll is not a platform image (even though the dir matches).`
 
-  This warning can be safely ignored.
+  This error can be safely ignored.
