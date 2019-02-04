@@ -14,8 +14,8 @@ const siteConfig = {
   url: 'https://nfive.io',
   baseUrl: '/',
 
-  projectName: 'nfive.github.io',
   organizationName: 'NFive',
+  projectName: 'nfive.github.io',
 
   cname: 'nfive.io',
   editUrl: 'https://github.com/NFive/nfive.github.io/edit/src/docs/',
@@ -59,7 +59,7 @@ const siteConfig = {
   enableUpdateTime: true,
 
   algolia: {
-    apiKey: '326831da3dca93a8edf49bdc3b33fa2c',
+    apiKey: '22e7bbaefbfd8d4ddc9a7877604c14d4',
     indexName: 'nfive',
     algoliaOptions: {
       facetFilters: [ 'language:LANGUAGE', 'version:VERSION' ]
