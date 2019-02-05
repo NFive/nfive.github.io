@@ -62,7 +62,9 @@ const siteConfig = {
     apiKey: '22e7bbaefbfd8d4ddc9a7877604c14d4',
     indexName: 'nfive',
     algoliaOptions: {
-      facetFilters: [ 'language:LANGUAGE', 'version:VERSION' ]
+      facetFilters: [
+        'language:LANGUAGE'
+      ]
     }
   },
 };
