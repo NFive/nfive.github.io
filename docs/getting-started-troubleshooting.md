@@ -21,6 +21,10 @@ The following FiveM server warnings are expected and safe to ignore:
 
   Make sure your database charset is correctly set for NFive. See [Database Setup](database#configuration) for instructions.
 
+- `MySql.Data.MySqlClient.MySqlException: Table '<database>.boothistories' doesn't exist`
+
+  If you try to start the server for the first time and receive this error, simply drop the database and try again.
+
 ### FiveM License Key
 
 - `GlobalError: Could not authenticate server license key.`
