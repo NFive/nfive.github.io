@@ -31,3 +31,9 @@ A preconfigured MariaDB server is included in the supplied [NFive docker-compose
 ## Database and Tables
 
 NFive will automatically create both the database it needs as well as all the tables on its first run, so make sure the MySQL user you provide NFive has the necessary permissions.
+
+If you try to start the server and receive the error below:
+```ini
+.... MySql.Data.MySqlClient.MySqlException: Table '<dbname>.boothistories' doesn't exist
+```
+Simply drop the database, and try to start the server again.
