@@ -30,4 +30,4 @@ A preconfigured MariaDB server is included in the supplied [NFive docker-compose
 
 ## Database and Tables
 
-NFive will automatically create both the database it needs as well as all the tables on its first run, so make sure the MySQL user you provide NFive has the necessary permissions.
+NFive will automatically create both the full database it needs as well as all the tables within it on its first run, so make sure the MySQL user you provide NFive has the necessary permissions.
