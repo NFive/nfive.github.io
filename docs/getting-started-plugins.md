@@ -23,13 +23,12 @@ Where `<plugin>` is expected to be a published plugin from the [NFive plugin hub
 Without any plugins, clients will be able to connect but will not spawn into the game world. If you are looking to get started with NFive quickly, the following plugins are recommended as the minimum required for a playable server:
 
 * [Loading Screen](https://hub.nfive.io/NFive/plugin-loadingscreen) - A basic demo loading screen.
-* [Session Manager](https://hub.nfive.io/NFive/plugin-sessionmanager) - Required for clients to be able to connect to the server.
 * [Start](https://hub.nfive.io/NFive/plugin-start) - An example of allowing connected players to spawn so they can play.
 
 These can be installed with:
 
 ```sh
-nfpm install NFive/plugin-loadingscreen NFive/plugin-sessionmanager NFive/plugin-start
+nfpm install NFive/plugin-loadingscreen NFive/plugin-start
 ```
 
 Once you have installed the basic plugins you can move on to [starting the server](administration).
