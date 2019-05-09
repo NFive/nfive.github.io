@@ -16,7 +16,9 @@
     "Plugin Development": [
       "plugindev/overview",
       "plugindev/setup",
-      "plugindev/hub"
+      "plugindev/hub",
+      "plugindev/definition",
+      "plugindev/lifecycle"
     ]
   }
 }
