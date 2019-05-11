@@ -1,0 +1,143 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Dependency Injection · NFive</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;p&gt;Along with the standard parameters for a controller type, it is possible for a plugin to specify extra constructor interface parameters which the NFive server will provide at runtime.&lt;/p&gt;
+"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Dependency Injection · NFive"/><meta property="og:type" content="website"/><meta property="og:url" content="https://nfive.io/"/><meta property="og:description" content="&lt;p&gt;Along with the standard parameters for a controller type, it is possible for a plugin to specify extra constructor interface parameters which the NFive server will provide at runtime.&lt;/p&gt;
+"/><meta property="og:image" content="https://nfive.io/img/logo.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://nfive.io/img/logo.svg"/><link rel="shortcut icon" href="/img/favicon.png"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css"/><script src="https://unpkg.com/vanilla-back-to-top@7.1.14/dist/vanilla-back-to-top.min.js"></script><script>
+        document.addEventListener('DOMContentLoaded', function() {
+          addBackToTop(
+            {"zIndex":100}
+          )
+        });
+        </script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/en"><img class="logo" src="/img/logo-light.svg" alt="NFive"/><h2 class="headerTitleWithLogo">NFive</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/docs/en/overview" target="_self">Documentation</a></li><li class=""><a href="/en/help" target="_self">Help</a></li><li class=""><a href="https://hub.nfive.io/" target="_self">Plugins</a></li><li class=""><a href="https://github.com/NFive" target="_self">GitHub</a></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/img/language.svg" alt="Languages icon"/>English</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/docs/cs/plugindev/server/dependency-injection">Čeština</a></li><li><a href="/docs/no-NO/plugindev/server/dependency-injection">Norsk</a></li><li><a href="/docs/pt-BR/plugindev/server/dependency-injection">Português (Brasil)</a></li><li><a href="https://translate.nfive.io/" target="_blank" rel="noreferrer noopener">Help Translate</a></li></ul></div></li><script>
+        const languagesMenuItem = document.getElementById("languages-menu");
+        const languagesDropDown = document.getElementById("languages-dropdown");
+        languagesMenuItem.addEventListener("click", function(event) {
+          event.preventDefault();
+
+          if (languagesDropDown.className == "hide") {
+            languagesDropDown.className = "visible";
+          } else {
+            languagesDropDown.className = "hide";
+          }
+        });
+      </script></span><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Plugin Development</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Getting Started</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/en/overview">Overview</a></li><li class="navListItem"><a class="navItem" href="/docs/en/components">Components</a></li><li class="navListItem"><a class="navItem" href="/docs/en/database">Database Setup</a></li><li class="navListItem"><a class="navItem" href="/docs/en/server">Server Setup</a></li><li class="navListItem"><a class="navItem" href="/docs/en/plugins">Installing Plugins</a></li><li class="navListItem"><a class="navItem" href="/docs/en/administration">Administration</a></li><li class="navListItem"><a class="navItem" href="/docs/en/troubleshooting">Troubleshooting</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Plugin Manager</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/en/nfpm/overview">Overview</a></li><li class="navListItem"><a class="navItem" href="/docs/en/nfpm/command-reference">Command Reference</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Plugin Development</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/en/plugindev/overview">Overview</a></li><li class="navListItem"><a class="navItem" href="/docs/en/plugindev/setup">Setup</a></li><li class="navListItem"><a class="navItem" href="/docs/en/plugindev/hub">Hub</a></li><li class="navListItem"><a class="navItem" href="/docs/en/plugindev/definition">Definition</a></li><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Server Side</h4><ul><li class="navListItem"><a class="navItem" href="/docs/en/plugindev/server/lifecycle">Life Cycle</a></li><li class="navListItem"><a class="navItem" href="/docs/en/plugindev/server/controller">Controller</a></li><li class="navListItem"><a class="navItem" href="/docs/en/plugindev/server/configurablecontroller">Configurable Controller</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docs/en/plugindev/server/dependency-injection">Dependency Injection</a></li></ul></div><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Client Side</h4><ul><li class="navListItem"><a class="navItem" href="/docs/en/plugindev/client/lifecycle">Life Cycle</a></li><li class="navListItem"><a class="navItem" href="/docs/en/plugindev/client/service">Service</a></li></ul></div></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              const headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                if (event.target.tagName === 'A') {
+                  document.body.classList.remove('tocActive');
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/NFive/nfive.github.io/edit/src/docs/plugindev/server/dependency-injection.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">Dependency Injection</h1></header><article><div><span><p>Along with the standard parameters for a controller type, it is possible for a plugin to specify extra constructor interface parameters which the NFive server will provide at runtime.</p>
+<p>Using this feature along with nested plugin dependencies its possible for one plugin to get an instance of a class provided in another plugin.</p>
+<p>The dependency inject system works with both transient and singleton instances allowing for separate or shared instance across plugins.</p>
+<h2><a class="anchor" aria-hidden="true" id="component-registration"></a><a href="#component-registration" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Component Registration</h2>
+<p>In order for a type to be resolvable by the injection system, the type must be marked as a &quot;component&quot;, which is done with the <code>ComponentAttribute</code>.</p>
+<h3><a class="anchor" aria-hidden="true" id="nfive-components"></a><a href="#nfive-components" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>NFive Components</h3>
+<ul>
+<li>ILogger</li>
+<li>IEventManager</li>
+<li>IRpcHandler</li>
+<li>IRconManager</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="example"></a><a href="#example" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example</h2>
+<p>Plugin &quot;XYZ&quot;:</p>
+<pre><code class="hljs css language-csharp"><span class="hljs-keyword">public</span> <span class="hljs-keyword">interface</span> <span class="hljs-title">IXyzUtility</span>
+{
+    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">Run</span>(<span class="hljs-params"><span class="hljs-keyword">string</span> msg</span>)</span>;
+}
+
+<span class="hljs-comment">// Mark class as a component so it can be requested by other plugins</span>
+<span class="hljs-comment">// and as transient so a separate instance is created for each plugin</span>
+[<span class="hljs-meta">Component(Lifetime = Lifetime.Transient)</span>]
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">XyzUtility</span> : <span class="hljs-title">IXyzUtility</span>
+{
+    <span class="hljs-keyword">private</span> ILogger logger;
+
+    <span class="hljs-comment">// Components are able to utilize the dependency injection system themselves,</span>
+    <span class="hljs-comment">// requesting other registered components</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">XyzUtility</span>(<span class="hljs-params">ILogger logger</span>)</span>
+    {
+        <span class="hljs-keyword">this</span>.logger = logger;
+
+        <span class="hljs-keyword">this</span>.logger.Debug(<span class="hljs-string">"Utility created"</span>);
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Run</span>(<span class="hljs-params"><span class="hljs-keyword">string</span> msg</span>)</span>
+    {
+        <span class="hljs-keyword">this</span>.logger.Debug(<span class="hljs-string">$"Utility ran: <span class="hljs-subst">{msg}</span>"</span>);
+    }
+}
+</code></pre>
+<p>Plugin &quot;ABC&quot; which has a dependency on &quot;XYZ&quot;:</p>
+<pre><code class="hljs css language-csharp"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">AbcController</span> : <span class="hljs-title">Controller</span>
+{
+    <span class="hljs-comment">// Must request the external interface</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">AbcController</span>(<span class="hljs-params">ILogger logger, IEventManager events, IRpcHandler rpc, IRconManager rcon, IXyzUtility utility</span>)
+      : <span class="hljs-title">base</span>(<span class="hljs-params">logger, events, rpc, rcon</span>)</span>
+    {
+        <span class="hljs-comment">// Invoke the external code</span>
+        utility.Run(<span class="hljs-string">"Hello world"</span>);
+    }
+}
+</code></pre>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 5/11/2019</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/en/plugindev/server/configurablecontroller"><span class="arrow-prev">← </span><span>Configurable Controller</span></a><a class="docs-next button" href="/docs/en/plugindev/client/lifecycle"><span>Life Cycle</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#component-registration">Component Registration</a><ul class="toc-headings"><li><a href="#nfive-components">NFive Components</a></li></ul></li><li><a href="#example">Example</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/logo-light.svg" alt="NFive" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/en/overview">Getting Started</a><a href="/docs/en/nfpm/nfpm">Plugin Manager</a><a href="/docs/en/plugindev/overview">SDK Reference</a></div><div><h5>Community</h5><a href="/en/help">Getting Help</a><a href="https://discord.nfive.io/">Project Chat</a><a href="https://discord.nfive.io/"><img alt="Discord NFive chat" src="https://img.shields.io/discord/525451790876016651.svg?style=social&amp;logo=discord&amp;logoColor=black"/></a></div><div><h5>More</h5><a href="https://hub.nfive.io/">Plugin Hub</a><a href="https://github.com/NFive">GitHub</a><a href="https://github.com/NFive/NFive/stargazers"><img alt="NFive stargazers on GitHub" src="https://img.shields.io/github/stars/NFive/NFive.svg?label=Stars&amp;style=social"/></a></div></section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: '22e7bbaefbfd8d4ddc9a7877604c14d4',
+                indexName: 'nfive',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {"facetFilters":["language:en"]}
+              });
+            </script></body></html>
