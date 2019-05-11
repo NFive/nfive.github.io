@@ -4,7 +4,11 @@ title: Definition
 
 > This documentation is for the planned specification and includes features not yet implemented
 
-A NFive plugin consists of a directory containing a plugin definition file (`nfive.yml`), data files and optionally a plugin definition lock file (`nfive.lock`).
+A NFive plugin consists of a directory containing a plugin definition file (`nfive.yml`), data files and optionally a plugin definition lock file (`nfive.lock`). NFive plugins can either run server side, client side or both.
+
+A plugin must contain the following files as a minimum:
+
+- `nfive.yml` - This metadata file contains the plugin properties as well as what files and dependencies to load at runtime.
 
 ---
 
@@ -49,7 +53,7 @@ license: LGPL-3.0-or-later
 
 You can check [the full list of SPDX license IDs](https://spdx.org/licenses/) and ideally use one that is [OSI approved](https://opensource.org/licenses/alphabetical).
 
-If your package is licensed under multiple common licenses, use an [SPDX license expression](https://spdx.org/ids-how) string, like this:
+If your plugin is licensed under multiple common licenses, use an [SPDX license expression](https://spdx.org/ids-how) string, like this:
 
 ```yaml
 license: (ISC OR GPL-3.0-or-later)
@@ -61,7 +65,7 @@ If you are using a license that hasn’t been assigned an SPDX identifier, or if
 license: SEE LICENSE IN <filename>
 ```
 
-Then include a file named `<filename>` at the top level of the package.
+Then include a file named `<filename>` at the top level of the plugin.
 
 ### `map`
 
@@ -125,7 +129,7 @@ client:
 
 ### `dependencies`
 
-Dependencies are specified in a simple object that maps a package name to a version range. The version range is a string which has one or more space-separated descriptors.
+Dependencies are specified in a simple object that maps a plugin name to a version range. The version range is a string which has one or more space-separated descriptors.
 
 The order dependencies appear in the list is the order they will be evaluated and loaded by the NFive, with the last loaded taking priority.
 

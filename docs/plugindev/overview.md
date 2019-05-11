@@ -4,8 +4,8 @@ title: Overview
 
 ## Tools
 
-- [Visual Studio IDE](https://visualstudio.microsoft.com/vs/)
-- [NFive Package Manager](https://dl.nfive.io/nfpm.exe)
+- [Visual Studio IDE](https://visualstudio.microsoft.com/vs/) (Tested with 2017 and 2019)
+- [NFive Plugin Manager](https://dl.nfive.io/nfpm.exe)
 
 ## Components
 

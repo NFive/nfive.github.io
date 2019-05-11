@@ -56,7 +56,7 @@ connection:
 
 Your server directory should now contain a `server` directory with a structure and key files similar to:
 
-```sh
+```shell
 server/
 ├── FXServer[.exe]
 |── server.cfg

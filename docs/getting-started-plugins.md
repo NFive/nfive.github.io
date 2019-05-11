@@ -11,7 +11,7 @@ You can use [visit the NFive plugin hub](https://hub.nfive.io/) or use ``nfpm se
 
 From a terminal in your server directory you can run:
 
-```sh
+```shell
 nfpm install <plugin>
 nfpm install <plugin>@<version>
 ```
@@ -27,7 +27,7 @@ Without any plugins, clients will be able to connect but will not spawn into the
 
 These can be installed with:
 
-```sh
+```shell
 nfpm install NFive/plugin-loadingscreen NFive/plugin-start
 ```
 
