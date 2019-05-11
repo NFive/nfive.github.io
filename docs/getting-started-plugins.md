@@ -5,7 +5,7 @@ title: Installing Plugins
 
 Using the [NFive Plugin Manager](nfpm/overview.md) (`nfpm`) is the recommended way to install plugins into your Five server.
 
-You can use [visit the NFive plugin hub](https://hub.nfive.io/) or use ``nfpm search`` to find available plugins.
+You can use [visit the NFive plugin hub](https://hub.nfive.io/) or use `nfpm search` to find available plugins.
 
 ## Installing
 

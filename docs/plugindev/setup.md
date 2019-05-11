@@ -6,7 +6,7 @@ title: Setup
 
 The easiest way to start developing a plugin is to use [`nfpm`](nfpm/overview.md)'s [`scaffold`](nfpm/command-reference.md#scaffold) command which generates the bolierplate files needed for a NFive plugin, as well as creating a full C# solution.
 
-1. Generate the boilerplate scaffolding with nfpm:
+1. Generate the boilerplate scaffolding with `nfpm`:
 
     ```shell
     nfpm scaffold
