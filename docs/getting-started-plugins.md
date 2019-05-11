@@ -3,7 +3,7 @@ id: plugins
 title: Installing Plugins
 ---
 
-Using the [NFive Plugin Manager](nfpm/overview) (`nfpm`) is the recommended way to install plugins into your Five server.
+Using the [NFive Plugin Manager](nfpm/overview.md) (`nfpm`) is the recommended way to install plugins into your Five server.
 
 You can use [visit the NFive plugin hub](https://hub.nfive.io/) or use ``nfpm search`` to find available plugins.
 
@@ -16,7 +16,7 @@ nfpm install <plugin>
 nfpm install <plugin>@<version>
 ```
 
-Where `<plugin>` is expected to be a published plugin from the [NFive plugin hub](https://hub.nfive.io/), however `nfpm` also supports [installing from other sources](nfpm/command-reference).
+Where `<plugin>` is expected to be a published plugin from the [NFive plugin hub](https://hub.nfive.io/), however `nfpm` also supports [installing from other sources](nfpm/command-reference.md#install).
 
 ## Recommended Plugins
 
@@ -31,4 +31,4 @@ These can be installed with:
 nfpm install NFive/plugin-loadingscreen NFive/plugin-start
 ```
 
-Once you have installed the basic plugins you can move on to [starting the server](administration).
+Once you have installed the basic plugins you can move on to [starting the server](getting-started-administration.md).

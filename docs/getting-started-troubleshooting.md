@@ -19,7 +19,7 @@ The following FiveM server warnings are expected and safe to ignore:
 
 - `MySql.Data.MySqlClient.MySqlPacket.ReadString` or similar MySQL read error
 
-  Make sure your database charset is correctly set for NFive. See [Database Setup](database#configuration) for instructions.
+  Make sure your database charset is correctly set for NFive. See [Database Setup](getting-started-database.md#configuration) for instructions.
 
 - `MySql.Data.MySqlClient.MySqlException: Table '<database>.boothistories' doesn't exist`
 

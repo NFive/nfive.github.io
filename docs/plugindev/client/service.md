@@ -6,7 +6,7 @@ title: Service
 
 A service is the main entrypoint for client plugins. The FiveM client [starts the services](lifecycle.md) on connection to the server and they exist for the duration of the client connection.
 
-Plugins should contain one or more classes which inherit from `Service` in one of their [`main`](plugindev/definition#client) assemblies.
+Plugins should contain one or more classes which inherit from `Service` in one of their [`main`](plugindev/definition.md#client) assemblies.
 
 ## Constructor
 

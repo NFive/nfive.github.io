@@ -75,7 +75,7 @@ map: true # FiveM will treat the plugin as a map resource
 
 The server section defines what .NET assembly files are needed and to be loaded by the NFive server.
 
-The field consists of two lists of files, `main` and `include`. Main is a list of plugin assemblies which should be scanned for [controllers](#) to load. Include is a list of additional .NET assemblies which are required to be loaded for the `main` assemblies to function.
+The field consists of two lists of files, `main` and `include`. Main is a list of plugin assemblies which should be scanned for [controllers](server/controller.md) to load. Include is a list of additional .NET assemblies which are required to be loaded for the `main` assemblies to function.
 
 The listed files automatically have `.net.dll` appended to the end, as this is [a requirement of FiveM](https://docs.fivem.net/scripting-reference/resource-manifest/resource-manifest/#client-script).
 
@@ -93,7 +93,7 @@ The client section defines what .NET assembly files are needed and to be loaded 
 
 The client section consists of three lists of files, `main`, `include` and `files`, a list of `stream` objects and a `loading_screen` field.
 
-Main is a list of plugin assemblies which should be scanned for [services](#) to load. Include is a list of additional .NET assemblies which are required to be loaded for the `main` assemblies to function. Files is a list of extra data files which should be send to the client by the server, but not loaded into .NET.
+Main is a list of plugin assemblies which should be scanned for [services](client/service.md) to load. Include is a list of additional .NET assemblies which are required to be loaded for the `main` assemblies to function. Files is a list of extra data files which should be send to the client by the server, but not loaded into .NET.
 
 The `main` and `include` section files automatically have `.net.dll` appended to the end, as this is [a requirement of FiveM](https://docs.fivem.net/scripting-reference/resource-manifest/resource-manifest/#client-script). The files are loaded into .NET in the order they are listed in the definition.
 
@@ -129,7 +129,7 @@ Dependencies are specified in a simple object that maps a package name to a vers
 
 The order dependencies appear in the list is the order they will be evaluated and loaded by the NFive, with the last loaded taking priority.
 
-See [semver](#) for more details about specifying version ranges.
+See [versioning](#) for more details about specifying version ranges.
 
 * `version` Must match version exactly
 * `>version` Must be greater than version

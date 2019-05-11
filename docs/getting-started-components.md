@@ -11,8 +11,8 @@ The NFive runtime is a [FiveM server resource](https://docs.fivem.net/scripting-
 
 ## MySQL Database (Required)
 
-NFive makes use of a MySQL database for storing information and game state. See [Database Setup](database) for details.
+NFive makes use of a MySQL database for storing information and game state. See [Database Setup](getting-started-database.md) for details.
 
 ## Plugin Manager (Recommended)
 
-The NFive Plugin Manager (`nfpm`) is a standalone tool for NFive server administration and management as well as plugin development. See [Plugin Manager](nfpm/overview) for details.
+The NFive Plugin Manager (`nfpm`) is a standalone tool for NFive server administration and management as well as plugin development. See [Plugin Manager](nfpm/overview.md) for details.
