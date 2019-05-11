@@ -2,14 +2,12 @@
 title: Overview
 ---
 
-> `NFive` and all of the `SDK's` are still in early development and not yet stable - this documentation is subject to change
+## Tools
 
-## Useful Tools
+- [Visual Studio IDE](https://visualstudio.microsoft.com/vs/)
+- [NFive Package Manager](https://dl.nfive.io/nfpm.exe)
 
-  - [Visual Studio IDE](https://visualstudio.microsoft.com/vs/)
-  - [NFive Package Manager](https://ci.appveyor.com/api/projects/NFive/nfpm/artifacts/bin/Release/nfpm.exe) (Using ``nfpm scaffold``)
-
-## Key Components
+## Components
 
 ### NFive.SDK.Core
 

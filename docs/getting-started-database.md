@@ -12,6 +12,7 @@ Download and install the latest [MariaDB server](https://downloads.mariadb.org/)
 ## Configuration
 
 NFive needs full Unicode support which requires you to manually preconfigure your database server's default character set:
+
 * character-set-server: utf8mb4
 * collation-server: utf8mb4_unicode_520_ci
 
@@ -26,6 +27,7 @@ collation-server=utf8mb4_unicode_520_ci
 Don't forget to restart your server after making the configuration changes.
 
 ### Docker
+
 A preconfigured MariaDB server is included in the supplied [NFive docker-compose configuration](https://github.com/NFive/NFive/blob/master/docker-compose.yml) which does not require any further setup.
 
 ## Database and Tables
