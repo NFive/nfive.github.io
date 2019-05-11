@@ -18,7 +18,33 @@
       "plugindev/setup",
       "plugindev/hub",
       "plugindev/definition",
-      "plugindev/lifecycle"
+      {
+        "type": "subcategory",
+        "label": "Server Side",
+        "ids": [
+          "plugindev/server/lifecycle",
+          "plugindev/server/controller",
+          "plugindev/server/configurablecontroller",
+          "plugindev/server/dependency-injection"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Client Side",
+        "ids": [
+          "plugindev/client/lifecycle",
+          "plugindev/client/service"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Communication",
+        "ids": [
+          "plugindev/communication/rpc",
+          "plugindev/communication/events",
+          "plugindev/communication/dependency-injection"
+        ]
+      }
     ]
   }
 }
