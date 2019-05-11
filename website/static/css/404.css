@@ -1,0 +1,19 @@
+
+.error-message {
+  text-align: center;
+}
+
+.error-message h1 {
+  margin-top: 10vh;
+  font-size: 8.8em;
+  color: #cb3837;
+}
+
+.error-message h2 {
+  font-size: 2em;
+}
+
+.error-message a {
+ font-size: 1.6em;
+ text-decoration: underline;
+}
