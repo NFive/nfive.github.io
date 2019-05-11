@@ -18,25 +18,16 @@ class Help extends React.Component {
   render() {
     const supportLinks = [
       {
-        content: (
-          <translate>
-            Learn more using the [documentation on this
-            site.](/docs/en/overview)
-          </translate>
-        ),
-        title: <translate>Browse Docs</translate>,
+        title: <translate>Browse Documentation</translate>,
+        content: <translate>Learn more about the project by using [the documentation on this site](/docs/en/overview).</translate>
       },
       {
-        content: (
-          <translate>
-            Ask questions about the documentation and project
-          </translate>
-        ),
-        title: <translate>Join the community</translate>,
+        title: <translate>Join the Community</translate>,
+        content: <translate>To ask any questions about the project or to get help developing your own plugin, drop by [the project Discord server](https://discord.nfive.io/).</translate>
       },
       {
-        content: <translate>Find out what's new with this project</translate>,
-        title: <translate>Stay up to date</translate>,
+        title: <translate>Report Issues</translate>,
+        content: <translate>To report any code problems please open an issue in the project's corresponding [GitHub repository](https://github.com/NFive).</translate>
       },
     ];
 
@@ -44,16 +35,6 @@ class Help extends React.Component {
       <div className="docMainWrapper wrapper">
         <Container className="mainContainer documentContainer postContainer">
           <div className="post">
-            <header className="postHeader">
-              <h2>
-                <translate>Need help?</translate>
-              </h2>
-            </header>
-            <p>
-              <translate desc="statement made to reader">
-                This project is maintained by a dedicated group of people.
-              </translate>
-            </p>
             <GridBlock contents={supportLinks} layout="threeColumn" />
           </div>
         </Container>

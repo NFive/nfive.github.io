@@ -44,7 +44,7 @@ class Footer extends React.Component {
               Plugin Manager
             </a>
             <a href={this.docUrl('plugindev/overview', this.props.language)}>
-              SDK Reference
+              Development
             </a>
           </div>
           <div>
