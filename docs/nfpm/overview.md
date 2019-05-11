@@ -7,9 +7,9 @@ The NFive Plugin Manager (`nfpm`) is a cross platform, standalone, CLI tool to h
 
 ## Setup
 
-- Download the latest version of `nfpm`: **[https:/dl.nfive.io/nfpm.exe](https://dl.nfive.io/nfpm.exe)**
-- `nfpm.exe` doesn't need to be installed and can be run from anywhere, however its recommended that you put it in a directory which is included in your [system PATH variable](https://en.wikipedia.org/wiki/PATH_(variable)) for ease of use.
-- `nfpm` will work exactly the same on Linux/macOS if used with [Mono](https://www.mono-project.com/): `mono nfpm.exe`
+* Download the latest version of `nfpm`: **[https:/dl.nfive.io/nfpm.exe](https://dl.nfive.io/nfpm.exe)**
+* `nfpm.exe` doesn't need to be installed and can be run from anywhere, however its recommended that you put it in a directory which is included in your [system PATH variable](https://en.wikipedia.org/wiki/PATH_(variable)) for ease of use.
+* `nfpm` will work exactly the same on Linux/macOS if used with [Mono](https://www.mono-project.com/): `mono nfpm.exe`
 
 ## Updating
 

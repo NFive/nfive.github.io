@@ -8,7 +8,7 @@ A NFive plugin consists of a directory containing a plugin definition file (`nfi
 
 A plugin must contain the following files as a minimum:
 
-- `nfive.yml` - This metadata file contains the plugin properties as well as what files and dependencies to load at runtime.
+* `nfive.yml` - This metadata file contains the plugin properties as well as what files and dependencies to load at runtime.
 
 ---
 
