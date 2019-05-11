@@ -16,7 +16,7 @@ NFive needs full Unicode support which requires you to manually preconfigure you
 * character-set-server: utf8mb4
 * collation-server: utf8mb4_unicode_520_ci
 
-These options need to be set in your [server's configuration file](https://mariadb.com/kb/en/library/configuring-mariadb-with-option-files/#option-file-locations). Add the following to the bottom of the `[mysqld]` section, if the section does not already exist then create it at the bottom of the file:
+These options need to be set in your [server's configuration file](https://mariadb.com/kb/en/library/configuring-mariadb-with-option-files/#default-option-file-locations). Add the following to the bottom of the `[mysqld]` section, if the section does not already exist then create it at the bottom of the file:
 
 ```ini
 [mysqld]

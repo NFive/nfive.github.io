@@ -2,6 +2,8 @@
 title: Dependency Injection
 ---
 
+> This documentation is for the planned specification and includes features not yet implemented
+
 Along with the standard parameters for a controller type, it is possible for a plugin to specify extra constructor interface parameters which the NFive server will provide at runtime.
 
 Using this feature along with nested plugin dependencies its possible for one plugin to get an instance of a class provided in another plugin.
