@@ -25,7 +25,9 @@
           "plugindev/server/lifecycle",
           "plugindev/server/controller",
           "plugindev/server/configurablecontroller",
-          "plugindev/server/dependency-injection"
+          "plugindev/server/dependency-injection",
+          "plugindev/server/database",
+          "plugindev/server/rcon"
         ]
       },
       {
@@ -41,8 +43,7 @@
         "label": "Communication",
         "ids": [
           "plugindev/communication/rpc",
-          "plugindev/communication/events",
-          "plugindev/communication/dependency-injection"
+          "plugindev/communication/events"
         ]
       }
     ]
