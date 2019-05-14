@@ -1,8 +1,10 @@
 language: node_js
 node_js: "node"
 
-services:
-  - docker
+addons:
+  apt:
+    packages:
+    - mono
 
 cache:
   directories:
@@ -15,6 +17,9 @@ branches:
 
 install:
   - wget https://artifacts.crowdin.com/repo/deb/crowdin.deb -O crowdin.deb && sudo dpkg -i crowdin.deb
+
+  - wget https://github.com/dotnet/docfx/releases/latest/download/docfx.zip
+  - unzip docfx.zip
 
   - git config --global user.name "Travis CI"
   - git config --global user.email "contact@nfive.io"
@@ -31,8 +36,7 @@ install:
 
 script:
   - cd ../api
-  - docker-compose run docfx metadata --disableGitFeatures
-  - docker-compose run docfx build
+  - mono ../docfx.exe
   - cp -r _site ../website/static/api
 
   - cd ../website
