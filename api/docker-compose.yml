@@ -5,4 +5,4 @@ services:
     image: knsit/docfx
     working_dir: /app
     volumes:
-      - .:/app
+      - .:/app:Z
