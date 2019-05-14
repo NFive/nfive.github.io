@@ -38,7 +38,7 @@ const siteConfig = {
   },
 
   separateCSS: [
-    'static/api',
+    'static/api/styles',
   ],
 
   translationRecruitingLink: 'https://translate.nfive.io/',
