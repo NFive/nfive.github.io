@@ -20,6 +20,7 @@ install:
   - git config --global user.email "contact@nfive.io"
   - echo "machine github.com login ${GH_NAME} password ${GH_TOKEN}" > ~/.netrc
 
+  - mkdir api/src
   - git -C api/src clone https://github.com/NFive/NFive.git
   - git -C api/src clone https://github.com/NFive/SDK.Core.git
   - git -C api/src clone https://github.com/NFive/SDK.Client.git
