@@ -127,7 +127,9 @@
     "template": [
       "default"
     ],
-    "postProcessors": [],
+    "postProcessors": [
+      "ExtractSearchIndex"
+    ],
     "globalMetadata": {
       "_appTitle": "NFive API Reference",
       "_appFooter": "<span>Copyright © 2018-2019 NFive</span>",
