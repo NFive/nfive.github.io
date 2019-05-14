@@ -3,6 +3,8 @@ node_js: "node"
 
 addons:
   apt:
+    sources:
+    - mono
     packages:
     - mono-complete
 
