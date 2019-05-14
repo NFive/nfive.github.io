@@ -43,8 +43,8 @@ class Footer extends React.Component {
             <a href={this.docUrl('nfpm/nfpm', this.props.language)}>
               Plugin Manager
             </a>
-            <a href={this.docUrl('plugindev/overview', this.props.language)}>
-              Development
+            <a href="/api/">
+              API Reference
             </a>
           </div>
           <div>

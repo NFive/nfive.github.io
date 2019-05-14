@@ -21,11 +21,13 @@ const siteConfig = {
   editUrl: 'https://github.com/NFive/nfive.github.io/edit/src/docs/',
 
   headerLinks: [
-    { doc: 'overview', label: 'Documentation' },
+    { doc: 'overview', label: 'Docs' },
     { page: 'help', label: 'Help' },
-    // { href: '/api', label: 'API' },
+    { href: '/api/', label: 'API' },
     { href: 'https://hub.nfive.io/', label: 'Plugins' },
     { href: 'https://github.com/NFive', label: 'GitHub' },
+    { languages: true },
+    { search: true },
   ],
 
   headerIcon: 'img/logo-light.svg',
