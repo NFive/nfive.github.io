@@ -133,8 +133,8 @@
       "_appTitle": "NFive API Reference",
       "_appFooter": "<span>Copyright © 2018-2019 NFive</span>",
       "_enableSearch": "true",
-      "_appLogoPath": "/img/logo.svg",
-      "_appFaviconPath": "/img/favicon.png"
+      "_appLogoPath": "https://nfive.io/img/logo.svg",
+      "_appFaviconPath": "https://nfive.io/img/favicon.png"
     },
     "markdownEngineName": "markdig",
     "noLangKeyword": false,
