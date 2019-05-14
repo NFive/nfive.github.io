@@ -31,7 +31,7 @@ install:
 
 script:
   - cd ../api
-  - docker-compose run docfx metadata
+  - docker-compose run docfx metadata --disableGitFeatures
   - docker-compose run docfx build
   - cp -r _site/ ../website/build/nfive.github.io/api/
 
