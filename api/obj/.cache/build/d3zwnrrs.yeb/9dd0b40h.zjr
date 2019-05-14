@@ -1,0 +1,62 @@
+﻿
+<div id="sidetoggle">
+  <div>
+    <div class="sidefilter">
+      <form class="toc-filter">
+        <span class="glyphicon glyphicon-filter filter-icon"></span>
+        <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+      </form>
+    </div>
+    <div class="sidetoc">
+      <div class="toc" id="toc">
+          
+          <ul class="nav level1">
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="NFive.SDK.Plugins.html" name="" title="NFive.SDK.Plugins">NFive.SDK.Plugins</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="NFive.SDK.Plugins.DefinitionGraph.html" name="" title="DefinitionGraph">DefinitionGraph</a>
+                          </li>
+                          <li>
+                              <a href="NFive.SDK.Plugins.Plugin.html" name="" title="Plugin">Plugin</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="NFive.SDK.Plugins.Configuration.html" name="" title="NFive.SDK.Plugins.Configuration">NFive.SDK.Plugins.Configuration</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="NFive.SDK.Plugins.Configuration.BasePluginTypeInspector.html" name="" title="BasePluginTypeInspector">BasePluginTypeInspector</a>
+                          </li>
+                          <li>
+                              <a href="NFive.SDK.Plugins.Configuration.ConfigurationManager.html" name="" title="ConfigurationManager">ConfigurationManager</a>
+                          </li>
+                          <li>
+                              <a href="NFive.SDK.Plugins.Configuration.NameConverter.html" name="" title="NameConverter">NameConverter</a>
+                          </li>
+                          <li>
+                              <a href="NFive.SDK.Plugins.Configuration.PluginTypeInspector.html" name="" title="PluginTypeInspector">PluginTypeInspector</a>
+                          </li>
+                          <li>
+                              <a href="NFive.SDK.Plugins.Configuration.TimeSpanConverter.html" name="" title="TimeSpanConverter">TimeSpanConverter</a>
+                          </li>
+                          <li>
+                              <a href="NFive.SDK.Plugins.Configuration.VersionConverter.html" name="" title="VersionConverter">VersionConverter</a>
+                          </li>
+                          <li>
+                              <a href="NFive.SDK.Plugins.Configuration.VersionRangeConverter.html" name="" title="VersionRangeConverter">VersionRangeConverter</a>
+                          </li>
+                          <li>
+                              <a href="NFive.SDK.Plugins.Configuration.Yaml.html" name="" title="Yaml">Yaml</a>
+                          </li>
+                    </ul>
+                </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>

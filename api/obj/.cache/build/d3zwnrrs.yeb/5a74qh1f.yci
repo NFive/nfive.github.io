@@ -1,0 +1,33 @@
+﻿
+<div id="sidetoggle">
+  <div>
+    <div class="sidefilter">
+      <form class="toc-filter">
+        <span class="glyphicon glyphicon-filter filter-icon"></span>
+        <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+      </form>
+    </div>
+    <div class="sidetoc">
+      <div class="toc" id="toc">
+          
+          <ul class="nav level1">
+                <li>
+                    <a href="nfive/NFive.Client.html" name="nfive/toc.html" title="NFive API">NFive API</a>
+                </li>
+                <li>
+                    <a href="core/NFive.SDK.Core.html" name="core/toc.html" title="Core SDK API">Core SDK API</a>
+                </li>
+                <li>
+                    <a href="client/NFive.SDK.Client.html" name="client/toc.html" title="Client SDK API">Client SDK API</a>
+                </li>
+                <li>
+                    <a href="server/NFive.SDK.Server.html" name="server/toc.html" title="Server SDK API">Server SDK API</a>
+                </li>
+                <li>
+                    <a href="plugin/NFive.SDK.Plugins.html" name="plugin/toc.html" title="Plugin SDK API">Plugin SDK API</a>
+                </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>
