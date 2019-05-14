@@ -37,6 +37,10 @@ const siteConfig = {
     secondaryColor: '#b11b1b',
   },
 
+  separateCSS: [
+    'static/api',
+  ],
+
   translationRecruitingLink: 'https://translate.nfive.io/',
 
   copyright: `Copyright © 2018-${new Date().getFullYear()} NFive`,
