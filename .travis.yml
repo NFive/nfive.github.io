@@ -20,10 +20,8 @@ branches:
   - /^greenkeeper.*$/
 
 install:
-  - wget https://artifacts.crowdin.com/repo/deb/crowdin.deb -O crowdin.deb && sudo dpkg -i crowdin.deb
-
-  - wget https://github.com/dotnet/docfx/releases/latest/download/docfx.zip
-  - unzip docfx.zip
+  - wget https://artifacts.crowdin.com/repo/deb/crowdin.deb && sudo dpkg -i crowdin.deb
+  - wget https://github.com/dotnet/docfx/releases/latest/download/docfx.zip && unzip docfx.zip
 
   - git config --global user.name "Travis CI"
   - git config --global user.email "contact@nfive.io"
