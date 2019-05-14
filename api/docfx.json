@@ -122,9 +122,6 @@
         ]
       }
     ],
-    "xref": [
-      "no"
-    ],
     "dest": "_site",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
@@ -136,11 +133,6 @@
       "_appTitle": "NFive API Reference",
       "_appFooter": "<span>Copyright © 2018-2019 NFive</span>",
       "_enableSearch": "true",
-      "_gitContribute": {
-        "repo": "https://github.com/NFive/nfive.github.io",
-        "branch": "src",
-        "apiSpecFolder": "docs"
-      },
       "_appLogoPath": "images/logo.svg",
       "_appFaviconPath": "images/favicon.png"
     },
