@@ -4,7 +4,7 @@ node_js: "node"
 addons:
   apt:
     packages:
-    - mono
+    - mono-devel
 
 cache:
   directories:
