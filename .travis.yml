@@ -1,6 +1,9 @@
 language: node_js
 node_js: "node"
 
+services:
+  - docker
+
 cache:
   directories:
   - website/node_modules
@@ -17,9 +20,21 @@ install:
   - git config --global user.email "contact@nfive.io"
   - echo "machine github.com login ${GH_NAME} password ${GH_TOKEN}" > ~/.netrc
 
+  - git -C api/src clone https://github.com/NFive/NFive.git
+  - git -C api/src clone https://github.com/NFive/SDK.Core.git
+  - git -C api/src clone https://github.com/NFive/SDK.Client.git
+  - git -C api/src clone https://github.com/NFive/SDK.Server.git
+  - git -C api/src clone https://github.com/NFive/SDK.Plugins.git
+
   - cd website && npm install
 
 script:
+  - cd ../api
+  - docker-compose run docfx metadata
+  - docker-compose run docfx build
+  - cp -r _site/ ../website/build/nfive.github.io/api/
+
+  - cd ../website
   - npm run write-translations
   - npm run crowdin-upload
   - npm run crowdin-download
