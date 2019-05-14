@@ -18,6 +18,7 @@
       "plugindev/setup",
       "plugindev/hub",
       "plugindev/definition",
+      "plugindev/versioning",
       {
         "type": "subcategory",
         "label": "Server Side",
@@ -35,7 +36,9 @@
         "label": "Client Side",
         "ids": [
           "plugindev/client/lifecycle",
-          "plugindev/client/service"
+          "plugindev/client/service",
+          "plugindev/client/overlays",
+          "plugindev/client/commands"
         ]
       },
       {

@@ -11,7 +11,7 @@ The NFive SDK provides all the base types and configuration required for your ow
 In order to create your own database table you must first create the model representing it. Take the following model:
 
 ```csharp
-public class Account : IdentityModel
+public class Account
 {
   [Key]
   [Required]

@@ -52,6 +52,7 @@ const siteConfig = {
   onPageNav: 'separate',
   cleanUrl: true,
 
+  docsSideNavCollapsible: false,
   scrollToTop: true,
   scrollToTopOptions: {
     zIndex: 100,

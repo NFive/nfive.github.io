@@ -63,6 +63,8 @@ nfpm version
 
 Updates `nfpm` to the latest version.
 
+> Depending on the location of `nfpm` on Linux or macOS you may need to prefix the command with `sudo` to give write permissions to the directory: `sudo mono nfpm.exe self-update`
+
 **Example**
 
 ```shell
@@ -150,6 +152,8 @@ nfpm update
 
 Connect to a running FiveM server over RCON.
 
+> The server you connect to does not need to be running NFive for RCON to work.
+
 **Example**
 
 ```shell
@@ -224,7 +228,7 @@ Generate the boilerplate code for a new plugin.
 nfpm scaffold
 ```
 
-Scaffold can also optionally pointed to different skeleton files that are either local or remote, here are some examples:
+Scaffold can also optionally pointed to different skeleton files that will be used as the template for the new plugin:
 
 ```shell
 nfpm scaffold http://site.com/some.zip
@@ -238,7 +242,7 @@ nfpm scaffold MyGithub/MyRepo#MyBranch
 
 ### `migrate`
 
-Create a NFive database migration.
+Create an [Entity Framework database migration](plugindev/server/database.md#migrations).
 
 **Example**
 
@@ -250,7 +254,7 @@ nfpm migrate --name <name> --db <connection string> [--sln <sln file>] [--migrat
 
 ### `pack`
 
-Packs a NFive plugin from source.
+Packs a NFive plugin source into a release ZIP file.
 
 **Example**
 

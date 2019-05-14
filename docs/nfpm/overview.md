@@ -19,4 +19,6 @@ The NFive Plugin Manager (`nfpm`) is a cross platform, standalone, CLI tool to h
 nfpm self-update
 ```
 
-> Depending on the location of `nfpm` on Linux or macOS you may need to prefix the command with `sudo` to give write permissions to the directory: `sudo mono nfpm.exe self-update`
+See the [`self-update` command](command-reference.md#self-update) for more information.
+
+## Caching
