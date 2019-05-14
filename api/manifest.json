@@ -1,0 +1,2435 @@
+{
+  "homepages": [],
+  "source_base_path": "/app",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.ClientPluginAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.ClientPluginAttribute.html",
+          "hash": "lNfybEG3bm4d6oLFFHLaVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Commands.ICommandManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Commands.ICommandManager.html",
+          "hash": "NMlyX90dLUAaBe8n7nlBUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Commands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Commands.html",
+          "hash": "Mk6cIHSq5w6N1cGF75Jdeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Configuration.ClientConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Configuration.ClientConfiguration.html",
+          "hash": "EShT/qmTyCelET00aMsW8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Configuration.html",
+          "hash": "PpccssUyaGw9JhLH5Q4etw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Events.IEventManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Events.IEventManager.html",
+          "hash": "+fwdrG1IIeHZS9EtrbJROw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Events.ITickManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Events.ITickManager.html",
+          "hash": "ntJxA4sm7jH+2ghpgEa8Ug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Events.SessionEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Events.SessionEvents.html",
+          "hash": "v3HAhPxKPJSdSQT2oi8DMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Events.html",
+          "hash": "zY+WhSwjU8uqQtdSU9BXSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Extensions.ColorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Extensions.ColorExtensions.html",
+          "hash": "40X9/K/5kYtxwzQOcAyAqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Extensions.FloatExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Extensions.FloatExtensions.html",
+          "hash": "O6lKfoDkjCS6V9nUlDwrHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Extensions.PedExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Extensions.PedExtensions.html",
+          "hash": "eKEfDD28RE/yOW+64NnemA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Extensions.PlayerExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Extensions.PlayerExtensions.html",
+          "hash": "kXoTXktjq2k1kkg29zt+/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Extensions.PositionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Extensions.PositionExtensions.html",
+          "hash": "I2EuTwhI85QQx6H5ZW//Nw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Extensions.ReflectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Extensions.ReflectionExtensions.html",
+          "hash": "JxPj4q8dxZxOGvR2mMA1Og=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Extensions.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Extensions.StringExtensions.html",
+          "hash": "jZTIxac+Q1eenffcy+FZTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Extensions.VectorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Extensions.VectorExtensions.html",
+          "hash": "au9UzQ9ENj0KWwShkJ83hA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Extensions.html",
+          "hash": "2Ju5fGvQbXZDKHzvCywcfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Input.Input.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Input.Input.html",
+          "hash": "hkoxFn813oW0biEfY4ic4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Input.InputModifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Input.InputModifier.html",
+          "hash": "GzHvd67+DosZ2vjYBn3rYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Input.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Input.html",
+          "hash": "Fxn9ZbQ+wWEjHy8hAGzQOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Interface.INuiManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Interface.INuiManager.html",
+          "hash": "h0Nvosn96HF4rvDWb/rYNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Interface.IOverlay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Interface.IOverlay.html",
+          "hash": "/g/wTbsRC0l2l0Zvzyb55Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Interface.NuiManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Interface.NuiManager.html",
+          "hash": "5+aw8flViPUNnD9TDJjz4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Interface.Overlay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Interface.Overlay.html",
+          "hash": "DXSwFogL4Zdr+geEY+Gxjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Interface.OverlayEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Interface.OverlayEventArgs.html",
+          "hash": "Kq48JQOoGRZX0ZoxP5YhxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Interface.OverlayManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Interface.OverlayManager.html",
+          "hash": "eoW/QwxKf3PLDm3az5Px8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Interface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Interface.html",
+          "hash": "OComB6r4TiY2UUhn6rIZPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Rpc.IRpc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Rpc.IRpc.html",
+          "hash": "I0OHeQidiPxEQzhHVhCU4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Rpc.IRpcEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Rpc.IRpcEvent.html",
+          "hash": "7EAw7jNoPxwXPIyvECIJyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Rpc.IRpcHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Rpc.IRpcHandler.html",
+          "hash": "a/DhjoNe2Ls+XKv9REP9cQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Rpc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Rpc.html",
+          "hash": "X4+IIwBb7Bc7Jh7dJjKBkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.SDK.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.SDK.html",
+          "hash": "8NnVZJO0vefP9ENcsbKgvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Services.Service.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Services.Service.html",
+          "hash": "rvasTI8kX+JlTb1Om910VA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Services.html",
+          "hash": "6T5fPWUsD9YX2azjkxQuaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.html",
+          "hash": "6Mee3mVFmsmFuikjhL/Qsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "client/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/toc.html",
+          "hash": "4cGhIA7mnHYiHP6Bsm0XRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Arguments.Argument.Arg.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Arguments.Argument.Arg.html",
+          "hash": "Uymy1b8EsfZzZXwAZZli8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Arguments.Argument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Arguments.Argument.html",
+          "hash": "gqsprgGkZcnmOZwEhpjjOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Arguments.OptionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Arguments.OptionAttribute.html",
+          "hash": "yib6D65g+fEu9HYGlLz6HQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Arguments.OptionSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Arguments.OptionSpecification.html",
+          "hash": "w+is5rnBLHKRjBkhGOqBZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Arguments.Specification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Arguments.Specification.html",
+          "hash": "S4JCbnqt1g3Lniz6gg0WOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Arguments.SpecificationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Arguments.SpecificationType.html",
+          "hash": "4z9WA/cCWk2ebGTw7V6v3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Arguments.ValueAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Arguments.ValueAttribute.html",
+          "hash": "+qnYswvpoqyFb5/2fd0pBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Arguments.ValueSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Arguments.ValueSpecification.html",
+          "hash": "eY8SkJgpJ2P439rbiQYphQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Arguments.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Arguments.html",
+          "hash": "DzMsHEHZS8IztpUEIwbmpA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Chat.ChatMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Chat.ChatMessage.html",
+          "hash": "rzOCZkUiZv7u0Jfi6hlBHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Chat.IChatMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Chat.IChatMessage.html",
+          "hash": "5iLPcA05vWKhoTJMUFxbJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Chat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Chat.html",
+          "hash": "Noj8cuHkzLIV5Zhg0s8jvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Controllers.ControllerConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Controllers.ControllerConfiguration.html",
+          "hash": "m2yBAc0CRS9Yqpx/40C8sQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Controllers.IControllerConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Controllers.IControllerConfiguration.html",
+          "hash": "xeHpIZotX1ulJcXXHYZYUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Controllers.html",
+          "hash": "gLkn6YLaW8qOW+C4+x2iRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Diagnostics.ILogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Diagnostics.ILogger.html",
+          "hash": "FFFsEULEkIDQI0eSeCvedQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Diagnostics.LogLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Diagnostics.LogLevel.html",
+          "hash": "CGCRPdljrsTegXwC6NIxlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Diagnostics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Diagnostics.html",
+          "hash": "zK+UzRpR2/cRvpOuIqSA/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Extensions.NumericExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Extensions.NumericExtensions.html",
+          "hash": "1povGUp5/WkDOnX3u0nvGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Extensions.PositionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Extensions.PositionExtensions.html",
+          "hash": "sFmbnNZuqCidLNMOtHJMzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Extensions.TypeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Extensions.TypeExtensions.html",
+          "hash": "YWohs/BSvF2AcmkFjd73Cg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Extensions.html",
+          "hash": "QeZn8/FV65m1845ccNonpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Helpers.GuidGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Helpers.GuidGenerator.html",
+          "hash": "x96ugMQl+8jDDnslIuEkdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Helpers.MathHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Helpers.MathHelpers.html",
+          "hash": "sQJDMWqbf7sy3JTfNiuhBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Helpers.html",
+          "hash": "QPoFoa6YY1RpN+dcu3w47g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Models.Audio.RadioStation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Models.Audio.RadioStation.html",
+          "hash": "LZoP395wuLFB1O2t4OlP7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Models.Audio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Models.Audio.html",
+          "hash": "x42hGOTXLbGAyP/2cfnpfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Models.Color.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Models.Color.html",
+          "hash": "toDrwpDsMJP/8zcvK6JPGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Models.IIdentityModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Models.IIdentityModel.html",
+          "hash": "8phFAMBY3n5zz6Pe1o7iHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Models.IdentityModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Models.IdentityModel.html",
+          "hash": "XDSVULBuD9qvxTzPxEt2qw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Models.Player.Session.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Models.Player.Session.html",
+          "hash": "K5sZysggXAbCG2oxPZdmQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Models.Player.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Models.Player.User.html",
+          "hash": "MWsSvvaDdXEF85iCE9sFAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Models.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Models.Player.html",
+          "hash": "Il0AzeZ8yHdkpKguX9Cb2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Models.Position.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Models.Position.html",
+          "hash": "nw+/MoFKHBX+/UtvKgPZxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Models.html",
+          "hash": "F0goUJ3skpSGt13K8ALpeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.PluginAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.PluginAttribute.html",
+          "hash": "107K2GUil26s309g3CnV9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Plugins.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Plugins.Client.html",
+          "hash": "k+7K88s2wSRLqXA/kOX85A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "ReferencedXrefPropertyNotString"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Plugins.Name.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Plugins.Name.html",
+          "hash": "DlVxKZ0UmljBDgCSRl/Itg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Plugins.Plugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Plugins.Plugin.html",
+          "hash": "uhoQzp3j7yQfvm7bMk/Dqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Plugins.Repository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Plugins.Repository.html",
+          "hash": "tTqVKyyQOWzP5Hw5SVjk2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Plugins.Server.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Plugins.Server.html",
+          "hash": "xgTV0MMGtrp9OaKcCb9Tfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Plugins.Version.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Plugins.Version.html",
+          "hash": "aU39OouFx5ciqOrY2K/7Dw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Plugins.VersionRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Plugins.VersionRange.html",
+          "hash": "/RcRG5qT9kDdJwaOmgno4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Plugins.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Plugins.html",
+          "hash": "0ogfZ5KuuvYfLXWSCnm3fw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Rpc.RpcEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Rpc.RpcEvents.html",
+          "hash": "tegqlG93rcuTmUThhOrsww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Rpc.Serializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Rpc.Serializer.html",
+          "hash": "Omb4n2qXMIHQeME38KYMlg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Rpc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Rpc.html",
+          "hash": "RjyU1UuxKimG5sAGECPoXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.html",
+          "hash": "ugLetuWEZ94DfC87vY18Aw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "core/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/toc.html",
+          "hash": "OYx4Bhh7aWh4s9G0N1gAEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Client.Commands.CommandManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Client.Commands.CommandManager.html",
+          "hash": "HjnZHSs99rcj4VChkhEn8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Client.Commands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Client.Commands.html",
+          "hash": "aq23NSrDA/Kp1kFhW4NtTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Client.Diagnostics.Logger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Client.Diagnostics.Logger.html",
+          "hash": "cMyrmH6TKn62gCoHTWy8HA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Client.Diagnostics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Client.Diagnostics.html",
+          "hash": "owRGey9WiQhn4094Tu4c2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Client.Events.EventManager.Subscription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Client.Events.EventManager.Subscription.html",
+          "hash": "+5kz453P0eH6Z92DGl8w9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Client.Events.EventManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Client.Events.EventManager.html",
+          "hash": "0Ml0Ri1QdS7vjyMuaeiM6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Client.Events.TickManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Client.Events.TickManager.html",
+          "hash": "MxNy/Y2lMQhdtJVMS+fD0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Client.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Client.Events.html",
+          "hash": "thKKY9YMbLCSY+0salPZbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Client.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Client.Program.html",
+          "hash": "95h74pbHFLRiAx6256pBbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Client.Rpc.InboundMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Client.Rpc.InboundMessage.html",
+          "hash": "+uquNxCSWSARPn2ro+gmmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Client.Rpc.OutboundMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Client.Rpc.OutboundMessage.html",
+          "hash": "3iwIJ32Cf2p7J7QX+//Kpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Client.Rpc.Rpc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Client.Rpc.Rpc.html",
+          "hash": "4AhCr59cSLZcONyyxBzU2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Client.Rpc.RpcEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Client.Rpc.RpcEvent.html",
+          "hash": "6de9Gijp6NavtExytLEq5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Client.Rpc.RpcHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Client.Rpc.RpcHandler.html",
+          "hash": "xgLU+tp9CRhW0MjlMebexg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Client.Rpc.RpcManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Client.Rpc.RpcManager.html",
+          "hash": "BgFe5zn874ypHeq6TpAr9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Client.Rpc.RpcTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Client.Rpc.RpcTrigger.html",
+          "hash": "WZ/4ZWXbuUYIyeeGKvD/QA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Client.Rpc.ServerHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Client.Rpc.ServerHandler.html",
+          "hash": "mpq9wBqXQCBwj1si5LRG8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Client.Rpc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Client.Rpc.html",
+          "hash": "6rSOK3ikRuZRn6IWSrBsLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Client.html",
+          "hash": "jhxI5W7pObNpPz+YW2gI1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Configuration.CoreConfiguration.DisplayConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Configuration.CoreConfiguration.DisplayConfiguration.html",
+          "hash": "9E3AMdPCWtrSNwj1uYPmtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Configuration.CoreConfiguration.LogConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Configuration.CoreConfiguration.LogConfiguration.html",
+          "hash": "u3NXurPrfHaHIkKuHBUV+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Configuration.CoreConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Configuration.CoreConfiguration.html",
+          "hash": "tqhdVVfzlAsCH34pFctIGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Configuration.DatabaseConfiguration.DatabaseBootHistoryConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Configuration.DatabaseConfiguration.DatabaseBootHistoryConfiguration.html",
+          "hash": "Q0ZJhqHjnTlcO9NcNHEYyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Configuration.DatabaseConfiguration.DatabaseConnectionConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Configuration.DatabaseConfiguration.DatabaseConnectionConfiguration.html",
+          "hash": "lX9FmwVVE04QugyMyuLU+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Configuration.DatabaseConfiguration.DatabaseMigrationsConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Configuration.DatabaseConfiguration.DatabaseMigrationsConfiguration.html",
+          "hash": "Rle1L2mXYRTozB+NkAJnPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Configuration.DatabaseConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Configuration.DatabaseConfiguration.html",
+          "hash": "l894PhILuhIher86T1+uFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Configuration.FileManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Configuration.FileManager.html",
+          "hash": "gGkmbsxs3yIo0XJEpZEQPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Configuration.SessionConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Configuration.SessionConfiguration.html",
+          "hash": "VmiAN/HKr3IBJJ7aLMn6Mg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Configuration.html",
+          "hash": "8aIbWSFGGom/7FAgUUdsiw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Controllers.DatabaseController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Controllers.DatabaseController.html",
+          "hash": "uZdQTN9nN1ZH01IzbrdaSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Controllers.SessionController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Controllers.SessionController.html",
+          "hash": "Hr60qBsIv579ZrvengU/zA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Controllers.html",
+          "hash": "pI5dxUiBFM2o2qsBDrI3+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Diagnostics.Logger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Diagnostics.Logger.html",
+          "hash": "33PixWXMmBDy7GFvIBv1ew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Diagnostics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Diagnostics.html",
+          "hash": "EmNPaxza5k5IH/WpsG/NsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Events.EventManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Events.EventManager.html",
+          "hash": "mNaYtqUYh7mRV+gc7AnBgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Events.html",
+          "hash": "V97tSELbAdB+f15ZwskrRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Migrations.Init.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Migrations.Init.html",
+          "hash": "ulL2DPMSRtUNZTHov48h/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Migrations.RemoveSteamIdIndex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Migrations.RemoveSteamIdIndex.html",
+          "hash": "hfngg+ngTz21qGRvHkfCnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Migrations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Migrations.html",
+          "hash": "DWgTtL84eA1ymyI2+t2U+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Models.BootHistory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Models.BootHistory.html",
+          "hash": "QWQ66Tfw5ImzH7XLeLabSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Models.html",
+          "hash": "H5M5ySZntpPKhimTTdfRZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Program.html",
+          "hash": "qQ/41ljizemMtSa4b+ykgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Rcon.RconManager.Subscription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Rcon.RconManager.Subscription.html",
+          "hash": "nM0hzjJ6e1TJb1UhVVHSkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Rcon.RconManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Rcon.RconManager.html",
+          "hash": "/AAxklx+bfn3HGN00ddUAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Rcon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Rcon.html",
+          "hash": "2/PFlGlTXdfthc+vqRGVVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Rpc.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Rpc.Client.html",
+          "hash": "763A6h3kBQO9Rf6XZ5lr5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Rpc.ClientHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Rpc.ClientHandler.html",
+          "hash": "MvIgNqP0GkejLWXUNRTlAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Rpc.InboundMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Rpc.InboundMessage.html",
+          "hash": "qwy3xAOG6Zu/U69kjYBKNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Rpc.OutboundMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Rpc.OutboundMessage.html",
+          "hash": "98mW6AuKRw/u1ifv/3BdwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Rpc.Rpc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Rpc.Rpc.html",
+          "hash": "b7v1dOM51mukY781ladOYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Rpc.RpcEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Rpc.RpcEvent.html",
+          "hash": "GkoLxuWpAplm3JofnvwN3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Rpc.RpcHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Rpc.RpcHandler.html",
+          "hash": "k65q7Ia1d/LtEa6O7aTqnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Rpc.RpcManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Rpc.RpcManager.html",
+          "hash": "2cH1gq6GyxkOjHpNNWBeGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Rpc.RpcTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Rpc.RpcTrigger.html",
+          "hash": "fMao0PshKeLGbpdyPksGDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Rpc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Rpc.html",
+          "hash": "2+ztuiaIpdUue3NBNmgZIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Storage.StorageContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Storage.StorageContext.html",
+          "hash": "lJbYUfLq3e71CsbdiEwEtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Storage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Storage.html",
+          "hash": "sk8pKBXG03T5o7qukYfn5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.html",
+          "hash": "JFUgSDgWCZ1+hJ2Hq84I+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "nfive/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/toc.html",
+          "hash": "LOf3BX8MLPYHhzH6Ehkbkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin/NFive.SDK.Plugins.Configuration.BasePluginTypeInspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin/NFive.SDK.Plugins.Configuration.BasePluginTypeInspector.html",
+          "hash": "SObCgSWNCEyHWoIpsiWNtA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin/NFive.SDK.Plugins.Configuration.ConfigurationManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin/NFive.SDK.Plugins.Configuration.ConfigurationManager.html",
+          "hash": "C0QnLJteMJ/eEU8L6xr/xQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin/NFive.SDK.Plugins.Configuration.NameConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin/NFive.SDK.Plugins.Configuration.NameConverter.html",
+          "hash": "xWJ5D2sAVieQJhqwyejIYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin/NFive.SDK.Plugins.Configuration.PluginTypeInspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin/NFive.SDK.Plugins.Configuration.PluginTypeInspector.html",
+          "hash": "FUpa2TX/jsW3IEVbMUdHeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin/NFive.SDK.Plugins.Configuration.TimeSpanConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin/NFive.SDK.Plugins.Configuration.TimeSpanConverter.html",
+          "hash": "UZA00+mQeOoF7KTThsrveg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin/NFive.SDK.Plugins.Configuration.VersionConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin/NFive.SDK.Plugins.Configuration.VersionConverter.html",
+          "hash": "TBV/PKRTqg6hHrVIEsZ4qg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin/NFive.SDK.Plugins.Configuration.VersionRangeConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin/NFive.SDK.Plugins.Configuration.VersionRangeConverter.html",
+          "hash": "/Gs3ekA5w7Sh852tRjLGjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin/NFive.SDK.Plugins.Configuration.Yaml.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin/NFive.SDK.Plugins.Configuration.Yaml.html",
+          "hash": "e4CbGwfFnMmwobotN2WpZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin/NFive.SDK.Plugins.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin/NFive.SDK.Plugins.Configuration.html",
+          "hash": "zHehA8TnpccJejc7lkSHAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "ReferencedXrefPropertyNotString"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "plugin/NFive.SDK.Plugins.DefinitionGraph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin/NFive.SDK.Plugins.DefinitionGraph.html",
+          "hash": "YXQW1eHUXWRN3B6vUZrvsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "ReferencedXrefPropertyNotString"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "plugin/NFive.SDK.Plugins.Plugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin/NFive.SDK.Plugins.Plugin.html",
+          "hash": "oTcX+8H+CYQLne/Tr2QavQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin/NFive.SDK.Plugins.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin/NFive.SDK.Plugins.html",
+          "hash": "9I91NwY7enVYu1eP0nU9hw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "plugin/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin/toc.html",
+          "hash": "td9v2F6oh6G7kUXLXjVzog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Configuration.ServerConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Configuration.ServerConfiguration.html",
+          "hash": "xYFN94ZHJP61rvqo+kSqqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Configuration.html",
+          "hash": "uXiz8A0bT2bqEJhSDWktcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Controllers.ConfigurableController-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Controllers.ConfigurableController-1.html",
+          "hash": "nPXSIjuhuAQM1819MQI2RQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Controllers.Controller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Controllers.Controller.html",
+          "hash": "ce/epfXvl22YT6XlABSRqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Controllers.html",
+          "hash": "QE0RQxF6Os6gxV3HMQ6Zgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Deferrals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Deferrals.html",
+          "hash": "NrOUpNpZ7hNThe7/murxMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Events.BootEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Events.BootEvents.html",
+          "hash": "gW4g+X2JjHtm4ZF/ZFdS2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Events.ClientDeferralsEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Events.ClientDeferralsEventArgs.html",
+          "hash": "XAicvvf8bxKdv/+6tlx/JA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Events.ClientEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Events.ClientEventArgs.html",
+          "hash": "Ocga6sAYiAFjJU06/ApxmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Events.ClientReconnectEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Events.ClientReconnectEventArgs.html",
+          "hash": "ttOJjPTTNWCdmfdRnbCzsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Events.ClientSessionDeferralsEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Events.ClientSessionDeferralsEventArgs.html",
+          "hash": "gfhjy4y9TmRJsBrljMql5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Events.ClientSessionEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Events.ClientSessionEventArgs.html",
+          "hash": "QUsoMx5l9+EQyXdr916E/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Events.ClientUserEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Events.ClientUserEventArgs.html",
+          "hash": "nedqqhlvaVYPrRVeZXzq7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Events.IEventManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Events.IEventManager.html",
+          "hash": "vnUYd0Rk/l/crF4Jxcry5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Events.ServerEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Events.ServerEvents.html",
+          "hash": "2gdf8OwldoUJflaTCR/JEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Events.SessionEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Events.SessionEvents.html",
+          "hash": "wVau3geltHOhscKV3QQIDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Events.html",
+          "hash": "R/fOpQbwFe71kcH17yPTEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Extensions.PositionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Extensions.PositionExtensions.html",
+          "hash": "OKWeJKLlATEH0wTwcM3MJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Extensions.VectorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Extensions.VectorExtensions.html",
+          "hash": "j/QxBdy19LBcM6m7j0hBWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Extensions.html",
+          "hash": "KeW9v0ij7viQF/hzYYXKdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Migrations.MigrationConfiguration-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Migrations.MigrationConfiguration-1.html",
+          "hash": "qZZF6oa2ajXup4gNmuCYFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Migrations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Migrations.html",
+          "hash": "4MG5OMEzHvi06bxCLuDsNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Rcon.IRconManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Rcon.IRconManager.html",
+          "hash": "Bdq2+gSvwdM0aDYIUhsHHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Rcon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Rcon.html",
+          "hash": "1tXqrq7ZpqOSYIVdutzhhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Rpc.IClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Rpc.IClient.html",
+          "hash": "XfSuiagH3GuNY9phHtj/fQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Rpc.IRpc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Rpc.IRpc.html",
+          "hash": "HdNig3t6lcG3DM5r5JsTXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Rpc.IRpcAttach.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Rpc.IRpcAttach.html",
+          "hash": "dMrbJacNC1lNulU3wbdkww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Rpc.IRpcEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Rpc.IRpcEvent.html",
+          "hash": "vXCZyLZzV/cgktJeJgEhTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Rpc.IRpcHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Rpc.IRpcHandler.html",
+          "hash": "fKp+ualUS6Ju8rxYuFLUsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Rpc.IRpcTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Rpc.IRpcTrigger.html",
+          "hash": "rAyfvlE10+SkgeOfNoSrEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Rpc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Rpc.html",
+          "hash": "r5CgvGJimvmI51OGmh+0BA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.SDK.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.SDK.html",
+          "hash": "KREvWZN4I/my7k5gWbLyIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.ServerPluginAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.ServerPluginAttribute.html",
+          "hash": "43was+MpQJoqbx/9iXEihg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Storage.EFContext-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Storage.EFContext-1.html",
+          "hash": "n0sggcb+HBWVPjtI1vZ6+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Storage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Storage.html",
+          "hash": "b+FcD1Tdb2zVLSlyZ8c7cg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Wrappers.SessionManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Wrappers.SessionManager.html",
+          "hash": "/0iXK2M8wyxGxXQ0lVDvLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Wrappers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Wrappers.html",
+          "hash": "H7arMUrQkoB4YGeZq7d2Hw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.html",
+          "hash": "RrW8QWn9O5aFfOsLHWdDvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "server/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/toc.html",
+          "hash": "cxHTtAIlqUV4fvmS/9nzpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "O4T3MIPRZHcxItLKFPFRqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 192,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
