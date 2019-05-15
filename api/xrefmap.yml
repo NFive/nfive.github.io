@@ -1,6 +1,9 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: homepage
+  name: API Reference
+  href: index.html
 - uid: NFive.Client
   name: NFive.Client
   href: nfive/NFive.Client.html
