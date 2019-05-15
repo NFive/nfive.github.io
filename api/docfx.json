@@ -102,10 +102,7 @@
     ],
     "resource": [
       {
-        "files": [
-          "favicon.ico",
-          "logo.svg"
-        ],
+        "files": [],
         "exclude": [
           "obj/**",
           "_site/**"
@@ -125,12 +122,14 @@
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
-      "default"
+      "default",
+      "templates/nfive"
     ],
     "postProcessors": [
       "ExtractSearchIndex"
     ],
     "globalMetadata": {
+      "_appName": "NFive",
       "_appTitle": "NFive API Reference",
       "_appFooter": "<span>Copyright © 2018-2019 NFive</span>",
       "_enableSearch": "true",
@@ -138,9 +137,7 @@
         "repo": "https://github.com/NFive/nfive.github.io",
         "branch": "src",
         "apiSpecFolder": "api"
-      },
-      "_appLogoPath": "logo.svg",
-      "_appFaviconPath": "favicon.ico"
+      }
     },
     "markdownEngineName": "markdig",
     "noLangKeyword": false,
