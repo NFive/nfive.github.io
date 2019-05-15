@@ -9,7 +9,7 @@ NFive aims to be very easy to setup and configure, so you can quickly get a serv
 
 The recommended and easiest way to quickly install a FiveM server and setup NFive is to use the cross platform [NFive Plugin Manager](nfpm/overview.md) (`nfpm`) tool:
 
-1. Download the latest version of `nfpm`: **[https:/dl.nfive.io/nfpm.exe](https://dl.nfive.io/nfpm.exe)**
+1. Download the latest version of `nfpm`: **[https://dl.nfive.io/nfpm.exe](https://dl.nfive.io/nfpm.exe)**
 
    > `nfpm.exe` doesn't need to be installed and can be run from anywhere.
 
