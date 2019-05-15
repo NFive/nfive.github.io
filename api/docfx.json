@@ -10,7 +10,8 @@
       ],
       "dest": "nfive",
       "disableGitFeatures": false,
-      "disableDefaultFilter": false
+      "disableDefaultFilter": false,
+      "filter": "filterConfig.yml"
     },
     {
       "src": [
@@ -22,7 +23,8 @@
       ],
       "dest": "core",
       "disableGitFeatures": false,
-      "disableDefaultFilter": false
+      "disableDefaultFilter": false,
+      "filter": "filterConfig.yml"
     },
     {
       "src": [
@@ -34,7 +36,8 @@
       ],
       "dest": "client",
       "disableGitFeatures": false,
-      "disableDefaultFilter": false
+      "disableDefaultFilter": false,
+      "filter": "filterConfig.yml"
     },
     {
       "src": [
@@ -46,7 +49,8 @@
       ],
       "dest": "server",
       "disableGitFeatures": false,
-      "disableDefaultFilter": false
+      "disableDefaultFilter": false,
+      "filter": "filterConfig.yml"
     },
     {
       "src": [
@@ -58,7 +62,8 @@
       ],
       "dest": "plugin",
       "disableGitFeatures": false,
-      "disableDefaultFilter": false
+      "disableDefaultFilter": false,
+      "filter": "filterConfig.yml"
     }
   ],
   "build": {
