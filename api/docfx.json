@@ -8,10 +8,7 @@
           ]
         }
       ],
-      "dest": "nfive",
-      "disableGitFeatures": false,
-      "disableDefaultFilter": false,
-      "filter": "filterConfig.yml"
+      "dest": "nfive"
     },
     {
       "src": [
@@ -21,10 +18,7 @@
           ]
         }
       ],
-      "dest": "core",
-      "disableGitFeatures": false,
-      "disableDefaultFilter": false,
-      "filter": "filterConfig.yml"
+      "dest": "core"
     },
     {
       "src": [
@@ -34,10 +28,7 @@
           ]
         }
       ],
-      "dest": "client",
-      "disableGitFeatures": false,
-      "disableDefaultFilter": false,
-      "filter": "filterConfig.yml"
+      "dest": "client"
     },
     {
       "src": [
@@ -47,10 +38,7 @@
           ]
         }
       ],
-      "dest": "server",
-      "disableGitFeatures": false,
-      "disableDefaultFilter": false,
-      "filter": "filterConfig.yml"
+      "dest": "server"
     },
     {
       "src": [
@@ -60,10 +48,7 @@
           ]
         }
       ],
-      "dest": "plugin",
-      "disableGitFeatures": false,
-      "disableDefaultFilter": false,
-      "filter": "filterConfig.yml"
+      "dest": "plugin"
     }
   ],
   "build": {
@@ -105,24 +90,8 @@
         ]
       }
     ],
-    "resource": [
-      {
-        "files": [],
-        "exclude": [
-          "obj/**",
-          "_site/**"
-        ]
-      }
-    ],
-    "overwrite": [
-      {
-        "files": [],
-        "exclude": [
-          "obj/**",
-          "_site/**"
-        ]
-      }
-    ],
+    "resource": [],
+    "overwrite": [],
     "dest": "_site",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
@@ -151,6 +120,7 @@
     "noLangKeyword": false,
     "keepFileLink": false,
     "cleanupCacheHistory": false,
-    "disableGitFeatures": false
+    "disableGitFeatures": false,
+    "filter": "filterConfig.yml"
   }
 }
