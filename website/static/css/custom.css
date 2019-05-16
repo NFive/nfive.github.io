@@ -1,5 +1,6 @@
-p a[href^="http://"]:not([href="nfive.io"]):after,
-p a[href^="https://"]:not([href="nfive.io"]):after {
+.wrapper .post article a[href^="http://"]:not([href^="http://nfive.io/"]):after,
+.wrapper .post article a[href^="https://"]:not([href^="https://nfive.io/"]):after,
+.wrapper .post article a[href^="/api/"]:after {
   content: " " url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKBAMAAAB/HNKOAAAAFVBMVEX///+rIBavQEu8dnHLODfvqaT///8GSqBtAAAAAXRSTlMAQObYZgAAAD5JREFUeF4NxEENgDAMhtEvKOh/6RkRZAJIhwAgKOjqXwK9PCAiYBuVwNlKs/X87nauOPDntR1fl4FXtZKMHzdICb0k7k9yAAAAAElFTkSuQmCC");
 }
 
