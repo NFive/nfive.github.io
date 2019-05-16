@@ -14,4 +14,4 @@ RCON ("remote console") is a communication protocol supported by FiveM which all
 
 ## Creating Commands
 
-NFive server plugins are able to register new commands via [`IRconManager`](https://github.com/NFive/SDK.Server/blob/master/Rcon/IRconManager.cs) which is available server side.
+NFive server plugins are able to register new commands via [`IRconManager`](/api/server/NFive.SDK.Server.Rcon.IRconManager.html) which is available server side.

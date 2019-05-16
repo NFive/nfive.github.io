@@ -2,7 +2,7 @@
 title: Service
 ---
 
-[**`NFive.SDK.Client.Services.Service`**](https://github.com/NFive/SDK.Client/blob/master/Services/Service.cs)
+[**`NFive.SDK.Client.Services.Service`**](/api/client/NFive.SDK.Client.Services.Service.html)
 
 A service is the main entrypoint for client plugins. The FiveM client [starts the services](lifecycle.md) on connection to the server and they exist for the duration of the client connection.
 

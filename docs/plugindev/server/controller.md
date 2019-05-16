@@ -2,7 +2,7 @@
 title: Controller
 ---
 
-[**`NFive.SDK.Server.Controllers.Controller`**](https://github.com/NFive/SDK.Server/blob/master/Controllers/Controller.cs)
+[**`NFive.SDK.Server.Controllers.Controller`**](/api/server/NFive.SDK.Server.Controllers.Controller.html)
 
 A controller is the main entrypoint for server plugins. The NFive server [starts the controllers](lifecycle.md) on startup and they exist for the duration of the server uptime.
 

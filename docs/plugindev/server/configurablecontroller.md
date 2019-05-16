@@ -2,7 +2,7 @@
 title: Configurable Controller
 ---
 
-[**`NFive.SDK.Server.Controllers.ConfigurableController<T : IControllerConfiguration>`**](https://github.com/NFive/SDK.Server/blob/master/Controllers/ConfigurableController.cs)
+[**`NFive.SDK.Server.Controllers.ConfigurableController<T : IControllerConfiguration>`**](/api/server/NFive.SDK.Server.Controllers.ConfigurableController-1.html)
 
 NFive also provides `ConfigurableController<T>`, a subclass of [`Controller`](controller.md), for convenience. The configurable controller allows you to supply a model type which will automatically be used as the plugin's configuration object and be loaded from a [YAML](https://yaml.org/) file.
 

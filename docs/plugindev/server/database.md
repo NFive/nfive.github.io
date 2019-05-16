@@ -44,7 +44,7 @@ public class Account
 }
 ```
 
-This model can then be registered with Entity Framework by using the NFive SDK [`EFContext`](https://github.com/NFive/SDK.Server/blob/master/Storage/EFContext.cs) type:
+This model can then be registered with Entity Framework by using the NFive SDK [`EFContext`](/api/server/NFive.SDK.Server.Storage.EFContext-1.html) type:
 
 ```csharp
 public class StorageContext : EFContext<StorageContext>
