@@ -6,6 +6,9 @@ apiRules:
     uidRegex: ^System\.Attribute
     type: Type
 - exclude:
+    uidRegex: ^System\.Runtime\.InteropServices\._Attribute
+    type: Type
+- exclude:
     hasAttribute:
       uid: System.ComponentModel.EditorBrowsableAttribute
       ctorArguments:
