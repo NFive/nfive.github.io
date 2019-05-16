@@ -1,14 +1,14 @@
 - name: NFive API
   href: nfive/
 
-- name: Core SDK API
+- name: Core SDK
   href: core/
 
-- name: Client SDK API
+- name: Client SDK
   href: client/
 
-- name: Server SDK API
+- name: Server SDK
   href: server/
 
-- name: Plugin SDK API
+- name: Plugin SDK
   href: plugin/
