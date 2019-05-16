@@ -19,7 +19,7 @@ class Help extends React.Component {
     const supportLinks = [
       {
         title: <translate>Browse Documentation</translate>,
-        content: <translate>Learn more about the project by using [the documentation on this site](/docs/en/overview).</translate>
+        content: <translate>Learn more about the project by using [the documentation on this site](/docs/overview).</translate>
       },
       {
         title: <translate>Join the Community</translate>,
