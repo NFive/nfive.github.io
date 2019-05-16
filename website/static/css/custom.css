@@ -33,4 +33,11 @@ img.logo:hover {
 }
 
 @media only screen and (min-width: 1500px) {
+  .projectTitle {
+    font-size: 56px;
+  }
+
+  .promoSection a {
+    font-size: 16px;
+  }
 }
