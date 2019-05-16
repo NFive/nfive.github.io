@@ -7,6 +7,10 @@ p a[href^="https://"]:not([href="nfive.io"]):after {
   background: #404040;
 }
 
+img.logo:hover {
+  filter: brightness(0) invert(1);
+}
+
 .nav-footer .sitemap {
   margin-bottom: 0;
 }
