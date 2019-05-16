@@ -9,6 +9,20 @@
   }
 }
 
+a {
+  color: #a41413;
+}
+
+.affix ul > li.active > a, .affix ul > li.active > a::before {
+  color: #a41413;
+}
+
+a:hover,
+.toc .nav > li.active > a:hover,
+.toc .nav > li.active > a:focus {
+  color: #cb3837;
+}
+
 header .navbar {
   border: none;
 }
@@ -41,6 +55,19 @@ header .navbar.navbar-inverse {
 #navbar a {
   color: rgba(255, 255, 255, 0.8);
   font-size: 1em;
+  transition: background-color .3s;
+}
+
+#navbar .active > a,
+#navbar .active > a:focus,
+#navbar a:hover {
+  color: #fff;
+  background-color: #cb3837;
+}
+
+#navbar a {
+  padding: 6px 10px;
+  margin: 9px 0;
 }
 
 .navbar-form {
@@ -103,4 +130,38 @@ header .navbar.navbar-inverse {
   transform: rotate(-45deg);
   width: 3px;
   z-index: 1;
+}
+
+.navbar-default {
+  background-color: #f1f1f1;
+}
+
+body .toc, .sidetoc, .sidefilter {
+  border: none;
+  background-color: unset;
+}
+.toc-filter, #toc_filter_input {
+  background: #f8f8f8;
+}
+
+#toc ul.nav.level1 li a {
+  color: #393939;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2em;
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+
+#toc ul.nav.level2 li a {
+  color: #393939;
+  font-size: 14px;
+}
+
+.toc .nav > li.active > a {
+  color: #a41413 !important;
+}
+
+.toc .nav > li.active > a:hover {
+  color: #cb3837 !important;
 }
