@@ -123,7 +123,7 @@ class Index extends React.Component {
         {[
           {
             title: <translate desc="homepage block three title">Automated Tools</translate>,
-            content: <translate desc="homepage block three content">Getting started building new plugins in seconds with built-in tools and utilities. Scaffold a plugin with one command or automatically generate a database migration; let the tooling does the boilerplate for you.</translate>,
+            content: <translate desc="homepage block three content">Getting started building new plugins in seconds with built-in tools and utilities. Scaffold a plugin with one command or automatically generate a database migration; let the tooling do the boilerplate for you.</translate>,
             image: `${baseUrl}img/scaffold.gif`,
             imageAlign: 'right',
           },
