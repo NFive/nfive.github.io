@@ -8,7 +8,8 @@
           ]
         }
       ],
-      "dest": "nfive"
+      "dest": "nfive",
+      "filter": "filterConfig.yml"
     },
     {
       "src": [
@@ -18,7 +19,8 @@
           ]
         }
       ],
-      "dest": "core"
+      "dest": "core",
+      "filter": "filterConfig.yml"
     },
     {
       "src": [
@@ -28,7 +30,8 @@
           ]
         }
       ],
-      "dest": "client"
+      "dest": "client",
+      "filter": "filterConfig.yml"
     },
     {
       "src": [
@@ -38,7 +41,8 @@
           ]
         }
       ],
-      "dest": "server"
+      "dest": "server",
+      "filter": "filterConfig.yml"
     },
     {
       "src": [
@@ -48,7 +52,8 @@
           ]
         }
       ],
-      "dest": "plugin"
+      "dest": "plugin",
+      "filter": "filterConfig.yml"
     }
   ],
   "build": {
@@ -120,7 +125,6 @@
     "noLangKeyword": false,
     "keepFileLink": false,
     "cleanupCacheHistory": false,
-    "disableGitFeatures": false,
-    "filter": "filterConfig.yml"
+    "disableGitFeatures": false
   }
 }
