@@ -9,6 +9,10 @@
   }
 }
 
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
 a {
   color: #a41413;
 }
@@ -38,14 +42,13 @@ header .navbar.navbar-inverse {
 
 .navbar-brand h2 {
   display: inline-block;
-  font-size: 1.4em;
+  font-size: 20px;
+  font-weight: 600;
   line-height: 2.55em;
   margin: 0;
-  margin-left: 10px;
+  margin-left: 9.5px;
   position: relative;
-  z-index: 9999;
   color: #fff;
-  font-weight: 600;
 }
 
 #navbar ul.nav {
@@ -54,8 +57,10 @@ header .navbar.navbar-inverse {
 
 #navbar a {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 1em;
+  font-size: 16px;
   transition: background-color .3s;
+  font-weight: 300;
+  line-height: 19.2px;
 }
 
 #navbar .active > a,
@@ -66,8 +71,8 @@ header .navbar.navbar-inverse {
 }
 
 #navbar a {
-  padding: 6px 10px;
-  margin: 9px 0;
+  padding: 7px 10px;
+  margin: 8px 0;
 }
 
 .navbar-form {
@@ -147,7 +152,7 @@ body .toc, .sidetoc, .sidefilter {
 #toc ul.nav.level1 li a {
   color: #393939;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.2em;
   margin-bottom: 8px;
   margin-top: 0;
@@ -163,5 +168,16 @@ body .toc, .sidetoc, .sidefilter {
 }
 
 .toc .nav > li.active > a:hover {
+  color: #cb3837 !important;
+}
+
+.expand-stub {
+  top: -2px;
+}
+
+.footer a {
+  color: #333;
+}
+.footer a:hover {
   color: #cb3837 !important;
 }
