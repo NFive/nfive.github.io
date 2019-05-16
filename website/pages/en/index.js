@@ -151,7 +151,7 @@ class Index extends React.Component {
             image: `${baseUrl}img/book.svg`,
             imageAlign: 'top',
             title: <translate desc="homepage feature three title">Software Development Kit</translate>,
-            content: <translate desc="homepage feature three content">NFive has a full featured SDK which simplices and eases plugin and mod development.</translate>,
+            content: <translate desc="homepage feature three content">NFive has a full featured SDK which simplifies and eases plugin and mod development.</translate>,
           },
           {
             image: `${baseUrl}img/osi.svg`,
