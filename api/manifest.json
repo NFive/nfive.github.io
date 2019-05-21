@@ -758,6 +758,42 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.IoC.ComponentAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.IoC.ComponentAttribute.html",
+          "hash": "+KDvyPfA8GE/UyJbLV4e6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.IoC.Lifetime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.IoC.Lifetime.html",
+          "hash": "F0OxrZAtvpTDqVYqZffAtw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.IoC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.IoC.html",
+          "hash": "l1Sr7+f/bTxyp62rk4V9Zg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "core/NFive.SDK.Core.Models.Audio.RadioStation.yml",
       "output": {
         ".html": {
@@ -1038,7 +1074,7 @@
       "output": {
         ".html": {
           "relative_path": "core/toc.html",
-          "hash": "OYx4Bhh7aWh4s9G0N1gAEQ=="
+          "hash": "MKxUeeQBZL00At002MAnhw=="
         }
       },
       "is_incremental": false,
@@ -1422,7 +1458,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Controllers.SessionController.html",
-          "hash": "lxxIelUA+YtLNjklg7xS6A=="
+          "hash": "wQSmLtTqGhD9IL1fh9nVSw=="
         }
       },
       "is_incremental": false,
@@ -1598,18 +1634,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "nfive/NFive.Server.Rpc.Client.yml",
-      "output": {
-        ".html": {
-          "relative_path": "nfive/NFive.Server.Rpc.Client.html",
-          "hash": "OU7d2BLxwRWnYQOXoHAPsg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "nfive/NFive.Server.Rpc.ClientHandler.yml",
       "output": {
         ".html": {
@@ -1638,7 +1662,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Rpc.OutboundMessage.html",
-          "hash": "X6zorIykKRqqewX0VA9zOA=="
+          "hash": "TKLDulpOzyY8u8s8W+1vPQ=="
         }
       },
       "is_incremental": false,
@@ -1662,7 +1686,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Rpc.RpcEvent.html",
-          "hash": "VtrHcRm7NEbvOTlAAU6JSQ=="
+          "hash": "7LBumZ0aMFU2f23FQ6rpFA=="
         }
       },
       "is_incremental": false,
@@ -1710,7 +1734,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Rpc.html",
-          "hash": "MpqNDQqEgMPenw3TEDFoXw=="
+          "hash": "wtFTtCvyTSAjdVjNQlHFIQ=="
         }
       },
       "is_incremental": false,
@@ -1758,7 +1782,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/toc.html",
-          "hash": "LOf3BX8MLPYHhzH6Ehkbkw=="
+          "hash": "vozGcpwWtN25PBuideKZFw=="
         }
       },
       "is_incremental": false,
@@ -2162,6 +2186,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.IClientList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.IClientList.html",
+          "hash": "CrmsHvu6BDjzHV76G3Fr1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "server/NFive.SDK.Server.Migrations.MigrationConfiguration-1.yml",
       "output": {
         ".html": {
@@ -2214,7 +2250,7 @@
       "output": {
         ".html": {
           "relative_path": "server/NFive.SDK.Server.Rpc.IClient.html",
-          "hash": "rrAht/Fey05KH+wqlB97hQ=="
+          "hash": "x0lX7HVlM857a8kqXwTb3A=="
         }
       },
       "is_incremental": false,
@@ -2226,7 +2262,7 @@
       "output": {
         ".html": {
           "relative_path": "server/NFive.SDK.Server.Rpc.IRpc.html",
-          "hash": "/H/brsSbkbsaw1rRZleOdg=="
+          "hash": "QE/YhLduY89Cn/eGKe/HGw=="
         }
       },
       "is_incremental": false,
@@ -2274,7 +2310,7 @@
       "output": {
         ".html": {
           "relative_path": "server/NFive.SDK.Server.Rpc.IRpcTrigger.html",
-          "hash": "hCx7+1F8LCXy2UD8JlwK+A=="
+          "hash": "4rKIlF1euM3vE9QGcMrxZA=="
         }
       },
       "is_incremental": false,
@@ -2370,7 +2406,7 @@
       "output": {
         ".html": {
           "relative_path": "server/NFive.SDK.Server.html",
-          "hash": "PRhKoc8YMNwW27JjIDV2NQ=="
+          "hash": "THME8U7BPDiUScilbczsUA=="
         }
       },
       "is_incremental": false,
@@ -2382,7 +2418,7 @@
       "output": {
         ".html": {
           "relative_path": "server/toc.html",
-          "hash": "cxHTtAIlqUV4fvmS/9nzpg=="
+          "hash": "ky1oslKG5AOH7SECpH6Z1g=="
         }
       },
       "is_incremental": false,
@@ -2412,6 +2448,13 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
@@ -2421,14 +2464,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 192,
-          "skipped_file_count": 0
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 195,
           "skipped_file_count": 0
         }
       }

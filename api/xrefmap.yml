@@ -3383,6 +3383,49 @@ references:
   isSpec: "True"
   fullName: NFive.SDK.Core.Helpers.MathHelpers.Lerp
   nameWithType: MathHelpers.Lerp
+- uid: NFive.SDK.Core.IoC
+  name: NFive.SDK.Core.IoC
+  href: core/NFive.SDK.Core.IoC.html
+  commentId: N:NFive.SDK.Core.IoC
+  fullName: NFive.SDK.Core.IoC
+  nameWithType: NFive.SDK.Core.IoC
+- uid: NFive.SDK.Core.IoC.ComponentAttribute
+  name: ComponentAttribute
+  href: core/NFive.SDK.Core.IoC.ComponentAttribute.html
+  commentId: T:NFive.SDK.Core.IoC.ComponentAttribute
+  fullName: NFive.SDK.Core.IoC.ComponentAttribute
+  nameWithType: ComponentAttribute
+- uid: NFive.SDK.Core.IoC.ComponentAttribute.Lifetime
+  name: Lifetime
+  href: core/NFive.SDK.Core.IoC.ComponentAttribute.html#NFive_SDK_Core_IoC_ComponentAttribute_Lifetime
+  commentId: P:NFive.SDK.Core.IoC.ComponentAttribute.Lifetime
+  fullName: NFive.SDK.Core.IoC.ComponentAttribute.Lifetime
+  nameWithType: ComponentAttribute.Lifetime
+- uid: NFive.SDK.Core.IoC.ComponentAttribute.Lifetime*
+  name: Lifetime
+  href: core/NFive.SDK.Core.IoC.ComponentAttribute.html#NFive_SDK_Core_IoC_ComponentAttribute_Lifetime_
+  commentId: Overload:NFive.SDK.Core.IoC.ComponentAttribute.Lifetime
+  isSpec: "True"
+  fullName: NFive.SDK.Core.IoC.ComponentAttribute.Lifetime
+  nameWithType: ComponentAttribute.Lifetime
+- uid: NFive.SDK.Core.IoC.Lifetime
+  name: Lifetime
+  href: core/NFive.SDK.Core.IoC.Lifetime.html
+  commentId: T:NFive.SDK.Core.IoC.Lifetime
+  fullName: NFive.SDK.Core.IoC.Lifetime
+  nameWithType: Lifetime
+- uid: NFive.SDK.Core.IoC.Lifetime.Singleton
+  name: Singleton
+  href: core/NFive.SDK.Core.IoC.Lifetime.html#NFive_SDK_Core_IoC_Lifetime_Singleton
+  commentId: F:NFive.SDK.Core.IoC.Lifetime.Singleton
+  fullName: NFive.SDK.Core.IoC.Lifetime.Singleton
+  nameWithType: Lifetime.Singleton
+- uid: NFive.SDK.Core.IoC.Lifetime.Transient
+  name: Transient
+  href: core/NFive.SDK.Core.IoC.Lifetime.html#NFive_SDK_Core_IoC_Lifetime_Transient
+  commentId: F:NFive.SDK.Core.IoC.Lifetime.Transient
+  fullName: NFive.SDK.Core.IoC.Lifetime.Transient
+  nameWithType: Lifetime.Transient
 - uid: NFive.SDK.Core.Models
   name: NFive.SDK.Core.Models
   href: core/NFive.SDK.Core.Models.html
@@ -6174,6 +6217,25 @@ references:
   isSpec: "True"
   fullName: NFive.SDK.Server.Extensions.VectorExtensions.TranslateDir
   nameWithType: VectorExtensions.TranslateDir
+- uid: NFive.SDK.Server.IClientList
+  name: IClientList
+  href: server/NFive.SDK.Server.IClientList.html
+  commentId: T:NFive.SDK.Server.IClientList
+  fullName: NFive.SDK.Server.IClientList
+  nameWithType: IClientList
+- uid: NFive.SDK.Server.IClientList.Clients
+  name: Clients
+  href: server/NFive.SDK.Server.IClientList.html#NFive_SDK_Server_IClientList_Clients
+  commentId: P:NFive.SDK.Server.IClientList.Clients
+  fullName: NFive.SDK.Server.IClientList.Clients
+  nameWithType: IClientList.Clients
+- uid: NFive.SDK.Server.IClientList.Clients*
+  name: Clients
+  href: server/NFive.SDK.Server.IClientList.html#NFive_SDK_Server_IClientList_Clients_
+  commentId: Overload:NFive.SDK.Server.IClientList.Clients
+  isSpec: "True"
+  fullName: NFive.SDK.Server.IClientList.Clients
+  nameWithType: IClientList.Clients
 - uid: NFive.SDK.Server.Migrations
   name: NFive.SDK.Server.Migrations
   href: server/NFive.SDK.Server.Migrations.html
@@ -6282,19 +6344,6 @@ references:
   isSpec: "True"
   fullName: NFive.SDK.Server.Rpc.IClient.EndPoint
   nameWithType: IClient.EndPoint
-- uid: NFive.SDK.Server.Rpc.IClient.Event(System.String)
-  name: Event(String)
-  href: server/NFive.SDK.Server.Rpc.IClient.html#NFive_SDK_Server_Rpc_IClient_Event_System_String_
-  commentId: M:NFive.SDK.Server.Rpc.IClient.Event(System.String)
-  fullName: NFive.SDK.Server.Rpc.IClient.Event(System.String)
-  nameWithType: IClient.Event(String)
-- uid: NFive.SDK.Server.Rpc.IClient.Event*
-  name: Event
-  href: server/NFive.SDK.Server.Rpc.IClient.html#NFive_SDK_Server_Rpc_IClient_Event_
-  commentId: Overload:NFive.SDK.Server.Rpc.IClient.Event
-  isSpec: "True"
-  fullName: NFive.SDK.Server.Rpc.IClient.Event
-  nameWithType: IClient.Event
 - uid: NFive.SDK.Server.Rpc.IClient.Handle
   name: Handle
   href: server/NFive.SDK.Server.Rpc.IClient.html#NFive_SDK_Server_Rpc_IClient_Handle
@@ -6545,6 +6594,25 @@ references:
   commentId: T:NFive.SDK.Server.Rpc.IRpcTrigger
   fullName: NFive.SDK.Server.Rpc.IRpcTrigger
   nameWithType: IRpcTrigger
+- uid: NFive.SDK.Server.Rpc.IRpcTrigger.Target(NFive.SDK.Server.Rpc.IClient)
+  name: Target(IClient)
+  href: server/NFive.SDK.Server.Rpc.IRpcTrigger.html#NFive_SDK_Server_Rpc_IRpcTrigger_Target_NFive_SDK_Server_Rpc_IClient_
+  commentId: M:NFive.SDK.Server.Rpc.IRpcTrigger.Target(NFive.SDK.Server.Rpc.IClient)
+  fullName: NFive.SDK.Server.Rpc.IRpcTrigger.Target(NFive.SDK.Server.Rpc.IClient)
+  nameWithType: IRpcTrigger.Target(IClient)
+- uid: NFive.SDK.Server.Rpc.IRpcTrigger.Target(System.Int32)
+  name: Target(Int32)
+  href: server/NFive.SDK.Server.Rpc.IRpcTrigger.html#NFive_SDK_Server_Rpc_IRpcTrigger_Target_System_Int32_
+  commentId: M:NFive.SDK.Server.Rpc.IRpcTrigger.Target(System.Int32)
+  fullName: NFive.SDK.Server.Rpc.IRpcTrigger.Target(System.Int32)
+  nameWithType: IRpcTrigger.Target(Int32)
+- uid: NFive.SDK.Server.Rpc.IRpcTrigger.Target*
+  name: Target
+  href: server/NFive.SDK.Server.Rpc.IRpcTrigger.html#NFive_SDK_Server_Rpc_IRpcTrigger_Target_
+  commentId: Overload:NFive.SDK.Server.Rpc.IRpcTrigger.Target
+  isSpec: "True"
+  fullName: NFive.SDK.Server.Rpc.IRpcTrigger.Target
+  nameWithType: IRpcTrigger.Target
 - uid: NFive.SDK.Server.Rpc.IRpcTrigger.Trigger(NFive.SDK.Server.Rpc.IClient,System.Object[])
   name: Trigger(IClient, Object[])
   href: server/NFive.SDK.Server.Rpc.IRpcTrigger.html#NFive_SDK_Server_Rpc_IRpcTrigger_Trigger_NFive_SDK_Server_Rpc_IClient_System_Object___
@@ -8041,116 +8109,6 @@ references:
   commentId: N:NFive.Server.Rpc
   fullName: NFive.Server.Rpc
   nameWithType: NFive.Server.Rpc
-- uid: NFive.Server.Rpc.Client
-  name: Client
-  href: nfive/NFive.Server.Rpc.Client.html
-  commentId: T:NFive.Server.Rpc.Client
-  fullName: NFive.Server.Rpc.Client
-  nameWithType: Client
-- uid: NFive.Server.Rpc.Client.#ctor(System.Int32)
-  name: Client(Int32)
-  href: nfive/NFive.Server.Rpc.Client.html#NFive_Server_Rpc_Client__ctor_System_Int32_
-  commentId: M:NFive.Server.Rpc.Client.#ctor(System.Int32)
-  fullName: NFive.Server.Rpc.Client.Client(System.Int32)
-  nameWithType: Client.Client(Int32)
-- uid: NFive.Server.Rpc.Client.#ctor*
-  name: Client
-  href: nfive/NFive.Server.Rpc.Client.html#NFive_Server_Rpc_Client__ctor_
-  commentId: Overload:NFive.Server.Rpc.Client.#ctor
-  isSpec: "True"
-  fullName: NFive.Server.Rpc.Client.Client
-  nameWithType: Client.Client
-- uid: NFive.Server.Rpc.Client.EndPoint
-  name: EndPoint
-  href: nfive/NFive.Server.Rpc.Client.html#NFive_Server_Rpc_Client_EndPoint
-  commentId: P:NFive.Server.Rpc.Client.EndPoint
-  fullName: NFive.Server.Rpc.Client.EndPoint
-  nameWithType: Client.EndPoint
-- uid: NFive.Server.Rpc.Client.EndPoint*
-  name: EndPoint
-  href: nfive/NFive.Server.Rpc.Client.html#NFive_Server_Rpc_Client_EndPoint_
-  commentId: Overload:NFive.Server.Rpc.Client.EndPoint
-  isSpec: "True"
-  fullName: NFive.Server.Rpc.Client.EndPoint
-  nameWithType: Client.EndPoint
-- uid: NFive.Server.Rpc.Client.Event(System.String)
-  name: Event(String)
-  href: nfive/NFive.Server.Rpc.Client.html#NFive_Server_Rpc_Client_Event_System_String_
-  commentId: M:NFive.Server.Rpc.Client.Event(System.String)
-  fullName: NFive.Server.Rpc.Client.Event(System.String)
-  nameWithType: Client.Event(String)
-- uid: NFive.Server.Rpc.Client.Event*
-  name: Event
-  href: nfive/NFive.Server.Rpc.Client.html#NFive_Server_Rpc_Client_Event_
-  commentId: Overload:NFive.Server.Rpc.Client.Event
-  isSpec: "True"
-  fullName: NFive.Server.Rpc.Client.Event
-  nameWithType: Client.Event
-- uid: NFive.Server.Rpc.Client.Handle
-  name: Handle
-  href: nfive/NFive.Server.Rpc.Client.html#NFive_Server_Rpc_Client_Handle
-  commentId: P:NFive.Server.Rpc.Client.Handle
-  fullName: NFive.Server.Rpc.Client.Handle
-  nameWithType: Client.Handle
-- uid: NFive.Server.Rpc.Client.Handle*
-  name: Handle
-  href: nfive/NFive.Server.Rpc.Client.html#NFive_Server_Rpc_Client_Handle_
-  commentId: Overload:NFive.Server.Rpc.Client.Handle
-  isSpec: "True"
-  fullName: NFive.Server.Rpc.Client.Handle
-  nameWithType: Client.Handle
-- uid: NFive.Server.Rpc.Client.License
-  name: License
-  href: nfive/NFive.Server.Rpc.Client.html#NFive_Server_Rpc_Client_License
-  commentId: P:NFive.Server.Rpc.Client.License
-  fullName: NFive.Server.Rpc.Client.License
-  nameWithType: Client.License
-- uid: NFive.Server.Rpc.Client.License*
-  name: License
-  href: nfive/NFive.Server.Rpc.Client.html#NFive_Server_Rpc_Client_License_
-  commentId: Overload:NFive.Server.Rpc.Client.License
-  isSpec: "True"
-  fullName: NFive.Server.Rpc.Client.License
-  nameWithType: Client.License
-- uid: NFive.Server.Rpc.Client.Name
-  name: Name
-  href: nfive/NFive.Server.Rpc.Client.html#NFive_Server_Rpc_Client_Name
-  commentId: P:NFive.Server.Rpc.Client.Name
-  fullName: NFive.Server.Rpc.Client.Name
-  nameWithType: Client.Name
-- uid: NFive.Server.Rpc.Client.Name*
-  name: Name
-  href: nfive/NFive.Server.Rpc.Client.html#NFive_Server_Rpc_Client_Name_
-  commentId: Overload:NFive.Server.Rpc.Client.Name
-  isSpec: "True"
-  fullName: NFive.Server.Rpc.Client.Name
-  nameWithType: Client.Name
-- uid: NFive.Server.Rpc.Client.Ping
-  name: Ping
-  href: nfive/NFive.Server.Rpc.Client.html#NFive_Server_Rpc_Client_Ping
-  commentId: P:NFive.Server.Rpc.Client.Ping
-  fullName: NFive.Server.Rpc.Client.Ping
-  nameWithType: Client.Ping
-- uid: NFive.Server.Rpc.Client.Ping*
-  name: Ping
-  href: nfive/NFive.Server.Rpc.Client.html#NFive_Server_Rpc_Client_Ping_
-  commentId: Overload:NFive.Server.Rpc.Client.Ping
-  isSpec: "True"
-  fullName: NFive.Server.Rpc.Client.Ping
-  nameWithType: Client.Ping
-- uid: NFive.Server.Rpc.Client.SteamId
-  name: SteamId
-  href: nfive/NFive.Server.Rpc.Client.html#NFive_Server_Rpc_Client_SteamId
-  commentId: P:NFive.Server.Rpc.Client.SteamId
-  fullName: NFive.Server.Rpc.Client.SteamId
-  nameWithType: Client.SteamId
-- uid: NFive.Server.Rpc.Client.SteamId*
-  name: SteamId
-  href: nfive/NFive.Server.Rpc.Client.html#NFive_Server_Rpc_Client_SteamId_
-  commentId: Overload:NFive.Server.Rpc.Client.SteamId
-  isSpec: "True"
-  fullName: NFive.Server.Rpc.Client.SteamId
-  nameWithType: Client.SteamId
 - uid: NFive.Server.Rpc.ClientHandler
   name: ClientHandler
   href: nfive/NFive.Server.Rpc.ClientHandler.html
