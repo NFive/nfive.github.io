@@ -814,6 +814,19 @@ references:
   commentId: T:NFive.Client.Rpc.RpcEvent
   fullName: NFive.Client.Rpc.RpcEvent
   nameWithType: RpcEvent
+- uid: NFive.Client.Rpc.RpcEvent.#ctor(System.String)
+  name: RpcEvent(String)
+  href: nfive/NFive.Client.Rpc.RpcEvent.html#NFive_Client_Rpc_RpcEvent__ctor_System_String_
+  commentId: M:NFive.Client.Rpc.RpcEvent.#ctor(System.String)
+  fullName: NFive.Client.Rpc.RpcEvent.RpcEvent(System.String)
+  nameWithType: RpcEvent.RpcEvent(String)
+- uid: NFive.Client.Rpc.RpcEvent.#ctor*
+  name: RpcEvent
+  href: nfive/NFive.Client.Rpc.RpcEvent.html#NFive_Client_Rpc_RpcEvent__ctor_
+  commentId: Overload:NFive.Client.Rpc.RpcEvent.#ctor
+  isSpec: "True"
+  fullName: NFive.Client.Rpc.RpcEvent.RpcEvent
+  nameWithType: RpcEvent.RpcEvent
 - uid: NFive.Client.Rpc.RpcEvent.Event
   name: Event
   href: nfive/NFive.Client.Rpc.RpcEvent.html#NFive_Client_Rpc_RpcEvent_Event
@@ -1595,6 +1608,19 @@ references:
   isSpec: "True"
   fullName: NFive.SDK.Client.Extensions.VectorExtensions.ToPosition
   nameWithType: VectorExtensions.ToPosition
+- uid: NFive.SDK.Client.Extensions.VectorExtensions.ToVector3(CitizenFX.Core.Vector3)
+  name: ToVector3(CitizenFX.Core.Vector3)
+  href: client/NFive.SDK.Client.Extensions.VectorExtensions.html#NFive_SDK_Client_Extensions_VectorExtensions_ToVector3_CitizenFX_Core_Vector3_
+  commentId: M:NFive.SDK.Client.Extensions.VectorExtensions.ToVector3(CitizenFX.Core.Vector3)
+  fullName: NFive.SDK.Client.Extensions.VectorExtensions.ToVector3(CitizenFX.Core.Vector3)
+  nameWithType: VectorExtensions.ToVector3(CitizenFX.Core.Vector3)
+- uid: NFive.SDK.Client.Extensions.VectorExtensions.ToVector3*
+  name: ToVector3
+  href: client/NFive.SDK.Client.Extensions.VectorExtensions.html#NFive_SDK_Client_Extensions_VectorExtensions_ToVector3_
+  commentId: Overload:NFive.SDK.Client.Extensions.VectorExtensions.ToVector3
+  isSpec: "True"
+  fullName: NFive.SDK.Client.Extensions.VectorExtensions.ToVector3
+  nameWithType: VectorExtensions.ToVector3
 - uid: NFive.SDK.Client.Extensions.VectorExtensions.TranslateDir(Vector3,System.Single,System.Single)
   name: TranslateDir(Vector3, Single, Single)
   href: client/NFive.SDK.Client.Extensions.VectorExtensions.html#NFive_SDK_Client_Extensions_VectorExtensions_TranslateDir_Vector3_System_Single_System_Single_
@@ -3339,6 +3365,96 @@ references:
   fullName.vb: NFive.SDK.Core.Extensions.TypeExtensions.GetSpecifications(Of T)(System.Type, System.Func(Of System.Reflection.PropertyInfo, T))
   nameWithType: TypeExtensions.GetSpecifications<T>(Type, Func<PropertyInfo, T>)
   nameWithType.vb: TypeExtensions.GetSpecifications(Of T)(Type, Func(Of PropertyInfo, T))
+- uid: NFive.SDK.Core.Extensions.Vector2Extensions
+  name: Vector2Extensions
+  href: core/NFive.SDK.Core.Extensions.Vector2Extensions.html
+  commentId: T:NFive.SDK.Core.Extensions.Vector2Extensions
+  fullName: NFive.SDK.Core.Extensions.Vector2Extensions
+  nameWithType: Vector2Extensions
+- uid: NFive.SDK.Core.Extensions.Vector2Extensions.InFrontOf(NFive.SDK.Core.Models.Vector2,System.Single,System.Single)
+  name: InFrontOf(Vector2, Single, Single)
+  href: core/NFive.SDK.Core.Extensions.Vector2Extensions.html#NFive_SDK_Core_Extensions_Vector2Extensions_InFrontOf_NFive_SDK_Core_Models_Vector2_System_Single_System_Single_
+  commentId: M:NFive.SDK.Core.Extensions.Vector2Extensions.InFrontOf(NFive.SDK.Core.Models.Vector2,System.Single,System.Single)
+  fullName: NFive.SDK.Core.Extensions.Vector2Extensions.InFrontOf(NFive.SDK.Core.Models.Vector2, System.Single, System.Single)
+  nameWithType: Vector2Extensions.InFrontOf(Vector2, Single, Single)
+- uid: NFive.SDK.Core.Extensions.Vector2Extensions.InFrontOf*
+  name: InFrontOf
+  href: core/NFive.SDK.Core.Extensions.Vector2Extensions.html#NFive_SDK_Core_Extensions_Vector2Extensions_InFrontOf_
+  commentId: Overload:NFive.SDK.Core.Extensions.Vector2Extensions.InFrontOf
+  isSpec: "True"
+  fullName: NFive.SDK.Core.Extensions.Vector2Extensions.InFrontOf
+  nameWithType: Vector2Extensions.InFrontOf
+- uid: NFive.SDK.Core.Extensions.Vector2Extensions.Lerp(NFive.SDK.Core.Models.Vector2,NFive.SDK.Core.Models.Vector2,System.Single)
+  name: Lerp(Vector2, Vector2, Single)
+  href: core/NFive.SDK.Core.Extensions.Vector2Extensions.html#NFive_SDK_Core_Extensions_Vector2Extensions_Lerp_NFive_SDK_Core_Models_Vector2_NFive_SDK_Core_Models_Vector2_System_Single_
+  commentId: M:NFive.SDK.Core.Extensions.Vector2Extensions.Lerp(NFive.SDK.Core.Models.Vector2,NFive.SDK.Core.Models.Vector2,System.Single)
+  fullName: NFive.SDK.Core.Extensions.Vector2Extensions.Lerp(NFive.SDK.Core.Models.Vector2, NFive.SDK.Core.Models.Vector2, System.Single)
+  nameWithType: Vector2Extensions.Lerp(Vector2, Vector2, Single)
+- uid: NFive.SDK.Core.Extensions.Vector2Extensions.Lerp*
+  name: Lerp
+  href: core/NFive.SDK.Core.Extensions.Vector2Extensions.html#NFive_SDK_Core_Extensions_Vector2Extensions_Lerp_
+  commentId: Overload:NFive.SDK.Core.Extensions.Vector2Extensions.Lerp
+  isSpec: "True"
+  fullName: NFive.SDK.Core.Extensions.Vector2Extensions.Lerp
+  nameWithType: Vector2Extensions.Lerp
+- uid: NFive.SDK.Core.Extensions.Vector2Extensions.TranslateDir(NFive.SDK.Core.Models.Vector2,System.Single,System.Single)
+  name: TranslateDir(Vector2, Single, Single)
+  href: core/NFive.SDK.Core.Extensions.Vector2Extensions.html#NFive_SDK_Core_Extensions_Vector2Extensions_TranslateDir_NFive_SDK_Core_Models_Vector2_System_Single_System_Single_
+  commentId: M:NFive.SDK.Core.Extensions.Vector2Extensions.TranslateDir(NFive.SDK.Core.Models.Vector2,System.Single,System.Single)
+  fullName: NFive.SDK.Core.Extensions.Vector2Extensions.TranslateDir(NFive.SDK.Core.Models.Vector2, System.Single, System.Single)
+  nameWithType: Vector2Extensions.TranslateDir(Vector2, Single, Single)
+- uid: NFive.SDK.Core.Extensions.Vector2Extensions.TranslateDir*
+  name: TranslateDir
+  href: core/NFive.SDK.Core.Extensions.Vector2Extensions.html#NFive_SDK_Core_Extensions_Vector2Extensions_TranslateDir_
+  commentId: Overload:NFive.SDK.Core.Extensions.Vector2Extensions.TranslateDir
+  isSpec: "True"
+  fullName: NFive.SDK.Core.Extensions.Vector2Extensions.TranslateDir
+  nameWithType: Vector2Extensions.TranslateDir
+- uid: NFive.SDK.Core.Extensions.Vector3Extensions
+  name: Vector3Extensions
+  href: core/NFive.SDK.Core.Extensions.Vector3Extensions.html
+  commentId: T:NFive.SDK.Core.Extensions.Vector3Extensions
+  fullName: NFive.SDK.Core.Extensions.Vector3Extensions
+  nameWithType: Vector3Extensions
+- uid: NFive.SDK.Core.Extensions.Vector3Extensions.InFrontOf(NFive.SDK.Core.Models.Vector3,System.Single,System.Single)
+  name: InFrontOf(Vector3, Single, Single)
+  href: core/NFive.SDK.Core.Extensions.Vector3Extensions.html#NFive_SDK_Core_Extensions_Vector3Extensions_InFrontOf_NFive_SDK_Core_Models_Vector3_System_Single_System_Single_
+  commentId: M:NFive.SDK.Core.Extensions.Vector3Extensions.InFrontOf(NFive.SDK.Core.Models.Vector3,System.Single,System.Single)
+  fullName: NFive.SDK.Core.Extensions.Vector3Extensions.InFrontOf(NFive.SDK.Core.Models.Vector3, System.Single, System.Single)
+  nameWithType: Vector3Extensions.InFrontOf(Vector3, Single, Single)
+- uid: NFive.SDK.Core.Extensions.Vector3Extensions.InFrontOf*
+  name: InFrontOf
+  href: core/NFive.SDK.Core.Extensions.Vector3Extensions.html#NFive_SDK_Core_Extensions_Vector3Extensions_InFrontOf_
+  commentId: Overload:NFive.SDK.Core.Extensions.Vector3Extensions.InFrontOf
+  isSpec: "True"
+  fullName: NFive.SDK.Core.Extensions.Vector3Extensions.InFrontOf
+  nameWithType: Vector3Extensions.InFrontOf
+- uid: NFive.SDK.Core.Extensions.Vector3Extensions.Lerp(NFive.SDK.Core.Models.Vector3,NFive.SDK.Core.Models.Vector3,System.Single)
+  name: Lerp(Vector3, Vector3, Single)
+  href: core/NFive.SDK.Core.Extensions.Vector3Extensions.html#NFive_SDK_Core_Extensions_Vector3Extensions_Lerp_NFive_SDK_Core_Models_Vector3_NFive_SDK_Core_Models_Vector3_System_Single_
+  commentId: M:NFive.SDK.Core.Extensions.Vector3Extensions.Lerp(NFive.SDK.Core.Models.Vector3,NFive.SDK.Core.Models.Vector3,System.Single)
+  fullName: NFive.SDK.Core.Extensions.Vector3Extensions.Lerp(NFive.SDK.Core.Models.Vector3, NFive.SDK.Core.Models.Vector3, System.Single)
+  nameWithType: Vector3Extensions.Lerp(Vector3, Vector3, Single)
+- uid: NFive.SDK.Core.Extensions.Vector3Extensions.Lerp*
+  name: Lerp
+  href: core/NFive.SDK.Core.Extensions.Vector3Extensions.html#NFive_SDK_Core_Extensions_Vector3Extensions_Lerp_
+  commentId: Overload:NFive.SDK.Core.Extensions.Vector3Extensions.Lerp
+  isSpec: "True"
+  fullName: NFive.SDK.Core.Extensions.Vector3Extensions.Lerp
+  nameWithType: Vector3Extensions.Lerp
+- uid: NFive.SDK.Core.Extensions.Vector3Extensions.TranslateDir(NFive.SDK.Core.Models.Vector3,System.Single,System.Single)
+  name: TranslateDir(Vector3, Single, Single)
+  href: core/NFive.SDK.Core.Extensions.Vector3Extensions.html#NFive_SDK_Core_Extensions_Vector3Extensions_TranslateDir_NFive_SDK_Core_Models_Vector3_System_Single_System_Single_
+  commentId: M:NFive.SDK.Core.Extensions.Vector3Extensions.TranslateDir(NFive.SDK.Core.Models.Vector3,System.Single,System.Single)
+  fullName: NFive.SDK.Core.Extensions.Vector3Extensions.TranslateDir(NFive.SDK.Core.Models.Vector3, System.Single, System.Single)
+  nameWithType: Vector3Extensions.TranslateDir(Vector3, Single, Single)
+- uid: NFive.SDK.Core.Extensions.Vector3Extensions.TranslateDir*
+  name: TranslateDir
+  href: core/NFive.SDK.Core.Extensions.Vector3Extensions.html#NFive_SDK_Core_Extensions_Vector3Extensions_TranslateDir_
+  commentId: Overload:NFive.SDK.Core.Extensions.Vector3Extensions.TranslateDir
+  isSpec: "True"
+  fullName: NFive.SDK.Core.Extensions.Vector3Extensions.TranslateDir
+  nameWithType: Vector3Extensions.TranslateDir
 - uid: NFive.SDK.Core.Helpers
   name: NFive.SDK.Core.Helpers
   href: core/NFive.SDK.Core.Helpers.html
@@ -4060,6 +4176,237 @@ references:
   isSpec: "True"
   fullName: NFive.SDK.Core.Models.Position.Z
   nameWithType: Position.Z
+- uid: NFive.SDK.Core.Models.Vector2
+  name: Vector2
+  href: core/NFive.SDK.Core.Models.Vector2.html
+  commentId: T:NFive.SDK.Core.Models.Vector2
+  fullName: NFive.SDK.Core.Models.Vector2
+  nameWithType: Vector2
+- uid: NFive.SDK.Core.Models.Vector2.#ctor
+  name: Vector2()
+  href: core/NFive.SDK.Core.Models.Vector2.html#NFive_SDK_Core_Models_Vector2__ctor
+  commentId: M:NFive.SDK.Core.Models.Vector2.#ctor
+  fullName: NFive.SDK.Core.Models.Vector2.Vector2()
+  nameWithType: Vector2.Vector2()
+- uid: NFive.SDK.Core.Models.Vector2.#ctor(System.Single,System.Single)
+  name: Vector2(Single, Single)
+  href: core/NFive.SDK.Core.Models.Vector2.html#NFive_SDK_Core_Models_Vector2__ctor_System_Single_System_Single_
+  commentId: M:NFive.SDK.Core.Models.Vector2.#ctor(System.Single,System.Single)
+  fullName: NFive.SDK.Core.Models.Vector2.Vector2(System.Single, System.Single)
+  nameWithType: Vector2.Vector2(Single, Single)
+- uid: NFive.SDK.Core.Models.Vector2.#ctor*
+  name: Vector2
+  href: core/NFive.SDK.Core.Models.Vector2.html#NFive_SDK_Core_Models_Vector2__ctor_
+  commentId: Overload:NFive.SDK.Core.Models.Vector2.#ctor
+  isSpec: "True"
+  fullName: NFive.SDK.Core.Models.Vector2.Vector2
+  nameWithType: Vector2.Vector2
+- uid: NFive.SDK.Core.Models.Vector2.Equals(NFive.SDK.Core.Models.Vector2)
+  name: Equals(Vector2)
+  href: core/NFive.SDK.Core.Models.Vector2.html#NFive_SDK_Core_Models_Vector2_Equals_NFive_SDK_Core_Models_Vector2_
+  commentId: M:NFive.SDK.Core.Models.Vector2.Equals(NFive.SDK.Core.Models.Vector2)
+  fullName: NFive.SDK.Core.Models.Vector2.Equals(NFive.SDK.Core.Models.Vector2)
+  nameWithType: Vector2.Equals(Vector2)
+- uid: NFive.SDK.Core.Models.Vector2.Equals(System.Object)
+  name: Equals(Object)
+  href: core/NFive.SDK.Core.Models.Vector2.html#NFive_SDK_Core_Models_Vector2_Equals_System_Object_
+  commentId: M:NFive.SDK.Core.Models.Vector2.Equals(System.Object)
+  fullName: NFive.SDK.Core.Models.Vector2.Equals(System.Object)
+  nameWithType: Vector2.Equals(Object)
+- uid: NFive.SDK.Core.Models.Vector2.Equals*
+  name: Equals
+  href: core/NFive.SDK.Core.Models.Vector2.html#NFive_SDK_Core_Models_Vector2_Equals_
+  commentId: Overload:NFive.SDK.Core.Models.Vector2.Equals
+  isSpec: "True"
+  fullName: NFive.SDK.Core.Models.Vector2.Equals
+  nameWithType: Vector2.Equals
+- uid: NFive.SDK.Core.Models.Vector2.GetHashCode
+  name: GetHashCode()
+  href: core/NFive.SDK.Core.Models.Vector2.html#NFive_SDK_Core_Models_Vector2_GetHashCode
+  commentId: M:NFive.SDK.Core.Models.Vector2.GetHashCode
+  fullName: NFive.SDK.Core.Models.Vector2.GetHashCode()
+  nameWithType: Vector2.GetHashCode()
+- uid: NFive.SDK.Core.Models.Vector2.GetHashCode*
+  name: GetHashCode
+  href: core/NFive.SDK.Core.Models.Vector2.html#NFive_SDK_Core_Models_Vector2_GetHashCode_
+  commentId: Overload:NFive.SDK.Core.Models.Vector2.GetHashCode
+  isSpec: "True"
+  fullName: NFive.SDK.Core.Models.Vector2.GetHashCode
+  nameWithType: Vector2.GetHashCode
+- uid: NFive.SDK.Core.Models.Vector2.op_Equality(NFive.SDK.Core.Models.Vector2,NFive.SDK.Core.Models.Vector2)
+  name: Equality(Vector2, Vector2)
+  href: core/NFive.SDK.Core.Models.Vector2.html#NFive_SDK_Core_Models_Vector2_op_Equality_NFive_SDK_Core_Models_Vector2_NFive_SDK_Core_Models_Vector2_
+  commentId: M:NFive.SDK.Core.Models.Vector2.op_Equality(NFive.SDK.Core.Models.Vector2,NFive.SDK.Core.Models.Vector2)
+  fullName: NFive.SDK.Core.Models.Vector2.Equality(NFive.SDK.Core.Models.Vector2, NFive.SDK.Core.Models.Vector2)
+  nameWithType: Vector2.Equality(Vector2, Vector2)
+- uid: NFive.SDK.Core.Models.Vector2.op_Equality*
+  name: Equality
+  href: core/NFive.SDK.Core.Models.Vector2.html#NFive_SDK_Core_Models_Vector2_op_Equality_
+  commentId: Overload:NFive.SDK.Core.Models.Vector2.op_Equality
+  isSpec: "True"
+  fullName: NFive.SDK.Core.Models.Vector2.Equality
+  nameWithType: Vector2.Equality
+- uid: NFive.SDK.Core.Models.Vector2.op_Inequality(NFive.SDK.Core.Models.Vector2,NFive.SDK.Core.Models.Vector2)
+  name: Inequality(Vector2, Vector2)
+  href: core/NFive.SDK.Core.Models.Vector2.html#NFive_SDK_Core_Models_Vector2_op_Inequality_NFive_SDK_Core_Models_Vector2_NFive_SDK_Core_Models_Vector2_
+  commentId: M:NFive.SDK.Core.Models.Vector2.op_Inequality(NFive.SDK.Core.Models.Vector2,NFive.SDK.Core.Models.Vector2)
+  fullName: NFive.SDK.Core.Models.Vector2.Inequality(NFive.SDK.Core.Models.Vector2, NFive.SDK.Core.Models.Vector2)
+  nameWithType: Vector2.Inequality(Vector2, Vector2)
+- uid: NFive.SDK.Core.Models.Vector2.op_Inequality*
+  name: Inequality
+  href: core/NFive.SDK.Core.Models.Vector2.html#NFive_SDK_Core_Models_Vector2_op_Inequality_
+  commentId: Overload:NFive.SDK.Core.Models.Vector2.op_Inequality
+  isSpec: "True"
+  fullName: NFive.SDK.Core.Models.Vector2.Inequality
+  nameWithType: Vector2.Inequality
+- uid: NFive.SDK.Core.Models.Vector2.ToString
+  name: ToString()
+  href: core/NFive.SDK.Core.Models.Vector2.html#NFive_SDK_Core_Models_Vector2_ToString
+  commentId: M:NFive.SDK.Core.Models.Vector2.ToString
+  fullName: NFive.SDK.Core.Models.Vector2.ToString()
+  nameWithType: Vector2.ToString()
+- uid: NFive.SDK.Core.Models.Vector2.ToString*
+  name: ToString
+  href: core/NFive.SDK.Core.Models.Vector2.html#NFive_SDK_Core_Models_Vector2_ToString_
+  commentId: Overload:NFive.SDK.Core.Models.Vector2.ToString
+  isSpec: "True"
+  fullName: NFive.SDK.Core.Models.Vector2.ToString
+  nameWithType: Vector2.ToString
+- uid: NFive.SDK.Core.Models.Vector2.X
+  name: X
+  href: core/NFive.SDK.Core.Models.Vector2.html#NFive_SDK_Core_Models_Vector2_X
+  commentId: P:NFive.SDK.Core.Models.Vector2.X
+  fullName: NFive.SDK.Core.Models.Vector2.X
+  nameWithType: Vector2.X
+- uid: NFive.SDK.Core.Models.Vector2.X*
+  name: X
+  href: core/NFive.SDK.Core.Models.Vector2.html#NFive_SDK_Core_Models_Vector2_X_
+  commentId: Overload:NFive.SDK.Core.Models.Vector2.X
+  isSpec: "True"
+  fullName: NFive.SDK.Core.Models.Vector2.X
+  nameWithType: Vector2.X
+- uid: NFive.SDK.Core.Models.Vector2.Y
+  name: Y
+  href: core/NFive.SDK.Core.Models.Vector2.html#NFive_SDK_Core_Models_Vector2_Y
+  commentId: P:NFive.SDK.Core.Models.Vector2.Y
+  fullName: NFive.SDK.Core.Models.Vector2.Y
+  nameWithType: Vector2.Y
+- uid: NFive.SDK.Core.Models.Vector2.Y*
+  name: Y
+  href: core/NFive.SDK.Core.Models.Vector2.html#NFive_SDK_Core_Models_Vector2_Y_
+  commentId: Overload:NFive.SDK.Core.Models.Vector2.Y
+  isSpec: "True"
+  fullName: NFive.SDK.Core.Models.Vector2.Y
+  nameWithType: Vector2.Y
+- uid: NFive.SDK.Core.Models.Vector3
+  name: Vector3
+  href: core/NFive.SDK.Core.Models.Vector3.html
+  commentId: T:NFive.SDK.Core.Models.Vector3
+  fullName: NFive.SDK.Core.Models.Vector3
+  nameWithType: Vector3
+- uid: NFive.SDK.Core.Models.Vector3.#ctor
+  name: Vector3()
+  href: core/NFive.SDK.Core.Models.Vector3.html#NFive_SDK_Core_Models_Vector3__ctor
+  commentId: M:NFive.SDK.Core.Models.Vector3.#ctor
+  fullName: NFive.SDK.Core.Models.Vector3.Vector3()
+  nameWithType: Vector3.Vector3()
+- uid: NFive.SDK.Core.Models.Vector3.#ctor(System.Single,System.Single,System.Single)
+  name: Vector3(Single, Single, Single)
+  href: core/NFive.SDK.Core.Models.Vector3.html#NFive_SDK_Core_Models_Vector3__ctor_System_Single_System_Single_System_Single_
+  commentId: M:NFive.SDK.Core.Models.Vector3.#ctor(System.Single,System.Single,System.Single)
+  fullName: NFive.SDK.Core.Models.Vector3.Vector3(System.Single, System.Single, System.Single)
+  nameWithType: Vector3.Vector3(Single, Single, Single)
+- uid: NFive.SDK.Core.Models.Vector3.#ctor*
+  name: Vector3
+  href: core/NFive.SDK.Core.Models.Vector3.html#NFive_SDK_Core_Models_Vector3__ctor_
+  commentId: Overload:NFive.SDK.Core.Models.Vector3.#ctor
+  isSpec: "True"
+  fullName: NFive.SDK.Core.Models.Vector3.Vector3
+  nameWithType: Vector3.Vector3
+- uid: NFive.SDK.Core.Models.Vector3.Equals(NFive.SDK.Core.Models.Vector3)
+  name: Equals(Vector3)
+  href: core/NFive.SDK.Core.Models.Vector3.html#NFive_SDK_Core_Models_Vector3_Equals_NFive_SDK_Core_Models_Vector3_
+  commentId: M:NFive.SDK.Core.Models.Vector3.Equals(NFive.SDK.Core.Models.Vector3)
+  fullName: NFive.SDK.Core.Models.Vector3.Equals(NFive.SDK.Core.Models.Vector3)
+  nameWithType: Vector3.Equals(Vector3)
+- uid: NFive.SDK.Core.Models.Vector3.Equals(System.Object)
+  name: Equals(Object)
+  href: core/NFive.SDK.Core.Models.Vector3.html#NFive_SDK_Core_Models_Vector3_Equals_System_Object_
+  commentId: M:NFive.SDK.Core.Models.Vector3.Equals(System.Object)
+  fullName: NFive.SDK.Core.Models.Vector3.Equals(System.Object)
+  nameWithType: Vector3.Equals(Object)
+- uid: NFive.SDK.Core.Models.Vector3.Equals*
+  name: Equals
+  href: core/NFive.SDK.Core.Models.Vector3.html#NFive_SDK_Core_Models_Vector3_Equals_
+  commentId: Overload:NFive.SDK.Core.Models.Vector3.Equals
+  isSpec: "True"
+  fullName: NFive.SDK.Core.Models.Vector3.Equals
+  nameWithType: Vector3.Equals
+- uid: NFive.SDK.Core.Models.Vector3.GetHashCode
+  name: GetHashCode()
+  href: core/NFive.SDK.Core.Models.Vector3.html#NFive_SDK_Core_Models_Vector3_GetHashCode
+  commentId: M:NFive.SDK.Core.Models.Vector3.GetHashCode
+  fullName: NFive.SDK.Core.Models.Vector3.GetHashCode()
+  nameWithType: Vector3.GetHashCode()
+- uid: NFive.SDK.Core.Models.Vector3.GetHashCode*
+  name: GetHashCode
+  href: core/NFive.SDK.Core.Models.Vector3.html#NFive_SDK_Core_Models_Vector3_GetHashCode_
+  commentId: Overload:NFive.SDK.Core.Models.Vector3.GetHashCode
+  isSpec: "True"
+  fullName: NFive.SDK.Core.Models.Vector3.GetHashCode
+  nameWithType: Vector3.GetHashCode
+- uid: NFive.SDK.Core.Models.Vector3.op_Equality(NFive.SDK.Core.Models.Vector3,NFive.SDK.Core.Models.Vector3)
+  name: Equality(Vector3, Vector3)
+  href: core/NFive.SDK.Core.Models.Vector3.html#NFive_SDK_Core_Models_Vector3_op_Equality_NFive_SDK_Core_Models_Vector3_NFive_SDK_Core_Models_Vector3_
+  commentId: M:NFive.SDK.Core.Models.Vector3.op_Equality(NFive.SDK.Core.Models.Vector3,NFive.SDK.Core.Models.Vector3)
+  fullName: NFive.SDK.Core.Models.Vector3.Equality(NFive.SDK.Core.Models.Vector3, NFive.SDK.Core.Models.Vector3)
+  nameWithType: Vector3.Equality(Vector3, Vector3)
+- uid: NFive.SDK.Core.Models.Vector3.op_Equality*
+  name: Equality
+  href: core/NFive.SDK.Core.Models.Vector3.html#NFive_SDK_Core_Models_Vector3_op_Equality_
+  commentId: Overload:NFive.SDK.Core.Models.Vector3.op_Equality
+  isSpec: "True"
+  fullName: NFive.SDK.Core.Models.Vector3.Equality
+  nameWithType: Vector3.Equality
+- uid: NFive.SDK.Core.Models.Vector3.op_Inequality(NFive.SDK.Core.Models.Vector3,NFive.SDK.Core.Models.Vector3)
+  name: Inequality(Vector3, Vector3)
+  href: core/NFive.SDK.Core.Models.Vector3.html#NFive_SDK_Core_Models_Vector3_op_Inequality_NFive_SDK_Core_Models_Vector3_NFive_SDK_Core_Models_Vector3_
+  commentId: M:NFive.SDK.Core.Models.Vector3.op_Inequality(NFive.SDK.Core.Models.Vector3,NFive.SDK.Core.Models.Vector3)
+  fullName: NFive.SDK.Core.Models.Vector3.Inequality(NFive.SDK.Core.Models.Vector3, NFive.SDK.Core.Models.Vector3)
+  nameWithType: Vector3.Inequality(Vector3, Vector3)
+- uid: NFive.SDK.Core.Models.Vector3.op_Inequality*
+  name: Inequality
+  href: core/NFive.SDK.Core.Models.Vector3.html#NFive_SDK_Core_Models_Vector3_op_Inequality_
+  commentId: Overload:NFive.SDK.Core.Models.Vector3.op_Inequality
+  isSpec: "True"
+  fullName: NFive.SDK.Core.Models.Vector3.Inequality
+  nameWithType: Vector3.Inequality
+- uid: NFive.SDK.Core.Models.Vector3.ToString
+  name: ToString()
+  href: core/NFive.SDK.Core.Models.Vector3.html#NFive_SDK_Core_Models_Vector3_ToString
+  commentId: M:NFive.SDK.Core.Models.Vector3.ToString
+  fullName: NFive.SDK.Core.Models.Vector3.ToString()
+  nameWithType: Vector3.ToString()
+- uid: NFive.SDK.Core.Models.Vector3.ToString*
+  name: ToString
+  href: core/NFive.SDK.Core.Models.Vector3.html#NFive_SDK_Core_Models_Vector3_ToString_
+  commentId: Overload:NFive.SDK.Core.Models.Vector3.ToString
+  isSpec: "True"
+  fullName: NFive.SDK.Core.Models.Vector3.ToString
+  nameWithType: Vector3.ToString
+- uid: NFive.SDK.Core.Models.Vector3.Z
+  name: Z
+  href: core/NFive.SDK.Core.Models.Vector3.html#NFive_SDK_Core_Models_Vector3_Z
+  commentId: P:NFive.SDK.Core.Models.Vector3.Z
+  fullName: NFive.SDK.Core.Models.Vector3.Z
+  nameWithType: Vector3.Z
+- uid: NFive.SDK.Core.Models.Vector3.Z*
+  name: Z
+  href: core/NFive.SDK.Core.Models.Vector3.html#NFive_SDK_Core_Models_Vector3_Z_
+  commentId: Overload:NFive.SDK.Core.Models.Vector3.Z
+  isSpec: "True"
+  fullName: NFive.SDK.Core.Models.Vector3.Z
+  nameWithType: Vector3.Z
 - uid: NFive.SDK.Core.PluginAttribute
   name: PluginAttribute
   href: core/NFive.SDK.Core.PluginAttribute.html
@@ -6918,6 +7265,38 @@ references:
   commentId: N:NFive.Server
   fullName: NFive.Server
   nameWithType: NFive.Server
+- uid: NFive.Server.ClientList
+  name: ClientList
+  href: nfive/NFive.Server.ClientList.html
+  commentId: T:NFive.Server.ClientList
+  fullName: NFive.Server.ClientList
+  nameWithType: ClientList
+- uid: NFive.Server.ClientList.#ctor(IRpcHandler)
+  name: ClientList(IRpcHandler)
+  href: nfive/NFive.Server.ClientList.html#NFive_Server_ClientList__ctor_IRpcHandler_
+  commentId: M:NFive.Server.ClientList.#ctor(IRpcHandler)
+  fullName: NFive.Server.ClientList.ClientList(IRpcHandler)
+  nameWithType: ClientList.ClientList(IRpcHandler)
+- uid: NFive.Server.ClientList.#ctor*
+  name: ClientList
+  href: nfive/NFive.Server.ClientList.html#NFive_Server_ClientList__ctor_
+  commentId: Overload:NFive.Server.ClientList.#ctor
+  isSpec: "True"
+  fullName: NFive.Server.ClientList.ClientList
+  nameWithType: ClientList.ClientList
+- uid: NFive.Server.ClientList.Clients
+  name: Clients
+  href: nfive/NFive.Server.ClientList.html#NFive_Server_ClientList_Clients
+  commentId: P:NFive.Server.ClientList.Clients
+  fullName: NFive.Server.ClientList.Clients
+  nameWithType: ClientList.Clients
+- uid: NFive.Server.ClientList.Clients*
+  name: Clients
+  href: nfive/NFive.Server.ClientList.html#NFive_Server_ClientList_Clients_
+  commentId: Overload:NFive.Server.ClientList.Clients
+  isSpec: "True"
+  fullName: NFive.Server.ClientList.Clients
+  nameWithType: ClientList.Clients
 - uid: NFive.Server.Configuration
   name: NFive.Server.Configuration
   href: nfive/NFive.Server.Configuration.html
