@@ -418,6 +418,64 @@ references:
   isSpec: "True"
   fullName: NFive.Client.Events.EventManager.Subscription.Handle
   nameWithType: EventManager.Subscription.Handle
+- uid: NFive.Client.Events.PedSpawnOptions
+  name: PedSpawnOptions
+  href: nfive/NFive.Client.Events.PedSpawnOptions.html
+  commentId: T:NFive.Client.Events.PedSpawnOptions
+  fullName: NFive.Client.Events.PedSpawnOptions
+  nameWithType: PedSpawnOptions
+- uid: NFive.Client.Events.PedSpawnOptions.#ctor(System.Single,System.Single,System.Single,System.UInt32,System.Object)
+  name: PedSpawnOptions(Single, Single, Single, UInt32, Object)
+  href: nfive/NFive.Client.Events.PedSpawnOptions.html#NFive_Client_Events_PedSpawnOptions__ctor_System_Single_System_Single_System_Single_System_UInt32_System_Object_
+  commentId: M:NFive.Client.Events.PedSpawnOptions.#ctor(System.Single,System.Single,System.Single,System.UInt32,System.Object)
+  fullName: NFive.Client.Events.PedSpawnOptions.PedSpawnOptions(System.Single, System.Single, System.Single, System.UInt32, System.Object)
+  nameWithType: PedSpawnOptions.PedSpawnOptions(Single, Single, Single, UInt32, Object)
+- uid: NFive.Client.Events.PedSpawnOptions.#ctor*
+  name: PedSpawnOptions
+  href: nfive/NFive.Client.Events.PedSpawnOptions.html#NFive_Client_Events_PedSpawnOptions__ctor_
+  commentId: Overload:NFive.Client.Events.PedSpawnOptions.#ctor
+  isSpec: "True"
+  fullName: NFive.Client.Events.PedSpawnOptions.PedSpawnOptions
+  nameWithType: PedSpawnOptions.PedSpawnOptions
+- uid: NFive.Client.Events.PedSpawnOptions.Cancel
+  name: Cancel()
+  href: nfive/NFive.Client.Events.PedSpawnOptions.html#NFive_Client_Events_PedSpawnOptions_Cancel
+  commentId: M:NFive.Client.Events.PedSpawnOptions.Cancel
+  fullName: NFive.Client.Events.PedSpawnOptions.Cancel()
+  nameWithType: PedSpawnOptions.Cancel()
+- uid: NFive.Client.Events.PedSpawnOptions.Cancel*
+  name: Cancel
+  href: nfive/NFive.Client.Events.PedSpawnOptions.html#NFive_Client_Events_PedSpawnOptions_Cancel_
+  commentId: Overload:NFive.Client.Events.PedSpawnOptions.Cancel
+  isSpec: "True"
+  fullName: NFive.Client.Events.PedSpawnOptions.Cancel
+  nameWithType: PedSpawnOptions.Cancel
+- uid: NFive.Client.Events.PedSpawnOptions.Model
+  name: Model
+  href: nfive/NFive.Client.Events.PedSpawnOptions.html#NFive_Client_Events_PedSpawnOptions_Model
+  commentId: P:NFive.Client.Events.PedSpawnOptions.Model
+  fullName: NFive.Client.Events.PedSpawnOptions.Model
+  nameWithType: PedSpawnOptions.Model
+- uid: NFive.Client.Events.PedSpawnOptions.Model*
+  name: Model
+  href: nfive/NFive.Client.Events.PedSpawnOptions.html#NFive_Client_Events_PedSpawnOptions_Model_
+  commentId: Overload:NFive.Client.Events.PedSpawnOptions.Model
+  isSpec: "True"
+  fullName: NFive.Client.Events.PedSpawnOptions.Model
+  nameWithType: PedSpawnOptions.Model
+- uid: NFive.Client.Events.PedSpawnOptions.Position
+  name: Position
+  href: nfive/NFive.Client.Events.PedSpawnOptions.html#NFive_Client_Events_PedSpawnOptions_Position
+  commentId: P:NFive.Client.Events.PedSpawnOptions.Position
+  fullName: NFive.Client.Events.PedSpawnOptions.Position
+  nameWithType: PedSpawnOptions.Position
+- uid: NFive.Client.Events.PedSpawnOptions.Position*
+  name: Position
+  href: nfive/NFive.Client.Events.PedSpawnOptions.html#NFive_Client_Events_PedSpawnOptions_Position_
+  commentId: Overload:NFive.Client.Events.PedSpawnOptions.Position
+  isSpec: "True"
+  fullName: NFive.Client.Events.PedSpawnOptions.Position
+  nameWithType: PedSpawnOptions.Position
 - uid: NFive.Client.Events.TickManager
   name: TickManager
   href: nfive/NFive.Client.Events.TickManager.html
@@ -541,6 +599,22 @@ references:
   isSpec: "True"
   fullName: NFive.Client.Rpc.InboundMessage.Event
   nameWithType: InboundMessage.Event
+- uid: NFive.Client.Rpc.InboundMessage.From(System.Byte[])
+  name: From(Byte[])
+  href: nfive/NFive.Client.Rpc.InboundMessage.html#NFive_Client_Rpc_InboundMessage_From_System_Byte___
+  commentId: M:NFive.Client.Rpc.InboundMessage.From(System.Byte[])
+  name.vb: From(Byte())
+  fullName: NFive.Client.Rpc.InboundMessage.From(System.Byte[])
+  fullName.vb: NFive.Client.Rpc.InboundMessage.From(System.Byte())
+  nameWithType: InboundMessage.From(Byte[])
+  nameWithType.vb: InboundMessage.From(Byte())
+- uid: NFive.Client.Rpc.InboundMessage.From*
+  name: From
+  href: nfive/NFive.Client.Rpc.InboundMessage.html#NFive_Client_Rpc_InboundMessage_From_
+  commentId: Overload:NFive.Client.Rpc.InboundMessage.From
+  isSpec: "True"
+  fullName: NFive.Client.Rpc.InboundMessage.From
+  nameWithType: InboundMessage.From
 - uid: NFive.Client.Rpc.InboundMessage.Payloads
   name: Payloads
   href: nfive/NFive.Client.Rpc.InboundMessage.html#NFive_Client_Rpc_InboundMessage_Payloads
@@ -586,6 +660,19 @@ references:
   commentId: T:NFive.Client.Rpc.OutboundMessage
   fullName: NFive.Client.Rpc.OutboundMessage
   nameWithType: OutboundMessage
+- uid: NFive.Client.Rpc.OutboundMessage.Created
+  name: Created
+  href: nfive/NFive.Client.Rpc.OutboundMessage.html#NFive_Client_Rpc_OutboundMessage_Created
+  commentId: P:NFive.Client.Rpc.OutboundMessage.Created
+  fullName: NFive.Client.Rpc.OutboundMessage.Created
+  nameWithType: OutboundMessage.Created
+- uid: NFive.Client.Rpc.OutboundMessage.Created*
+  name: Created
+  href: nfive/NFive.Client.Rpc.OutboundMessage.html#NFive_Client_Rpc_OutboundMessage_Created_
+  commentId: Overload:NFive.Client.Rpc.OutboundMessage.Created
+  isSpec: "True"
+  fullName: NFive.Client.Rpc.OutboundMessage.Created
+  nameWithType: OutboundMessage.Created
 - uid: NFive.Client.Rpc.OutboundMessage.Event
   name: Event
   href: nfive/NFive.Client.Rpc.OutboundMessage.html#NFive_Client_Rpc_OutboundMessage_Event
@@ -599,6 +686,19 @@ references:
   isSpec: "True"
   fullName: NFive.Client.Rpc.OutboundMessage.Event
   nameWithType: OutboundMessage.Event
+- uid: NFive.Client.Rpc.OutboundMessage.Pack
+  name: Pack()
+  href: nfive/NFive.Client.Rpc.OutboundMessage.html#NFive_Client_Rpc_OutboundMessage_Pack
+  commentId: M:NFive.Client.Rpc.OutboundMessage.Pack
+  fullName: NFive.Client.Rpc.OutboundMessage.Pack()
+  nameWithType: OutboundMessage.Pack()
+- uid: NFive.Client.Rpc.OutboundMessage.Pack*
+  name: Pack
+  href: nfive/NFive.Client.Rpc.OutboundMessage.html#NFive_Client_Rpc_OutboundMessage_Pack_
+  commentId: Overload:NFive.Client.Rpc.OutboundMessage.Pack
+  isSpec: "True"
+  fullName: NFive.Client.Rpc.OutboundMessage.Pack
+  nameWithType: OutboundMessage.Pack
 - uid: NFive.Client.Rpc.OutboundMessage.Payloads
   name: Payloads
   href: nfive/NFive.Client.Rpc.OutboundMessage.html#NFive_Client_Rpc_OutboundMessage_Payloads
@@ -907,18 +1007,95 @@ references:
   isSpec: "True"
   fullName: NFive.Client.Rpc.RpcManager.Event
   nameWithType: RpcManager.Event
+- uid: NFive.Client.Rpc.RpcPacker
+  name: RpcPacker
+  href: nfive/NFive.Client.Rpc.RpcPacker.html
+  commentId: T:NFive.Client.Rpc.RpcPacker
+  fullName: NFive.Client.Rpc.RpcPacker
+  nameWithType: RpcPacker
+- uid: NFive.Client.Rpc.RpcPacker.Deserialize*
+  name: Deserialize
+  href: nfive/NFive.Client.Rpc.RpcPacker.html#NFive_Client_Rpc_RpcPacker_Deserialize_
+  commentId: Overload:NFive.Client.Rpc.RpcPacker.Deserialize
+  isSpec: "True"
+  fullName: NFive.Client.Rpc.RpcPacker.Deserialize
+  nameWithType: RpcPacker.Deserialize
+- uid: NFive.Client.Rpc.RpcPacker.Deserialize``1(System.String)
+  name: Deserialize<T>(String)
+  href: nfive/NFive.Client.Rpc.RpcPacker.html#NFive_Client_Rpc_RpcPacker_Deserialize__1_System_String_
+  commentId: M:NFive.Client.Rpc.RpcPacker.Deserialize``1(System.String)
+  name.vb: Deserialize(Of T)(String)
+  fullName: NFive.Client.Rpc.RpcPacker.Deserialize<T>(System.String)
+  fullName.vb: NFive.Client.Rpc.RpcPacker.Deserialize(Of T)(System.String)
+  nameWithType: RpcPacker.Deserialize<T>(String)
+  nameWithType.vb: RpcPacker.Deserialize(Of T)(String)
+- uid: NFive.Client.Rpc.RpcPacker.Level
+  name: Level
+  href: nfive/NFive.Client.Rpc.RpcPacker.html#NFive_Client_Rpc_RpcPacker_Level
+  commentId: P:NFive.Client.Rpc.RpcPacker.Level
+  fullName: NFive.Client.Rpc.RpcPacker.Level
+  nameWithType: RpcPacker.Level
+- uid: NFive.Client.Rpc.RpcPacker.Level*
+  name: Level
+  href: nfive/NFive.Client.Rpc.RpcPacker.html#NFive_Client_Rpc_RpcPacker_Level_
+  commentId: Overload:NFive.Client.Rpc.RpcPacker.Level
+  isSpec: "True"
+  fullName: NFive.Client.Rpc.RpcPacker.Level
+  nameWithType: RpcPacker.Level
+- uid: NFive.Client.Rpc.RpcPacker.Pack(NFive.Client.Rpc.OutboundMessage)
+  name: Pack(OutboundMessage)
+  href: nfive/NFive.Client.Rpc.RpcPacker.html#NFive_Client_Rpc_RpcPacker_Pack_NFive_Client_Rpc_OutboundMessage_
+  commentId: M:NFive.Client.Rpc.RpcPacker.Pack(NFive.Client.Rpc.OutboundMessage)
+  fullName: NFive.Client.Rpc.RpcPacker.Pack(NFive.Client.Rpc.OutboundMessage)
+  nameWithType: RpcPacker.Pack(OutboundMessage)
+- uid: NFive.Client.Rpc.RpcPacker.Pack*
+  name: Pack
+  href: nfive/NFive.Client.Rpc.RpcPacker.html#NFive_Client_Rpc_RpcPacker_Pack_
+  commentId: Overload:NFive.Client.Rpc.RpcPacker.Pack
+  isSpec: "True"
+  fullName: NFive.Client.Rpc.RpcPacker.Pack
+  nameWithType: RpcPacker.Pack
+- uid: NFive.Client.Rpc.RpcPacker.Serialize(System.Object)
+  name: Serialize(Object)
+  href: nfive/NFive.Client.Rpc.RpcPacker.html#NFive_Client_Rpc_RpcPacker_Serialize_System_Object_
+  commentId: M:NFive.Client.Rpc.RpcPacker.Serialize(System.Object)
+  fullName: NFive.Client.Rpc.RpcPacker.Serialize(System.Object)
+  nameWithType: RpcPacker.Serialize(Object)
+- uid: NFive.Client.Rpc.RpcPacker.Serialize*
+  name: Serialize
+  href: nfive/NFive.Client.Rpc.RpcPacker.html#NFive_Client_Rpc_RpcPacker_Serialize_
+  commentId: Overload:NFive.Client.Rpc.RpcPacker.Serialize
+  isSpec: "True"
+  fullName: NFive.Client.Rpc.RpcPacker.Serialize
+  nameWithType: RpcPacker.Serialize
+- uid: NFive.Client.Rpc.RpcPacker.Unpack(System.Byte[])
+  name: Unpack(Byte[])
+  href: nfive/NFive.Client.Rpc.RpcPacker.html#NFive_Client_Rpc_RpcPacker_Unpack_System_Byte___
+  commentId: M:NFive.Client.Rpc.RpcPacker.Unpack(System.Byte[])
+  name.vb: Unpack(Byte())
+  fullName: NFive.Client.Rpc.RpcPacker.Unpack(System.Byte[])
+  fullName.vb: NFive.Client.Rpc.RpcPacker.Unpack(System.Byte())
+  nameWithType: RpcPacker.Unpack(Byte[])
+  nameWithType.vb: RpcPacker.Unpack(Byte())
+- uid: NFive.Client.Rpc.RpcPacker.Unpack*
+  name: Unpack
+  href: nfive/NFive.Client.Rpc.RpcPacker.html#NFive_Client_Rpc_RpcPacker_Unpack_
+  commentId: Overload:NFive.Client.Rpc.RpcPacker.Unpack
+  isSpec: "True"
+  fullName: NFive.Client.Rpc.RpcPacker.Unpack
+  nameWithType: RpcPacker.Unpack
 - uid: NFive.Client.Rpc.RpcTrigger
   name: RpcTrigger
   href: nfive/NFive.Client.Rpc.RpcTrigger.html
   commentId: T:NFive.Client.Rpc.RpcTrigger
   fullName: NFive.Client.Rpc.RpcTrigger
   nameWithType: RpcTrigger
-- uid: NFive.Client.Rpc.RpcTrigger.#ctor(NFive.Client.Diagnostics.Logger,Serializer)
-  name: RpcTrigger(Logger, Serializer)
-  href: nfive/NFive.Client.Rpc.RpcTrigger.html#NFive_Client_Rpc_RpcTrigger__ctor_NFive_Client_Diagnostics_Logger_Serializer_
-  commentId: M:NFive.Client.Rpc.RpcTrigger.#ctor(NFive.Client.Diagnostics.Logger,Serializer)
-  fullName: NFive.Client.Rpc.RpcTrigger.RpcTrigger(NFive.Client.Diagnostics.Logger, Serializer)
-  nameWithType: RpcTrigger.RpcTrigger(Logger, Serializer)
+- uid: NFive.Client.Rpc.RpcTrigger.#ctor(NFive.Client.Diagnostics.Logger)
+  name: RpcTrigger(Logger)
+  href: nfive/NFive.Client.Rpc.RpcTrigger.html#NFive_Client_Rpc_RpcTrigger__ctor_NFive_Client_Diagnostics_Logger_
+  commentId: M:NFive.Client.Rpc.RpcTrigger.#ctor(NFive.Client.Diagnostics.Logger)
+  fullName: NFive.Client.Rpc.RpcTrigger.RpcTrigger(NFive.Client.Diagnostics.Logger)
+  nameWithType: RpcTrigger.RpcTrigger(Logger)
 - uid: NFive.Client.Rpc.RpcTrigger.#ctor*
   name: RpcTrigger
   href: nfive/NFive.Client.Rpc.RpcTrigger.html#NFive_Client_Rpc_RpcTrigger__ctor_
@@ -1073,19 +1250,32 @@ references:
   commentId: T:NFive.SDK.Client.Configuration.ClientConfiguration
   fullName: NFive.SDK.Client.Configuration.ClientConfiguration
   nameWithType: ClientConfiguration
-- uid: NFive.SDK.Client.Configuration.ClientConfiguration.LogLevel
-  name: LogLevel
-  href: client/NFive.SDK.Client.Configuration.ClientConfiguration.html#NFive_SDK_Client_Configuration_ClientConfiguration_LogLevel
-  commentId: P:NFive.SDK.Client.Configuration.ClientConfiguration.LogLevel
-  fullName: NFive.SDK.Client.Configuration.ClientConfiguration.LogLevel
-  nameWithType: ClientConfiguration.LogLevel
-- uid: NFive.SDK.Client.Configuration.ClientConfiguration.LogLevel*
-  name: LogLevel
-  href: client/NFive.SDK.Client.Configuration.ClientConfiguration.html#NFive_SDK_Client_Configuration_ClientConfiguration_LogLevel_
-  commentId: Overload:NFive.SDK.Client.Configuration.ClientConfiguration.LogLevel
+- uid: NFive.SDK.Client.Configuration.ClientConfiguration.ConsoleLogLevel
+  name: ConsoleLogLevel
+  href: client/NFive.SDK.Client.Configuration.ClientConfiguration.html#NFive_SDK_Client_Configuration_ClientConfiguration_ConsoleLogLevel
+  commentId: P:NFive.SDK.Client.Configuration.ClientConfiguration.ConsoleLogLevel
+  fullName: NFive.SDK.Client.Configuration.ClientConfiguration.ConsoleLogLevel
+  nameWithType: ClientConfiguration.ConsoleLogLevel
+- uid: NFive.SDK.Client.Configuration.ClientConfiguration.ConsoleLogLevel*
+  name: ConsoleLogLevel
+  href: client/NFive.SDK.Client.Configuration.ClientConfiguration.html#NFive_SDK_Client_Configuration_ClientConfiguration_ConsoleLogLevel_
+  commentId: Overload:NFive.SDK.Client.Configuration.ClientConfiguration.ConsoleLogLevel
   isSpec: "True"
-  fullName: NFive.SDK.Client.Configuration.ClientConfiguration.LogLevel
-  nameWithType: ClientConfiguration.LogLevel
+  fullName: NFive.SDK.Client.Configuration.ClientConfiguration.ConsoleLogLevel
+  nameWithType: ClientConfiguration.ConsoleLogLevel
+- uid: NFive.SDK.Client.Configuration.ClientConfiguration.MirrorLogLevel
+  name: MirrorLogLevel
+  href: client/NFive.SDK.Client.Configuration.ClientConfiguration.html#NFive_SDK_Client_Configuration_ClientConfiguration_MirrorLogLevel
+  commentId: P:NFive.SDK.Client.Configuration.ClientConfiguration.MirrorLogLevel
+  fullName: NFive.SDK.Client.Configuration.ClientConfiguration.MirrorLogLevel
+  nameWithType: ClientConfiguration.MirrorLogLevel
+- uid: NFive.SDK.Client.Configuration.ClientConfiguration.MirrorLogLevel*
+  name: MirrorLogLevel
+  href: client/NFive.SDK.Client.Configuration.ClientConfiguration.html#NFive_SDK_Client_Configuration_ClientConfiguration_MirrorLogLevel_
+  commentId: Overload:NFive.SDK.Client.Configuration.ClientConfiguration.MirrorLogLevel
+  isSpec: "True"
+  fullName: NFive.SDK.Client.Configuration.ClientConfiguration.MirrorLogLevel
+  nameWithType: ClientConfiguration.MirrorLogLevel
 - uid: NFive.SDK.Client.Events
   name: NFive.SDK.Client.Events
   href: client/NFive.SDK.Client.Events.html
@@ -2238,144 +2428,147 @@ references:
   commentId: T:NFive.SDK.Client.Rpc.IRpc
   fullName: NFive.SDK.Client.Rpc.IRpc
   nameWithType: IRpc
-- uid: NFive.SDK.Client.Rpc.IRpc.On(System.Action{NFive.SDK.Client.Rpc.IRpcEvent})
+- uid: NFive.SDK.Client.Rpc.IRpcAttach
+  name: IRpcAttach
+  href: client/NFive.SDK.Client.Rpc.IRpcAttach.html
+  commentId: T:NFive.SDK.Client.Rpc.IRpcAttach
+  fullName: NFive.SDK.Client.Rpc.IRpcAttach
+  nameWithType: IRpcAttach
+- uid: NFive.SDK.Client.Rpc.IRpcAttach.On(System.Action{NFive.SDK.Client.Rpc.IRpcEvent})
   name: On(Action<IRpcEvent>)
-  href: client/NFive.SDK.Client.Rpc.IRpc.html#NFive_SDK_Client_Rpc_IRpc_On_System_Action_NFive_SDK_Client_Rpc_IRpcEvent__
-  commentId: M:NFive.SDK.Client.Rpc.IRpc.On(System.Action{NFive.SDK.Client.Rpc.IRpcEvent})
+  href: client/NFive.SDK.Client.Rpc.IRpcAttach.html#NFive_SDK_Client_Rpc_IRpcAttach_On_System_Action_NFive_SDK_Client_Rpc_IRpcEvent__
+  commentId: M:NFive.SDK.Client.Rpc.IRpcAttach.On(System.Action{NFive.SDK.Client.Rpc.IRpcEvent})
   name.vb: On(Action(Of IRpcEvent))
-  fullName: NFive.SDK.Client.Rpc.IRpc.On(System.Action<NFive.SDK.Client.Rpc.IRpcEvent>)
-  fullName.vb: NFive.SDK.Client.Rpc.IRpc.On(System.Action(Of NFive.SDK.Client.Rpc.IRpcEvent))
-  nameWithType: IRpc.On(Action<IRpcEvent>)
-  nameWithType.vb: IRpc.On(Action(Of IRpcEvent))
-- uid: NFive.SDK.Client.Rpc.IRpc.On*
+  fullName: NFive.SDK.Client.Rpc.IRpcAttach.On(System.Action<NFive.SDK.Client.Rpc.IRpcEvent>)
+  fullName.vb: NFive.SDK.Client.Rpc.IRpcAttach.On(System.Action(Of NFive.SDK.Client.Rpc.IRpcEvent))
+  nameWithType: IRpcAttach.On(Action<IRpcEvent>)
+  nameWithType.vb: IRpcAttach.On(Action(Of IRpcEvent))
+- uid: NFive.SDK.Client.Rpc.IRpcAttach.On*
   name: On
-  href: client/NFive.SDK.Client.Rpc.IRpc.html#NFive_SDK_Client_Rpc_IRpc_On_
-  commentId: Overload:NFive.SDK.Client.Rpc.IRpc.On
+  href: client/NFive.SDK.Client.Rpc.IRpcAttach.html#NFive_SDK_Client_Rpc_IRpcAttach_On_
+  commentId: Overload:NFive.SDK.Client.Rpc.IRpcAttach.On
   isSpec: "True"
-  fullName: NFive.SDK.Client.Rpc.IRpc.On
-  nameWithType: IRpc.On
-- uid: NFive.SDK.Client.Rpc.IRpc.On``1(System.Action{NFive.SDK.Client.Rpc.IRpcEvent,``0})
+  fullName: NFive.SDK.Client.Rpc.IRpcAttach.On
+  nameWithType: IRpcAttach.On
+- uid: NFive.SDK.Client.Rpc.IRpcAttach.On``1(System.Action{NFive.SDK.Client.Rpc.IRpcEvent,``0})
   name: On<T>(Action<IRpcEvent, T>)
-  href: client/NFive.SDK.Client.Rpc.IRpc.html#NFive_SDK_Client_Rpc_IRpc_On__1_System_Action_NFive_SDK_Client_Rpc_IRpcEvent___0__
-  commentId: M:NFive.SDK.Client.Rpc.IRpc.On``1(System.Action{NFive.SDK.Client.Rpc.IRpcEvent,``0})
+  href: client/NFive.SDK.Client.Rpc.IRpcAttach.html#NFive_SDK_Client_Rpc_IRpcAttach_On__1_System_Action_NFive_SDK_Client_Rpc_IRpcEvent___0__
+  commentId: M:NFive.SDK.Client.Rpc.IRpcAttach.On``1(System.Action{NFive.SDK.Client.Rpc.IRpcEvent,``0})
   name.vb: On(Of T)(Action(Of IRpcEvent, T))
-  fullName: NFive.SDK.Client.Rpc.IRpc.On<T>(System.Action<NFive.SDK.Client.Rpc.IRpcEvent, T>)
-  fullName.vb: NFive.SDK.Client.Rpc.IRpc.On(Of T)(System.Action(Of NFive.SDK.Client.Rpc.IRpcEvent, T))
-  nameWithType: IRpc.On<T>(Action<IRpcEvent, T>)
-  nameWithType.vb: IRpc.On(Of T)(Action(Of IRpcEvent, T))
-- uid: NFive.SDK.Client.Rpc.IRpc.On``2(System.Action{NFive.SDK.Client.Rpc.IRpcEvent,``0,``1})
+  fullName: NFive.SDK.Client.Rpc.IRpcAttach.On<T>(System.Action<NFive.SDK.Client.Rpc.IRpcEvent, T>)
+  fullName.vb: NFive.SDK.Client.Rpc.IRpcAttach.On(Of T)(System.Action(Of NFive.SDK.Client.Rpc.IRpcEvent, T))
+  nameWithType: IRpcAttach.On<T>(Action<IRpcEvent, T>)
+  nameWithType.vb: IRpcAttach.On(Of T)(Action(Of IRpcEvent, T))
+- uid: NFive.SDK.Client.Rpc.IRpcAttach.On``2(System.Action{NFive.SDK.Client.Rpc.IRpcEvent,``0,``1})
   name: On<T1, T2>(Action<IRpcEvent, T1, T2>)
-  href: client/NFive.SDK.Client.Rpc.IRpc.html#NFive_SDK_Client_Rpc_IRpc_On__2_System_Action_NFive_SDK_Client_Rpc_IRpcEvent___0___1__
-  commentId: M:NFive.SDK.Client.Rpc.IRpc.On``2(System.Action{NFive.SDK.Client.Rpc.IRpcEvent,``0,``1})
+  href: client/NFive.SDK.Client.Rpc.IRpcAttach.html#NFive_SDK_Client_Rpc_IRpcAttach_On__2_System_Action_NFive_SDK_Client_Rpc_IRpcEvent___0___1__
+  commentId: M:NFive.SDK.Client.Rpc.IRpcAttach.On``2(System.Action{NFive.SDK.Client.Rpc.IRpcEvent,``0,``1})
   name.vb: On(Of T1, T2)(Action(Of IRpcEvent, T1, T2))
-  fullName: NFive.SDK.Client.Rpc.IRpc.On<T1, T2>(System.Action<NFive.SDK.Client.Rpc.IRpcEvent, T1, T2>)
-  fullName.vb: NFive.SDK.Client.Rpc.IRpc.On(Of T1, T2)(System.Action(Of NFive.SDK.Client.Rpc.IRpcEvent, T1, T2))
-  nameWithType: IRpc.On<T1, T2>(Action<IRpcEvent, T1, T2>)
-  nameWithType.vb: IRpc.On(Of T1, T2)(Action(Of IRpcEvent, T1, T2))
-- uid: NFive.SDK.Client.Rpc.IRpc.On``3(System.Action{NFive.SDK.Client.Rpc.IRpcEvent,``0,``1,``2})
+  fullName: NFive.SDK.Client.Rpc.IRpcAttach.On<T1, T2>(System.Action<NFive.SDK.Client.Rpc.IRpcEvent, T1, T2>)
+  fullName.vb: NFive.SDK.Client.Rpc.IRpcAttach.On(Of T1, T2)(System.Action(Of NFive.SDK.Client.Rpc.IRpcEvent, T1, T2))
+  nameWithType: IRpcAttach.On<T1, T2>(Action<IRpcEvent, T1, T2>)
+  nameWithType.vb: IRpcAttach.On(Of T1, T2)(Action(Of IRpcEvent, T1, T2))
+- uid: NFive.SDK.Client.Rpc.IRpcAttach.On``3(System.Action{NFive.SDK.Client.Rpc.IRpcEvent,``0,``1,``2})
   name: On<T1, T2, T3>(Action<IRpcEvent, T1, T2, T3>)
-  href: client/NFive.SDK.Client.Rpc.IRpc.html#NFive_SDK_Client_Rpc_IRpc_On__3_System_Action_NFive_SDK_Client_Rpc_IRpcEvent___0___1___2__
-  commentId: M:NFive.SDK.Client.Rpc.IRpc.On``3(System.Action{NFive.SDK.Client.Rpc.IRpcEvent,``0,``1,``2})
+  href: client/NFive.SDK.Client.Rpc.IRpcAttach.html#NFive_SDK_Client_Rpc_IRpcAttach_On__3_System_Action_NFive_SDK_Client_Rpc_IRpcEvent___0___1___2__
+  commentId: M:NFive.SDK.Client.Rpc.IRpcAttach.On``3(System.Action{NFive.SDK.Client.Rpc.IRpcEvent,``0,``1,``2})
   name.vb: On(Of T1, T2, T3)(Action(Of IRpcEvent, T1, T2, T3))
-  fullName: NFive.SDK.Client.Rpc.IRpc.On<T1, T2, T3>(System.Action<NFive.SDK.Client.Rpc.IRpcEvent, T1, T2, T3>)
-  fullName.vb: NFive.SDK.Client.Rpc.IRpc.On(Of T1, T2, T3)(System.Action(Of NFive.SDK.Client.Rpc.IRpcEvent, T1, T2, T3))
-  nameWithType: IRpc.On<T1, T2, T3>(Action<IRpcEvent, T1, T2, T3>)
-  nameWithType.vb: IRpc.On(Of T1, T2, T3)(Action(Of IRpcEvent, T1, T2, T3))
-- uid: NFive.SDK.Client.Rpc.IRpc.On``4(System.Action{NFive.SDK.Client.Rpc.IRpcEvent,``0,``1,``2,``3})
+  fullName: NFive.SDK.Client.Rpc.IRpcAttach.On<T1, T2, T3>(System.Action<NFive.SDK.Client.Rpc.IRpcEvent, T1, T2, T3>)
+  fullName.vb: NFive.SDK.Client.Rpc.IRpcAttach.On(Of T1, T2, T3)(System.Action(Of NFive.SDK.Client.Rpc.IRpcEvent, T1, T2, T3))
+  nameWithType: IRpcAttach.On<T1, T2, T3>(Action<IRpcEvent, T1, T2, T3>)
+  nameWithType.vb: IRpcAttach.On(Of T1, T2, T3)(Action(Of IRpcEvent, T1, T2, T3))
+- uid: NFive.SDK.Client.Rpc.IRpcAttach.On``4(System.Action{NFive.SDK.Client.Rpc.IRpcEvent,``0,``1,``2,``3})
   name: On<T1, T2, T3, T4>(Action<IRpcEvent, T1, T2, T3, T4>)
-  href: client/NFive.SDK.Client.Rpc.IRpc.html#NFive_SDK_Client_Rpc_IRpc_On__4_System_Action_NFive_SDK_Client_Rpc_IRpcEvent___0___1___2___3__
-  commentId: M:NFive.SDK.Client.Rpc.IRpc.On``4(System.Action{NFive.SDK.Client.Rpc.IRpcEvent,``0,``1,``2,``3})
+  href: client/NFive.SDK.Client.Rpc.IRpcAttach.html#NFive_SDK_Client_Rpc_IRpcAttach_On__4_System_Action_NFive_SDK_Client_Rpc_IRpcEvent___0___1___2___3__
+  commentId: M:NFive.SDK.Client.Rpc.IRpcAttach.On``4(System.Action{NFive.SDK.Client.Rpc.IRpcEvent,``0,``1,``2,``3})
   name.vb: On(Of T1, T2, T3, T4)(Action(Of IRpcEvent, T1, T2, T3, T4))
-  fullName: NFive.SDK.Client.Rpc.IRpc.On<T1, T2, T3, T4>(System.Action<NFive.SDK.Client.Rpc.IRpcEvent, T1, T2, T3, T4>)
-  fullName.vb: NFive.SDK.Client.Rpc.IRpc.On(Of T1, T2, T3, T4)(System.Action(Of NFive.SDK.Client.Rpc.IRpcEvent, T1, T2, T3, T4))
-  nameWithType: IRpc.On<T1, T2, T3, T4>(Action<IRpcEvent, T1, T2, T3, T4>)
-  nameWithType.vb: IRpc.On(Of T1, T2, T3, T4)(Action(Of IRpcEvent, T1, T2, T3, T4))
-- uid: NFive.SDK.Client.Rpc.IRpc.On``5(System.Action{NFive.SDK.Client.Rpc.IRpcEvent,``0,``1,``2,``3,``4})
+  fullName: NFive.SDK.Client.Rpc.IRpcAttach.On<T1, T2, T3, T4>(System.Action<NFive.SDK.Client.Rpc.IRpcEvent, T1, T2, T3, T4>)
+  fullName.vb: NFive.SDK.Client.Rpc.IRpcAttach.On(Of T1, T2, T3, T4)(System.Action(Of NFive.SDK.Client.Rpc.IRpcEvent, T1, T2, T3, T4))
+  nameWithType: IRpcAttach.On<T1, T2, T3, T4>(Action<IRpcEvent, T1, T2, T3, T4>)
+  nameWithType.vb: IRpcAttach.On(Of T1, T2, T3, T4)(Action(Of IRpcEvent, T1, T2, T3, T4))
+- uid: NFive.SDK.Client.Rpc.IRpcAttach.On``5(System.Action{NFive.SDK.Client.Rpc.IRpcEvent,``0,``1,``2,``3,``4})
   name: On<T1, T2, T3, T4, T5>(Action<IRpcEvent, T1, T2, T3, T4, T5>)
-  href: client/NFive.SDK.Client.Rpc.IRpc.html#NFive_SDK_Client_Rpc_IRpc_On__5_System_Action_NFive_SDK_Client_Rpc_IRpcEvent___0___1___2___3___4__
-  commentId: M:NFive.SDK.Client.Rpc.IRpc.On``5(System.Action{NFive.SDK.Client.Rpc.IRpcEvent,``0,``1,``2,``3,``4})
+  href: client/NFive.SDK.Client.Rpc.IRpcAttach.html#NFive_SDK_Client_Rpc_IRpcAttach_On__5_System_Action_NFive_SDK_Client_Rpc_IRpcEvent___0___1___2___3___4__
+  commentId: M:NFive.SDK.Client.Rpc.IRpcAttach.On``5(System.Action{NFive.SDK.Client.Rpc.IRpcEvent,``0,``1,``2,``3,``4})
   name.vb: On(Of T1, T2, T3, T4, T5)(Action(Of IRpcEvent, T1, T2, T3, T4, T5))
-  fullName: NFive.SDK.Client.Rpc.IRpc.On<T1, T2, T3, T4, T5>(System.Action<NFive.SDK.Client.Rpc.IRpcEvent, T1, T2, T3, T4, T5>)
-  fullName.vb: NFive.SDK.Client.Rpc.IRpc.On(Of T1, T2, T3, T4, T5)(System.Action(Of NFive.SDK.Client.Rpc.IRpcEvent, T1, T2, T3, T4, T5))
-  nameWithType: IRpc.On<T1, T2, T3, T4, T5>(Action<IRpcEvent, T1, T2, T3, T4, T5>)
-  nameWithType.vb: IRpc.On(Of T1, T2, T3, T4, T5)(Action(Of IRpcEvent, T1, T2, T3, T4, T5))
-- uid: NFive.SDK.Client.Rpc.IRpc.Request(System.Object[])
+  fullName: NFive.SDK.Client.Rpc.IRpcAttach.On<T1, T2, T3, T4, T5>(System.Action<NFive.SDK.Client.Rpc.IRpcEvent, T1, T2, T3, T4, T5>)
+  fullName.vb: NFive.SDK.Client.Rpc.IRpcAttach.On(Of T1, T2, T3, T4, T5)(System.Action(Of NFive.SDK.Client.Rpc.IRpcEvent, T1, T2, T3, T4, T5))
+  nameWithType: IRpcAttach.On<T1, T2, T3, T4, T5>(Action<IRpcEvent, T1, T2, T3, T4, T5>)
+  nameWithType.vb: IRpcAttach.On(Of T1, T2, T3, T4, T5)(Action(Of IRpcEvent, T1, T2, T3, T4, T5))
+- uid: NFive.SDK.Client.Rpc.IRpcAttach.OnRaw(System.Delegate)
+  name: OnRaw(Delegate)
+  href: client/NFive.SDK.Client.Rpc.IRpcAttach.html#NFive_SDK_Client_Rpc_IRpcAttach_OnRaw_System_Delegate_
+  commentId: M:NFive.SDK.Client.Rpc.IRpcAttach.OnRaw(System.Delegate)
+  fullName: NFive.SDK.Client.Rpc.IRpcAttach.OnRaw(System.Delegate)
+  nameWithType: IRpcAttach.OnRaw(Delegate)
+- uid: NFive.SDK.Client.Rpc.IRpcAttach.OnRaw*
+  name: OnRaw
+  href: client/NFive.SDK.Client.Rpc.IRpcAttach.html#NFive_SDK_Client_Rpc_IRpcAttach_OnRaw_
+  commentId: Overload:NFive.SDK.Client.Rpc.IRpcAttach.OnRaw
+  isSpec: "True"
+  fullName: NFive.SDK.Client.Rpc.IRpcAttach.OnRaw
+  nameWithType: IRpcAttach.OnRaw
+- uid: NFive.SDK.Client.Rpc.IRpcAttach.Request(System.Object[])
   name: Request(Object[])
-  href: client/NFive.SDK.Client.Rpc.IRpc.html#NFive_SDK_Client_Rpc_IRpc_Request_System_Object___
-  commentId: M:NFive.SDK.Client.Rpc.IRpc.Request(System.Object[])
+  href: client/NFive.SDK.Client.Rpc.IRpcAttach.html#NFive_SDK_Client_Rpc_IRpcAttach_Request_System_Object___
+  commentId: M:NFive.SDK.Client.Rpc.IRpcAttach.Request(System.Object[])
   name.vb: Request(Object())
-  fullName: NFive.SDK.Client.Rpc.IRpc.Request(System.Object[])
-  fullName.vb: NFive.SDK.Client.Rpc.IRpc.Request(System.Object())
-  nameWithType: IRpc.Request(Object[])
-  nameWithType.vb: IRpc.Request(Object())
-- uid: NFive.SDK.Client.Rpc.IRpc.Request*
+  fullName: NFive.SDK.Client.Rpc.IRpcAttach.Request(System.Object[])
+  fullName.vb: NFive.SDK.Client.Rpc.IRpcAttach.Request(System.Object())
+  nameWithType: IRpcAttach.Request(Object[])
+  nameWithType.vb: IRpcAttach.Request(Object())
+- uid: NFive.SDK.Client.Rpc.IRpcAttach.Request*
   name: Request
-  href: client/NFive.SDK.Client.Rpc.IRpc.html#NFive_SDK_Client_Rpc_IRpc_Request_
-  commentId: Overload:NFive.SDK.Client.Rpc.IRpc.Request
+  href: client/NFive.SDK.Client.Rpc.IRpcAttach.html#NFive_SDK_Client_Rpc_IRpcAttach_Request_
+  commentId: Overload:NFive.SDK.Client.Rpc.IRpcAttach.Request
   isSpec: "True"
-  fullName: NFive.SDK.Client.Rpc.IRpc.Request
-  nameWithType: IRpc.Request
-- uid: NFive.SDK.Client.Rpc.IRpc.Request``1(System.Object[])
+  fullName: NFive.SDK.Client.Rpc.IRpcAttach.Request
+  nameWithType: IRpcAttach.Request
+- uid: NFive.SDK.Client.Rpc.IRpcAttach.Request``1(System.Object[])
   name: Request<T>(Object[])
-  href: client/NFive.SDK.Client.Rpc.IRpc.html#NFive_SDK_Client_Rpc_IRpc_Request__1_System_Object___
-  commentId: M:NFive.SDK.Client.Rpc.IRpc.Request``1(System.Object[])
+  href: client/NFive.SDK.Client.Rpc.IRpcAttach.html#NFive_SDK_Client_Rpc_IRpcAttach_Request__1_System_Object___
+  commentId: M:NFive.SDK.Client.Rpc.IRpcAttach.Request``1(System.Object[])
   name.vb: Request(Of T)(Object())
-  fullName: NFive.SDK.Client.Rpc.IRpc.Request<T>(System.Object[])
-  fullName.vb: NFive.SDK.Client.Rpc.IRpc.Request(Of T)(System.Object())
-  nameWithType: IRpc.Request<T>(Object[])
-  nameWithType.vb: IRpc.Request(Of T)(Object())
-- uid: NFive.SDK.Client.Rpc.IRpc.Request``2(System.Object[])
+  fullName: NFive.SDK.Client.Rpc.IRpcAttach.Request<T>(System.Object[])
+  fullName.vb: NFive.SDK.Client.Rpc.IRpcAttach.Request(Of T)(System.Object())
+  nameWithType: IRpcAttach.Request<T>(Object[])
+  nameWithType.vb: IRpcAttach.Request(Of T)(Object())
+- uid: NFive.SDK.Client.Rpc.IRpcAttach.Request``2(System.Object[])
   name: Request<T1, T2>(Object[])
-  href: client/NFive.SDK.Client.Rpc.IRpc.html#NFive_SDK_Client_Rpc_IRpc_Request__2_System_Object___
-  commentId: M:NFive.SDK.Client.Rpc.IRpc.Request``2(System.Object[])
+  href: client/NFive.SDK.Client.Rpc.IRpcAttach.html#NFive_SDK_Client_Rpc_IRpcAttach_Request__2_System_Object___
+  commentId: M:NFive.SDK.Client.Rpc.IRpcAttach.Request``2(System.Object[])
   name.vb: Request(Of T1, T2)(Object())
-  fullName: NFive.SDK.Client.Rpc.IRpc.Request<T1, T2>(System.Object[])
-  fullName.vb: NFive.SDK.Client.Rpc.IRpc.Request(Of T1, T2)(System.Object())
-  nameWithType: IRpc.Request<T1, T2>(Object[])
-  nameWithType.vb: IRpc.Request(Of T1, T2)(Object())
-- uid: NFive.SDK.Client.Rpc.IRpc.Request``3(System.Object[])
+  fullName: NFive.SDK.Client.Rpc.IRpcAttach.Request<T1, T2>(System.Object[])
+  fullName.vb: NFive.SDK.Client.Rpc.IRpcAttach.Request(Of T1, T2)(System.Object())
+  nameWithType: IRpcAttach.Request<T1, T2>(Object[])
+  nameWithType.vb: IRpcAttach.Request(Of T1, T2)(Object())
+- uid: NFive.SDK.Client.Rpc.IRpcAttach.Request``3(System.Object[])
   name: Request<T1, T2, T3>(Object[])
-  href: client/NFive.SDK.Client.Rpc.IRpc.html#NFive_SDK_Client_Rpc_IRpc_Request__3_System_Object___
-  commentId: M:NFive.SDK.Client.Rpc.IRpc.Request``3(System.Object[])
+  href: client/NFive.SDK.Client.Rpc.IRpcAttach.html#NFive_SDK_Client_Rpc_IRpcAttach_Request__3_System_Object___
+  commentId: M:NFive.SDK.Client.Rpc.IRpcAttach.Request``3(System.Object[])
   name.vb: Request(Of T1, T2, T3)(Object())
-  fullName: NFive.SDK.Client.Rpc.IRpc.Request<T1, T2, T3>(System.Object[])
-  fullName.vb: NFive.SDK.Client.Rpc.IRpc.Request(Of T1, T2, T3)(System.Object())
-  nameWithType: IRpc.Request<T1, T2, T3>(Object[])
-  nameWithType.vb: IRpc.Request(Of T1, T2, T3)(Object())
-- uid: NFive.SDK.Client.Rpc.IRpc.Request``4(System.Object[])
+  fullName: NFive.SDK.Client.Rpc.IRpcAttach.Request<T1, T2, T3>(System.Object[])
+  fullName.vb: NFive.SDK.Client.Rpc.IRpcAttach.Request(Of T1, T2, T3)(System.Object())
+  nameWithType: IRpcAttach.Request<T1, T2, T3>(Object[])
+  nameWithType.vb: IRpcAttach.Request(Of T1, T2, T3)(Object())
+- uid: NFive.SDK.Client.Rpc.IRpcAttach.Request``4(System.Object[])
   name: Request<T1, T2, T3, T4>(Object[])
-  href: client/NFive.SDK.Client.Rpc.IRpc.html#NFive_SDK_Client_Rpc_IRpc_Request__4_System_Object___
-  commentId: M:NFive.SDK.Client.Rpc.IRpc.Request``4(System.Object[])
+  href: client/NFive.SDK.Client.Rpc.IRpcAttach.html#NFive_SDK_Client_Rpc_IRpcAttach_Request__4_System_Object___
+  commentId: M:NFive.SDK.Client.Rpc.IRpcAttach.Request``4(System.Object[])
   name.vb: Request(Of T1, T2, T3, T4)(Object())
-  fullName: NFive.SDK.Client.Rpc.IRpc.Request<T1, T2, T3, T4>(System.Object[])
-  fullName.vb: NFive.SDK.Client.Rpc.IRpc.Request(Of T1, T2, T3, T4)(System.Object())
-  nameWithType: IRpc.Request<T1, T2, T3, T4>(Object[])
-  nameWithType.vb: IRpc.Request(Of T1, T2, T3, T4)(Object())
-- uid: NFive.SDK.Client.Rpc.IRpc.Request``5(System.Object[])
+  fullName: NFive.SDK.Client.Rpc.IRpcAttach.Request<T1, T2, T3, T4>(System.Object[])
+  fullName.vb: NFive.SDK.Client.Rpc.IRpcAttach.Request(Of T1, T2, T3, T4)(System.Object())
+  nameWithType: IRpcAttach.Request<T1, T2, T3, T4>(Object[])
+  nameWithType.vb: IRpcAttach.Request(Of T1, T2, T3, T4)(Object())
+- uid: NFive.SDK.Client.Rpc.IRpcAttach.Request``5(System.Object[])
   name: Request<T1, T2, T3, T4, T5>(Object[])
-  href: client/NFive.SDK.Client.Rpc.IRpc.html#NFive_SDK_Client_Rpc_IRpc_Request__5_System_Object___
-  commentId: M:NFive.SDK.Client.Rpc.IRpc.Request``5(System.Object[])
+  href: client/NFive.SDK.Client.Rpc.IRpcAttach.html#NFive_SDK_Client_Rpc_IRpcAttach_Request__5_System_Object___
+  commentId: M:NFive.SDK.Client.Rpc.IRpcAttach.Request``5(System.Object[])
   name.vb: Request(Of T1, T2, T3, T4, T5)(Object())
-  fullName: NFive.SDK.Client.Rpc.IRpc.Request<T1, T2, T3, T4, T5>(System.Object[])
-  fullName.vb: NFive.SDK.Client.Rpc.IRpc.Request(Of T1, T2, T3, T4, T5)(System.Object())
-  nameWithType: IRpc.Request<T1, T2, T3, T4, T5>(Object[])
-  nameWithType.vb: IRpc.Request(Of T1, T2, T3, T4, T5)(Object())
-- uid: NFive.SDK.Client.Rpc.IRpc.Trigger(System.Object[])
-  name: Trigger(Object[])
-  href: client/NFive.SDK.Client.Rpc.IRpc.html#NFive_SDK_Client_Rpc_IRpc_Trigger_System_Object___
-  commentId: M:NFive.SDK.Client.Rpc.IRpc.Trigger(System.Object[])
-  name.vb: Trigger(Object())
-  fullName: NFive.SDK.Client.Rpc.IRpc.Trigger(System.Object[])
-  fullName.vb: NFive.SDK.Client.Rpc.IRpc.Trigger(System.Object())
-  nameWithType: IRpc.Trigger(Object[])
-  nameWithType.vb: IRpc.Trigger(Object())
-- uid: NFive.SDK.Client.Rpc.IRpc.Trigger*
-  name: Trigger
-  href: client/NFive.SDK.Client.Rpc.IRpc.html#NFive_SDK_Client_Rpc_IRpc_Trigger_
-  commentId: Overload:NFive.SDK.Client.Rpc.IRpc.Trigger
-  isSpec: "True"
-  fullName: NFive.SDK.Client.Rpc.IRpc.Trigger
-  nameWithType: IRpc.Trigger
+  fullName: NFive.SDK.Client.Rpc.IRpcAttach.Request<T1, T2, T3, T4, T5>(System.Object[])
+  fullName.vb: NFive.SDK.Client.Rpc.IRpcAttach.Request(Of T1, T2, T3, T4, T5)(System.Object())
+  nameWithType: IRpcAttach.Request<T1, T2, T3, T4, T5>(Object[])
+  nameWithType.vb: IRpcAttach.Request(Of T1, T2, T3, T4, T5)(Object())
 - uid: NFive.SDK.Client.Rpc.IRpcEvent
   name: IRpcEvent
   href: client/NFive.SDK.Client.Rpc.IRpcEvent.html
@@ -2430,6 +2623,28 @@ references:
   isSpec: "True"
   fullName: NFive.SDK.Client.Rpc.IRpcHandler.Event
   nameWithType: IRpcHandler.Event
+- uid: NFive.SDK.Client.Rpc.IRpcTrigger
+  name: IRpcTrigger
+  href: client/NFive.SDK.Client.Rpc.IRpcTrigger.html
+  commentId: T:NFive.SDK.Client.Rpc.IRpcTrigger
+  fullName: NFive.SDK.Client.Rpc.IRpcTrigger
+  nameWithType: IRpcTrigger
+- uid: NFive.SDK.Client.Rpc.IRpcTrigger.Trigger(System.Object[])
+  name: Trigger(Object[])
+  href: client/NFive.SDK.Client.Rpc.IRpcTrigger.html#NFive_SDK_Client_Rpc_IRpcTrigger_Trigger_System_Object___
+  commentId: M:NFive.SDK.Client.Rpc.IRpcTrigger.Trigger(System.Object[])
+  name.vb: Trigger(Object())
+  fullName: NFive.SDK.Client.Rpc.IRpcTrigger.Trigger(System.Object[])
+  fullName.vb: NFive.SDK.Client.Rpc.IRpcTrigger.Trigger(System.Object())
+  nameWithType: IRpcTrigger.Trigger(Object[])
+  nameWithType.vb: IRpcTrigger.Trigger(Object())
+- uid: NFive.SDK.Client.Rpc.IRpcTrigger.Trigger*
+  name: Trigger
+  href: client/NFive.SDK.Client.Rpc.IRpcTrigger.html#NFive_SDK_Client_Rpc_IRpcTrigger_Trigger_
+  commentId: Overload:NFive.SDK.Client.Rpc.IRpcTrigger.Trigger
+  isSpec: "True"
+  fullName: NFive.SDK.Client.Rpc.IRpcTrigger.Trigger
+  nameWithType: IRpcTrigger.Trigger
 - uid: NFive.SDK.Client.SDK
   name: SDK
   href: client/NFive.SDK.Client.SDK.html
@@ -6855,6 +7070,67 @@ references:
   isSpec: "True"
   fullName: NFive.SDK.Server.Rpc.IRpcAttach.OnRaw
   nameWithType: IRpcAttach.OnRaw
+- uid: NFive.SDK.Server.Rpc.IRpcAttach.Request(System.Object[])
+  name: Request(Object[])
+  href: server/NFive.SDK.Server.Rpc.IRpcAttach.html#NFive_SDK_Server_Rpc_IRpcAttach_Request_System_Object___
+  commentId: M:NFive.SDK.Server.Rpc.IRpcAttach.Request(System.Object[])
+  name.vb: Request(Object())
+  fullName: NFive.SDK.Server.Rpc.IRpcAttach.Request(System.Object[])
+  fullName.vb: NFive.SDK.Server.Rpc.IRpcAttach.Request(System.Object())
+  nameWithType: IRpcAttach.Request(Object[])
+  nameWithType.vb: IRpcAttach.Request(Object())
+- uid: NFive.SDK.Server.Rpc.IRpcAttach.Request*
+  name: Request
+  href: server/NFive.SDK.Server.Rpc.IRpcAttach.html#NFive_SDK_Server_Rpc_IRpcAttach_Request_
+  commentId: Overload:NFive.SDK.Server.Rpc.IRpcAttach.Request
+  isSpec: "True"
+  fullName: NFive.SDK.Server.Rpc.IRpcAttach.Request
+  nameWithType: IRpcAttach.Request
+- uid: NFive.SDK.Server.Rpc.IRpcAttach.Request``1(System.Object[])
+  name: Request<T>(Object[])
+  href: server/NFive.SDK.Server.Rpc.IRpcAttach.html#NFive_SDK_Server_Rpc_IRpcAttach_Request__1_System_Object___
+  commentId: M:NFive.SDK.Server.Rpc.IRpcAttach.Request``1(System.Object[])
+  name.vb: Request(Of T)(Object())
+  fullName: NFive.SDK.Server.Rpc.IRpcAttach.Request<T>(System.Object[])
+  fullName.vb: NFive.SDK.Server.Rpc.IRpcAttach.Request(Of T)(System.Object())
+  nameWithType: IRpcAttach.Request<T>(Object[])
+  nameWithType.vb: IRpcAttach.Request(Of T)(Object())
+- uid: NFive.SDK.Server.Rpc.IRpcAttach.Request``2(System.Object[])
+  name: Request<T1, T2>(Object[])
+  href: server/NFive.SDK.Server.Rpc.IRpcAttach.html#NFive_SDK_Server_Rpc_IRpcAttach_Request__2_System_Object___
+  commentId: M:NFive.SDK.Server.Rpc.IRpcAttach.Request``2(System.Object[])
+  name.vb: Request(Of T1, T2)(Object())
+  fullName: NFive.SDK.Server.Rpc.IRpcAttach.Request<T1, T2>(System.Object[])
+  fullName.vb: NFive.SDK.Server.Rpc.IRpcAttach.Request(Of T1, T2)(System.Object())
+  nameWithType: IRpcAttach.Request<T1, T2>(Object[])
+  nameWithType.vb: IRpcAttach.Request(Of T1, T2)(Object())
+- uid: NFive.SDK.Server.Rpc.IRpcAttach.Request``3(System.Object[])
+  name: Request<T1, T2, T3>(Object[])
+  href: server/NFive.SDK.Server.Rpc.IRpcAttach.html#NFive_SDK_Server_Rpc_IRpcAttach_Request__3_System_Object___
+  commentId: M:NFive.SDK.Server.Rpc.IRpcAttach.Request``3(System.Object[])
+  name.vb: Request(Of T1, T2, T3)(Object())
+  fullName: NFive.SDK.Server.Rpc.IRpcAttach.Request<T1, T2, T3>(System.Object[])
+  fullName.vb: NFive.SDK.Server.Rpc.IRpcAttach.Request(Of T1, T2, T3)(System.Object())
+  nameWithType: IRpcAttach.Request<T1, T2, T3>(Object[])
+  nameWithType.vb: IRpcAttach.Request(Of T1, T2, T3)(Object())
+- uid: NFive.SDK.Server.Rpc.IRpcAttach.Request``4(System.Object[])
+  name: Request<T1, T2, T3, T4>(Object[])
+  href: server/NFive.SDK.Server.Rpc.IRpcAttach.html#NFive_SDK_Server_Rpc_IRpcAttach_Request__4_System_Object___
+  commentId: M:NFive.SDK.Server.Rpc.IRpcAttach.Request``4(System.Object[])
+  name.vb: Request(Of T1, T2, T3, T4)(Object())
+  fullName: NFive.SDK.Server.Rpc.IRpcAttach.Request<T1, T2, T3, T4>(System.Object[])
+  fullName.vb: NFive.SDK.Server.Rpc.IRpcAttach.Request(Of T1, T2, T3, T4)(System.Object())
+  nameWithType: IRpcAttach.Request<T1, T2, T3, T4>(Object[])
+  nameWithType.vb: IRpcAttach.Request(Of T1, T2, T3, T4)(Object())
+- uid: NFive.SDK.Server.Rpc.IRpcAttach.Request``5(System.Object[])
+  name: Request<T1, T2, T3, T4, T5>(Object[])
+  href: server/NFive.SDK.Server.Rpc.IRpcAttach.html#NFive_SDK_Server_Rpc_IRpcAttach_Request__5_System_Object___
+  commentId: M:NFive.SDK.Server.Rpc.IRpcAttach.Request``5(System.Object[])
+  name.vb: Request(Of T1, T2, T3, T4, T5)(Object())
+  fullName: NFive.SDK.Server.Rpc.IRpcAttach.Request<T1, T2, T3, T4, T5>(System.Object[])
+  fullName.vb: NFive.SDK.Server.Rpc.IRpcAttach.Request(Of T1, T2, T3, T4, T5)(System.Object())
+  nameWithType: IRpcAttach.Request<T1, T2, T3, T4, T5>(Object[])
+  nameWithType.vb: IRpcAttach.Request(Of T1, T2, T3, T4, T5)(Object())
 - uid: NFive.SDK.Server.Rpc.IRpcEvent
   name: IRpcEvent
   href: server/NFive.SDK.Server.Rpc.IRpcEvent.html
@@ -6973,15 +7249,6 @@ references:
   isSpec: "True"
   fullName: NFive.SDK.Server.Rpc.IRpcTrigger.Target
   nameWithType: IRpcTrigger.Target
-- uid: NFive.SDK.Server.Rpc.IRpcTrigger.Trigger(NFive.SDK.Server.Rpc.IClient,System.Object[])
-  name: Trigger(IClient, Object[])
-  href: server/NFive.SDK.Server.Rpc.IRpcTrigger.html#NFive_SDK_Server_Rpc_IRpcTrigger_Trigger_NFive_SDK_Server_Rpc_IClient_System_Object___
-  commentId: M:NFive.SDK.Server.Rpc.IRpcTrigger.Trigger(NFive.SDK.Server.Rpc.IClient,System.Object[])
-  name.vb: Trigger(IClient, Object())
-  fullName: NFive.SDK.Server.Rpc.IRpcTrigger.Trigger(NFive.SDK.Server.Rpc.IClient, System.Object[])
-  fullName.vb: NFive.SDK.Server.Rpc.IRpcTrigger.Trigger(NFive.SDK.Server.Rpc.IClient, System.Object())
-  nameWithType: IRpcTrigger.Trigger(IClient, Object[])
-  nameWithType.vb: IRpcTrigger.Trigger(IClient, Object())
 - uid: NFive.SDK.Server.Rpc.IRpcTrigger.Trigger(System.Object[])
   name: Trigger(Object[])
   href: server/NFive.SDK.Server.Rpc.IRpcTrigger.html#NFive_SDK_Server_Rpc_IRpcTrigger_Trigger_System_Object___
@@ -7271,12 +7538,12 @@ references:
   commentId: T:NFive.Server.ClientList
   fullName: NFive.Server.ClientList
   nameWithType: ClientList
-- uid: NFive.Server.ClientList.#ctor(IRpcHandler)
-  name: ClientList(IRpcHandler)
-  href: nfive/NFive.Server.ClientList.html#NFive_Server_ClientList__ctor_IRpcHandler_
-  commentId: M:NFive.Server.ClientList.#ctor(IRpcHandler)
-  fullName: NFive.Server.ClientList.ClientList(IRpcHandler)
-  nameWithType: ClientList.ClientList(IRpcHandler)
+- uid: NFive.Server.ClientList.#ctor(ILogger,IRpcHandler)
+  name: ClientList(ILogger, IRpcHandler)
+  href: nfive/NFive.Server.ClientList.html#NFive_Server_ClientList__ctor_ILogger_IRpcHandler_
+  commentId: M:NFive.Server.ClientList.#ctor(ILogger,IRpcHandler)
+  fullName: NFive.Server.ClientList.ClientList(ILogger, IRpcHandler)
+  nameWithType: ClientList.ClientList(ILogger, IRpcHandler)
 - uid: NFive.Server.ClientList.#ctor*
   name: ClientList
   href: nfive/NFive.Server.ClientList.html#NFive_Server_ClientList__ctor_
@@ -7303,6 +7570,122 @@ references:
   commentId: N:NFive.Server.Configuration
   fullName: NFive.Server.Configuration
   nameWithType: NFive.Server.Configuration
+- uid: NFive.Server.Configuration.ClientConfiguration
+  name: ClientConfiguration
+  href: nfive/NFive.Server.Configuration.ClientConfiguration.html
+  commentId: T:NFive.Server.Configuration.ClientConfiguration
+  fullName: NFive.Server.Configuration.ClientConfiguration
+  nameWithType: ClientConfiguration
+- uid: NFive.Server.Configuration.ClientConfiguration.Log
+  name: Log
+  href: nfive/NFive.Server.Configuration.ClientConfiguration.html#NFive_Server_Configuration_ClientConfiguration_Log
+  commentId: P:NFive.Server.Configuration.ClientConfiguration.Log
+  fullName: NFive.Server.Configuration.ClientConfiguration.Log
+  nameWithType: ClientConfiguration.Log
+- uid: NFive.Server.Configuration.ClientConfiguration.Log*
+  name: Log
+  href: nfive/NFive.Server.Configuration.ClientConfiguration.html#NFive_Server_Configuration_ClientConfiguration_Log_
+  commentId: Overload:NFive.Server.Configuration.ClientConfiguration.Log
+  isSpec: "True"
+  fullName: NFive.Server.Configuration.ClientConfiguration.Log
+  nameWithType: ClientConfiguration.Log
+- uid: NFive.Server.Configuration.ClientConfiguration.LogConfiguration
+  name: ClientConfiguration.LogConfiguration
+  href: nfive/NFive.Server.Configuration.ClientConfiguration.LogConfiguration.html
+  commentId: T:NFive.Server.Configuration.ClientConfiguration.LogConfiguration
+  fullName: NFive.Server.Configuration.ClientConfiguration.LogConfiguration
+  nameWithType: ClientConfiguration.LogConfiguration
+- uid: NFive.Server.Configuration.ClientConfiguration.LogConfiguration.Core
+  name: Core
+  href: nfive/NFive.Server.Configuration.ClientConfiguration.LogConfiguration.html#NFive_Server_Configuration_ClientConfiguration_LogConfiguration_Core
+  commentId: P:NFive.Server.Configuration.ClientConfiguration.LogConfiguration.Core
+  fullName: NFive.Server.Configuration.ClientConfiguration.LogConfiguration.Core
+  nameWithType: ClientConfiguration.LogConfiguration.Core
+- uid: NFive.Server.Configuration.ClientConfiguration.LogConfiguration.Core*
+  name: Core
+  href: nfive/NFive.Server.Configuration.ClientConfiguration.LogConfiguration.html#NFive_Server_Configuration_ClientConfiguration_LogConfiguration_Core_
+  commentId: Overload:NFive.Server.Configuration.ClientConfiguration.LogConfiguration.Core
+  isSpec: "True"
+  fullName: NFive.Server.Configuration.ClientConfiguration.LogConfiguration.Core
+  nameWithType: ClientConfiguration.LogConfiguration.Core
+- uid: NFive.Server.Configuration.ClientConfiguration.LogConfiguration.Events
+  name: Events
+  href: nfive/NFive.Server.Configuration.ClientConfiguration.LogConfiguration.html#NFive_Server_Configuration_ClientConfiguration_LogConfiguration_Events
+  commentId: P:NFive.Server.Configuration.ClientConfiguration.LogConfiguration.Events
+  fullName: NFive.Server.Configuration.ClientConfiguration.LogConfiguration.Events
+  nameWithType: ClientConfiguration.LogConfiguration.Events
+- uid: NFive.Server.Configuration.ClientConfiguration.LogConfiguration.Events*
+  name: Events
+  href: nfive/NFive.Server.Configuration.ClientConfiguration.LogConfiguration.html#NFive_Server_Configuration_ClientConfiguration_LogConfiguration_Events_
+  commentId: Overload:NFive.Server.Configuration.ClientConfiguration.LogConfiguration.Events
+  isSpec: "True"
+  fullName: NFive.Server.Configuration.ClientConfiguration.LogConfiguration.Events
+  nameWithType: ClientConfiguration.LogConfiguration.Events
+- uid: NFive.Server.Configuration.ClientConfiguration.LogConfiguration.Mirror
+  name: Mirror
+  href: nfive/NFive.Server.Configuration.ClientConfiguration.LogConfiguration.html#NFive_Server_Configuration_ClientConfiguration_LogConfiguration_Mirror
+  commentId: P:NFive.Server.Configuration.ClientConfiguration.LogConfiguration.Mirror
+  fullName: NFive.Server.Configuration.ClientConfiguration.LogConfiguration.Mirror
+  nameWithType: ClientConfiguration.LogConfiguration.Mirror
+- uid: NFive.Server.Configuration.ClientConfiguration.LogConfiguration.Mirror*
+  name: Mirror
+  href: nfive/NFive.Server.Configuration.ClientConfiguration.LogConfiguration.html#NFive_Server_Configuration_ClientConfiguration_LogConfiguration_Mirror_
+  commentId: Overload:NFive.Server.Configuration.ClientConfiguration.LogConfiguration.Mirror
+  isSpec: "True"
+  fullName: NFive.Server.Configuration.ClientConfiguration.LogConfiguration.Mirror
+  nameWithType: ClientConfiguration.LogConfiguration.Mirror
+- uid: NFive.Server.Configuration.ClientConfiguration.LogConfiguration.Plugins
+  name: Plugins
+  href: nfive/NFive.Server.Configuration.ClientConfiguration.LogConfiguration.html#NFive_Server_Configuration_ClientConfiguration_LogConfiguration_Plugins
+  commentId: P:NFive.Server.Configuration.ClientConfiguration.LogConfiguration.Plugins
+  fullName: NFive.Server.Configuration.ClientConfiguration.LogConfiguration.Plugins
+  nameWithType: ClientConfiguration.LogConfiguration.Plugins
+- uid: NFive.Server.Configuration.ClientConfiguration.LogConfiguration.Plugins*
+  name: Plugins
+  href: nfive/NFive.Server.Configuration.ClientConfiguration.LogConfiguration.html#NFive_Server_Configuration_ClientConfiguration_LogConfiguration_Plugins_
+  commentId: Overload:NFive.Server.Configuration.ClientConfiguration.LogConfiguration.Plugins
+  isSpec: "True"
+  fullName: NFive.Server.Configuration.ClientConfiguration.LogConfiguration.Plugins
+  nameWithType: ClientConfiguration.LogConfiguration.Plugins
+- uid: NFive.Server.Configuration.ClientConfiguration.LogConfiguration.Rpc
+  name: Rpc
+  href: nfive/NFive.Server.Configuration.ClientConfiguration.LogConfiguration.html#NFive_Server_Configuration_ClientConfiguration_LogConfiguration_Rpc
+  commentId: P:NFive.Server.Configuration.ClientConfiguration.LogConfiguration.Rpc
+  fullName: NFive.Server.Configuration.ClientConfiguration.LogConfiguration.Rpc
+  nameWithType: ClientConfiguration.LogConfiguration.Rpc
+- uid: NFive.Server.Configuration.ClientConfiguration.LogConfiguration.Rpc*
+  name: Rpc
+  href: nfive/NFive.Server.Configuration.ClientConfiguration.LogConfiguration.html#NFive_Server_Configuration_ClientConfiguration_LogConfiguration_Rpc_
+  commentId: Overload:NFive.Server.Configuration.ClientConfiguration.LogConfiguration.Rpc
+  isSpec: "True"
+  fullName: NFive.Server.Configuration.ClientConfiguration.LogConfiguration.Rpc
+  nameWithType: ClientConfiguration.LogConfiguration.Rpc
+- uid: NFive.Server.Configuration.ClientConfiguration.Plugins
+  name: Plugins
+  href: nfive/NFive.Server.Configuration.ClientConfiguration.html#NFive_Server_Configuration_ClientConfiguration_Plugins
+  commentId: P:NFive.Server.Configuration.ClientConfiguration.Plugins
+  fullName: NFive.Server.Configuration.ClientConfiguration.Plugins
+  nameWithType: ClientConfiguration.Plugins
+- uid: NFive.Server.Configuration.ClientConfiguration.Plugins*
+  name: Plugins
+  href: nfive/NFive.Server.Configuration.ClientConfiguration.html#NFive_Server_Configuration_ClientConfiguration_Plugins_
+  commentId: Overload:NFive.Server.Configuration.ClientConfiguration.Plugins
+  isSpec: "True"
+  fullName: NFive.Server.Configuration.ClientConfiguration.Plugins
+  nameWithType: ClientConfiguration.Plugins
+- uid: NFive.Server.Configuration.ClientConfiguration.User
+  name: User
+  href: nfive/NFive.Server.Configuration.ClientConfiguration.html#NFive_Server_Configuration_ClientConfiguration_User
+  commentId: P:NFive.Server.Configuration.ClientConfiguration.User
+  fullName: NFive.Server.Configuration.ClientConfiguration.User
+  nameWithType: ClientConfiguration.User
+- uid: NFive.Server.Configuration.ClientConfiguration.User*
+  name: User
+  href: nfive/NFive.Server.Configuration.ClientConfiguration.html#NFive_Server_Configuration_ClientConfiguration_User_
+  commentId: Overload:NFive.Server.Configuration.ClientConfiguration.User
+  isSpec: "True"
+  fullName: NFive.Server.Configuration.ClientConfiguration.User
+  nameWithType: ClientConfiguration.User
 - uid: NFive.Server.Configuration.CoreConfiguration
   name: CoreConfiguration
   href: nfive/NFive.Server.Configuration.CoreConfiguration.html
@@ -7425,6 +7808,19 @@ references:
   isSpec: "True"
   fullName: NFive.Server.Configuration.CoreConfiguration.LogConfiguration.Events
   nameWithType: CoreConfiguration.LogConfiguration.Events
+- uid: NFive.Server.Configuration.CoreConfiguration.LogConfiguration.Output
+  name: Output
+  href: nfive/NFive.Server.Configuration.CoreConfiguration.LogConfiguration.html#NFive_Server_Configuration_CoreConfiguration_LogConfiguration_Output
+  commentId: P:NFive.Server.Configuration.CoreConfiguration.LogConfiguration.Output
+  fullName: NFive.Server.Configuration.CoreConfiguration.LogConfiguration.Output
+  nameWithType: CoreConfiguration.LogConfiguration.Output
+- uid: NFive.Server.Configuration.CoreConfiguration.LogConfiguration.Output*
+  name: Output
+  href: nfive/NFive.Server.Configuration.CoreConfiguration.LogConfiguration.html#NFive_Server_Configuration_CoreConfiguration_LogConfiguration_Output_
+  commentId: Overload:NFive.Server.Configuration.CoreConfiguration.LogConfiguration.Output
+  isSpec: "True"
+  fullName: NFive.Server.Configuration.CoreConfiguration.LogConfiguration.Output
+  nameWithType: CoreConfiguration.LogConfiguration.Output
 - uid: NFive.Server.Configuration.CoreConfiguration.LogConfiguration.Plugins
   name: Plugins
   href: nfive/NFive.Server.Configuration.CoreConfiguration.LogConfiguration.html#NFive_Server_Configuration_CoreConfiguration_LogConfiguration_Plugins
@@ -7451,6 +7847,51 @@ references:
   isSpec: "True"
   fullName: NFive.Server.Configuration.CoreConfiguration.LogConfiguration.Rpc
   nameWithType: CoreConfiguration.LogConfiguration.Rpc
+- uid: NFive.Server.Configuration.CoreConfiguration.LogOutputConfiguration
+  name: CoreConfiguration.LogOutputConfiguration
+  href: nfive/NFive.Server.Configuration.CoreConfiguration.LogOutputConfiguration.html
+  commentId: T:NFive.Server.Configuration.CoreConfiguration.LogOutputConfiguration
+  fullName: NFive.Server.Configuration.CoreConfiguration.LogOutputConfiguration
+  nameWithType: CoreConfiguration.LogOutputConfiguration
+- uid: NFive.Server.Configuration.CoreConfiguration.LogOutputConfiguration.ClientConsole
+  name: ClientConsole
+  href: nfive/NFive.Server.Configuration.CoreConfiguration.LogOutputConfiguration.html#NFive_Server_Configuration_CoreConfiguration_LogOutputConfiguration_ClientConsole
+  commentId: P:NFive.Server.Configuration.CoreConfiguration.LogOutputConfiguration.ClientConsole
+  fullName: NFive.Server.Configuration.CoreConfiguration.LogOutputConfiguration.ClientConsole
+  nameWithType: CoreConfiguration.LogOutputConfiguration.ClientConsole
+- uid: NFive.Server.Configuration.CoreConfiguration.LogOutputConfiguration.ClientConsole*
+  name: ClientConsole
+  href: nfive/NFive.Server.Configuration.CoreConfiguration.LogOutputConfiguration.html#NFive_Server_Configuration_CoreConfiguration_LogOutputConfiguration_ClientConsole_
+  commentId: Overload:NFive.Server.Configuration.CoreConfiguration.LogOutputConfiguration.ClientConsole
+  isSpec: "True"
+  fullName: NFive.Server.Configuration.CoreConfiguration.LogOutputConfiguration.ClientConsole
+  nameWithType: CoreConfiguration.LogOutputConfiguration.ClientConsole
+- uid: NFive.Server.Configuration.CoreConfiguration.LogOutputConfiguration.ClientMirror
+  name: ClientMirror
+  href: nfive/NFive.Server.Configuration.CoreConfiguration.LogOutputConfiguration.html#NFive_Server_Configuration_CoreConfiguration_LogOutputConfiguration_ClientMirror
+  commentId: P:NFive.Server.Configuration.CoreConfiguration.LogOutputConfiguration.ClientMirror
+  fullName: NFive.Server.Configuration.CoreConfiguration.LogOutputConfiguration.ClientMirror
+  nameWithType: CoreConfiguration.LogOutputConfiguration.ClientMirror
+- uid: NFive.Server.Configuration.CoreConfiguration.LogOutputConfiguration.ClientMirror*
+  name: ClientMirror
+  href: nfive/NFive.Server.Configuration.CoreConfiguration.LogOutputConfiguration.html#NFive_Server_Configuration_CoreConfiguration_LogOutputConfiguration_ClientMirror_
+  commentId: Overload:NFive.Server.Configuration.CoreConfiguration.LogOutputConfiguration.ClientMirror
+  isSpec: "True"
+  fullName: NFive.Server.Configuration.CoreConfiguration.LogOutputConfiguration.ClientMirror
+  nameWithType: CoreConfiguration.LogOutputConfiguration.ClientMirror
+- uid: NFive.Server.Configuration.CoreConfiguration.LogOutputConfiguration.ServerConsole
+  name: ServerConsole
+  href: nfive/NFive.Server.Configuration.CoreConfiguration.LogOutputConfiguration.html#NFive_Server_Configuration_CoreConfiguration_LogOutputConfiguration_ServerConsole
+  commentId: P:NFive.Server.Configuration.CoreConfiguration.LogOutputConfiguration.ServerConsole
+  fullName: NFive.Server.Configuration.CoreConfiguration.LogOutputConfiguration.ServerConsole
+  nameWithType: CoreConfiguration.LogOutputConfiguration.ServerConsole
+- uid: NFive.Server.Configuration.CoreConfiguration.LogOutputConfiguration.ServerConsole*
+  name: ServerConsole
+  href: nfive/NFive.Server.Configuration.CoreConfiguration.LogOutputConfiguration.html#NFive_Server_Configuration_CoreConfiguration_LogOutputConfiguration_ServerConsole_
+  commentId: Overload:NFive.Server.Configuration.CoreConfiguration.LogOutputConfiguration.ServerConsole
+  isSpec: "True"
+  fullName: NFive.Server.Configuration.CoreConfiguration.LogOutputConfiguration.ServerConsole
+  nameWithType: CoreConfiguration.LogOutputConfiguration.ServerConsole
 - uid: NFive.Server.Configuration.DatabaseConfiguration
   name: DatabaseConfiguration
   href: nfive/NFive.Server.Configuration.DatabaseConfiguration.html
@@ -7657,6 +8098,25 @@ references:
   isSpec: "True"
   fullName: NFive.Server.Configuration.DatabaseConfiguration.Migrations
   nameWithType: DatabaseConfiguration.Migrations
+- uid: NFive.Server.Configuration.ServerLogConfiguration
+  name: ServerLogConfiguration
+  href: nfive/NFive.Server.Configuration.ServerLogConfiguration.html
+  commentId: T:NFive.Server.Configuration.ServerLogConfiguration
+  fullName: NFive.Server.Configuration.ServerLogConfiguration
+  nameWithType: ServerLogConfiguration
+- uid: NFive.Server.Configuration.ServerLogConfiguration.Output
+  name: Output
+  href: nfive/NFive.Server.Configuration.ServerLogConfiguration.html#NFive_Server_Configuration_ServerLogConfiguration_Output
+  commentId: P:NFive.Server.Configuration.ServerLogConfiguration.Output
+  fullName: NFive.Server.Configuration.ServerLogConfiguration.Output
+  nameWithType: ServerLogConfiguration.Output
+- uid: NFive.Server.Configuration.ServerLogConfiguration.Output*
+  name: Output
+  href: nfive/NFive.Server.Configuration.ServerLogConfiguration.html#NFive_Server_Configuration_ServerLogConfiguration_Output_
+  commentId: Overload:NFive.Server.Configuration.ServerLogConfiguration.Output
+  isSpec: "True"
+  fullName: NFive.Server.Configuration.ServerLogConfiguration.Output
+  nameWithType: ServerLogConfiguration.Output
 - uid: NFive.Server.Configuration.SessionConfiguration
   name: SessionConfiguration
   href: nfive/NFive.Server.Configuration.SessionConfiguration.html
@@ -7855,6 +8315,19 @@ references:
   isSpec: "True"
   fullName: NFive.Server.Diagnostics.Logger.Info
   nameWithType: Logger.Info
+- uid: NFive.Server.Diagnostics.Logger.Initialize
+  name: Initialize()
+  href: nfive/NFive.Server.Diagnostics.Logger.html#NFive_Server_Diagnostics_Logger_Initialize
+  commentId: M:NFive.Server.Diagnostics.Logger.Initialize
+  fullName: NFive.Server.Diagnostics.Logger.Initialize()
+  nameWithType: Logger.Initialize()
+- uid: NFive.Server.Diagnostics.Logger.Initialize*
+  name: Initialize
+  href: nfive/NFive.Server.Diagnostics.Logger.html#NFive_Server_Diagnostics_Logger_Initialize_
+  commentId: Overload:NFive.Server.Diagnostics.Logger.Initialize
+  isSpec: "True"
+  fullName: NFive.Server.Diagnostics.Logger.Initialize
+  nameWithType: Logger.Initialize
 - uid: NFive.Server.Diagnostics.Logger.Level
   name: Level
   href: nfive/NFive.Server.Diagnostics.Logger.html#NFive_Server_Diagnostics_Logger_Level
@@ -8768,6 +9241,22 @@ references:
   isSpec: "True"
   fullName: NFive.Server.Rpc.InboundMessage.Event
   nameWithType: InboundMessage.Event
+- uid: NFive.Server.Rpc.InboundMessage.From(System.Byte[])
+  name: From(Byte[])
+  href: nfive/NFive.Server.Rpc.InboundMessage.html#NFive_Server_Rpc_InboundMessage_From_System_Byte___
+  commentId: M:NFive.Server.Rpc.InboundMessage.From(System.Byte[])
+  name.vb: From(Byte())
+  fullName: NFive.Server.Rpc.InboundMessage.From(System.Byte[])
+  fullName.vb: NFive.Server.Rpc.InboundMessage.From(System.Byte())
+  nameWithType: InboundMessage.From(Byte[])
+  nameWithType.vb: InboundMessage.From(Byte())
+- uid: NFive.Server.Rpc.InboundMessage.From*
+  name: From
+  href: nfive/NFive.Server.Rpc.InboundMessage.html#NFive_Server_Rpc_InboundMessage_From_
+  commentId: Overload:NFive.Server.Rpc.InboundMessage.From
+  isSpec: "True"
+  fullName: NFive.Server.Rpc.InboundMessage.From
+  nameWithType: InboundMessage.From
 - uid: NFive.Server.Rpc.InboundMessage.Payloads
   name: Payloads
   href: nfive/NFive.Server.Rpc.InboundMessage.html#NFive_Server_Rpc_InboundMessage_Payloads
@@ -8852,6 +9341,19 @@ references:
   isSpec: "True"
   fullName: NFive.Server.Rpc.OutboundMessage.Event
   nameWithType: OutboundMessage.Event
+- uid: NFive.Server.Rpc.OutboundMessage.Pack
+  name: Pack()
+  href: nfive/NFive.Server.Rpc.OutboundMessage.html#NFive_Server_Rpc_OutboundMessage_Pack
+  commentId: M:NFive.Server.Rpc.OutboundMessage.Pack
+  fullName: NFive.Server.Rpc.OutboundMessage.Pack()
+  nameWithType: OutboundMessage.Pack()
+- uid: NFive.Server.Rpc.OutboundMessage.Pack*
+  name: Pack
+  href: nfive/NFive.Server.Rpc.OutboundMessage.html#NFive_Server_Rpc_OutboundMessage_Pack_
+  commentId: Overload:NFive.Server.Rpc.OutboundMessage.Pack
+  isSpec: "True"
+  fullName: NFive.Server.Rpc.OutboundMessage.Pack
+  nameWithType: OutboundMessage.Pack
 - uid: NFive.Server.Rpc.OutboundMessage.Payloads
   name: Payloads
   href: nfive/NFive.Server.Rpc.OutboundMessage.html#NFive_Server_Rpc_OutboundMessage_Payloads
@@ -8865,6 +9367,19 @@ references:
   isSpec: "True"
   fullName: NFive.Server.Rpc.OutboundMessage.Payloads
   nameWithType: OutboundMessage.Payloads
+- uid: NFive.Server.Rpc.OutboundMessage.Sent
+  name: Sent
+  href: nfive/NFive.Server.Rpc.OutboundMessage.html#NFive_Server_Rpc_OutboundMessage_Sent
+  commentId: P:NFive.Server.Rpc.OutboundMessage.Sent
+  fullName: NFive.Server.Rpc.OutboundMessage.Sent
+  nameWithType: OutboundMessage.Sent
+- uid: NFive.Server.Rpc.OutboundMessage.Sent*
+  name: Sent
+  href: nfive/NFive.Server.Rpc.OutboundMessage.html#NFive_Server_Rpc_OutboundMessage_Sent_
+  commentId: Overload:NFive.Server.Rpc.OutboundMessage.Sent
+  isSpec: "True"
+  fullName: NFive.Server.Rpc.OutboundMessage.Sent
+  nameWithType: OutboundMessage.Sent
 - uid: NFive.Server.Rpc.OutboundMessage.Target
   name: Target
   href: nfive/NFive.Server.Rpc.OutboundMessage.html#NFive_Server_Rpc_OutboundMessage_Target
@@ -8971,6 +9486,67 @@ references:
   isSpec: "True"
   fullName: NFive.Server.Rpc.Rpc.OnRaw
   nameWithType: Rpc.OnRaw
+- uid: NFive.Server.Rpc.Rpc.Request(System.Object[])
+  name: Request(Object[])
+  href: nfive/NFive.Server.Rpc.Rpc.html#NFive_Server_Rpc_Rpc_Request_System_Object___
+  commentId: M:NFive.Server.Rpc.Rpc.Request(System.Object[])
+  name.vb: Request(Object())
+  fullName: NFive.Server.Rpc.Rpc.Request(System.Object[])
+  fullName.vb: NFive.Server.Rpc.Rpc.Request(System.Object())
+  nameWithType: Rpc.Request(Object[])
+  nameWithType.vb: Rpc.Request(Object())
+- uid: NFive.Server.Rpc.Rpc.Request*
+  name: Request
+  href: nfive/NFive.Server.Rpc.Rpc.html#NFive_Server_Rpc_Rpc_Request_
+  commentId: Overload:NFive.Server.Rpc.Rpc.Request
+  isSpec: "True"
+  fullName: NFive.Server.Rpc.Rpc.Request
+  nameWithType: Rpc.Request
+- uid: NFive.Server.Rpc.Rpc.Request``1(System.Object[])
+  name: Request<T>(Object[])
+  href: nfive/NFive.Server.Rpc.Rpc.html#NFive_Server_Rpc_Rpc_Request__1_System_Object___
+  commentId: M:NFive.Server.Rpc.Rpc.Request``1(System.Object[])
+  name.vb: Request(Of T)(Object())
+  fullName: NFive.Server.Rpc.Rpc.Request<T>(System.Object[])
+  fullName.vb: NFive.Server.Rpc.Rpc.Request(Of T)(System.Object())
+  nameWithType: Rpc.Request<T>(Object[])
+  nameWithType.vb: Rpc.Request(Of T)(Object())
+- uid: NFive.Server.Rpc.Rpc.Request``2(System.Object[])
+  name: Request<T1, T2>(Object[])
+  href: nfive/NFive.Server.Rpc.Rpc.html#NFive_Server_Rpc_Rpc_Request__2_System_Object___
+  commentId: M:NFive.Server.Rpc.Rpc.Request``2(System.Object[])
+  name.vb: Request(Of T1, T2)(Object())
+  fullName: NFive.Server.Rpc.Rpc.Request<T1, T2>(System.Object[])
+  fullName.vb: NFive.Server.Rpc.Rpc.Request(Of T1, T2)(System.Object())
+  nameWithType: Rpc.Request<T1, T2>(Object[])
+  nameWithType.vb: Rpc.Request(Of T1, T2)(Object())
+- uid: NFive.Server.Rpc.Rpc.Request``3(System.Object[])
+  name: Request<T1, T2, T3>(Object[])
+  href: nfive/NFive.Server.Rpc.Rpc.html#NFive_Server_Rpc_Rpc_Request__3_System_Object___
+  commentId: M:NFive.Server.Rpc.Rpc.Request``3(System.Object[])
+  name.vb: Request(Of T1, T2, T3)(Object())
+  fullName: NFive.Server.Rpc.Rpc.Request<T1, T2, T3>(System.Object[])
+  fullName.vb: NFive.Server.Rpc.Rpc.Request(Of T1, T2, T3)(System.Object())
+  nameWithType: Rpc.Request<T1, T2, T3>(Object[])
+  nameWithType.vb: Rpc.Request(Of T1, T2, T3)(Object())
+- uid: NFive.Server.Rpc.Rpc.Request``4(System.Object[])
+  name: Request<T1, T2, T3, T4>(Object[])
+  href: nfive/NFive.Server.Rpc.Rpc.html#NFive_Server_Rpc_Rpc_Request__4_System_Object___
+  commentId: M:NFive.Server.Rpc.Rpc.Request``4(System.Object[])
+  name.vb: Request(Of T1, T2, T3, T4)(Object())
+  fullName: NFive.Server.Rpc.Rpc.Request<T1, T2, T3, T4>(System.Object[])
+  fullName.vb: NFive.Server.Rpc.Rpc.Request(Of T1, T2, T3, T4)(System.Object())
+  nameWithType: Rpc.Request<T1, T2, T3, T4>(Object[])
+  nameWithType.vb: Rpc.Request(Of T1, T2, T3, T4)(Object())
+- uid: NFive.Server.Rpc.Rpc.Request``5(System.Object[])
+  name: Request<T1, T2, T3, T4, T5>(Object[])
+  href: nfive/NFive.Server.Rpc.Rpc.html#NFive_Server_Rpc_Rpc_Request__5_System_Object___
+  commentId: M:NFive.Server.Rpc.Rpc.Request``5(System.Object[])
+  name.vb: Request(Of T1, T2, T3, T4, T5)(Object())
+  fullName: NFive.Server.Rpc.Rpc.Request<T1, T2, T3, T4, T5>(System.Object[])
+  fullName.vb: NFive.Server.Rpc.Rpc.Request(Of T1, T2, T3, T4, T5)(System.Object())
+  nameWithType: Rpc.Request<T1, T2, T3, T4, T5>(Object[])
+  nameWithType.vb: Rpc.Request(Of T1, T2, T3, T4, T5)(Object())
 - uid: NFive.Server.Rpc.Rpc.Target(IClient)
   name: Target(IClient)
   href: nfive/NFive.Server.Rpc.Rpc.html#NFive_Server_Rpc_Rpc_Target_IClient_
@@ -8990,15 +9566,6 @@ references:
   isSpec: "True"
   fullName: NFive.Server.Rpc.Rpc.Target
   nameWithType: Rpc.Target
-- uid: NFive.Server.Rpc.Rpc.Trigger(IClient,System.Object[])
-  name: Trigger(IClient, Object[])
-  href: nfive/NFive.Server.Rpc.Rpc.html#NFive_Server_Rpc_Rpc_Trigger_IClient_System_Object___
-  commentId: M:NFive.Server.Rpc.Rpc.Trigger(IClient,System.Object[])
-  name.vb: Trigger(IClient, Object())
-  fullName: NFive.Server.Rpc.Rpc.Trigger(IClient, System.Object[])
-  fullName.vb: NFive.Server.Rpc.Rpc.Trigger(IClient, System.Object())
-  nameWithType: Rpc.Trigger(IClient, Object[])
-  nameWithType.vb: Rpc.Trigger(IClient, Object())
 - uid: NFive.Server.Rpc.Rpc.Trigger(System.Object[])
   name: Trigger(Object[])
   href: nfive/NFive.Server.Rpc.Rpc.html#NFive_Server_Rpc_Rpc_Trigger_System_Object___
@@ -9153,18 +9720,95 @@ references:
   isSpec: "True"
   fullName: NFive.Server.Rpc.RpcManager.Event
   nameWithType: RpcManager.Event
+- uid: NFive.Server.Rpc.RpcPacker
+  name: RpcPacker
+  href: nfive/NFive.Server.Rpc.RpcPacker.html
+  commentId: T:NFive.Server.Rpc.RpcPacker
+  fullName: NFive.Server.Rpc.RpcPacker
+  nameWithType: RpcPacker
+- uid: NFive.Server.Rpc.RpcPacker.Deserialize*
+  name: Deserialize
+  href: nfive/NFive.Server.Rpc.RpcPacker.html#NFive_Server_Rpc_RpcPacker_Deserialize_
+  commentId: Overload:NFive.Server.Rpc.RpcPacker.Deserialize
+  isSpec: "True"
+  fullName: NFive.Server.Rpc.RpcPacker.Deserialize
+  nameWithType: RpcPacker.Deserialize
+- uid: NFive.Server.Rpc.RpcPacker.Deserialize``1(System.String)
+  name: Deserialize<T>(String)
+  href: nfive/NFive.Server.Rpc.RpcPacker.html#NFive_Server_Rpc_RpcPacker_Deserialize__1_System_String_
+  commentId: M:NFive.Server.Rpc.RpcPacker.Deserialize``1(System.String)
+  name.vb: Deserialize(Of T)(String)
+  fullName: NFive.Server.Rpc.RpcPacker.Deserialize<T>(System.String)
+  fullName.vb: NFive.Server.Rpc.RpcPacker.Deserialize(Of T)(System.String)
+  nameWithType: RpcPacker.Deserialize<T>(String)
+  nameWithType.vb: RpcPacker.Deserialize(Of T)(String)
+- uid: NFive.Server.Rpc.RpcPacker.Level
+  name: Level
+  href: nfive/NFive.Server.Rpc.RpcPacker.html#NFive_Server_Rpc_RpcPacker_Level
+  commentId: P:NFive.Server.Rpc.RpcPacker.Level
+  fullName: NFive.Server.Rpc.RpcPacker.Level
+  nameWithType: RpcPacker.Level
+- uid: NFive.Server.Rpc.RpcPacker.Level*
+  name: Level
+  href: nfive/NFive.Server.Rpc.RpcPacker.html#NFive_Server_Rpc_RpcPacker_Level_
+  commentId: Overload:NFive.Server.Rpc.RpcPacker.Level
+  isSpec: "True"
+  fullName: NFive.Server.Rpc.RpcPacker.Level
+  nameWithType: RpcPacker.Level
+- uid: NFive.Server.Rpc.RpcPacker.Pack(NFive.Server.Rpc.OutboundMessage)
+  name: Pack(OutboundMessage)
+  href: nfive/NFive.Server.Rpc.RpcPacker.html#NFive_Server_Rpc_RpcPacker_Pack_NFive_Server_Rpc_OutboundMessage_
+  commentId: M:NFive.Server.Rpc.RpcPacker.Pack(NFive.Server.Rpc.OutboundMessage)
+  fullName: NFive.Server.Rpc.RpcPacker.Pack(NFive.Server.Rpc.OutboundMessage)
+  nameWithType: RpcPacker.Pack(OutboundMessage)
+- uid: NFive.Server.Rpc.RpcPacker.Pack*
+  name: Pack
+  href: nfive/NFive.Server.Rpc.RpcPacker.html#NFive_Server_Rpc_RpcPacker_Pack_
+  commentId: Overload:NFive.Server.Rpc.RpcPacker.Pack
+  isSpec: "True"
+  fullName: NFive.Server.Rpc.RpcPacker.Pack
+  nameWithType: RpcPacker.Pack
+- uid: NFive.Server.Rpc.RpcPacker.Serialize(System.Object)
+  name: Serialize(Object)
+  href: nfive/NFive.Server.Rpc.RpcPacker.html#NFive_Server_Rpc_RpcPacker_Serialize_System_Object_
+  commentId: M:NFive.Server.Rpc.RpcPacker.Serialize(System.Object)
+  fullName: NFive.Server.Rpc.RpcPacker.Serialize(System.Object)
+  nameWithType: RpcPacker.Serialize(Object)
+- uid: NFive.Server.Rpc.RpcPacker.Serialize*
+  name: Serialize
+  href: nfive/NFive.Server.Rpc.RpcPacker.html#NFive_Server_Rpc_RpcPacker_Serialize_
+  commentId: Overload:NFive.Server.Rpc.RpcPacker.Serialize
+  isSpec: "True"
+  fullName: NFive.Server.Rpc.RpcPacker.Serialize
+  nameWithType: RpcPacker.Serialize
+- uid: NFive.Server.Rpc.RpcPacker.Unpack(System.Byte[])
+  name: Unpack(Byte[])
+  href: nfive/NFive.Server.Rpc.RpcPacker.html#NFive_Server_Rpc_RpcPacker_Unpack_System_Byte___
+  commentId: M:NFive.Server.Rpc.RpcPacker.Unpack(System.Byte[])
+  name.vb: Unpack(Byte())
+  fullName: NFive.Server.Rpc.RpcPacker.Unpack(System.Byte[])
+  fullName.vb: NFive.Server.Rpc.RpcPacker.Unpack(System.Byte())
+  nameWithType: RpcPacker.Unpack(Byte[])
+  nameWithType.vb: RpcPacker.Unpack(Byte())
+- uid: NFive.Server.Rpc.RpcPacker.Unpack*
+  name: Unpack
+  href: nfive/NFive.Server.Rpc.RpcPacker.html#NFive_Server_Rpc_RpcPacker_Unpack_
+  commentId: Overload:NFive.Server.Rpc.RpcPacker.Unpack
+  isSpec: "True"
+  fullName: NFive.Server.Rpc.RpcPacker.Unpack
+  nameWithType: RpcPacker.Unpack
 - uid: NFive.Server.Rpc.RpcTrigger
   name: RpcTrigger
   href: nfive/NFive.Server.Rpc.RpcTrigger.html
   commentId: T:NFive.Server.Rpc.RpcTrigger
   fullName: NFive.Server.Rpc.RpcTrigger
   nameWithType: RpcTrigger
-- uid: NFive.Server.Rpc.RpcTrigger.#ctor(NFive.Server.Diagnostics.Logger,Serializer)
-  name: RpcTrigger(Logger, Serializer)
-  href: nfive/NFive.Server.Rpc.RpcTrigger.html#NFive_Server_Rpc_RpcTrigger__ctor_NFive_Server_Diagnostics_Logger_Serializer_
-  commentId: M:NFive.Server.Rpc.RpcTrigger.#ctor(NFive.Server.Diagnostics.Logger,Serializer)
-  fullName: NFive.Server.Rpc.RpcTrigger.RpcTrigger(NFive.Server.Diagnostics.Logger, Serializer)
-  nameWithType: RpcTrigger.RpcTrigger(Logger, Serializer)
+- uid: NFive.Server.Rpc.RpcTrigger.#ctor(NFive.Server.Diagnostics.Logger)
+  name: RpcTrigger(Logger)
+  href: nfive/NFive.Server.Rpc.RpcTrigger.html#NFive_Server_Rpc_RpcTrigger__ctor_NFive_Server_Diagnostics_Logger_
+  commentId: M:NFive.Server.Rpc.RpcTrigger.#ctor(NFive.Server.Diagnostics.Logger)
+  fullName: NFive.Server.Rpc.RpcTrigger.RpcTrigger(NFive.Server.Diagnostics.Logger)
+  nameWithType: RpcTrigger.RpcTrigger(Logger)
 - uid: NFive.Server.Rpc.RpcTrigger.#ctor*
   name: RpcTrigger
   href: nfive/NFive.Server.Rpc.RpcTrigger.html#NFive_Server_Rpc_RpcTrigger__ctor_
