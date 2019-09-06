@@ -1785,6 +1785,19 @@ references:
   isSpec: "True"
   fullName: NFive.SDK.Client.Extensions.VectorExtensions.RotateAround
   nameWithType: VectorExtensions.RotateAround
+- uid: NFive.SDK.Client.Extensions.VectorExtensions.ToCitVector3(Vector3)
+  name: ToCitVector3(Vector3)
+  href: client/NFive.SDK.Client.Extensions.VectorExtensions.html#NFive_SDK_Client_Extensions_VectorExtensions_ToCitVector3_Vector3_
+  commentId: M:NFive.SDK.Client.Extensions.VectorExtensions.ToCitVector3(Vector3)
+  fullName: NFive.SDK.Client.Extensions.VectorExtensions.ToCitVector3(Vector3)
+  nameWithType: VectorExtensions.ToCitVector3(Vector3)
+- uid: NFive.SDK.Client.Extensions.VectorExtensions.ToCitVector3*
+  name: ToCitVector3
+  href: client/NFive.SDK.Client.Extensions.VectorExtensions.html#NFive_SDK_Client_Extensions_VectorExtensions_ToCitVector3_
+  commentId: Overload:NFive.SDK.Client.Extensions.VectorExtensions.ToCitVector3
+  isSpec: "True"
+  fullName: NFive.SDK.Client.Extensions.VectorExtensions.ToCitVector3
+  nameWithType: VectorExtensions.ToCitVector3
 - uid: NFive.SDK.Client.Extensions.VectorExtensions.ToPosition(Vector3)
   name: ToPosition(Vector3)
   href: client/NFive.SDK.Client.Extensions.VectorExtensions.html#NFive_SDK_Client_Extensions_VectorExtensions_ToPosition_Vector3_
@@ -6708,6 +6721,19 @@ references:
   commentId: T:NFive.SDK.Server.Extensions.PositionExtensions
   fullName: NFive.SDK.Server.Extensions.PositionExtensions
   nameWithType: PositionExtensions
+- uid: NFive.SDK.Server.Extensions.PositionExtensions.ToCitVector3(Position)
+  name: ToCitVector3(Position)
+  href: server/NFive.SDK.Server.Extensions.PositionExtensions.html#NFive_SDK_Server_Extensions_PositionExtensions_ToCitVector3_Position_
+  commentId: M:NFive.SDK.Server.Extensions.PositionExtensions.ToCitVector3(Position)
+  fullName: NFive.SDK.Server.Extensions.PositionExtensions.ToCitVector3(Position)
+  nameWithType: PositionExtensions.ToCitVector3(Position)
+- uid: NFive.SDK.Server.Extensions.PositionExtensions.ToCitVector3*
+  name: ToCitVector3
+  href: server/NFive.SDK.Server.Extensions.PositionExtensions.html#NFive_SDK_Server_Extensions_PositionExtensions_ToCitVector3_
+  commentId: Overload:NFive.SDK.Server.Extensions.PositionExtensions.ToCitVector3
+  isSpec: "True"
+  fullName: NFive.SDK.Server.Extensions.PositionExtensions.ToCitVector3
+  nameWithType: PositionExtensions.ToCitVector3
 - uid: NFive.SDK.Server.Extensions.PositionExtensions.ToVector3(Position)
   name: ToVector3(Position)
   href: server/NFive.SDK.Server.Extensions.PositionExtensions.html#NFive_SDK_Server_Extensions_PositionExtensions_ToVector3_Position_
@@ -6753,6 +6779,19 @@ references:
   isSpec: "True"
   fullName: NFive.SDK.Server.Extensions.VectorExtensions.RotateAround
   nameWithType: VectorExtensions.RotateAround
+- uid: NFive.SDK.Server.Extensions.VectorExtensions.ToCitVector3(Vector3)
+  name: ToCitVector3(Vector3)
+  href: server/NFive.SDK.Server.Extensions.VectorExtensions.html#NFive_SDK_Server_Extensions_VectorExtensions_ToCitVector3_Vector3_
+  commentId: M:NFive.SDK.Server.Extensions.VectorExtensions.ToCitVector3(Vector3)
+  fullName: NFive.SDK.Server.Extensions.VectorExtensions.ToCitVector3(Vector3)
+  nameWithType: VectorExtensions.ToCitVector3(Vector3)
+- uid: NFive.SDK.Server.Extensions.VectorExtensions.ToCitVector3*
+  name: ToCitVector3
+  href: server/NFive.SDK.Server.Extensions.VectorExtensions.html#NFive_SDK_Server_Extensions_VectorExtensions_ToCitVector3_
+  commentId: Overload:NFive.SDK.Server.Extensions.VectorExtensions.ToCitVector3
+  isSpec: "True"
+  fullName: NFive.SDK.Server.Extensions.VectorExtensions.ToCitVector3
+  nameWithType: VectorExtensions.ToCitVector3
 - uid: NFive.SDK.Server.Extensions.VectorExtensions.ToPosition(Vector3)
   name: ToPosition(Vector3)
   href: server/NFive.SDK.Server.Extensions.VectorExtensions.html#NFive_SDK_Server_Extensions_VectorExtensions_ToPosition_Vector3_
@@ -6766,6 +6805,19 @@ references:
   isSpec: "True"
   fullName: NFive.SDK.Server.Extensions.VectorExtensions.ToPosition
   nameWithType: VectorExtensions.ToPosition
+- uid: NFive.SDK.Server.Extensions.VectorExtensions.ToVector3(CitizenFX.Core.Vector3)
+  name: ToVector3(CitizenFX.Core.Vector3)
+  href: server/NFive.SDK.Server.Extensions.VectorExtensions.html#NFive_SDK_Server_Extensions_VectorExtensions_ToVector3_CitizenFX_Core_Vector3_
+  commentId: M:NFive.SDK.Server.Extensions.VectorExtensions.ToVector3(CitizenFX.Core.Vector3)
+  fullName: NFive.SDK.Server.Extensions.VectorExtensions.ToVector3(CitizenFX.Core.Vector3)
+  nameWithType: VectorExtensions.ToVector3(CitizenFX.Core.Vector3)
+- uid: NFive.SDK.Server.Extensions.VectorExtensions.ToVector3*
+  name: ToVector3
+  href: server/NFive.SDK.Server.Extensions.VectorExtensions.html#NFive_SDK_Server_Extensions_VectorExtensions_ToVector3_
+  commentId: Overload:NFive.SDK.Server.Extensions.VectorExtensions.ToVector3
+  isSpec: "True"
+  fullName: NFive.SDK.Server.Extensions.VectorExtensions.ToVector3
+  nameWithType: VectorExtensions.ToVector3
 - uid: NFive.SDK.Server.Extensions.VectorExtensions.TranslateDir(Vector3,System.Single,System.Single)
   name: TranslateDir(Vector3, Single, Single)
   href: server/NFive.SDK.Server.Extensions.VectorExtensions.html#NFive_SDK_Server_Extensions_VectorExtensions_TranslateDir_Vector3_System_Single_System_Single_
@@ -9125,6 +9177,19 @@ references:
   isSpec: "True"
   fullName: NFive.Server.Rpc.Client.License
   nameWithType: Client.License
+- uid: NFive.Server.Rpc.Client.LiveId
+  name: LiveId
+  href: nfive/NFive.Server.Rpc.Client.html#NFive_Server_Rpc_Client_LiveId
+  commentId: P:NFive.Server.Rpc.Client.LiveId
+  fullName: NFive.Server.Rpc.Client.LiveId
+  nameWithType: Client.LiveId
+- uid: NFive.Server.Rpc.Client.LiveId*
+  name: LiveId
+  href: nfive/NFive.Server.Rpc.Client.html#NFive_Server_Rpc_Client_LiveId_
+  commentId: Overload:NFive.Server.Rpc.Client.LiveId
+  isSpec: "True"
+  fullName: NFive.Server.Rpc.Client.LiveId
+  nameWithType: Client.LiveId
 - uid: NFive.Server.Rpc.Client.Name
   name: Name
   href: nfive/NFive.Server.Rpc.Client.html#NFive_Server_Rpc_Client_Name
@@ -9164,6 +9229,19 @@ references:
   isSpec: "True"
   fullName: NFive.Server.Rpc.Client.SteamId
   nameWithType: Client.SteamId
+- uid: NFive.Server.Rpc.Client.XboxLiveId
+  name: XboxLiveId
+  href: nfive/NFive.Server.Rpc.Client.html#NFive_Server_Rpc_Client_XboxLiveId
+  commentId: P:NFive.Server.Rpc.Client.XboxLiveId
+  fullName: NFive.Server.Rpc.Client.XboxLiveId
+  nameWithType: Client.XboxLiveId
+- uid: NFive.Server.Rpc.Client.XboxLiveId*
+  name: XboxLiveId
+  href: nfive/NFive.Server.Rpc.Client.html#NFive_Server_Rpc_Client_XboxLiveId_
+  commentId: Overload:NFive.Server.Rpc.Client.XboxLiveId
+  isSpec: "True"
+  fullName: NFive.Server.Rpc.Client.XboxLiveId
+  nameWithType: Client.XboxLiveId
 - uid: NFive.Server.Rpc.ClientHandler
   name: ClientHandler
   href: nfive/NFive.Server.Rpc.ClientHandler.html
