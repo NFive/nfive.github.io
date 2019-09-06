@@ -196,8 +196,8 @@ Installs a plugin or processes the current lock file.
 
 ```shell
 nfpm install
-nfpm install <plugin>
-nfpm install <plugin>@<version>
+nfpm install <vendor>/<plugin>
+nfpm install <vendor>/<plugin>@<version>
 nfpm install <local path>
 ```
 
