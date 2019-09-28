@@ -1549,11 +1549,11 @@ references:
   isSpec: "True"
   fullName: NFive.SDK.Client.Extensions.ColorExtensions.ToCitColor
   nameWithType: ColorExtensions.ToCitColor
-- uid: NFive.SDK.Client.Extensions.ColorExtensions.ToColor(Color)
+- uid: NFive.SDK.Client.Extensions.ColorExtensions.ToColor(System.Drawing.Color)
   name: ToColor(Color)
-  href: client/NFive.SDK.Client.Extensions.ColorExtensions.html#NFive_SDK_Client_Extensions_ColorExtensions_ToColor_Color_
-  commentId: M:NFive.SDK.Client.Extensions.ColorExtensions.ToColor(Color)
-  fullName: NFive.SDK.Client.Extensions.ColorExtensions.ToColor(Color)
+  href: client/NFive.SDK.Client.Extensions.ColorExtensions.html#NFive_SDK_Client_Extensions_ColorExtensions_ToColor_System_Drawing_Color_
+  commentId: M:NFive.SDK.Client.Extensions.ColorExtensions.ToColor(System.Drawing.Color)
+  fullName: NFive.SDK.Client.Extensions.ColorExtensions.ToColor(System.Drawing.Color)
   nameWithType: ColorExtensions.ToColor(Color)
 - uid: NFive.SDK.Client.Extensions.ColorExtensions.ToColor*
   name: ToColor
