@@ -19,7 +19,7 @@ Inspired by other programming languages and environments, NFive tries to take ad
 
 NFive was developed with the aim of simplifying complex server management and providing users with a modern development experience.
 
-FiveM its self provides the bare minimum in terms of managed .NET functionality, so this project aims to be an opinionated, conversion over configuration, modular environment.
+FiveM its self provides the bare minimum in terms of managed .NET functionality, so this project aims to be an opinionated, convention over configuration, modular environment.
 
 Creating a single FiveM resource is simple, but creating complex ones able to share state and functionality quickly becomes cumbersome. As users demand more and more detailed servers and mod systems become larger there is a need for easier and more unified management, and more plugin interoperability.
 
