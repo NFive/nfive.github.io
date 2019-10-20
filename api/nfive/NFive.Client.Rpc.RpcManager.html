@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class RpcManager
    | NFive API Reference ">
-    <meta name="generator" content="docfx 2.45.1.0">
+    <meta name="generator" content="docfx 2.46.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -104,50 +104,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Client_Rpc_RpcManager_Configure_EventHandlerDictionary_.md&amp;value=---%0Auid%3A%20NFive.Client.Rpc.RpcManager.Configure(EventHandlerDictionary)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Client_Rpc_RpcManager_Emit_System_String_System_Object___.md&amp;value=---%0Auid%3A%20NFive.Client.Rpc.RpcManager.Emit(System.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NFive/NFive/blob/master/Client/Rpc/RpcManager.cs/#L22">View Source</a>
+    <a href="https://github.com/NFive/NFive/blob/master/Client/Rpc/RpcManager.cs/#L209">View Source</a>
   </span>
-  <a id="NFive_Client_Rpc_RpcManager_Configure_" data-uid="NFive.Client.Rpc.RpcManager.Configure*"></a>
-  <h4 id="NFive_Client_Rpc_RpcManager_Configure_EventHandlerDictionary_" data-uid="NFive.Client.Rpc.RpcManager.Configure(EventHandlerDictionary)">Configure(EventHandlerDictionary)</h4>
+  <a id="NFive_Client_Rpc_RpcManager_Emit_" data-uid="NFive.Client.Rpc.RpcManager.Emit*"></a>
+  <h4 id="NFive_Client_Rpc_RpcManager_Emit_System_String_System_Object___" data-uid="NFive.Client.Rpc.RpcManager.Emit(System.String,System.Object[])">Emit(String, Object[])</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Configure(EventHandlerDictionary events)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">EventHandlerDictionary</span></td>
-        <td><span class="parametername">events</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Client_Rpc_RpcManager_Event_System_String_.md&amp;value=---%0Auid%3A%20NFive.Client.Rpc.RpcManager.Event(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NFive/NFive/blob/master/Client/Rpc/RpcManager.cs/#L27">View Source</a>
-  </span>
-  <a id="NFive_Client_Rpc_RpcManager_Event_" data-uid="NFive.Client.Rpc.RpcManager.Event*"></a>
-  <h4 id="NFive_Client_Rpc_RpcManager_Event_System_String_" data-uid="NFive.Client.Rpc.RpcManager.Event(System.String)">Event(String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IRpc Event(string event)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Emit(string event, params object[] payloads)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -164,6 +132,796 @@
         <td><span class="parametername">event</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><span class="parametername">payloads</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Client_Rpc_RpcManager_Off_System_String_System_Delegate_.md&amp;value=---%0Auid%3A%20NFive.Client.Rpc.RpcManager.Off(System.String%2CSystem.Delegate)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NFive/NFive/blob/master/Client/Rpc/RpcManager.cs/#L144">View Source</a>
+  </span>
+  <a id="NFive_Client_Rpc_RpcManager_Off_" data-uid="NFive.Client.Rpc.RpcManager.Off*"></a>
+  <h4 id="NFive_Client_Rpc_RpcManager_Off_System_String_System_Delegate_" data-uid="NFive.Client.Rpc.RpcManager.Off(System.String,System.Delegate)">Off(String, Delegate)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Off(string event, Delegate callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">event</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.delegate">Delegate</a></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Client_Rpc_RpcManager_On_System_String_System_Action_ICommunicationMessage__.md&amp;value=---%0Auid%3A%20NFive.Client.Rpc.RpcManager.On(System.String%2CSystem.Action%7BICommunicationMessage%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NFive/NFive/blob/master/Client/Rpc/RpcManager.cs/#L34">View Source</a>
+  </span>
+  <a id="NFive_Client_Rpc_RpcManager_On_" data-uid="NFive.Client.Rpc.RpcManager.On*"></a>
+  <h4 id="NFive_Client_Rpc_RpcManager_On_System_String_System_Action_ICommunicationMessage__" data-uid="NFive.Client.Rpc.RpcManager.On(System.String,System.Action{ICommunicationMessage})">On(String, Action&lt;ICommunicationMessage&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void On(string event, Action&lt;ICommunicationMessage&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">event</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<span class="xref">ICommunicationMessage</span>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Client_Rpc_RpcManager_On__1_System_String_System_Action_ICommunicationMessage___0__.md&amp;value=---%0Auid%3A%20NFive.Client.Rpc.RpcManager.On%60%601(System.String%2CSystem.Action%7BICommunicationMessage%2C%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NFive/NFive/blob/master/Client/Rpc/RpcManager.cs/#L39">View Source</a>
+  </span>
+  <a id="NFive_Client_Rpc_RpcManager_On_" data-uid="NFive.Client.Rpc.RpcManager.On*"></a>
+  <h4 id="NFive_Client_Rpc_RpcManager_On__1_System_String_System_Action_ICommunicationMessage___0__" data-uid="NFive.Client.Rpc.RpcManager.On``1(System.String,System.Action{ICommunicationMessage,``0})">On&lt;T&gt;(String, Action&lt;ICommunicationMessage, T&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void On&lt;T&gt;(string event, Action&lt;ICommunicationMessage, T&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">event</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-2">Action</a>&lt;<span class="xref">ICommunicationMessage</span>, T&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Client_Rpc_RpcManager_On__2_System_String_System_Action_ICommunicationMessage___0___1__.md&amp;value=---%0Auid%3A%20NFive.Client.Rpc.RpcManager.On%60%602(System.String%2CSystem.Action%7BICommunicationMessage%2C%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NFive/NFive/blob/master/Client/Rpc/RpcManager.cs/#L47">View Source</a>
+  </span>
+  <a id="NFive_Client_Rpc_RpcManager_On_" data-uid="NFive.Client.Rpc.RpcManager.On*"></a>
+  <h4 id="NFive_Client_Rpc_RpcManager_On__2_System_String_System_Action_ICommunicationMessage___0___1__" data-uid="NFive.Client.Rpc.RpcManager.On``2(System.String,System.Action{ICommunicationMessage,``0,``1})">On&lt;T1, T2&gt;(String, Action&lt;ICommunicationMessage, T1, T2&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void On&lt;T1, T2&gt;(string event, Action&lt;ICommunicationMessage, T1, T2&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">event</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-3">Action</a>&lt;<span class="xref">ICommunicationMessage</span>, T1, T2&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Client_Rpc_RpcManager_On__3_System_String_System_Action_ICommunicationMessage___0___1___2__.md&amp;value=---%0Auid%3A%20NFive.Client.Rpc.RpcManager.On%60%603(System.String%2CSystem.Action%7BICommunicationMessage%2C%60%600%2C%60%601%2C%60%602%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NFive/NFive/blob/master/Client/Rpc/RpcManager.cs/#L56">View Source</a>
+  </span>
+  <a id="NFive_Client_Rpc_RpcManager_On_" data-uid="NFive.Client.Rpc.RpcManager.On*"></a>
+  <h4 id="NFive_Client_Rpc_RpcManager_On__3_System_String_System_Action_ICommunicationMessage___0___1___2__" data-uid="NFive.Client.Rpc.RpcManager.On``3(System.String,System.Action{ICommunicationMessage,``0,``1,``2})">On&lt;T1, T2, T3&gt;(String, Action&lt;ICommunicationMessage, T1, T2, T3&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void On&lt;T1, T2, T3&gt;(string event, Action&lt;ICommunicationMessage, T1, T2, T3&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">event</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-4">Action</a>&lt;<span class="xref">ICommunicationMessage</span>, T1, T2, T3&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Client_Rpc_RpcManager_On__4_System_String_System_Action_ICommunicationMessage___0___1___2___3__.md&amp;value=---%0Auid%3A%20NFive.Client.Rpc.RpcManager.On%60%604(System.String%2CSystem.Action%7BICommunicationMessage%2C%60%600%2C%60%601%2C%60%602%2C%60%603%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NFive/NFive/blob/master/Client/Rpc/RpcManager.cs/#L66">View Source</a>
+  </span>
+  <a id="NFive_Client_Rpc_RpcManager_On_" data-uid="NFive.Client.Rpc.RpcManager.On*"></a>
+  <h4 id="NFive_Client_Rpc_RpcManager_On__4_System_String_System_Action_ICommunicationMessage___0___1___2___3__" data-uid="NFive.Client.Rpc.RpcManager.On``4(System.String,System.Action{ICommunicationMessage,``0,``1,``2,``3})">On&lt;T1, T2, T3, T4&gt;(String, Action&lt;ICommunicationMessage, T1, T2, T3, T4&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void On&lt;T1, T2, T3, T4&gt;(string event, Action&lt;ICommunicationMessage, T1, T2, T3, T4&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">event</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-5">Action</a>&lt;<span class="xref">ICommunicationMessage</span>, T1, T2, T3, T4&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Client_Rpc_RpcManager_On__5_System_String_System_Action_ICommunicationMessage___0___1___2___3___4__.md&amp;value=---%0Auid%3A%20NFive.Client.Rpc.RpcManager.On%60%605(System.String%2CSystem.Action%7BICommunicationMessage%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NFive/NFive/blob/master/Client/Rpc/RpcManager.cs/#L77">View Source</a>
+  </span>
+  <a id="NFive_Client_Rpc_RpcManager_On_" data-uid="NFive.Client.Rpc.RpcManager.On*"></a>
+  <h4 id="NFive_Client_Rpc_RpcManager_On__5_System_String_System_Action_ICommunicationMessage___0___1___2___3___4__" data-uid="NFive.Client.Rpc.RpcManager.On``5(System.String,System.Action{ICommunicationMessage,``0,``1,``2,``3,``4})">On&lt;T1, T2, T3, T4, T5&gt;(String, Action&lt;ICommunicationMessage, T1, T2, T3, T4, T5&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void On&lt;T1, T2, T3, T4, T5&gt;(string event, Action&lt;ICommunicationMessage, T1, T2, T3, T4, T5&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">event</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-6">Action</a>&lt;<span class="xref">ICommunicationMessage</span>, T1, T2, T3, T4, T5&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Client_Rpc_RpcManager_OnRaw_System_String_System_Delegate_.md&amp;value=---%0Auid%3A%20NFive.Client.Rpc.RpcManager.OnRaw(System.String%2CSystem.Delegate)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NFive/NFive/blob/master/Client/Rpc/RpcManager.cs/#L27">View Source</a>
+  </span>
+  <a id="NFive_Client_Rpc_RpcManager_OnRaw_" data-uid="NFive.Client.Rpc.RpcManager.OnRaw*"></a>
+  <h4 id="NFive_Client_Rpc_RpcManager_OnRaw_System_String_System_Delegate_" data-uid="NFive.Client.Rpc.RpcManager.OnRaw(System.String,System.Delegate)">OnRaw(String, Delegate)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void OnRaw(string event, Delegate callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">event</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.delegate">Delegate</a></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Client_Rpc_RpcManager_OnRequest_System_String_System_Action_ICommunicationMessage__.md&amp;value=---%0Auid%3A%20NFive.Client.Rpc.RpcManager.OnRequest(System.String%2CSystem.Action%7BICommunicationMessage%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NFive/NFive/blob/master/Client/Rpc/RpcManager.cs/#L89">View Source</a>
+  </span>
+  <a id="NFive_Client_Rpc_RpcManager_OnRequest_" data-uid="NFive.Client.Rpc.RpcManager.OnRequest*"></a>
+  <h4 id="NFive_Client_Rpc_RpcManager_OnRequest_System_String_System_Action_ICommunicationMessage__" data-uid="NFive.Client.Rpc.RpcManager.OnRequest(System.String,System.Action{ICommunicationMessage})">OnRequest(String, Action&lt;ICommunicationMessage&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void OnRequest(string event, Action&lt;ICommunicationMessage&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">event</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<span class="xref">ICommunicationMessage</span>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Client_Rpc_RpcManager_OnRequest__1_System_String_System_Action_ICommunicationMessage___0__.md&amp;value=---%0Auid%3A%20NFive.Client.Rpc.RpcManager.OnRequest%60%601(System.String%2CSystem.Action%7BICommunicationMessage%2C%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NFive/NFive/blob/master/Client/Rpc/RpcManager.cs/#L94">View Source</a>
+  </span>
+  <a id="NFive_Client_Rpc_RpcManager_OnRequest_" data-uid="NFive.Client.Rpc.RpcManager.OnRequest*"></a>
+  <h4 id="NFive_Client_Rpc_RpcManager_OnRequest__1_System_String_System_Action_ICommunicationMessage___0__" data-uid="NFive.Client.Rpc.RpcManager.OnRequest``1(System.String,System.Action{ICommunicationMessage,``0})">OnRequest&lt;T&gt;(String, Action&lt;ICommunicationMessage, T&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void OnRequest&lt;T&gt;(string event, Action&lt;ICommunicationMessage, T&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">event</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-2">Action</a>&lt;<span class="xref">ICommunicationMessage</span>, T&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Client_Rpc_RpcManager_OnRequest__2_System_String_System_Action_ICommunicationMessage___0___1__.md&amp;value=---%0Auid%3A%20NFive.Client.Rpc.RpcManager.OnRequest%60%602(System.String%2CSystem.Action%7BICommunicationMessage%2C%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NFive/NFive/blob/master/Client/Rpc/RpcManager.cs/#L102">View Source</a>
+  </span>
+  <a id="NFive_Client_Rpc_RpcManager_OnRequest_" data-uid="NFive.Client.Rpc.RpcManager.OnRequest*"></a>
+  <h4 id="NFive_Client_Rpc_RpcManager_OnRequest__2_System_String_System_Action_ICommunicationMessage___0___1__" data-uid="NFive.Client.Rpc.RpcManager.OnRequest``2(System.String,System.Action{ICommunicationMessage,``0,``1})">OnRequest&lt;T1, T2&gt;(String, Action&lt;ICommunicationMessage, T1, T2&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void OnRequest&lt;T1, T2&gt;(string event, Action&lt;ICommunicationMessage, T1, T2&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">event</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-3">Action</a>&lt;<span class="xref">ICommunicationMessage</span>, T1, T2&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Client_Rpc_RpcManager_OnRequest__3_System_String_System_Action_ICommunicationMessage___0___1___2__.md&amp;value=---%0Auid%3A%20NFive.Client.Rpc.RpcManager.OnRequest%60%603(System.String%2CSystem.Action%7BICommunicationMessage%2C%60%600%2C%60%601%2C%60%602%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NFive/NFive/blob/master/Client/Rpc/RpcManager.cs/#L111">View Source</a>
+  </span>
+  <a id="NFive_Client_Rpc_RpcManager_OnRequest_" data-uid="NFive.Client.Rpc.RpcManager.OnRequest*"></a>
+  <h4 id="NFive_Client_Rpc_RpcManager_OnRequest__3_System_String_System_Action_ICommunicationMessage___0___1___2__" data-uid="NFive.Client.Rpc.RpcManager.OnRequest``3(System.String,System.Action{ICommunicationMessage,``0,``1,``2})">OnRequest&lt;T1, T2, T3&gt;(String, Action&lt;ICommunicationMessage, T1, T2, T3&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void OnRequest&lt;T1, T2, T3&gt;(string event, Action&lt;ICommunicationMessage, T1, T2, T3&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">event</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-4">Action</a>&lt;<span class="xref">ICommunicationMessage</span>, T1, T2, T3&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Client_Rpc_RpcManager_OnRequest__4_System_String_System_Action_ICommunicationMessage___0___1___2___3__.md&amp;value=---%0Auid%3A%20NFive.Client.Rpc.RpcManager.OnRequest%60%604(System.String%2CSystem.Action%7BICommunicationMessage%2C%60%600%2C%60%601%2C%60%602%2C%60%603%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NFive/NFive/blob/master/Client/Rpc/RpcManager.cs/#L121">View Source</a>
+  </span>
+  <a id="NFive_Client_Rpc_RpcManager_OnRequest_" data-uid="NFive.Client.Rpc.RpcManager.OnRequest*"></a>
+  <h4 id="NFive_Client_Rpc_RpcManager_OnRequest__4_System_String_System_Action_ICommunicationMessage___0___1___2___3__" data-uid="NFive.Client.Rpc.RpcManager.OnRequest``4(System.String,System.Action{ICommunicationMessage,``0,``1,``2,``3})">OnRequest&lt;T1, T2, T3, T4&gt;(String, Action&lt;ICommunicationMessage, T1, T2, T3, T4&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void OnRequest&lt;T1, T2, T3, T4&gt;(string event, Action&lt;ICommunicationMessage, T1, T2, T3, T4&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">event</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-5">Action</a>&lt;<span class="xref">ICommunicationMessage</span>, T1, T2, T3, T4&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Client_Rpc_RpcManager_OnRequest__5_System_String_System_Action_ICommunicationMessage___0___1___2___3___4__.md&amp;value=---%0Auid%3A%20NFive.Client.Rpc.RpcManager.OnRequest%60%605(System.String%2CSystem.Action%7BICommunicationMessage%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NFive/NFive/blob/master/Client/Rpc/RpcManager.cs/#L132">View Source</a>
+  </span>
+  <a id="NFive_Client_Rpc_RpcManager_OnRequest_" data-uid="NFive.Client.Rpc.RpcManager.OnRequest*"></a>
+  <h4 id="NFive_Client_Rpc_RpcManager_OnRequest__5_System_String_System_Action_ICommunicationMessage___0___1___2___3___4__" data-uid="NFive.Client.Rpc.RpcManager.OnRequest``5(System.String,System.Action{ICommunicationMessage,``0,``1,``2,``3,``4})">OnRequest&lt;T1, T2, T3, T4, T5&gt;(String, Action&lt;ICommunicationMessage, T1, T2, T3, T4, T5&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void OnRequest&lt;T1, T2, T3, T4, T5&gt;(string event, Action&lt;ICommunicationMessage, T1, T2, T3, T4, T5&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">event</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-6">Action</a>&lt;<span class="xref">ICommunicationMessage</span>, T1, T2, T3, T4, T5&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Client_Rpc_RpcManager_Request_System_String_System_Object___.md&amp;value=---%0Auid%3A%20NFive.Client.Rpc.RpcManager.Request(System.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NFive/NFive/blob/master/Client/Rpc/RpcManager.cs/#L151">View Source</a>
+  </span>
+  <a id="NFive_Client_Rpc_RpcManager_Request_" data-uid="NFive.Client.Rpc.RpcManager.Request*"></a>
+  <h4 id="NFive_Client_Rpc_RpcManager_Request_System_String_System_Object___" data-uid="NFive.Client.Rpc.RpcManager.Request(System.String,System.Object[])">Request(String, Object[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task Request(string event, params object[] payloads)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">event</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><span class="parametername">payloads</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
@@ -176,7 +934,382 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IRpc</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Client_Rpc_RpcManager_Request__1_System_String_System_Object___.md&amp;value=---%0Auid%3A%20NFive.Client.Rpc.RpcManager.Request%60%601(System.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NFive/NFive/blob/master/Client/Rpc/RpcManager.cs/#L156">View Source</a>
+  </span>
+  <a id="NFive_Client_Rpc_RpcManager_Request_" data-uid="NFive.Client.Rpc.RpcManager.Request*"></a>
+  <h4 id="NFive_Client_Rpc_RpcManager_Request__1_System_String_System_Object___" data-uid="NFive.Client.Rpc.RpcManager.Request``1(System.String,System.Object[])">Request&lt;T&gt;(String, Object[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;T&gt; Request&lt;T&gt;(string event, params object[] payloads)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">event</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><span class="parametername">payloads</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Client_Rpc_RpcManager_Request__2_System_String_System_Object___.md&amp;value=---%0Auid%3A%20NFive.Client.Rpc.RpcManager.Request%60%602(System.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NFive/NFive/blob/master/Client/Rpc/RpcManager.cs/#L163">View Source</a>
+  </span>
+  <a id="NFive_Client_Rpc_RpcManager_Request_" data-uid="NFive.Client.Rpc.RpcManager.Request*"></a>
+  <h4 id="NFive_Client_Rpc_RpcManager_Request__2_System_String_System_Object___" data-uid="NFive.Client.Rpc.RpcManager.Request``2(System.String,System.Object[])">Request&lt;T1, T2&gt;(String, Object[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Tuple&lt;T1, T2&gt;&gt; Request&lt;T1, T2&gt;(string event, params object[] payloads)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">event</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><span class="parametername">payloads</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.tuple-2">Tuple</a>&lt;T1, T2&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Client_Rpc_RpcManager_Request__3_System_String_System_Object___.md&amp;value=---%0Auid%3A%20NFive.Client.Rpc.RpcManager.Request%60%603(System.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NFive/NFive/blob/master/Client/Rpc/RpcManager.cs/#L173">View Source</a>
+  </span>
+  <a id="NFive_Client_Rpc_RpcManager_Request_" data-uid="NFive.Client.Rpc.RpcManager.Request*"></a>
+  <h4 id="NFive_Client_Rpc_RpcManager_Request__3_System_String_System_Object___" data-uid="NFive.Client.Rpc.RpcManager.Request``3(System.String,System.Object[])">Request&lt;T1, T2, T3&gt;(String, Object[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Tuple&lt;T1, T2, T3&gt;&gt; Request&lt;T1, T2, T3&gt;(string event, params object[] payloads)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">event</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><span class="parametername">payloads</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.tuple-3">Tuple</a>&lt;T1, T2, T3&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Client_Rpc_RpcManager_Request__4_System_String_System_Object___.md&amp;value=---%0Auid%3A%20NFive.Client.Rpc.RpcManager.Request%60%604(System.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NFive/NFive/blob/master/Client/Rpc/RpcManager.cs/#L184">View Source</a>
+  </span>
+  <a id="NFive_Client_Rpc_RpcManager_Request_" data-uid="NFive.Client.Rpc.RpcManager.Request*"></a>
+  <h4 id="NFive_Client_Rpc_RpcManager_Request__4_System_String_System_Object___" data-uid="NFive.Client.Rpc.RpcManager.Request``4(System.String,System.Object[])">Request&lt;T1, T2, T3, T4&gt;(String, Object[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Tuple&lt;T1, T2, T3, T4&gt;&gt; Request&lt;T1, T2, T3, T4&gt;(string event, params object[] payloads)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">event</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><span class="parametername">payloads</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.tuple-4">Tuple</a>&lt;T1, T2, T3, T4&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Client_Rpc_RpcManager_Request__5_System_String_System_Object___.md&amp;value=---%0Auid%3A%20NFive.Client.Rpc.RpcManager.Request%60%605(System.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NFive/NFive/blob/master/Client/Rpc/RpcManager.cs/#L196">View Source</a>
+  </span>
+  <a id="NFive_Client_Rpc_RpcManager_Request_" data-uid="NFive.Client.Rpc.RpcManager.Request*"></a>
+  <h4 id="NFive_Client_Rpc_RpcManager_Request__5_System_String_System_Object___" data-uid="NFive.Client.Rpc.RpcManager.Request``5(System.String,System.Object[])">Request&lt;T1, T2, T3, T4, T5&gt;(String, Object[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Tuple&lt;T1, T2, T3, T4, T5&gt;&gt; Request&lt;T1, T2, T3, T4, T5&gt;(string event, params object[] payloads)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">event</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><span class="parametername">payloads</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.tuple-5">Tuple</a>&lt;T1, T2, T3, T4, T5&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -192,7 +1325,7 @@
                     <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Client_Rpc_RpcManager.md&amp;value=---%0Auid%3A%20NFive.Client.Rpc.RpcManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/NFive/NFive/blob/master/Client/Rpc/RpcManager.cs/#L8" class="contribution-link">View Source</a>
+                    <a href="https://github.com/NFive/NFive/blob/master/Client/Rpc/RpcManager.cs/#L15" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

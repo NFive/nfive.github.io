@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "client/NFive.SDK.Client.ClientPluginAttribute.html",
-          "hash": "6rcdywe9QX5jOq/ssgJwLg=="
+          "hash": "nzEfSj3XHiGny4ToAIkbWA=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "client/NFive.SDK.Client.Commands.ICommandManager.html",
-          "hash": "9WdE1fQLXf/N+48FleK6tg=="
+          "hash": "fetNy4JeAm/zr0QcjhRp/A=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,127 @@
       "output": {
         ".html": {
           "relative_path": "client/NFive.SDK.Client.Commands.html",
-          "hash": "pRBe+VxIyHKittdS+osU8A=="
+          "hash": "l/ZznCSagGnKRowwO6xINA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Communications.ICommunicationManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Communications.ICommunicationManager.html",
+          "hash": "nMudYZOnoa9mygpW+mWo9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Communications.ICommunicationMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Communications.ICommunicationMessage.html",
+          "hash": "sHz7aJ7rrZdCM5suet92BA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Communications.ICommunicationReceive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Communications.ICommunicationReceive.html",
+          "hash": "8tp7/H6JLyXcxfZVOeCazw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Communications.ICommunicationReceiveClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Communications.ICommunicationReceiveClient.html",
+          "hash": "SQLJy2j4LyUAmrXRv1eeyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Communications.ICommunicationReceiveServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Communications.ICommunicationReceiveServer.html",
+          "hash": "56zQOU+g0+JEbH17J+NO9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Communications.ICommunicationTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Communications.ICommunicationTarget.html",
+          "hash": "470z21fukywp8YnyQ/WgUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Communications.ICommunicationTransmit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Communications.ICommunicationTransmit.html",
+          "hash": "BsL13XFOK7SaV7t+jlHSrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Communications.ICommunicationTransmitClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Communications.ICommunicationTransmitClient.html",
+          "hash": "5i537uJqm9JCOhFBt9fnRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Communications.ICommunicationTransmitServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Communications.ICommunicationTransmitServer.html",
+          "hash": "m/lFwzCrCgbh4iwhRZfQPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Communications.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Communications.html",
+          "hash": "HIuizXN66fd0x2eqKVVubA=="
         }
       },
       "is_incremental": false,
@@ -54,7 +174,19 @@
       "output": {
         ".html": {
           "relative_path": "client/NFive.SDK.Client.Configuration.ClientConfiguration.html",
-          "hash": "Hrq9a4/MoXC495sD2SmHyQ=="
+          "hash": "R/iuwGvlalCnxWWb7kVO2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Configuration.LogConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Configuration.LogConfiguration.html",
+          "hash": "2J3lx76gN75s9muozNvaLQ=="
         }
       },
       "is_incremental": false,
@@ -66,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "client/NFive.SDK.Client.Configuration.html",
-          "hash": "h1Yn4+M5C5xN4TEP9WbK9Q=="
+          "hash": "vKzLcbys/mQ6kcSpFGDZcg=="
         }
       },
       "is_incremental": false,
@@ -74,11 +206,23 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "client/NFive.SDK.Client.Events.IEventManager.yml",
+      "source_relative_path": "client/NFive.SDK.Client.Events.ClientEvents.yml",
       "output": {
         ".html": {
-          "relative_path": "client/NFive.SDK.Client.Events.IEventManager.html",
-          "hash": "77mbqvvuD4hbepukLEGbBQ=="
+          "relative_path": "client/NFive.SDK.Client.Events.ClientEvents.html",
+          "hash": "KoQbNX3PcgY6Xhqpa6NpYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Events.FiveMClientEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Events.FiveMClientEvents.html",
+          "hash": "SN1TrTOVAJkvNrtMJM/trw=="
         }
       },
       "is_incremental": false,
@@ -90,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "client/NFive.SDK.Client.Events.ITickManager.html",
-          "hash": "G+FdsSokZzI2XxktROGKWQ=="
+          "hash": "9VOaNYaz6pNZ2GwDzqch0g=="
         }
       },
       "is_incremental": false,
@@ -102,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "client/NFive.SDK.Client.Events.SessionEvents.html",
-          "hash": "p0BarMoL+J1uYCq17oGmVQ=="
+          "hash": "2nXP6HHDE/V9tS/9Pn7Emw=="
         }
       },
       "is_incremental": false,
@@ -114,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "client/NFive.SDK.Client.Events.html",
-          "hash": "6bPDmB5sBoojhXzAy103jw=="
+          "hash": "vpw35fDlfXF5nmhTvH+zTQ=="
         }
       },
       "is_incremental": false,
@@ -126,19 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "client/NFive.SDK.Client.Extensions.ColorExtensions.html",
-          "hash": "BI+5TIMDtd59uQhmF+YKfw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "client/NFive.SDK.Client.Extensions.FloatExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "client/NFive.SDK.Client.Extensions.FloatExtensions.html",
-          "hash": "4+hiLWtvQS5IntyYOfOclg=="
+          "hash": "+d+3KPJk7ximdDDdcW+2vA=="
         }
       },
       "is_incremental": false,
@@ -150,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "client/NFive.SDK.Client.Extensions.PedExtensions.html",
-          "hash": "G+wsf2RQ6H7nb8EIO3ixYg=="
+          "hash": "hTXnsTBs+b5fDlqcWBLr7A=="
         }
       },
       "is_incremental": false,
@@ -162,43 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "client/NFive.SDK.Client.Extensions.PlayerExtensions.html",
-          "hash": "QKUSFf8Au/YmPcXoCNEcGw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "client/NFive.SDK.Client.Extensions.PositionExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "client/NFive.SDK.Client.Extensions.PositionExtensions.html",
-          "hash": "8dYmSKAq+2R6QKA7VMQE+w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "client/NFive.SDK.Client.Extensions.ReflectionExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "client/NFive.SDK.Client.Extensions.ReflectionExtensions.html",
-          "hash": "rzq0TMEhTpOuge4fGagTxA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "client/NFive.SDK.Client.Extensions.StringExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "client/NFive.SDK.Client.Extensions.StringExtensions.html",
-          "hash": "3ZKDuSXmYneEGl96giHzxw=="
+          "hash": "1qbHZ3Fw6FueZSOxUIP6mA=="
         }
       },
       "is_incremental": false,
@@ -210,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "client/NFive.SDK.Client.Extensions.VectorExtensions.html",
-          "hash": "uddAflUPiB/prwSuEU7t8A=="
+          "hash": "zoPtYjzUyqtm3m6ovNJdnw=="
         }
       },
       "is_incremental": false,
@@ -222,7 +318,19 @@
       "output": {
         ".html": {
           "relative_path": "client/NFive.SDK.Client.Extensions.html",
-          "hash": "rLUC5IRwMwaVglT0lR50RQ=="
+          "hash": "y36Gv7NSNXmTb9i9aM1D7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Input.Hotkey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Input.Hotkey.html",
+          "hash": "xXc7AHuS65U6RD4two/P+g=="
         }
       },
       "is_incremental": false,
@@ -234,7 +342,7 @@
       "output": {
         ".html": {
           "relative_path": "client/NFive.SDK.Client.Input.Input.html",
-          "hash": "skvKGgZc5asB7iceIlCpSQ=="
+          "hash": "9nzjd6nKMMKJj/9XRGZN+w=="
         }
       },
       "is_incremental": false,
@@ -246,7 +354,19 @@
       "output": {
         ".html": {
           "relative_path": "client/NFive.SDK.Client.Input.InputModifier.html",
-          "hash": "V423gWk1m4B3sS4pZOXOQA=="
+          "hash": "5iWAfm3NKiVwEJezZnD+QA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/NFive.SDK.Client.Input.KeyCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/NFive.SDK.Client.Input.KeyCode.html",
+          "hash": "9/cQ75tQudT6F1EcjPg87A=="
         }
       },
       "is_incremental": false,
@@ -258,7 +378,7 @@
       "output": {
         ".html": {
           "relative_path": "client/NFive.SDK.Client.Input.html",
-          "hash": "zPtoGoe9wHuYzu9Jw0k+0Q=="
+          "hash": "nsUIrVMvYzijivDq2SjGMA=="
         }
       },
       "is_incremental": false,
@@ -270,7 +390,7 @@
       "output": {
         ".html": {
           "relative_path": "client/NFive.SDK.Client.Interface.INuiManager.html",
-          "hash": "XbzMOOCxufdT/FrfH/53eA=="
+          "hash": "sZ5TcCYxSiF0lp7R1H5Xaw=="
         }
       },
       "is_incremental": false,
@@ -282,7 +402,7 @@
       "output": {
         ".html": {
           "relative_path": "client/NFive.SDK.Client.Interface.IOverlay.html",
-          "hash": "Nq0qhsocADDtD59vxMyq5Q=="
+          "hash": "QVeuO++qpqdxfTuRqxok2Q=="
         }
       },
       "is_incremental": false,
@@ -294,7 +414,7 @@
       "output": {
         ".html": {
           "relative_path": "client/NFive.SDK.Client.Interface.NuiManager.html",
-          "hash": "VQXYY31xlUvopjRkb9RisQ=="
+          "hash": "yiDsqK24ILGum+PKwj95GQ=="
         }
       },
       "is_incremental": false,
@@ -306,7 +426,7 @@
       "output": {
         ".html": {
           "relative_path": "client/NFive.SDK.Client.Interface.Overlay.html",
-          "hash": "YRBEO39+bhHjMwH+PogShQ=="
+          "hash": "ye4kpN2OxGs6ywHeK6ekaA=="
         }
       },
       "is_incremental": false,
@@ -318,7 +438,7 @@
       "output": {
         ".html": {
           "relative_path": "client/NFive.SDK.Client.Interface.OverlayEventArgs.html",
-          "hash": "O5/2VImLTSaQccqk3aCqAA=="
+          "hash": "3kQt5IEqsJ9BJiRjCCc1rg=="
         }
       },
       "is_incremental": false,
@@ -330,7 +450,7 @@
       "output": {
         ".html": {
           "relative_path": "client/NFive.SDK.Client.Interface.OverlayManager.html",
-          "hash": "SWI2Zi1Ie7joyAYCmpA0Qw=="
+          "hash": "PQXhS0qTCdUH16zj4wlg6A=="
         }
       },
       "is_incremental": false,
@@ -342,7 +462,7 @@
       "output": {
         ".html": {
           "relative_path": "client/NFive.SDK.Client.Interface.html",
-          "hash": "CrdjCLHcx9qCGxDPA32CUg=="
+          "hash": "qXED1WlB1dfb9SY1clHVTw=="
         }
       },
       "is_incremental": false,
@@ -350,11 +470,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "client/NFive.SDK.Client.Rpc.IRpc.yml",
+      "source_relative_path": "client/NFive.SDK.Client.Locales.LocaleCatalog.yml",
       "output": {
         ".html": {
-          "relative_path": "client/NFive.SDK.Client.Rpc.IRpc.html",
-          "hash": "6D6Drq2Te/IdM18FJ5socQ=="
+          "relative_path": "client/NFive.SDK.Client.Locales.LocaleCatalog.html",
+          "hash": "bYvItO/HetpNztoMkC7EBg=="
         }
       },
       "is_incremental": false,
@@ -362,59 +482,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "client/NFive.SDK.Client.Rpc.IRpcAttach.yml",
+      "source_relative_path": "client/NFive.SDK.Client.Locales.yml",
       "output": {
         ".html": {
-          "relative_path": "client/NFive.SDK.Client.Rpc.IRpcAttach.html",
-          "hash": "/z824xzOhfUPjltorqV8Yw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "client/NFive.SDK.Client.Rpc.IRpcEvent.yml",
-      "output": {
-        ".html": {
-          "relative_path": "client/NFive.SDK.Client.Rpc.IRpcEvent.html",
-          "hash": "gGKkzwSuu3ZPc+GDFyFcbQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "client/NFive.SDK.Client.Rpc.IRpcHandler.yml",
-      "output": {
-        ".html": {
-          "relative_path": "client/NFive.SDK.Client.Rpc.IRpcHandler.html",
-          "hash": "MgtR9RP+BttVlPjXaSymTA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "client/NFive.SDK.Client.Rpc.IRpcTrigger.yml",
-      "output": {
-        ".html": {
-          "relative_path": "client/NFive.SDK.Client.Rpc.IRpcTrigger.html",
-          "hash": "eH112SbLGvO7QlStGV9hgw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "client/NFive.SDK.Client.Rpc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "client/NFive.SDK.Client.Rpc.html",
-          "hash": "SV2PYW6Yp+2AQG8UVBnF1w=="
+          "relative_path": "client/NFive.SDK.Client.Locales.html",
+          "hash": "4WHZKDWLVRNMtt41aCe/NA=="
         }
       },
       "is_incremental": false,
@@ -426,7 +498,7 @@
       "output": {
         ".html": {
           "relative_path": "client/NFive.SDK.Client.SDK.html",
-          "hash": "tDtDqb1bgDqf1SHzmUV9pA=="
+          "hash": "tFOSlj/KZnlUluG3nBS2dQ=="
         }
       },
       "is_incremental": false,
@@ -438,7 +510,7 @@
       "output": {
         ".html": {
           "relative_path": "client/NFive.SDK.Client.Services.Service.html",
-          "hash": "U8JSOuVUDjPHGrV+lRTgRg=="
+          "hash": "SLIt2ddY+nttXnNxxnkQGw=="
         }
       },
       "is_incremental": false,
@@ -450,7 +522,7 @@
       "output": {
         ".html": {
           "relative_path": "client/NFive.SDK.Client.Services.html",
-          "hash": "tClzjunNcJb8vFeMlgcPeQ=="
+          "hash": "G8kghKQKRMWv5HPB/M+WqA=="
         }
       },
       "is_incremental": false,
@@ -462,7 +534,7 @@
       "output": {
         ".html": {
           "relative_path": "client/NFive.SDK.Client.html",
-          "hash": "saHMm2bkFY4RKJ8ejcdmpA=="
+          "hash": "4VKFXgTcSsjck2aPb5/kMQ=="
         }
       },
       "is_incremental": false,
@@ -474,7 +546,7 @@
       "output": {
         ".html": {
           "relative_path": "client/toc.html",
-          "hash": "Rz/3jG+TZQwwiBnDfVX8Gw=="
+          "hash": "xKgEiEIn7DMZ4C6QgWrjaQ=="
         }
       },
       "is_incremental": false,
@@ -486,7 +558,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Arguments.Argument.Arg.html",
-          "hash": "u0hB1sXRDGXmbkHbnXM6IA=="
+          "hash": "KmA6viazPEvHnSvXuVtMHQ=="
         }
       },
       "is_incremental": false,
@@ -498,7 +570,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Arguments.Argument.html",
-          "hash": "CwalivAo9l4C+KI4/iB9DQ=="
+          "hash": "WGYzNTpDzi1Uta+9vEbQuQ=="
         }
       },
       "is_incremental": false,
@@ -510,7 +582,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Arguments.OptionAttribute.html",
-          "hash": "vaYLpRYeye+IGUirjbH8lg=="
+          "hash": "ppVaVvniFs7OLJtcZP2lYA=="
         }
       },
       "is_incremental": false,
@@ -522,7 +594,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Arguments.OptionSpecification.html",
-          "hash": "AzpyVYGzW+XjdyJUSSRcjQ=="
+          "hash": "wvBXI6Flkp8svDteXxldew=="
         }
       },
       "is_incremental": false,
@@ -534,7 +606,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Arguments.Specification.html",
-          "hash": "AjvcEGp6Hlpc/U2jqr7SMg=="
+          "hash": "bk+DdmqPPzAj92SkROQeJQ=="
         }
       },
       "is_incremental": false,
@@ -546,7 +618,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Arguments.SpecificationType.html",
-          "hash": "QnUyT5Hvd4MYvLUe/FvyMw=="
+          "hash": "YUfm3i8LB9nbNnKgo4zdAQ=="
         }
       },
       "is_incremental": false,
@@ -558,7 +630,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Arguments.ValueAttribute.html",
-          "hash": "bcOKAJChiqT/O+d6JypNkg=="
+          "hash": "8FDt62oIfpqE5QEQawZRLw=="
         }
       },
       "is_incremental": false,
@@ -570,7 +642,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Arguments.ValueSpecification.html",
-          "hash": "QUrdDMn3Ap/PVxYM717aug=="
+          "hash": "wxr1D0rb2rrrhtyHL08QHw=="
         }
       },
       "is_incremental": false,
@@ -582,7 +654,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Arguments.html",
-          "hash": "UEuqzR9uZthTi4n0k6Cfaw=="
+          "hash": "pYnDr5sNJBiYth4bTjLZ+w=="
         }
       },
       "is_incremental": false,
@@ -594,7 +666,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Chat.ChatMessage.html",
-          "hash": "ThNAg07vDHqFuB0Jt7WRVw=="
+          "hash": "6i8EG9Qa9KA1WmfcyykCbg=="
         }
       },
       "is_incremental": false,
@@ -606,7 +678,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Chat.IChatMessage.html",
-          "hash": "vzpzA1I+V9vf2l/35ysnZg=="
+          "hash": "K/XR8aoxEYWpbip6QCFUDA=="
         }
       },
       "is_incremental": false,
@@ -618,7 +690,31 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Chat.html",
-          "hash": "buJFFvi2GUzXidGQuZk5dw=="
+          "hash": "yJqLeJtZw75CTzteqHPpbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Configuration.LocaleConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Configuration.LocaleConfiguration.html",
+          "hash": "Cbbxku4rwoa73/AjCay1kg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Configuration.html",
+          "hash": "3IUhmASEdk1w+Q0z/FsBXw=="
         }
       },
       "is_incremental": false,
@@ -630,7 +726,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Controllers.ControllerConfiguration.html",
-          "hash": "96EwISvq1dWhh1d0lD2bnQ=="
+          "hash": "YHf1NETzmfjnzPcIJgiKeA=="
         }
       },
       "is_incremental": false,
@@ -642,7 +738,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Controllers.IControllerConfiguration.html",
-          "hash": "CcfwnhIGfzummZ30T0DvIg=="
+          "hash": "Rm4rhBXJ3YFNyGDjvEu8+Q=="
         }
       },
       "is_incremental": false,
@@ -654,7 +750,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Controllers.html",
-          "hash": "jPVv/goTUjt6+4zrdYmrDA=="
+          "hash": "UAjdfbcErH5bfoytQHRKfw=="
         }
       },
       "is_incremental": false,
@@ -666,7 +762,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Diagnostics.ILogger.html",
-          "hash": "wXHGZyZPfqIQb7mE+fHRdw=="
+          "hash": "QbduXqkVLhUX6o0mHdlKDg=="
         }
       },
       "is_incremental": false,
@@ -678,7 +774,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Diagnostics.LogLevel.html",
-          "hash": "sRWoq800dXnNJDN6PjiFCw=="
+          "hash": "qmAcFLmC1P1TdPHwb/oFww=="
         }
       },
       "is_incremental": false,
@@ -690,7 +786,31 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Diagnostics.html",
-          "hash": "lLiFJKno2lQYJWqhPTugIw=="
+          "hash": "ADJxoNkSryTbY/FWnYpRlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Events.CoreEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Events.CoreEvents.html",
+          "hash": "VMc/7qoV0bVnS6X5EpGfHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Events.html",
+          "hash": "N0Y1MavGtvV26C2yt7SOEQ=="
         }
       },
       "is_incremental": false,
@@ -702,7 +822,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Extensions.NumericExtensions.html",
-          "hash": "4dSROurkBzSGIkW7nv6I7g=="
+          "hash": "F2lgkeYG+xWO1EZVPeRJlQ=="
         }
       },
       "is_incremental": false,
@@ -714,7 +834,19 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Extensions.PositionExtensions.html",
-          "hash": "VXRguVn4OPq36bF2COWdSw=="
+          "hash": "r8gMKFvUju3XBuDHcStPLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core/NFive.SDK.Core.Extensions.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core/NFive.SDK.Core.Extensions.StringExtensions.html",
+          "hash": "O6WhQqwVyVN+BhlVywdgXg=="
         }
       },
       "is_incremental": false,
@@ -726,7 +858,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Extensions.TypeExtensions.html",
-          "hash": "P+SqwjH+uHmqFV/1ziBFkg=="
+          "hash": "lnlCbZCpGhHFUg9+s2iseQ=="
         }
       },
       "is_incremental": false,
@@ -738,7 +870,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Extensions.Vector2Extensions.html",
-          "hash": "mF+rp184brR4+okuPKb/jg=="
+          "hash": "KcDRPIXdIuWrgM53hdFItQ=="
         }
       },
       "is_incremental": false,
@@ -750,7 +882,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Extensions.Vector3Extensions.html",
-          "hash": "/ionoPjwv3cS+jCW+EUbVA=="
+          "hash": "iU7tz75K4HWuGvU0aGvKgQ=="
         }
       },
       "is_incremental": false,
@@ -762,7 +894,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Extensions.html",
-          "hash": "IVaI1Lj/dLYe15Gl5/cs0w=="
+          "hash": "jqw5juN9veVM+UgC1Vco1w=="
         }
       },
       "is_incremental": false,
@@ -774,7 +906,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Helpers.GuidGenerator.html",
-          "hash": "iXsXRlugO5W575VhfndIdg=="
+          "hash": "Xv3cOmr2/JdMEv4lvQBcnw=="
         }
       },
       "is_incremental": false,
@@ -786,7 +918,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Helpers.MathHelpers.html",
-          "hash": "EgoCXGdR4nKPK20VSIdD1Q=="
+          "hash": "tns0laBYYpsxzD8cSKdTzQ=="
         }
       },
       "is_incremental": false,
@@ -798,7 +930,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Helpers.html",
-          "hash": "ENmoQq/0YhD825mHGmG8/A=="
+          "hash": "yU4+zZdyAJ+gem+mwDgd9A=="
         }
       },
       "is_incremental": false,
@@ -806,11 +938,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "core/NFive.SDK.Core.IoC.ComponentAttribute.yml",
+      "source_relative_path": "core/NFive.SDK.Core.Locales.ILocaleCatalog.yml",
       "output": {
         ".html": {
-          "relative_path": "core/NFive.SDK.Core.IoC.ComponentAttribute.html",
-          "hash": "NFP+DtTIaveC7NYvYO6T7g=="
+          "relative_path": "core/NFive.SDK.Core.Locales.ILocaleCatalog.html",
+          "hash": "g+3Pm/E6rqtZYvBd5CXffg=="
         }
       },
       "is_incremental": false,
@@ -818,23 +950,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "core/NFive.SDK.Core.IoC.Lifetime.yml",
+      "source_relative_path": "core/NFive.SDK.Core.Locales.yml",
       "output": {
         ".html": {
-          "relative_path": "core/NFive.SDK.Core.IoC.Lifetime.html",
-          "hash": "AJjzWtJ6kAPpshlrTBsYig=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "core/NFive.SDK.Core.IoC.yml",
-      "output": {
-        ".html": {
-          "relative_path": "core/NFive.SDK.Core.IoC.html",
-          "hash": "nWWwlosMmfa9wdB/ngVyQQ=="
+          "relative_path": "core/NFive.SDK.Core.Locales.html",
+          "hash": "/42eJ6T4XpmWs6jGC2R/TA=="
         }
       },
       "is_incremental": false,
@@ -846,7 +966,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Models.Audio.RadioStation.html",
-          "hash": "puyNSNU0JnGWCF4fVyNQww=="
+          "hash": "wypI55gfUJMwR8FTJpf5Qg=="
         }
       },
       "is_incremental": false,
@@ -858,7 +978,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Models.Audio.html",
-          "hash": "GkXHyllNuHjjLHFde83gMQ=="
+          "hash": "QY2I8sJ5BdptUpIFW8/DHQ=="
         }
       },
       "is_incremental": false,
@@ -870,7 +990,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Models.Color.html",
-          "hash": "h6Fu9JsD4XMz6/KgVvhKXw=="
+          "hash": "XpWLa9jhy3qIesHOv7WHVQ=="
         }
       },
       "is_incremental": false,
@@ -882,7 +1002,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Models.IIdentityModel.html",
-          "hash": "WQxB0NMhqHvmOiuOmO06GA=="
+          "hash": "fdXg2yJ7jlLrBEDeksaZCw=="
         }
       },
       "is_incremental": false,
@@ -894,7 +1014,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Models.IdentityModel.html",
-          "hash": "DyOToktsG8KlF7IyKi0/JA=="
+          "hash": "O41K6C9voQ8KXmQ24FHT3w=="
         }
       },
       "is_incremental": false,
@@ -906,7 +1026,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Models.Player.Session.html",
-          "hash": "2HM5i+4i+z5KH1R4Qv3YCQ=="
+          "hash": "rbCW2WBlhLU05HmFipJVsw=="
         }
       },
       "is_incremental": false,
@@ -918,7 +1038,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Models.Player.User.html",
-          "hash": "n0Qu22MRCX7tR/IhYFIOiQ=="
+          "hash": "I/MQ+KqIxRYjOo7Yd7H5cQ=="
         }
       },
       "is_incremental": false,
@@ -930,7 +1050,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Models.Player.html",
-          "hash": "fiywmfJlY6Q6kH8Te/Mwsg=="
+          "hash": "vrNslr38FSJNgIVDZBKkbw=="
         }
       },
       "is_incremental": false,
@@ -942,7 +1062,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Models.Position.html",
-          "hash": "84T1JdyDP4I+z6SefYOUQg=="
+          "hash": "F8+YdLOZ07PS9SlbPPLlSg=="
         }
       },
       "is_incremental": false,
@@ -954,7 +1074,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Models.Vector2.html",
-          "hash": "IymKeUJ51xCPU5Leb7LH6Q=="
+          "hash": "nDZkz4I4lfM3Uitya0QQMg=="
         }
       },
       "is_incremental": false,
@@ -966,7 +1086,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Models.Vector3.html",
-          "hash": "/7stGWvNMi5CLXTmOY1uBw=="
+          "hash": "wAZ0nuIj9pnz1JLNqpKwUA=="
         }
       },
       "is_incremental": false,
@@ -978,7 +1098,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Models.html",
-          "hash": "DVzoWPzYCBR9oOgH6A3QQA=="
+          "hash": "zDQ2jmkkx6cBVO7JHQtPiA=="
         }
       },
       "is_incremental": false,
@@ -990,7 +1110,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.PluginAttribute.html",
-          "hash": "9cpqBfDeGcQhaeqIZkTUgQ=="
+          "hash": "uqr5CbsbAHS2AkLXTF8rwg=="
         }
       },
       "is_incremental": false,
@@ -1002,7 +1122,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Plugins.Client.html",
-          "hash": "f39czFjWy/7XX2hpYf2e0Q=="
+          "hash": "Tg3UtMZyM452GWoYyYND4g=="
         }
       },
       "is_incremental": false,
@@ -1014,7 +1134,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Plugins.Name.html",
-          "hash": "Ya+kW1WkedEO4sCAga7LVg=="
+          "hash": "p88C1wdSqp4Sn1f7Btig7g=="
         }
       },
       "is_incremental": false,
@@ -1026,7 +1146,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Plugins.Plugin.html",
-          "hash": "OOrZhNBjaDJ5x9b4PIpONw=="
+          "hash": "xnOWrShH2ppnHiX5mVYHhA=="
         }
       },
       "is_incremental": false,
@@ -1038,7 +1158,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Plugins.Repository.html",
-          "hash": "i26pfpE5o+prYeHjNK4bsA=="
+          "hash": "wMZJA5g0C29Ks7Py5FW2hg=="
         }
       },
       "is_incremental": false,
@@ -1050,7 +1170,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Plugins.Server.html",
-          "hash": "HHPmt3qd8zGccKvw9UUOjQ=="
+          "hash": "FvespwwNYDW8nuhDrtGD/Q=="
         }
       },
       "is_incremental": false,
@@ -1062,7 +1182,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Plugins.Version.html",
-          "hash": "N/rfLzEYwSmkdsE56R5V4Q=="
+          "hash": "SQdmnXBLVrTW8xcuugydWw=="
         }
       },
       "is_incremental": false,
@@ -1074,7 +1194,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Plugins.VersionRange.html",
-          "hash": "9+bk2kis/mU4sy7Sre16Eg=="
+          "hash": "2S2ulUxqcz2ojI0wK+YfYg=="
         }
       },
       "is_incremental": false,
@@ -1086,7 +1206,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.Plugins.html",
-          "hash": "vHavxyuQHrpvjEsw3jEyAg=="
+          "hash": "M89IV84YXnmJdUBF0xsozw=="
         }
       },
       "is_incremental": false,
@@ -1094,11 +1214,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "core/NFive.SDK.Core.Rpc.RpcEvents.yml",
+      "source_relative_path": "core/NFive.SDK.Core.Utilities.Serializer.yml",
       "output": {
         ".html": {
-          "relative_path": "core/NFive.SDK.Core.Rpc.RpcEvents.html",
-          "hash": "VzrM5355j5PywTeIK7bshw=="
+          "relative_path": "core/NFive.SDK.Core.Utilities.Serializer.html",
+          "hash": "kLc4h8EflDV3QzNdozDyTA=="
         }
       },
       "is_incremental": false,
@@ -1106,23 +1226,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "core/NFive.SDK.Core.Rpc.Serializer.yml",
+      "source_relative_path": "core/NFive.SDK.Core.Utilities.yml",
       "output": {
         ".html": {
-          "relative_path": "core/NFive.SDK.Core.Rpc.Serializer.html",
-          "hash": "OFa/7xcwI8TO8423q6wYEQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "core/NFive.SDK.Core.Rpc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "core/NFive.SDK.Core.Rpc.html",
-          "hash": "xYdiSjmbzZMWjCtfOeVHmg=="
+          "relative_path": "core/NFive.SDK.Core.Utilities.html",
+          "hash": "VdCKIxwRI9wlcXosb7l+IQ=="
         }
       },
       "is_incremental": false,
@@ -1134,7 +1242,7 @@
       "output": {
         ".html": {
           "relative_path": "core/NFive.SDK.Core.html",
-          "hash": "BEbA9ev+jOZxt5QDmf/IuA=="
+          "hash": "SKpqVb1eXZv7INBAL+ijCQ=="
         }
       },
       "is_incremental": false,
@@ -1146,7 +1254,7 @@
       "output": {
         ".html": {
           "relative_path": "core/toc.html",
-          "hash": "C4vtkpYQVHzAqu2ewxnPqg=="
+          "hash": "VpfC/cCSV4BoWlNk5lEy3A=="
         }
       },
       "is_incremental": false,
@@ -1158,7 +1266,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "NLni6UK9pMMgq5bW6EOwfQ=="
+          "hash": "yfQS/Z30ehk5xIiU3SmLJA=="
         }
       },
       "is_incremental": false,
@@ -1170,7 +1278,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Client.Commands.CommandManager.html",
-          "hash": "RsnxiDL2VYA926V0ZGctfg=="
+          "hash": "wNumMqyICMwxV4yl2PPdKw=="
         }
       },
       "is_incremental": false,
@@ -1182,7 +1290,103 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Client.Commands.html",
-          "hash": "smjco0Kz/YfeRcXEB8xLAQ=="
+          "hash": "FmfEumJYofHnm8e5uVLxFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Client.Communications.CommunicationManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Client.Communications.CommunicationManager.html",
+          "hash": "yYkMIwW6l+jLEKdk0RicnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Client.Communications.CommunicationMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Client.Communications.CommunicationMessage.html",
+          "hash": "I/FH3fHKxairl5kvdsZd4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Client.Communications.CommunicationReceiveClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Client.Communications.CommunicationReceiveClient.html",
+          "hash": "IqDJbd/QMXROukHWUCu2TQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Client.Communications.CommunicationReceiveServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Client.Communications.CommunicationReceiveServer.html",
+          "hash": "HR82YbTnOQ+hTC1QpF2YvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Client.Communications.CommunicationTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Client.Communications.CommunicationTarget.html",
+          "hash": "n736EDhvF6vdUo5YGluOqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Client.Communications.CommunicationTransmitClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Client.Communications.CommunicationTransmitClient.html",
+          "hash": "ozZMpb9bwewT+eLzLdsjyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Client.Communications.CommunicationTransmitServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Client.Communications.CommunicationTransmitServer.html",
+          "hash": "nArHSKYlBmvzYx7gmKrvVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Client.Communications.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Client.Communications.html",
+          "hash": "rt5UfpkMjv2RbnnKr3woXQ=="
         }
       },
       "is_incremental": false,
@@ -1194,7 +1398,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Client.Diagnostics.Logger.html",
-          "hash": "pRQG7E2QWGKQLq4Engad2w=="
+          "hash": "KSRNboSytDBaMjjFXZiASg=="
         }
       },
       "is_incremental": false,
@@ -1206,19 +1410,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Client.Diagnostics.html",
-          "hash": "NTruVbqQU/frdfjBC07+iw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "nfive/NFive.Client.Events.EventManager.Subscription.yml",
-      "output": {
-        ".html": {
-          "relative_path": "nfive/NFive.Client.Events.EventManager.Subscription.html",
-          "hash": "wwA+u6TMRgXKbm7cAyb4tQ=="
+          "hash": "EzNQTBy4g4/G4ifY68fCQg=="
         }
       },
       "is_incremental": false,
@@ -1230,7 +1422,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Client.Events.EventManager.html",
-          "hash": "2eUSjTJs3ymKTwsqOW6WtQ=="
+          "hash": "SOgR1OOx6YEMKs+axHFffQ=="
         }
       },
       "is_incremental": false,
@@ -1242,7 +1434,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Client.Events.PedSpawnOptions.html",
-          "hash": "dNysBlNh7qs26YyqudRA2Q=="
+          "hash": "5ALlKhaEoVkYxnZwb+zX5w=="
         }
       },
       "is_incremental": false,
@@ -1254,7 +1446,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Client.Events.TickManager.html",
-          "hash": "H1KEFMj/Mmd6huJfltym2Q=="
+          "hash": "WqSBDlSIZOXYWRkjtMo5zA=="
         }
       },
       "is_incremental": false,
@@ -1266,7 +1458,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Client.Events.html",
-          "hash": "MOTNH7WE3wwZER9nHmO+OQ=="
+          "hash": "AbwsUwjnUeQIgBl5Ra7H0g=="
         }
       },
       "is_incremental": false,
@@ -1278,7 +1470,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Client.Program.html",
-          "hash": "2JmIyIQi/ionFUHfcY1bWw=="
+          "hash": "PXZjkgodb1PNXCxkgJVtoA=="
         }
       },
       "is_incremental": false,
@@ -1290,7 +1482,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Client.Rpc.InboundMessage.html",
-          "hash": "0VNoduGFaDIA4Ca2Vxl3jg=="
+          "hash": "duJ5dH/W1Zy6XPeCPfqjJg=="
         }
       },
       "is_incremental": false,
@@ -1302,43 +1494,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Client.Rpc.OutboundMessage.html",
-          "hash": "6OHVZoMXimNCUI+FJcAPyg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "nfive/NFive.Client.Rpc.Rpc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "nfive/NFive.Client.Rpc.Rpc.html",
-          "hash": "oXJl3c1RP5ZR85N0PJPULw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "nfive/NFive.Client.Rpc.RpcEvent.yml",
-      "output": {
-        ".html": {
-          "relative_path": "nfive/NFive.Client.Rpc.RpcEvent.html",
-          "hash": "hGx8Sj6eRnXSsLcMxyvpMw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "nfive/NFive.Client.Rpc.RpcHandler.yml",
-      "output": {
-        ".html": {
-          "relative_path": "nfive/NFive.Client.Rpc.RpcHandler.html",
-          "hash": "BqDz0h7is7+nzc7HSuTdWw=="
+          "hash": "EdnXj26ths+AbdOwbfuwBg=="
         }
       },
       "is_incremental": false,
@@ -1350,7 +1506,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Client.Rpc.RpcManager.html",
-          "hash": "C/wCSymWd/kpi5GNF8VgVA=="
+          "hash": "/qqBlVczm0dTJMKOFpVGJA=="
         }
       },
       "is_incremental": false,
@@ -1362,31 +1518,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Client.Rpc.RpcPacker.html",
-          "hash": "rllSC8IAIxM+4AmU3STx3A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "nfive/NFive.Client.Rpc.RpcTrigger.yml",
-      "output": {
-        ".html": {
-          "relative_path": "nfive/NFive.Client.Rpc.RpcTrigger.html",
-          "hash": "o++MWTQz3M5XMHAhSvS06w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "nfive/NFive.Client.Rpc.ServerHandler.yml",
-      "output": {
-        ".html": {
-          "relative_path": "nfive/NFive.Client.Rpc.ServerHandler.html",
-          "hash": "JxY9L9nkb3Xe6zep4a2nhg=="
+          "hash": "z+pPMaLHMNULTAnHoDb6Bg=="
         }
       },
       "is_incremental": false,
@@ -1398,7 +1530,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Client.Rpc.html",
-          "hash": "AjKetRVmyPNFc0P9RaFpRQ=="
+          "hash": "6+GpT/DXD3bAKSANOZ2xnQ=="
         }
       },
       "is_incremental": false,
@@ -1410,7 +1542,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Client.html",
-          "hash": "A5R9z4Cbl4Hou0507SbfBA=="
+          "hash": "3bjd5yJAmhNI07WHBAt7UA=="
         }
       },
       "is_incremental": false,
@@ -1422,7 +1554,103 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.ClientList.html",
-          "hash": "jqZvLwC//m9vRTYvql0eGw=="
+          "hash": "XaAlQPhizHQK7TBNc6a17Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Communications.CommunicationManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Communications.CommunicationManager.html",
+          "hash": "yGASlhFovAyuxHFGbbwL+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Communications.CommunicationMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Communications.CommunicationMessage.html",
+          "hash": "DgTyXf9z8+PBZd/gVCXpMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Communications.CommunicationReceiveClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Communications.CommunicationReceiveClient.html",
+          "hash": "Jw4Jfz5Lbu+elRwaeZ+K0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Communications.CommunicationReceiveServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Communications.CommunicationReceiveServer.html",
+          "hash": "03y8rBV8vgIrqkgdmlGaVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Communications.CommunicationTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Communications.CommunicationTarget.html",
+          "hash": "N1sOeo4gCKgkS1Mmdpfw4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Communications.CommunicationTransmitClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Communications.CommunicationTransmitClient.html",
+          "hash": "J9vzUsZWI9vvnD93N0w2dA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Communications.CommunicationTransmitServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Communications.CommunicationTransmitServer.html",
+          "hash": "+FICDBVAWDo2GiFCxK1SPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Communications.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Communications.html",
+          "hash": "mdhn62Bu/hB6sed+FMerbQ=="
         }
       },
       "is_incremental": false,
@@ -1434,7 +1662,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Configuration.ClientConfiguration.LogConfiguration.html",
-          "hash": "ywDtDRbISaDxhGvQbVvqwg=="
+          "hash": "VcB85wOGGDPo2ygydMwAGA=="
         }
       },
       "is_incremental": false,
@@ -1446,7 +1674,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Configuration.ClientConfiguration.html",
-          "hash": "og0zYXdMdkFtME9P9ldj+g=="
+          "hash": "e3Wt7Va7JdFh7I7B6lmhGw=="
         }
       },
       "is_incremental": false,
@@ -1458,7 +1686,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Configuration.CoreConfiguration.DisplayConfiguration.html",
-          "hash": "ACgmhLN4lWP97kD9mY30GQ=="
+          "hash": "PrtXUFWeltkqWtwk3jIcaA=="
         }
       },
       "is_incremental": false,
@@ -1470,7 +1698,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Configuration.CoreConfiguration.LogConfiguration.html",
-          "hash": "Ju7RQltfF+3UNe1lxALtdQ=="
+          "hash": "vODjtfRCHVlYH5tZ5XbgMg=="
         }
       },
       "is_incremental": false,
@@ -1482,7 +1710,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Configuration.CoreConfiguration.LogOutputConfiguration.html",
-          "hash": "p4rupk0A5XVtTizQWNmyGg=="
+          "hash": "PCAsD9hOjai3aZ4OuznRAQ=="
         }
       },
       "is_incremental": false,
@@ -1494,7 +1722,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Configuration.CoreConfiguration.html",
-          "hash": "gnqcuS4FaZYuEdcpKBUBVg=="
+          "hash": "9BgBjOE/ms2m+wtdr9M1cQ=="
         }
       },
       "is_incremental": false,
@@ -1506,7 +1734,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Configuration.DatabaseConfiguration.DatabaseBootHistoryConfiguration.html",
-          "hash": "UNh7qfU29PrFviX7L9QGwQ=="
+          "hash": "D8uNRRYdISu7rGlucUc4uQ=="
         }
       },
       "is_incremental": false,
@@ -1518,7 +1746,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Configuration.DatabaseConfiguration.DatabaseConnectionConfiguration.html",
-          "hash": "2+n1ee4+gd5OvZwQ+eRE/A=="
+          "hash": "qQkhyBlCTekVQ/WYAAzkHg=="
         }
       },
       "is_incremental": false,
@@ -1530,7 +1758,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Configuration.DatabaseConfiguration.DatabaseMigrationsConfiguration.html",
-          "hash": "41EyesrGDbU0vcxZU8FLRw=="
+          "hash": "UIbvnsy0sBlmG9TGFgh/Tw=="
         }
       },
       "is_incremental": false,
@@ -1542,7 +1770,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Configuration.DatabaseConfiguration.html",
-          "hash": "ny5i2DXzoHQSF+6Sw9T/gw=="
+          "hash": "zcx1mme5AaNhQYOcenKRfQ=="
         }
       },
       "is_incremental": false,
@@ -1554,7 +1782,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Configuration.ServerLogConfiguration.html",
-          "hash": "F1df6CbvT5JFx/VfMYy6kg=="
+          "hash": "IvD8sqvCdmv9UtJWcj3/vQ=="
         }
       },
       "is_incremental": false,
@@ -1566,7 +1794,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Configuration.SessionConfiguration.html",
-          "hash": "lcRBPq/rBy9RMCpmkp22HA=="
+          "hash": "GRQtdYTdIHsw506NjFujIg=="
         }
       },
       "is_incremental": false,
@@ -1578,7 +1806,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Configuration.html",
-          "hash": "kSPefmPq3Yrs7TdodJtdZw=="
+          "hash": "iSWVsPs9h72otjUNZTyUYw=="
         }
       },
       "is_incremental": false,
@@ -1590,7 +1818,19 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Controllers.DatabaseController.html",
-          "hash": "4nSfU1F+kh5LINuPa557Fg=="
+          "hash": "cTeT0zv9OMpfkoND00kouA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Controllers.EventController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Controllers.EventController.html",
+          "hash": "wK/iWcWn0WN8BmHS3wxquw=="
         }
       },
       "is_incremental": false,
@@ -1602,7 +1842,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Controllers.SessionController.html",
-          "hash": "COYrXyxmANE8ddbWAMkCeg=="
+          "hash": "wzf+rmwlRa9VUFTgsegDKA=="
         }
       },
       "is_incremental": false,
@@ -1614,7 +1854,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Controllers.html",
-          "hash": "jkikJ32f2mo3jjlTChGG+Q=="
+          "hash": "AwmFbJ2spa8c8Gk2qGZtwg=="
         }
       },
       "is_incremental": false,
@@ -1626,7 +1866,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Diagnostics.Logger.html",
-          "hash": "qoioMCtF4igG0W8mMJxfrQ=="
+          "hash": "q88Xcf5RtSSl17rCINToWg=="
         }
       },
       "is_incremental": false,
@@ -1638,7 +1878,19 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Diagnostics.html",
-          "hash": "9xiAre0JVFTAoYyF/4fJzQ=="
+          "hash": "ErEgFW4Y+RlsG+mEkzNBQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Events.ConnectionDeferrals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Events.ConnectionDeferrals.html",
+          "hash": "fgOL4ozDgFNm/Cc5RM2nRw=="
         }
       },
       "is_incremental": false,
@@ -1650,7 +1902,19 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Events.EventManager.html",
-          "hash": "71Cl/KNfZKpjhS6Sk4kECQ=="
+          "hash": "VXeCEcRe1fjdG1aFDJSlLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "nfive/NFive.Server.Events.ExplosionEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "nfive/NFive.Server.Events.ExplosionEvent.html",
+          "hash": "8V0w/DSyP4o4d5CM8J6AKg=="
         }
       },
       "is_incremental": false,
@@ -1662,7 +1926,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Events.html",
-          "hash": "pgq/5Ozs+dkPoAhtrkB5Pw=="
+          "hash": "pRBnqvsYRZ7brIwAr9kY4g=="
         }
       },
       "is_incremental": false,
@@ -1674,7 +1938,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.IoC.ContainerRegistrar.html",
-          "hash": "3eEM35utiUm0fevxyK56pw=="
+          "hash": "R3OLdNiGDn+GxdOZLtwVaQ=="
         }
       },
       "is_incremental": false,
@@ -1686,7 +1950,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.IoC.html",
-          "hash": "4OO0po7Kfc3AtJQ9gACMEA=="
+          "hash": "3WyRUyCQNlvp60OqXMZFAA=="
         }
       },
       "is_incremental": false,
@@ -1698,7 +1962,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Migrations.Init.html",
-          "hash": "8zmskDDpqi/YPAk1ScX8eg=="
+          "hash": "0lKtx9uokSiNJ7FjhQAGbA=="
         }
       },
       "is_incremental": false,
@@ -1710,7 +1974,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Migrations.RemoveSteamIdIndex.html",
-          "hash": "P6kOa5rM99zaUL7WSJX8mg=="
+          "hash": "YiAs+0Nut11286VAzQKqPg=="
         }
       },
       "is_incremental": false,
@@ -1722,7 +1986,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Migrations.html",
-          "hash": "RlY7YmH78rdk+wjeu9NtVw=="
+          "hash": "6CtuhdnoiTPWgaqnipyzpg=="
         }
       },
       "is_incremental": false,
@@ -1734,7 +1998,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Models.BootHistory.html",
-          "hash": "udZKWOZMpJNe31IS4VqSVg=="
+          "hash": "Ik/CHH840UA/bP69yL/8TA=="
         }
       },
       "is_incremental": false,
@@ -1746,7 +2010,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Models.html",
-          "hash": "1URZ7vYkrVrJe+HyG9vpuw=="
+          "hash": "frEpoJ3n+0rbl1VEdaVzlg=="
         }
       },
       "is_incremental": false,
@@ -1758,19 +2022,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Program.html",
-          "hash": "CULU/KgilNug5RYn7SmptQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "nfive/NFive.Server.Rcon.RconManager.Subscription.yml",
-      "output": {
-        ".html": {
-          "relative_path": "nfive/NFive.Server.Rcon.RconManager.Subscription.html",
-          "hash": "jNfIx3tSiMijfVCKySU4dQ=="
+          "hash": "jBUHbdqPHUeplotKUOteRg=="
         }
       },
       "is_incremental": false,
@@ -1782,7 +2034,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Rcon.RconManager.html",
-          "hash": "rt5rvnmBoGvTMvrb+TYN1A=="
+          "hash": "cIU1w/eUChvV4sbc8tA2EQ=="
         }
       },
       "is_incremental": false,
@@ -1794,7 +2046,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Rcon.html",
-          "hash": "2SWsExs9ZGywK2nvYb7JdA=="
+          "hash": "c/ZYUkvUtLfthw4guGpBBA=="
         }
       },
       "is_incremental": false,
@@ -1806,19 +2058,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Rpc.Client.html",
-          "hash": "bvN4ptfKMhHMoGM3UG3cSA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "nfive/NFive.Server.Rpc.ClientHandler.yml",
-      "output": {
-        ".html": {
-          "relative_path": "nfive/NFive.Server.Rpc.ClientHandler.html",
-          "hash": "C0h0G7ItFEPM4j/bKmyphg=="
+          "hash": "67ZCdt7ePDFUdw2TFqmoNA=="
         }
       },
       "is_incremental": false,
@@ -1830,7 +2070,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Rpc.InboundMessage.html",
-          "hash": "7dEbW1dzu6gVjjr8qhHy+g=="
+          "hash": "D2iMwFCr/IfCQQChgXxoYg=="
         }
       },
       "is_incremental": false,
@@ -1842,43 +2082,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Rpc.OutboundMessage.html",
-          "hash": "uDjw9b6JIWc8MW7rLW4lDg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "nfive/NFive.Server.Rpc.Rpc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "nfive/NFive.Server.Rpc.Rpc.html",
-          "hash": "KLEq2Yb3VZJUXiiOYTJsHQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "nfive/NFive.Server.Rpc.RpcEvent.yml",
-      "output": {
-        ".html": {
-          "relative_path": "nfive/NFive.Server.Rpc.RpcEvent.html",
-          "hash": "jgDC61OLdJF90jsakCZYGQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "nfive/NFive.Server.Rpc.RpcHandler.yml",
-      "output": {
-        ".html": {
-          "relative_path": "nfive/NFive.Server.Rpc.RpcHandler.html",
-          "hash": "MPEM63IkvvyOdmf/f4ZDpA=="
+          "hash": "UbWZw2OVDmEJZ4U/V3PcbQ=="
         }
       },
       "is_incremental": false,
@@ -1890,7 +2094,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Rpc.RpcManager.html",
-          "hash": "EhJHj4xpXhm8+4gS9mmS7w=="
+          "hash": "Dag0ccIRmmyE7/HpnMcNYg=="
         }
       },
       "is_incremental": false,
@@ -1902,19 +2106,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Rpc.RpcPacker.html",
-          "hash": "CQ42eFE37eG6D8xXoW092A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "nfive/NFive.Server.Rpc.RpcTrigger.yml",
-      "output": {
-        ".html": {
-          "relative_path": "nfive/NFive.Server.Rpc.RpcTrigger.html",
-          "hash": "LkEy/+M/iqb03Z/XNJGtGg=="
+          "hash": "oRPF/yaRnnlWk+cGGt+snQ=="
         }
       },
       "is_incremental": false,
@@ -1926,7 +2118,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Rpc.html",
-          "hash": "5fO/02VqIBBTdfD+gpv3WA=="
+          "hash": "8T3IiWKcOnXmsE57ThzVCA=="
         }
       },
       "is_incremental": false,
@@ -1938,7 +2130,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Storage.StorageContext.html",
-          "hash": "h0hKrMeV6asl2AH7crC7xg=="
+          "hash": "EVZZHJ07o3zJS73R9Ebozw=="
         }
       },
       "is_incremental": false,
@@ -1950,7 +2142,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.Storage.html",
-          "hash": "PdftSm9YkZrunsLAHXPJeQ=="
+          "hash": "YKPnsy5dJIZqX5Bha1C41g=="
         }
       },
       "is_incremental": false,
@@ -1962,7 +2154,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/NFive.Server.html",
-          "hash": "z8pkuGIOQqQsxLtLCPIUWA=="
+          "hash": "x03XsO8xXSQo1/uQvr1D0A=="
         }
       },
       "is_incremental": false,
@@ -1974,7 +2166,7 @@
       "output": {
         ".html": {
           "relative_path": "nfive/toc.html",
-          "hash": "4xZz553SyFcSn3uVJbHKlA=="
+          "hash": "5l+aa3p3kwo638iQ6Gz/lQ=="
         }
       },
       "is_incremental": false,
@@ -1986,7 +2178,7 @@
       "output": {
         ".html": {
           "relative_path": "plugin/NFive.SDK.Plugins.Configuration.BasePluginTypeInspector.html",
-          "hash": "NdvM+JyB4nz7gVMzFupKGA=="
+          "hash": "58dSzFwn+eENZf5yo0C/YA=="
         }
       },
       "is_incremental": false,
@@ -1998,7 +2190,31 @@
       "output": {
         ".html": {
           "relative_path": "plugin/NFive.SDK.Plugins.Configuration.ConfigurationManager.html",
-          "hash": "zXOYtWGpvW1rSwl1H2bDKg=="
+          "hash": "M+x1myGpNpQycRCAI8PaUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin/NFive.SDK.Plugins.Configuration.CultureInfoConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin/NFive.SDK.Plugins.Configuration.CultureInfoConverter.html",
+          "hash": "v+ibJI5FG3xRDyEMHvsR5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin/NFive.SDK.Plugins.Configuration.IPAddressConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin/NFive.SDK.Plugins.Configuration.IPAddressConverter.html",
+          "hash": "xX1A6yeZwyWd4oGXlvuR7A=="
         }
       },
       "is_incremental": false,
@@ -2010,7 +2226,7 @@
       "output": {
         ".html": {
           "relative_path": "plugin/NFive.SDK.Plugins.Configuration.NameConverter.html",
-          "hash": "tVOSyf2uop2098k3rcphFw=="
+          "hash": "8jQkQUtrlhwFPF/GAJGdEw=="
         }
       },
       "is_incremental": false,
@@ -2022,7 +2238,19 @@
       "output": {
         ".html": {
           "relative_path": "plugin/NFive.SDK.Plugins.Configuration.PluginTypeInspector.html",
-          "hash": "vSwtiJ6SCUf/1sHnksd37Q=="
+          "hash": "+YNgyqkWHaS1OvFsO48htg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin/NFive.SDK.Plugins.Configuration.SteamIdConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin/NFive.SDK.Plugins.Configuration.SteamIdConverter.html",
+          "hash": "ChbxIHkruNymgoXvLMdXTw=="
         }
       },
       "is_incremental": false,
@@ -2034,7 +2262,19 @@
       "output": {
         ".html": {
           "relative_path": "plugin/NFive.SDK.Plugins.Configuration.TimeSpanConverter.html",
-          "hash": "Prn1L6xsbsAUn/T+Nk/N/w=="
+          "hash": "iHtN0sBBbVqAz9uQXQexhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin/NFive.SDK.Plugins.Configuration.TimeZoneInfoConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin/NFive.SDK.Plugins.Configuration.TimeZoneInfoConverter.html",
+          "hash": "Sg/iE5iL1SrL6qV0Vy3xeQ=="
         }
       },
       "is_incremental": false,
@@ -2046,7 +2286,7 @@
       "output": {
         ".html": {
           "relative_path": "plugin/NFive.SDK.Plugins.Configuration.VersionConverter.html",
-          "hash": "JUv8KGq3BeiSMPM2WULCdw=="
+          "hash": "9PI5Bx2sOfAtI4FyJaxX9Q=="
         }
       },
       "is_incremental": false,
@@ -2058,7 +2298,7 @@
       "output": {
         ".html": {
           "relative_path": "plugin/NFive.SDK.Plugins.Configuration.VersionRangeConverter.html",
-          "hash": "R5Pt+/R6kkGCtJCG82OVbQ=="
+          "hash": "UXIQQamg1W1q9cEgS2YmVg=="
         }
       },
       "is_incremental": false,
@@ -2070,7 +2310,7 @@
       "output": {
         ".html": {
           "relative_path": "plugin/NFive.SDK.Plugins.Configuration.Yaml.html",
-          "hash": "BzDNodfenM6uptV8xjnLLA=="
+          "hash": "zKUySPqqNYOVLdjBqns1cA=="
         }
       },
       "is_incremental": false,
@@ -2082,7 +2322,7 @@
       "output": {
         ".html": {
           "relative_path": "plugin/NFive.SDK.Plugins.Configuration.html",
-          "hash": "g5UZ/So8GeM7b9qL4/d0GQ=="
+          "hash": "gGNJtn0lPm7Gah22Q1SWKw=="
         }
       },
       "is_incremental": false,
@@ -2094,7 +2334,7 @@
       "output": {
         ".html": {
           "relative_path": "plugin/NFive.SDK.Plugins.DefinitionGraph.html",
-          "hash": "wN4xoTLefjiOTWRdKIVAdg=="
+          "hash": "I2Bai+e+HMsj5Pl1fCs88Q=="
         }
       },
       "is_incremental": false,
@@ -2106,7 +2346,19 @@
       "output": {
         ".html": {
           "relative_path": "plugin/NFive.SDK.Plugins.Plugin.html",
-          "hash": "6aXSL0L3JWbqfSTPpka3mw=="
+          "hash": "3vVn4OkKvqnYikOG/W/uUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "plugin/NFive.SDK.Plugins.SteamId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "plugin/NFive.SDK.Plugins.SteamId.html",
+          "hash": "EXDlmK5U14yV8qUl+NZZtQ=="
         }
       },
       "is_incremental": false,
@@ -2118,7 +2370,7 @@
       "output": {
         ".html": {
           "relative_path": "plugin/NFive.SDK.Plugins.html",
-          "hash": "Pi3mxo/PStReb8H80WYctA=="
+          "hash": "MSZUj5aLgc12KZh9cCUBsg=="
         }
       },
       "is_incremental": false,
@@ -2130,7 +2382,151 @@
       "output": {
         ".html": {
           "relative_path": "plugin/toc.html",
-          "hash": "td9v2F6oh6G7kUXLXjVzog=="
+          "hash": "zeC5SlyUVN69N2pz/e6VSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Communications.IClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Communications.IClient.html",
+          "hash": "5JYglWFWr0eI9A41P1779Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Communications.IClientList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Communications.IClientList.html",
+          "hash": "9nPd95LwX7kIrwaDcetjDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Communications.ICommunicationManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Communications.ICommunicationManager.html",
+          "hash": "0N64yXjqAyeUX0CPgxCBtA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Communications.ICommunicationMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Communications.ICommunicationMessage.html",
+          "hash": "Q6b1X+llocqcY/q2zii0+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Communications.ICommunicationReceive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Communications.ICommunicationReceive.html",
+          "hash": "NSrnNijFDflza7TAc3QODA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Communications.ICommunicationReceiveClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Communications.ICommunicationReceiveClient.html",
+          "hash": "ekcg0jhcRlufPN5n7qcFTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Communications.ICommunicationReceiveServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Communications.ICommunicationReceiveServer.html",
+          "hash": "ab3iEVn9U5CawPxPrnGedA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Communications.ICommunicationTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Communications.ICommunicationTarget.html",
+          "hash": "oMtnFQhaxMoa1y+COB3xNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Communications.ICommunicationTransmit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Communications.ICommunicationTransmit.html",
+          "hash": "nthkBg1HOSfSG0Z4GZG7hw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Communications.ICommunicationTransmitClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Communications.ICommunicationTransmitClient.html",
+          "hash": "0fgSetv5GuYa63+t0UkkJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Communications.ICommunicationTransmitServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Communications.ICommunicationTransmitServer.html",
+          "hash": "33/oqD+YUSX1f4kxqDJKyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Communications.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Communications.html",
+          "hash": "ijjN9V5vIJ2OPWyn3BgM8w=="
         }
       },
       "is_incremental": false,
@@ -2142,7 +2538,7 @@
       "output": {
         ".html": {
           "relative_path": "server/NFive.SDK.Server.Configuration.ServerConfiguration.html",
-          "hash": "XufDzPU5YaWX2ITlHKhdtQ=="
+          "hash": "OcgKyUfzzyt82L4Be+4Uyw=="
         }
       },
       "is_incremental": false,
@@ -2154,7 +2550,7 @@
       "output": {
         ".html": {
           "relative_path": "server/NFive.SDK.Server.Configuration.html",
-          "hash": "OJteQ/IFtXX/SXfYlXmnoQ=="
+          "hash": "qL4qImsxdF8qrtQnSK8Xtg=="
         }
       },
       "is_incremental": false,
@@ -2166,7 +2562,7 @@
       "output": {
         ".html": {
           "relative_path": "server/NFive.SDK.Server.Controllers.ConfigurableController-1.html",
-          "hash": "GzincKl5JUOHhAMDW9TjFg=="
+          "hash": "1uR5S4X8Qi/XNYBWUKzXmA=="
         }
       },
       "is_incremental": false,
@@ -2178,7 +2574,7 @@
       "output": {
         ".html": {
           "relative_path": "server/NFive.SDK.Server.Controllers.Controller.html",
-          "hash": "Zu2v/TTbefpEHtSp6ir74g=="
+          "hash": "YYReFexMurKYZW0poqyE+A=="
         }
       },
       "is_incremental": false,
@@ -2190,19 +2586,7 @@
       "output": {
         ".html": {
           "relative_path": "server/NFive.SDK.Server.Controllers.html",
-          "hash": "/MDBhnjuprowjcyao5H3+A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "server/NFive.SDK.Server.Deferrals.yml",
-      "output": {
-        ".html": {
-          "relative_path": "server/NFive.SDK.Server.Deferrals.html",
-          "hash": "3yapybrVjgaWIVEd5TzjNw=="
+          "hash": "DB/hSB5/sBmekprz/xlA6Q=="
         }
       },
       "is_incremental": false,
@@ -2214,7 +2598,7 @@
       "output": {
         ".html": {
           "relative_path": "server/NFive.SDK.Server.Events.BootEvents.html",
-          "hash": "nBjyVn59itpkQ9kccKIcnQ=="
+          "hash": "k2kyiSjl46facdQAenVJrw=="
         }
       },
       "is_incremental": false,
@@ -2226,7 +2610,7 @@
       "output": {
         ".html": {
           "relative_path": "server/NFive.SDK.Server.Events.ClientDeferralsEventArgs.html",
-          "hash": "t1Q4XsZhA/jnxsX9CRtKCQ=="
+          "hash": "9GlEGFNhuKH3kftVxRwcUg=="
         }
       },
       "is_incremental": false,
@@ -2238,7 +2622,7 @@
       "output": {
         ".html": {
           "relative_path": "server/NFive.SDK.Server.Events.ClientEventArgs.html",
-          "hash": "bQ6KQT1oYhFMbCLcitGG8A=="
+          "hash": "OhemDHbXkefgDeEs7cw/zw=="
         }
       },
       "is_incremental": false,
@@ -2250,7 +2634,7 @@
       "output": {
         ".html": {
           "relative_path": "server/NFive.SDK.Server.Events.ClientReconnectEventArgs.html",
-          "hash": "hbVRvh9ZupW6Eg8IImV6oA=="
+          "hash": "8fgJ+Orf44uQuWCxdpDtqQ=="
         }
       },
       "is_incremental": false,
@@ -2262,7 +2646,7 @@
       "output": {
         ".html": {
           "relative_path": "server/NFive.SDK.Server.Events.ClientSessionDeferralsEventArgs.html",
-          "hash": "yr4//zYl6sKHfbTydQ3pxg=="
+          "hash": "Ve22dhOAM4OzNrYIVy81vA=="
         }
       },
       "is_incremental": false,
@@ -2274,7 +2658,7 @@
       "output": {
         ".html": {
           "relative_path": "server/NFive.SDK.Server.Events.ClientSessionEventArgs.html",
-          "hash": "iJi58DC5JzEDmi2f4rjKEA=="
+          "hash": "pixTFOsNLF2QDZg1IKdfqw=="
         }
       },
       "is_incremental": false,
@@ -2286,7 +2670,7 @@
       "output": {
         ".html": {
           "relative_path": "server/NFive.SDK.Server.Events.ClientUserEventArgs.html",
-          "hash": "QL5M+/50o484Er4MagI4pw=="
+          "hash": "ACqnu5b3t0Sly3C5LJ9Akw=="
         }
       },
       "is_incremental": false,
@@ -2294,11 +2678,35 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "server/NFive.SDK.Server.Events.IEventManager.yml",
+      "source_relative_path": "server/NFive.SDK.Server.Events.FiveMServerEvents.yml",
       "output": {
         ".html": {
-          "relative_path": "server/NFive.SDK.Server.Events.IEventManager.html",
-          "hash": "O19cXdlb7gX0f9sJx1U7aQ=="
+          "relative_path": "server/NFive.SDK.Server.Events.FiveMServerEvents.html",
+          "hash": "tDcFOY06pvYLnW2LTUZNFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Events.IConnectionDeferrals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Events.IConnectionDeferrals.html",
+          "hash": "63VW15d/PIjjo6COVmJiEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Events.IExplosionEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Events.IExplosionEvent.html",
+          "hash": "XwkHRMJTPOSKXub6phDtHA=="
         }
       },
       "is_incremental": false,
@@ -2310,7 +2718,7 @@
       "output": {
         ".html": {
           "relative_path": "server/NFive.SDK.Server.Events.ServerEvents.html",
-          "hash": "7NnGExIKggE5Zh3p6+cy3Q=="
+          "hash": "HABTX9Q+ZuxIo4IKNk8cDQ=="
         }
       },
       "is_incremental": false,
@@ -2322,7 +2730,7 @@
       "output": {
         ".html": {
           "relative_path": "server/NFive.SDK.Server.Events.SessionEvents.html",
-          "hash": "xMn1D7tbFiZjYpaXxzBdHw=="
+          "hash": "4AN6/S4kePxFsu1ziIPthQ=="
         }
       },
       "is_incremental": false,
@@ -2334,7 +2742,7 @@
       "output": {
         ".html": {
           "relative_path": "server/NFive.SDK.Server.Events.html",
-          "hash": "o8SGKeihyuYUaUqYDjjjdQ=="
+          "hash": "meEEcATCau4P2bBGhES/hw=="
         }
       },
       "is_incremental": false,
@@ -2346,7 +2754,7 @@
       "output": {
         ".html": {
           "relative_path": "server/NFive.SDK.Server.Extensions.PositionExtensions.html",
-          "hash": "MyEFdaxBUtHdg/RSU1laNQ=="
+          "hash": "+uj8og3pkzESFLldcNvlPA=="
         }
       },
       "is_incremental": false,
@@ -2358,7 +2766,7 @@
       "output": {
         ".html": {
           "relative_path": "server/NFive.SDK.Server.Extensions.VectorExtensions.html",
-          "hash": "CB/L9YIiy6E0taso6/zNpw=="
+          "hash": "tVl0eQRqy5B8UUeh75/cRg=="
         }
       },
       "is_incremental": false,
@@ -2370,7 +2778,7 @@
       "output": {
         ".html": {
           "relative_path": "server/NFive.SDK.Server.Extensions.html",
-          "hash": "R7IArO1lRxO/cWtSrHiVBQ=="
+          "hash": "8sGN307sWsTKcSldYRkzEQ=="
         }
       },
       "is_incremental": false,
@@ -2378,11 +2786,59 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "server/NFive.SDK.Server.IClientList.yml",
+      "source_relative_path": "server/NFive.SDK.Server.IoC.ComponentAttribute.yml",
       "output": {
         ".html": {
-          "relative_path": "server/NFive.SDK.Server.IClientList.html",
-          "hash": "S8NF8PaE8rH7IFDvfwjx5w=="
+          "relative_path": "server/NFive.SDK.Server.IoC.ComponentAttribute.html",
+          "hash": "xA34/AZ7bQa2oLJq2sdGsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.IoC.Lifetime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.IoC.Lifetime.html",
+          "hash": "so/RaJDifTZxDFnK/04dKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.IoC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.IoC.html",
+          "hash": "sGLOLN4+xGUhVedE2csIBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Locales.LocaleCatalog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Locales.LocaleCatalog.html",
+          "hash": "NSXtRc6r0QRNLNN8ftwa5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/NFive.SDK.Server.Locales.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/NFive.SDK.Server.Locales.html",
+          "hash": "cT8rv9vgdjGcgEE4bEjSvg=="
         }
       },
       "is_incremental": false,
@@ -2394,7 +2850,7 @@
       "output": {
         ".html": {
           "relative_path": "server/NFive.SDK.Server.Migrations.MigrationConfiguration-1.html",
-          "hash": "S7QZa9FZRbNQorhLykszzw=="
+          "hash": "8lr2o3abxBUhJR/PISPViA=="
         }
       },
       "is_incremental": false,
@@ -2406,7 +2862,7 @@
       "output": {
         ".html": {
           "relative_path": "server/NFive.SDK.Server.Migrations.html",
-          "hash": "lSuqZ+0txQMBsioRhLoq0Q=="
+          "hash": "ewSS15qwG5FHEWKAvqE/qA=="
         }
       },
       "is_incremental": false,
@@ -2418,7 +2874,7 @@
       "output": {
         ".html": {
           "relative_path": "server/NFive.SDK.Server.Rcon.IRconManager.html",
-          "hash": "IxWoeYHnOx2h+iJxMOnbJg=="
+          "hash": "c5oPpzmoMQ+TozqOeTTvQA=="
         }
       },
       "is_incremental": false,
@@ -2430,91 +2886,7 @@
       "output": {
         ".html": {
           "relative_path": "server/NFive.SDK.Server.Rcon.html",
-          "hash": "oqjIwMUxUyUVN2HaG1bXPw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "server/NFive.SDK.Server.Rpc.IClient.yml",
-      "output": {
-        ".html": {
-          "relative_path": "server/NFive.SDK.Server.Rpc.IClient.html",
-          "hash": "CYO+PMu1Bm253InKQSEaRQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "server/NFive.SDK.Server.Rpc.IRpc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "server/NFive.SDK.Server.Rpc.IRpc.html",
-          "hash": "CNHOxjuCnzF3tOgMPYYNng=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "server/NFive.SDK.Server.Rpc.IRpcAttach.yml",
-      "output": {
-        ".html": {
-          "relative_path": "server/NFive.SDK.Server.Rpc.IRpcAttach.html",
-          "hash": "1TVeXEsDFaqdgmESk+gyiQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "server/NFive.SDK.Server.Rpc.IRpcEvent.yml",
-      "output": {
-        ".html": {
-          "relative_path": "server/NFive.SDK.Server.Rpc.IRpcEvent.html",
-          "hash": "bVfVDzQ37KknpzhZr1WZng=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "server/NFive.SDK.Server.Rpc.IRpcHandler.yml",
-      "output": {
-        ".html": {
-          "relative_path": "server/NFive.SDK.Server.Rpc.IRpcHandler.html",
-          "hash": "1Fd2SqSThrX/1YXDJ/RT/w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "server/NFive.SDK.Server.Rpc.IRpcTrigger.yml",
-      "output": {
-        ".html": {
-          "relative_path": "server/NFive.SDK.Server.Rpc.IRpcTrigger.html",
-          "hash": "vZe1j1nvSDNsSpmt/3TRAQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "server/NFive.SDK.Server.Rpc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "server/NFive.SDK.Server.Rpc.html",
-          "hash": "I3mN3dH5i2BrIFXmyOeKJw=="
+          "hash": "ECNr7dEUxlwGkMS3XAKTQQ=="
         }
       },
       "is_incremental": false,
@@ -2526,7 +2898,7 @@
       "output": {
         ".html": {
           "relative_path": "server/NFive.SDK.Server.SDK.html",
-          "hash": "2yw/MlT5GufYue+qEJUQ8w=="
+          "hash": "NP1r1/SSugO8d2AZ0C7t+Q=="
         }
       },
       "is_incremental": false,
@@ -2538,7 +2910,7 @@
       "output": {
         ".html": {
           "relative_path": "server/NFive.SDK.Server.ServerPluginAttribute.html",
-          "hash": "2c/uCpMQKvjqEO/ifoaTIA=="
+          "hash": "6zn0ZNQoPSwcfOjarf/KJQ=="
         }
       },
       "is_incremental": false,
@@ -2550,7 +2922,7 @@
       "output": {
         ".html": {
           "relative_path": "server/NFive.SDK.Server.Storage.EFContext-1.html",
-          "hash": "r1g3EPz1aIUqvtKfFtcaFw=="
+          "hash": "qNGwVDpcSaq1AHO1AT1K9A=="
         }
       },
       "is_incremental": false,
@@ -2562,31 +2934,7 @@
       "output": {
         ".html": {
           "relative_path": "server/NFive.SDK.Server.Storage.html",
-          "hash": "afd8s5y4EDpMVc1XG+HZJQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "server/NFive.SDK.Server.Wrappers.SessionManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "server/NFive.SDK.Server.Wrappers.SessionManager.html",
-          "hash": "2Qpe/91W8EHetVOHfTjMcA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "server/NFive.SDK.Server.Wrappers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "server/NFive.SDK.Server.Wrappers.html",
-          "hash": "rHU4nwtCJFmTiwhdxahoTQ=="
+          "hash": "PAOJgcq4P/4y7/Qp+ZtKLg=="
         }
       },
       "is_incremental": false,
@@ -2598,7 +2946,7 @@
       "output": {
         ".html": {
           "relative_path": "server/NFive.SDK.Server.html",
-          "hash": "WtZY0zXDBLRYIyUnyGo9Ow=="
+          "hash": "UI++h+bq0L+Rn9RT4Tm88Q=="
         }
       },
       "is_incremental": false,
@@ -2610,7 +2958,7 @@
       "output": {
         ".html": {
           "relative_path": "server/toc.html",
-          "hash": "ky1oslKG5AOH7SECpH6Z1g=="
+          "hash": "2f3dRjo+eEeVxhY6OPtjyw=="
         }
       },
       "is_incremental": false,
@@ -2640,23 +2988,23 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "TocDocumentProcessor": {
+        "ConceptualDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 1,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 211,
+          "total_file_count": 240,
           "skipped_file_count": 0
         },
-        "ConceptualDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 1,
+          "total_file_count": 0,
           "skipped_file_count": 0
         }
       }

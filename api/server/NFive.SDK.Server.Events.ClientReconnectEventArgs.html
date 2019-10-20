@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ClientReconnectEventArgs
    | NFive API Reference ">
-    <meta name="generator" content="docfx 2.45.1.0">
+    <meta name="generator" content="docfx 2.46.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -115,14 +115,15 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_SDK_Server_Events_ClientReconnectEventArgs__ctor_NFive_SDK_Server_Rpc_IClient_Session_Session_.md&amp;value=---%0Auid%3A%20NFive.SDK.Server.Events.ClientReconnectEventArgs.%23ctor(NFive.SDK.Server.Rpc.IClient%2CSession%2CSession)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_SDK_Server_Events_ClientReconnectEventArgs__ctor_NFive_SDK_Server_Communications_IClient_Session_Session_.md&amp;value=---%0Auid%3A%20NFive.SDK.Server.Events.ClientReconnectEventArgs.%23ctor(NFive.SDK.Server.Communications.IClient%2CSession%2CSession)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NFive/SDK.Server/blob/master/Events/ClientReconnectEventArgs.cs/#L12">View Source</a>
+    <a href="https://github.com/NFive/SDK.Server/blob/master/Events/ClientReconnectEventArgs.cs/#L32">View Source</a>
   </span>
   <a id="NFive_SDK_Server_Events_ClientReconnectEventArgs__ctor_" data-uid="NFive.SDK.Server.Events.ClientReconnectEventArgs.#ctor*"></a>
-  <h4 id="NFive_SDK_Server_Events_ClientReconnectEventArgs__ctor_NFive_SDK_Server_Rpc_IClient_Session_Session_" data-uid="NFive.SDK.Server.Events.ClientReconnectEventArgs.#ctor(NFive.SDK.Server.Rpc.IClient,Session,Session)">ClientReconnectEventArgs(IClient, Session, Session)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="NFive_SDK_Server_Events_ClientReconnectEventArgs__ctor_NFive_SDK_Server_Communications_IClient_Session_Session_" data-uid="NFive.SDK.Server.Events.ClientReconnectEventArgs.#ctor(NFive.SDK.Server.Communications.IClient,Session,Session)">ClientReconnectEventArgs(IClient, Session, Session)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="NFive.SDK.Server.Events.ClientReconnectEventArgs.html">ClientReconnectEventArgs</a> class.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -139,19 +140,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="NFive.SDK.Server.Rpc.IClient.html">IClient</a></td>
+        <td><a class="xref" href="NFive.SDK.Server.Communications.IClient.html">IClient</a></td>
         <td><span class="parametername">client</span></td>
-        <td></td>
+        <td><p>The client.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">Session</span></td>
         <td><span class="parametername">oldSession</span></td>
-        <td></td>
+        <td><p>The old session.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">Session</span></td>
         <td><span class="parametername">newSession</span></td>
-        <td></td>
+        <td><p>The new session.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -162,11 +166,12 @@
     <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_SDK_Server_Events_ClientReconnectEventArgs_NewSession.md&amp;value=---%0Auid%3A%20NFive.SDK.Server.Events.ClientReconnectEventArgs.NewSession%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NFive/SDK.Server/blob/master/Events/ClientReconnectEventArgs.cs/#L10">View Source</a>
+    <a href="https://github.com/NFive/SDK.Server/blob/master/Events/ClientReconnectEventArgs.cs/#L24">View Source</a>
   </span>
   <a id="NFive_SDK_Server_Events_ClientReconnectEventArgs_NewSession_" data-uid="NFive.SDK.Server.Events.ClientReconnectEventArgs.NewSession*"></a>
   <h4 id="NFive_SDK_Server_Events_ClientReconnectEventArgs_NewSession" data-uid="NFive.SDK.Server.Events.ClientReconnectEventArgs.NewSession">NewSession</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the new session.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -183,7 +188,8 @@
     <tbody>
       <tr>
         <td><span class="xref">Session</span></td>
-        <td></td>
+        <td><p>The new session.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -192,11 +198,12 @@
     <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_SDK_Server_Events_ClientReconnectEventArgs_OldSession.md&amp;value=---%0Auid%3A%20NFive.SDK.Server.Events.ClientReconnectEventArgs.OldSession%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NFive/SDK.Server/blob/master/Events/ClientReconnectEventArgs.cs/#L8">View Source</a>
+    <a href="https://github.com/NFive/SDK.Server/blob/master/Events/ClientReconnectEventArgs.cs/#L16">View Source</a>
   </span>
   <a id="NFive_SDK_Server_Events_ClientReconnectEventArgs_OldSession_" data-uid="NFive.SDK.Server.Events.ClientReconnectEventArgs.OldSession*"></a>
   <h4 id="NFive_SDK_Server_Events_ClientReconnectEventArgs_OldSession" data-uid="NFive.SDK.Server.Events.ClientReconnectEventArgs.OldSession">OldSession</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the old session.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -213,7 +220,8 @@
     <tbody>
       <tr>
         <td><span class="xref">Session</span></td>
-        <td></td>
+        <td><p>The old session.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -228,7 +236,7 @@
                     <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_SDK_Server_Events_ClientReconnectEventArgs.md&amp;value=---%0Auid%3A%20NFive.SDK.Server.Events.ClientReconnectEventArgs%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/NFive/SDK.Server/blob/master/Events/ClientReconnectEventArgs.cs/#L6" class="contribution-link">View Source</a>
+                    <a href="https://github.com/NFive/SDK.Server/blob/master/Events/ClientReconnectEventArgs.cs/#L7" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

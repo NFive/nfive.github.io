@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class BootHistory
    | NFive API Reference ">
-    <meta name="generator" content="docfx 2.45.1.0">
+    <meta name="generator" content="docfx 2.46.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -98,7 +98,7 @@
   <h6><strong>Assembly</strong>: NFive.Server.net.dll</h6>
   <h5 id="NFive_Server_Models_BootHistory_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class BootHistory</code></pre>
+    <pre><code class="lang-csharp hljs">public class BootHistory : object</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -107,7 +107,7 @@
     <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Server_Models_BootHistory__ctor.md&amp;value=---%0Auid%3A%20NFive.Server.Models.BootHistory.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NFive/NFive/blob/master/Server/Models/BootHistory.cs/#L18">View Source</a>
+    <a href="https://github.com/NFive/NFive/blob/master/Server/Models/BootHistory.cs/#L20">View Source</a>
   </span>
   <a id="NFive_Server_Models_BootHistory__ctor_" data-uid="NFive.Server.Models.BootHistory.#ctor*"></a>
   <h4 id="NFive_Server_Models_BootHistory__ctor" data-uid="NFive.Server.Models.BootHistory.#ctor">BootHistory()</h4>
@@ -124,7 +124,7 @@
     <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Server_Models_BootHistory_Created.md&amp;value=---%0Auid%3A%20NFive.Server.Models.BootHistory.Created%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NFive/NFive/blob/master/Server/Models/BootHistory.cs/#L13">View Source</a>
+    <a href="https://github.com/NFive/NFive/blob/master/Server/Models/BootHistory.cs/#L15">View Source</a>
   </span>
   <a id="NFive_Server_Models_BootHistory_Created_" data-uid="NFive.Server.Models.BootHistory.Created*"></a>
   <h4 id="NFive_Server_Models_BootHistory_Created" data-uid="NFive.Server.Models.BootHistory.Created">Created</h4>
@@ -132,8 +132,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Required]
-public DateTime Created { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public DateTime Created { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -145,7 +144,7 @@ public DateTime Created { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.datetime">DateTime</a></td>
+        <td><span class="xref">DateTime</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -155,7 +154,7 @@ public DateTime Created { get; set; }</code></pre>
     <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Server_Models_BootHistory_Id.md&amp;value=---%0Auid%3A%20NFive.Server.Models.BootHistory.Id%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NFive/NFive/blob/master/Server/Models/BootHistory.cs/#L9">View Source</a>
+    <a href="https://github.com/NFive/NFive/blob/master/Server/Models/BootHistory.cs/#L11">View Source</a>
   </span>
   <a id="NFive_Server_Models_BootHistory_Id_" data-uid="NFive.Server.Models.BootHistory.Id*"></a>
   <h4 id="NFive_Server_Models_BootHistory_Id" data-uid="NFive.Server.Models.BootHistory.Id">Id</h4>
@@ -163,9 +162,7 @@ public DateTime Created { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Key]
-[Required]
-public Guid Id { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Guid Id { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -177,7 +174,7 @@ public Guid Id { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.guid">Guid</a></td>
+        <td><span class="xref">Guid</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -187,7 +184,7 @@ public Guid Id { get; set; }</code></pre>
     <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Server_Models_BootHistory_LastActive.md&amp;value=---%0Auid%3A%20NFive.Server.Models.BootHistory.LastActive%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NFive/NFive/blob/master/Server/Models/BootHistory.cs/#L16">View Source</a>
+    <a href="https://github.com/NFive/NFive/blob/master/Server/Models/BootHistory.cs/#L18">View Source</a>
   </span>
   <a id="NFive_Server_Models_BootHistory_LastActive_" data-uid="NFive.Server.Models.BootHistory.LastActive*"></a>
   <h4 id="NFive_Server_Models_BootHistory_LastActive" data-uid="NFive.Server.Models.BootHistory.LastActive">LastActive</h4>
@@ -207,7 +204,7 @@ public Guid Id { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.datetime">DateTime</a></td>
+        <td><span class="xref">DateTime</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -223,7 +220,7 @@ public Guid Id { get; set; }</code></pre>
                     <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Server_Models_BootHistory.md&amp;value=---%0Auid%3A%20NFive.Server.Models.BootHistory%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/NFive/NFive/blob/master/Server/Models/BootHistory.cs/#L7" class="contribution-link">View Source</a>
+                    <a href="https://github.com/NFive/NFive/blob/master/Server/Models/BootHistory.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

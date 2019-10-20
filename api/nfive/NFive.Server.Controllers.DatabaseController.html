@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class DatabaseController
    | NFive API Reference ">
-    <meta name="generator" content="docfx 2.45.1.0">
+    <meta name="generator" content="docfx 2.46.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -104,18 +104,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Server_Controllers_DatabaseController__ctor_ILogger_IEventManager_IRpcHandler_IRconManager_NFive_Server_Configuration_DatabaseConfiguration_.md&amp;value=---%0Auid%3A%20NFive.Server.Controllers.DatabaseController.%23ctor(ILogger%2CIEventManager%2CIRpcHandler%2CIRconManager%2CNFive.Server.Configuration.DatabaseConfiguration)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Server_Controllers_DatabaseController__ctor_ILogger_NFive_Server_Configuration_DatabaseConfiguration_ICommunicationManager_.md&amp;value=---%0Auid%3A%20NFive.Server.Controllers.DatabaseController.%23ctor(ILogger%2CNFive.Server.Configuration.DatabaseConfiguration%2CICommunicationManager)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NFive/NFive/blob/master/Server/Controllers/DatabaseController.cs/#L23">View Source</a>
+    <a href="https://github.com/NFive/NFive/blob/master/Server/Controllers/DatabaseController.cs/#L22">View Source</a>
   </span>
   <a id="NFive_Server_Controllers_DatabaseController__ctor_" data-uid="NFive.Server.Controllers.DatabaseController.#ctor*"></a>
-  <h4 id="NFive_Server_Controllers_DatabaseController__ctor_ILogger_IEventManager_IRpcHandler_IRconManager_NFive_Server_Configuration_DatabaseConfiguration_" data-uid="NFive.Server.Controllers.DatabaseController.#ctor(ILogger,IEventManager,IRpcHandler,IRconManager,NFive.Server.Configuration.DatabaseConfiguration)">DatabaseController(ILogger, IEventManager, IRpcHandler, IRconManager, DatabaseConfiguration)</h4>
+  <h4 id="NFive_Server_Controllers_DatabaseController__ctor_ILogger_NFive_Server_Configuration_DatabaseConfiguration_ICommunicationManager_" data-uid="NFive.Server.Controllers.DatabaseController.#ctor(ILogger,NFive.Server.Configuration.DatabaseConfiguration,ICommunicationManager)">DatabaseController(ILogger, DatabaseConfiguration, ICommunicationManager)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DatabaseController(ILogger logger, IEventManager events, IRpcHandler rpc, IRconManager rcon, DatabaseConfiguration configuration)</code></pre>
+    <pre><code class="lang-csharp hljs">public DatabaseController(ILogger logger, DatabaseConfiguration configuration, ICommunicationManager comms)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -133,23 +133,13 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">IEventManager</span></td>
-        <td><span class="parametername">events</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">IRpcHandler</span></td>
-        <td><span class="parametername">rpc</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">IRconManager</span></td>
-        <td><span class="parametername">rcon</span></td>
-        <td></td>
-      </tr>
-      <tr>
         <td><a class="xref" href="NFive.Server.Configuration.DatabaseConfiguration.html">DatabaseConfiguration</a></td>
         <td><span class="parametername">configuration</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">ICommunicationManager</span></td>
+        <td><span class="parametername">comms</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -165,7 +155,7 @@
                     <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Server_Controllers_DatabaseController.md&amp;value=---%0Auid%3A%20NFive.Server.Controllers.DatabaseController%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/NFive/NFive/blob/master/Server/Controllers/DatabaseController.cs/#L19" class="contribution-link">View Source</a>
+                    <a href="https://github.com/NFive/NFive/blob/master/Server/Controllers/DatabaseController.cs/#L18" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

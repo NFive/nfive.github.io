@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class RconManager
    | NFive API Reference ">
-    <meta name="generator" content="docfx 2.45.1.0">
+    <meta name="generator" content="docfx 2.46.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -104,18 +104,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Server_Rcon_RconManager__ctor_IRpcHandler_.md&amp;value=---%0Auid%3A%20NFive.Server.Rcon.RconManager.%23ctor(IRpcHandler)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Server_Rcon_RconManager__ctor_ICommunicationManager_.md&amp;value=---%0Auid%3A%20NFive.Server.Rcon.RconManager.%23ctor(ICommunicationManager)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NFive/NFive/blob/master/Server/Rcon/RconManager.cs/#L31">View Source</a>
+    <a href="https://github.com/NFive/NFive/blob/master/Server/Rcon/RconManager.cs/#L23">View Source</a>
   </span>
   <a id="NFive_Server_Rcon_RconManager__ctor_" data-uid="NFive.Server.Rcon.RconManager.#ctor*"></a>
-  <h4 id="NFive_Server_Rcon_RconManager__ctor_IRpcHandler_" data-uid="NFive.Server.Rcon.RconManager.#ctor(IRpcHandler)">RconManager(IRpcHandler)</h4>
+  <h4 id="NFive_Server_Rcon_RconManager__ctor_ICommunicationManager_" data-uid="NFive.Server.Rcon.RconManager.#ctor(ICommunicationManager)">RconManager(ICommunicationManager)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RconManager(IRpcHandler rpc)</code></pre>
+    <pre><code class="lang-csharp hljs">public RconManager(ICommunicationManager comms)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -128,8 +128,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IRpcHandler</span></td>
-        <td><span class="parametername">rpc</span></td>
+        <td><span class="xref">ICommunicationManager</span></td>
+        <td><span class="parametername">comms</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -138,40 +138,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Server_Rcon_RconManager_Callbacks.md&amp;value=---%0Auid%3A%20NFive.Server.Rcon.RconManager.Callbacks%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NFive/NFive/blob/master/Server/Rcon/RconManager.cs/#L29">View Source</a>
-  </span>
-  <a id="NFive_Server_Rcon_RconManager_Callbacks_" data-uid="NFive.Server.Rcon.RconManager.Callbacks*"></a>
-  <h4 id="NFive_Server_Rcon_RconManager_Callbacks" data-uid="NFive.Server.Rcon.RconManager.Callbacks">Callbacks</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, RconManager.Subscription&gt; Callbacks { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <a class="xref" href="NFive.Server.Rcon.RconManager.Subscription.html">RconManager.Subscription</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Server_Rcon_RconManager_Controllers.md&amp;value=---%0Auid%3A%20NFive.Server.Rcon.RconManager.Controllers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NFive/NFive/blob/master/Server/Rcon/RconManager.cs/#L28">View Source</a>
+    <a href="https://github.com/NFive/NFive/blob/master/Server/Rcon/RconManager.cs/#L21">View Source</a>
   </span>
   <a id="NFive_Server_Rcon_RconManager_Controllers_" data-uid="NFive.Server.Rcon.RconManager.Controllers*"></a>
   <h4 id="NFive_Server_Rcon_RconManager_Controllers" data-uid="NFive.Server.Rcon.RconManager.Controllers">Controllers</h4>
@@ -191,7 +161,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<span class="xref">Name</span>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">Controller</span>&gt;&gt;</td>
+        <td><span class="xref">Dictionary</span>&lt;<span class="xref">Name</span>, <span class="xref">List</span>&lt;<span class="xref">Controller</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -200,13 +170,13 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Server_Rcon_RconManager_Register_System_String_System_Action_.md&amp;value=---%0Auid%3A%20NFive.Server.Rcon.RconManager.Register(System.String%2CSystem.Action)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Server_Rcon_RconManager_Register_System_String_Action_.md&amp;value=---%0Auid%3A%20NFive.Server.Rcon.RconManager.Register(System.String%2CAction)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NFive/NFive/blob/master/Server/Rcon/RconManager.cs/#L44">View Source</a>
+    <a href="https://github.com/NFive/NFive/blob/master/Server/Rcon/RconManager.cs/#L36">View Source</a>
   </span>
   <a id="NFive_Server_Rcon_RconManager_Register_" data-uid="NFive.Server.Rcon.RconManager.Register*"></a>
-  <h4 id="NFive_Server_Rcon_RconManager_Register_System_String_System_Action_" data-uid="NFive.Server.Rcon.RconManager.Register(System.String,System.Action)">Register(String, Action)</h4>
+  <h4 id="NFive_Server_Rcon_RconManager_Register_System_String_Action_" data-uid="NFive.Server.Rcon.RconManager.Register(System.String,Action)">Register(String, Action)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -229,7 +199,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action">Action</a></td>
+        <td><span class="xref">Action</span></td>
         <td><span class="parametername">callback</span></td>
         <td></td>
       </tr>
@@ -237,13 +207,13 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Server_Rcon_RconManager_Register__1_System_String_System_Action___0__.md&amp;value=---%0Auid%3A%20NFive.Server.Rcon.RconManager.Register%60%601(System.String%2CSystem.Action%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Server_Rcon_RconManager_Register__1_System_String_Action___0__.md&amp;value=---%0Auid%3A%20NFive.Server.Rcon.RconManager.Register%60%601(System.String%2CAction%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NFive/NFive/blob/master/Server/Rcon/RconManager.cs/#L36">View Source</a>
+    <a href="https://github.com/NFive/NFive/blob/master/Server/Rcon/RconManager.cs/#L28">View Source</a>
   </span>
   <a id="NFive_Server_Rcon_RconManager_Register_" data-uid="NFive.Server.Rcon.RconManager.Register*"></a>
-  <h4 id="NFive_Server_Rcon_RconManager_Register__1_System_String_System_Action___0__" data-uid="NFive.Server.Rcon.RconManager.Register``1(System.String,System.Action{``0})">Register&lt;T&gt;(String, Action&lt;T&gt;)</h4>
+  <h4 id="NFive_Server_Rcon_RconManager_Register__1_System_String_Action___0__" data-uid="NFive.Server.Rcon.RconManager.Register``1(System.String,Action{``0})">Register&lt;T&gt;(String, Action&lt;T&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -266,7 +236,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</td>
+        <td><span class="xref">Action</span>&lt;T&gt;</td>
         <td><span class="parametername">callback</span></td>
         <td></td>
       </tr>
@@ -298,7 +268,7 @@
                     <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_Server_Rcon_RconManager.md&amp;value=---%0Auid%3A%20NFive.Server.Rcon.RconManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/NFive/NFive/blob/master/Server/Rcon/RconManager.cs/#L14" class="contribution-link">View Source</a>
+                    <a href="https://github.com/NFive/NFive/blob/master/Server/Rcon/RconManager.cs/#L17" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
