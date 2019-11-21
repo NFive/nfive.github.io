@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IRconManager
    | NFive API Reference ">
-    <meta name="generator" content="docfx 2.46.0.0">
+    <meta name="generator" content="docfx 2.47.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -102,7 +102,7 @@
     <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_SDK_Server_Rcon_IRconManager_Register_System_String_System_Action_.md&amp;value=---%0Auid%3A%20NFive.SDK.Server.Rcon.IRconManager.Register(System.String%2CSystem.Action)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NFive/SDK.Server/blob/master/Rcon/IRconManager.cs/#L9">View Source</a>
+    <a href="https://github.com/NFive/SDK.Server/blob/master/Rcon/IRconManager.cs/#L10">View Source</a>
   </span>
   <a id="NFive_SDK_Server_Rcon_IRconManager_Register_" data-uid="NFive.SDK.Server.Rcon.IRconManager.Register*"></a>
   <h4 id="NFive_SDK_Server_Rcon_IRconManager_Register_System_String_System_Action_" data-uid="NFive.SDK.Server.Rcon.IRconManager.Register(System.String,System.Action)">Register(String, Action)</h4>
@@ -136,18 +136,18 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_SDK_Server_Rcon_IRconManager_Register__1_System_String_System_Action___0__.md&amp;value=---%0Auid%3A%20NFive.SDK.Server.Rcon.IRconManager.Register%60%601(System.String%2CSystem.Action%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_SDK_Server_Rcon_IRconManager_Register_System_String_System_Action_System_Collections_Generic_IEnumerable_System_String___.md&amp;value=---%0Auid%3A%20NFive.SDK.Server.Rcon.IRconManager.Register(System.String%2CSystem.Action%7BSystem.Collections.Generic.IEnumerable%7BSystem.String%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NFive/SDK.Server/blob/master/Rcon/IRconManager.cs/#L11">View Source</a>
+    <a href="https://github.com/NFive/SDK.Server/blob/master/Rcon/IRconManager.cs/#L14">View Source</a>
   </span>
   <a id="NFive_SDK_Server_Rcon_IRconManager_Register_" data-uid="NFive.SDK.Server.Rcon.IRconManager.Register*"></a>
-  <h4 id="NFive_SDK_Server_Rcon_IRconManager_Register__1_System_String_System_Action___0__" data-uid="NFive.SDK.Server.Rcon.IRconManager.Register``1(System.String,System.Action{``0})">Register&lt;T&gt;(String, Action&lt;T&gt;)</h4>
+  <h4 id="NFive_SDK_Server_Rcon_IRconManager_Register_System_String_System_Action_System_Collections_Generic_IEnumerable_System_String___" data-uid="NFive.SDK.Server.Rcon.IRconManager.Register(System.String,System.Action{System.Collections.Generic.IEnumerable{System.String}})">Register(String, Action&lt;IEnumerable&lt;String&gt;&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Register&lt;T&gt;(string command, Action&lt;T&gt; callback)</code></pre>
+    <pre><code class="lang-csharp hljs">void Register(string command, Action&lt;IEnumerable&lt;string&gt;&gt; callback)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -165,23 +165,45 @@
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;&gt;</td>
         <td><span class="parametername">callback</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_SDK_Server_Rcon_IRconManager_Register_System_String_System_Action_System_String__.md&amp;value=---%0Auid%3A%20NFive.SDK.Server.Rcon.IRconManager.Register(System.String%2CSystem.Action%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NFive/SDK.Server/blob/master/Rcon/IRconManager.cs/#L12">View Source</a>
+  </span>
+  <a id="NFive_SDK_Server_Rcon_IRconManager_Register_" data-uid="NFive.SDK.Server.Rcon.IRconManager.Register*"></a>
+  <h4 id="NFive_SDK_Server_Rcon_IRconManager_Register_System_String_System_Action_System_String__" data-uid="NFive.SDK.Server.Rcon.IRconManager.Register(System.String,System.Action{System.String})">Register(String, Action&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Register(string command, Action&lt;string&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
+        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">T</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">command</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -197,7 +219,7 @@
                     <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_SDK_Server_Rcon_IRconManager.md&amp;value=---%0Auid%3A%20NFive.SDK.Server.Rcon.IRconManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/NFive/SDK.Server/blob/master/Rcon/IRconManager.cs/#L6" class="contribution-link">View Source</a>
+                    <a href="https://github.com/NFive/SDK.Server/blob/master/Rcon/IRconManager.cs/#L7" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

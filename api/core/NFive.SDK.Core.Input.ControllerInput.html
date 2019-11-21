@@ -5,12 +5,12 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Enum InputModifier
+    <title>Enum ControllerInput
    | NFive API Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Enum InputModifier
+    <meta name="title" content="Enum ControllerInput
    | NFive API Reference ">
-    <meta name="generator" content="docfx 2.46.0.0">
+    <meta name="generator" content="docfx 2.47.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -82,19 +82,20 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NFive.SDK.Client.Input.InputModifier">
+            <article class="content wrap" id="_content" data-uid="NFive.SDK.Core.Input.ControllerInput">
   
   
-  <h1 id="NFive_SDK_Client_Input_InputModifier" data-uid="NFive.SDK.Client.Input.InputModifier" class="text-break">Enum InputModifier
+  <h1 id="NFive_SDK_Core_Input_ControllerInput" data-uid="NFive.SDK.Core.Input.ControllerInput" class="text-break">Enum ControllerInput
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Represents the inputs on a Xbox One controller as supported by GTA.
+See <a href="https://support.xbox.com/en-US/xbox-one/accessories/xbox-one-wireless-controller">Xbox support</a> for button naming.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="NFive.SDK.Client.Input.html">NFive.SDK.Client.Input</a></h6>
-  <h6><strong>Assembly</strong>: NFive.SDK.Client.net.dll</h6>
-  <h5 id="NFive_SDK_Client_Input_InputModifier_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="NFive.SDK.Core.Input.html">NFive.SDK.Core.Input</a></h6>
+  <h6><strong>Assembly</strong>: NFive.SDK.Core.net.dll</h6>
+  <h5 id="NFive_SDK_Core_Input_ControllerInput_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Flags]
-public enum InputModifier</code></pre>
+    <pre><code class="lang-csharp hljs">public enum ControllerInput</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
@@ -107,24 +108,99 @@ public enum InputModifier</code></pre>
     <thead>
     <tbody>
       <tr>
-        <td id="NFive_SDK_Client_Input_InputModifier_Alt">Alt</td>
-        <td></td>
+        <td id="NFive_SDK_Core_Input_ControllerInput_A">A</td>
+        <td><p>The controller A button.</p>
+</td>
       </tr>
       <tr>
-        <td id="NFive_SDK_Client_Input_InputModifier_Any">Any</td>
-        <td></td>
+        <td id="NFive_SDK_Core_Input_ControllerInput_B">B</td>
+        <td><p>The controller B button.</p>
+</td>
       </tr>
       <tr>
-        <td id="NFive_SDK_Client_Input_InputModifier_Ctrl">Ctrl</td>
-        <td></td>
+        <td id="NFive_SDK_Core_Input_ControllerInput_DpadDown">DpadDown</td>
+        <td><p>The controller directional pad down button.</p>
+</td>
       </tr>
       <tr>
-        <td id="NFive_SDK_Client_Input_InputModifier_None">None</td>
-        <td></td>
+        <td id="NFive_SDK_Core_Input_ControllerInput_DpadLeft">DpadLeft</td>
+        <td><p>The controller directional pad left button.</p>
+</td>
       </tr>
       <tr>
-        <td id="NFive_SDK_Client_Input_InputModifier_Shift">Shift</td>
-        <td></td>
+        <td id="NFive_SDK_Core_Input_ControllerInput_DpadRight">DpadRight</td>
+        <td><p>The controller directional pad right button.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="NFive_SDK_Core_Input_ControllerInput_DpadUp">DpadUp</td>
+        <td><p>The controller directional pad up button.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="NFive_SDK_Core_Input_ControllerInput_L3">L3</td>
+        <td><p>The controller left stick click.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="NFive_SDK_Core_Input_ControllerInput_LB">LB</td>
+        <td><p>The controller left bumper.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="NFive_SDK_Core_Input_ControllerInput_LeftStick">LeftStick</td>
+        <td><p>The controller left stick.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="NFive_SDK_Core_Input_ControllerInput_LT">LT</td>
+        <td><p>The controller left trigger.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="NFive_SDK_Core_Input_ControllerInput_Menu">Menu</td>
+        <td><p>The controller menu button.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="NFive_SDK_Core_Input_ControllerInput_None">None</td>
+        <td><p>No controller input.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="NFive_SDK_Core_Input_ControllerInput_R3">R3</td>
+        <td><p>The controller right stick click.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="NFive_SDK_Core_Input_ControllerInput_RB">RB</td>
+        <td><p>The controller right bumper.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="NFive_SDK_Core_Input_ControllerInput_RightStick">RightStick</td>
+        <td><p>The controller right stick.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="NFive_SDK_Core_Input_ControllerInput_RT">RT</td>
+        <td><p>The controller right trigger.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="NFive_SDK_Core_Input_ControllerInput_View">View</td>
+        <td><p>The controller view button.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="NFive_SDK_Core_Input_ControllerInput_X">X</td>
+        <td><p>The controller X button.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="NFive_SDK_Core_Input_ControllerInput_Y">Y</td>
+        <td><p>The controller Y button.</p>
+</td>
       </tr>
     </tbody>
   </thead></thead></table>
@@ -136,10 +212,10 @@ public enum InputModifier</code></pre>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_SDK_Client_Input_InputModifier.md&amp;value=---%0Auid%3A%20NFive.SDK.Client.Input.InputModifier%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_SDK_Core_Input_ControllerInput.md&amp;value=---%0Auid%3A%20NFive.SDK.Core.Input.ControllerInput%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/NFive/SDK.Client/blob/master/Input/InputModifier.cs/#L5" class="contribution-link">View Source</a>
+                    <a href="https://github.com/NFive/SDK.Core/blob/master/Input/ControllerInput.cs/#L9" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

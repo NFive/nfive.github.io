@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface ILocaleCatalog
    | NFive API Reference ">
-    <meta name="generator" content="docfx 2.46.0.0">
+    <meta name="generator" content="docfx 2.47.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -87,7 +87,8 @@
   
   <h1 id="NFive_SDK_Core_Locales_ILocaleCatalog" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog" class="text-break">Interface ILocaleCatalog
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>A GNU gettext locale catalog for a given culture.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="NFive.SDK.Core.Locales.html">NFive.SDK.Core.Locales</a></h6>
   <h6><strong>Assembly</strong>: NFive.SDK.Core.net.dll</h6>
@@ -102,11 +103,12 @@
     <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_SDK_Core_Locales_ILocaleCatalog_Culture.md&amp;value=---%0Auid%3A%20NFive.SDK.Core.Locales.ILocaleCatalog.Culture%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NFive/SDK.Core/blob/master/Locales/ILocaleCatalog.cs/#L9">View Source</a>
+    <a href="https://github.com/NFive/SDK.Core/blob/master/Locales/ILocaleCatalog.cs/#L14">View Source</a>
   </span>
   <a id="NFive_SDK_Core_Locales_ILocaleCatalog_Culture_" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog.Culture*"></a>
   <h4 id="NFive_SDK_Core_Locales_ILocaleCatalog_Culture" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog.Culture">Culture</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the catalog culture.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -123,7 +125,8 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.globalization.cultureinfo">CultureInfo</a></td>
-        <td></td>
+        <td><p>The catalog culture.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -131,14 +134,519 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_SDK_Core_Locales_ILocaleCatalog___System_String_.md&amp;value=---%0Auid%3A%20NFive.SDK.Core.Locales.ILocaleCatalog._(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NFive/SDK.Core/blob/master/Locales/ILocaleCatalog.cs/#L29">View Source</a>
+  </span>
+  <a id="NFive_SDK_Core_Locales_ILocaleCatalog___" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog._*"></a>
+  <h4 id="NFive_SDK_Core_Locales_ILocaleCatalog___System_String_" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog._(System.String)">_(String)</h4>
+  <div class="markdown level1 summary"><p>Alias of <a class="xref" href="NFive.SDK.Core.Locales.ILocaleCatalog.html#NFive_SDK_Core_Locales_ILocaleCatalog_GetString_System_String_">GetString(String)</a>.
+Returns <code data-dev-comment-type="paramref" class="paramref">text</code> translated into the catalog language.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string _(string text)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">text</span></td>
+        <td><p>The text to translate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><p>The translated text.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_SDK_Core_Locales_ILocaleCatalog___System_String_System_Object___.md&amp;value=---%0Auid%3A%20NFive.SDK.Core.Locales.ILocaleCatalog._(System.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NFive/SDK.Core/blob/master/Locales/ILocaleCatalog.cs/#L46">View Source</a>
+  </span>
+  <a id="NFive_SDK_Core_Locales_ILocaleCatalog___" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog._*"></a>
+  <h4 id="NFive_SDK_Core_Locales_ILocaleCatalog___System_String_System_Object___" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog._(System.String,System.Object[])">_(String, Object[])</h4>
+  <div class="markdown level1 summary"><p>Alias of <a class="xref" href="NFive.SDK.Core.Locales.ILocaleCatalog.html#NFive_SDK_Core_Locales_ILocaleCatalog_GetString_System_String_System_Object___">GetString(String, Object[])</a>.
+Returns <code data-dev-comment-type="paramref" class="paramref">text</code> translated into the catalog language.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string _(string text, params object[] args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">text</span></td>
+        <td><p>The text to translate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The optional arguments for <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string.format#System_String_Format_System_String_System_Object___">Format(String, Object[])</a> method.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><p>The translated text.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_SDK_Core_Locales_ILocaleCatalog__n_System_String_System_String_System_Int64_.md&amp;value=---%0Auid%3A%20NFive.SDK.Core.Locales.ILocaleCatalog._n(System.String%2CSystem.String%2CSystem.Int64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NFive/SDK.Core/blob/master/Locales/ILocaleCatalog.cs/#L65">View Source</a>
+  </span>
+  <a id="NFive_SDK_Core_Locales_ILocaleCatalog__n_" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog._n*"></a>
+  <h4 id="NFive_SDK_Core_Locales_ILocaleCatalog__n_System_String_System_String_System_Int64_" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog._n(System.String,System.String,System.Int64)">_n(String, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Alias of <a class="xref" href="NFive.SDK.Core.Locales.ILocaleCatalog.html#NFive_SDK_Core_Locales_ILocaleCatalog_GetPluralString_System_String_System_String_System_Int64_">GetPluralString(String, String, Int64)</a>.
+Returns the plural form for <code data-dev-comment-type="paramref" class="paramref">n</code> of the translation of <code data-dev-comment-type="paramref" class="paramref">text</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string _n(string text, string pluralText, long n)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">text</span></td>
+        <td><p>The singular form of message to translate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">pluralText</span></td>
+        <td><p>The plural form of message to translate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+        <td><span class="parametername">n</span></td>
+        <td><p>The value that determines the plural form.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><p>The translated text.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_SDK_Core_Locales_ILocaleCatalog__n_System_String_System_String_System_Int64_System_Object___.md&amp;value=---%0Auid%3A%20NFive.SDK.Core.Locales.ILocaleCatalog._n(System.String%2CSystem.String%2CSystem.Int64%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NFive/SDK.Core/blob/master/Locales/ILocaleCatalog.cs/#L86">View Source</a>
+  </span>
+  <a id="NFive_SDK_Core_Locales_ILocaleCatalog__n_" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog._n*"></a>
+  <h4 id="NFive_SDK_Core_Locales_ILocaleCatalog__n_System_String_System_String_System_Int64_System_Object___" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog._n(System.String,System.String,System.Int64,System.Object[])">_n(String, String, Int64, Object[])</h4>
+  <div class="markdown level1 summary"><p>Alias of <a class="xref" href="NFive.SDK.Core.Locales.ILocaleCatalog.html#NFive_SDK_Core_Locales_ILocaleCatalog_GetPluralString_System_String_System_String_System_Int64_">GetPluralString(String, String, Int64)</a>.
+Returns the plural form for <code data-dev-comment-type="paramref" class="paramref">n</code> of the translation of <code data-dev-comment-type="paramref" class="paramref">text</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string _n(string text, string pluralText, long n, params object[] args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">text</span></td>
+        <td><p>The singular form of message to translate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">pluralText</span></td>
+        <td><p>The plural form of message to translate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+        <td><span class="parametername">n</span></td>
+        <td><p>The value that determines the plural form.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The optional arguments for <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string.format#System_String_Format_System_String_System_Object___">Format(String, Object[])</a> method.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><p>The translated text.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_SDK_Core_Locales_ILocaleCatalog__p_System_String_System_String_.md&amp;value=---%0Auid%3A%20NFive.SDK.Core.Locales.ILocaleCatalog._p(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NFive/SDK.Core/blob/master/Locales/ILocaleCatalog.cs/#L103">View Source</a>
+  </span>
+  <a id="NFive_SDK_Core_Locales_ILocaleCatalog__p_" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog._p*"></a>
+  <h4 id="NFive_SDK_Core_Locales_ILocaleCatalog__p_System_String_System_String_" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog._p(System.String,System.String)">_p(String, String)</h4>
+  <div class="markdown level1 summary"><p>Alias of <a class="xref" href="NFive.SDK.Core.Locales.ILocaleCatalog.html#NFive_SDK_Core_Locales_ILocaleCatalog_GetParticularString_System_String_System_String_">GetParticularString(String, String)</a>.
+Returns <code data-dev-comment-type="paramref" class="paramref">text</code> translated into the selected language using given <code data-dev-comment-type="paramref" class="paramref">context</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string _p(string context, string text)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">text</span></td>
+        <td><p>The text to translate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><p>The translated text.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_SDK_Core_Locales_ILocaleCatalog__p_System_String_System_String_System_Object___.md&amp;value=---%0Auid%3A%20NFive.SDK.Core.Locales.ILocaleCatalog._p(System.String%2CSystem.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NFive/SDK.Core/blob/master/Locales/ILocaleCatalog.cs/#L122">View Source</a>
+  </span>
+  <a id="NFive_SDK_Core_Locales_ILocaleCatalog__p_" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog._p*"></a>
+  <h4 id="NFive_SDK_Core_Locales_ILocaleCatalog__p_System_String_System_String_System_Object___" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog._p(System.String,System.String,System.Object[])">_p(String, String, Object[])</h4>
+  <div class="markdown level1 summary"><p>Alias of <a class="xref" href="NFive.SDK.Core.Locales.ILocaleCatalog.html#NFive_SDK_Core_Locales_ILocaleCatalog_GetParticularString_System_String_System_String_">GetParticularString(String, String)</a>.
+Returns <code data-dev-comment-type="paramref" class="paramref">text</code> translated into the selected language using given <code data-dev-comment-type="paramref" class="paramref">context</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string _p(string context, string text, params object[] args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">text</span></td>
+        <td><p>The text to translate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The optional arguments for <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string.format#System_String_Format_System_String_System_Object___">Format(String, Object[])</a> method.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><p>The translated text.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_SDK_Core_Locales_ILocaleCatalog__pn_System_String_System_String_System_String_System_Int64_.md&amp;value=---%0Auid%3A%20NFive.SDK.Core.Locales.ILocaleCatalog._pn(System.String%2CSystem.String%2CSystem.String%2CSystem.Int64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NFive/SDK.Core/blob/master/Locales/ILocaleCatalog.cs/#L143">View Source</a>
+  </span>
+  <a id="NFive_SDK_Core_Locales_ILocaleCatalog__pn_" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog._pn*"></a>
+  <h4 id="NFive_SDK_Core_Locales_ILocaleCatalog__pn_System_String_System_String_System_String_System_Int64_" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog._pn(System.String,System.String,System.String,System.Int64)">_pn(String, String, String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Alias of <a class="xref" href="NFive.SDK.Core.Locales.ILocaleCatalog.html#NFive_SDK_Core_Locales_ILocaleCatalog_GetParticularPluralString_System_String_System_String_System_String_System_Int64_">GetParticularPluralString(String, String, String, Int64)</a>.
+Returns the plural form for <code data-dev-comment-type="paramref" class="paramref">n</code> of the translation of <code data-dev-comment-type="paramref" class="paramref">text</code> using given <code data-dev-comment-type="paramref" class="paramref">context</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string _pn(string context, string text, string pluralText, long n)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">text</span></td>
+        <td><p>The singular form of message to translate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">pluralText</span></td>
+        <td><p>The plural form of message to translate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+        <td><span class="parametername">n</span></td>
+        <td><p>The value that determines the plural form.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><p>The translated text.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_SDK_Core_Locales_ILocaleCatalog__pn_System_String_System_String_System_String_System_Int64_System_Object___.md&amp;value=---%0Auid%3A%20NFive.SDK.Core.Locales.ILocaleCatalog._pn(System.String%2CSystem.String%2CSystem.String%2CSystem.Int64%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/NFive/SDK.Core/blob/master/Locales/ILocaleCatalog.cs/#L166">View Source</a>
+  </span>
+  <a id="NFive_SDK_Core_Locales_ILocaleCatalog__pn_" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog._pn*"></a>
+  <h4 id="NFive_SDK_Core_Locales_ILocaleCatalog__pn_System_String_System_String_System_String_System_Int64_System_Object___" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog._pn(System.String,System.String,System.String,System.Int64,System.Object[])">_pn(String, String, String, Int64, Object[])</h4>
+  <div class="markdown level1 summary"><p>Alias of <a class="xref" href="NFive.SDK.Core.Locales.ILocaleCatalog.html#NFive_SDK_Core_Locales_ILocaleCatalog_GetParticularPluralString_System_String_System_String_System_String_System_Int64_System_Object___">GetParticularPluralString(String, String, String, Int64, Object[])</a>.
+Returns the plural form for <code data-dev-comment-type="paramref" class="paramref">n</code> of the translation of <code data-dev-comment-type="paramref" class="paramref">text</code> using given <code data-dev-comment-type="paramref" class="paramref">context</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string _pn(string context, string text, string pluralText, long n, params object[] args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">text</span></td>
+        <td><p>The singular form of message to translate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">pluralText</span></td>
+        <td><p>The plural form of message to translate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+        <td><span class="parametername">n</span></td>
+        <td><p>The value that determines the plural form.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The optional arguments for <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string.format#System_String_Format_System_String_System_Object___">Format(String, Object[])</a> method.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><p>The translated text.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_SDK_Core_Locales_ILocaleCatalog_GetParticularPluralString_System_String_System_String_System_String_System_Int64_.md&amp;value=---%0Auid%3A%20NFive.SDK.Core.Locales.ILocaleCatalog.GetParticularPluralString(System.String%2CSystem.String%2CSystem.String%2CSystem.Int64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NFive/SDK.Core/blob/master/Locales/ILocaleCatalog.cs/#L23">View Source</a>
+    <a href="https://github.com/NFive/SDK.Core/blob/master/Locales/ILocaleCatalog.cs/#L132">View Source</a>
   </span>
   <a id="NFive_SDK_Core_Locales_ILocaleCatalog_GetParticularPluralString_" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog.GetParticularPluralString*"></a>
   <h4 id="NFive_SDK_Core_Locales_ILocaleCatalog_GetParticularPluralString_System_String_System_String_System_String_System_Int64_" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog.GetParticularPluralString(System.String,System.String,System.String,System.Int64)">GetParticularPluralString(String, String, String, Int64)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the plural form for <code data-dev-comment-type="paramref" class="paramref">n</code> of the translation of <code data-dev-comment-type="paramref" class="paramref">text</code> using given <code data-dev-comment-type="paramref" class="paramref">context</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -157,22 +665,26 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">context</span></td>
-        <td></td>
+        <td><p>The context.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">text</span></td>
-        <td></td>
+        <td><p>The singular form of message to translate.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">pluralText</span></td>
-        <td></td>
+        <td><p>The plural form of message to translate.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
         <td><span class="parametername">n</span></td>
-        <td></td>
+        <td><p>The value that determines the plural form.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -187,7 +699,8 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
+        <td><p>The translated text.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -196,11 +709,12 @@
     <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_SDK_Core_Locales_ILocaleCatalog_GetParticularPluralString_System_String_System_String_System_String_System_Int64_System_Object___.md&amp;value=---%0Auid%3A%20NFive.SDK.Core.Locales.ILocaleCatalog.GetParticularPluralString(System.String%2CSystem.String%2CSystem.String%2CSystem.Int64%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NFive/SDK.Core/blob/master/Locales/ILocaleCatalog.cs/#L25">View Source</a>
+    <a href="https://github.com/NFive/SDK.Core/blob/master/Locales/ILocaleCatalog.cs/#L154">View Source</a>
   </span>
   <a id="NFive_SDK_Core_Locales_ILocaleCatalog_GetParticularPluralString_" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog.GetParticularPluralString*"></a>
   <h4 id="NFive_SDK_Core_Locales_ILocaleCatalog_GetParticularPluralString_System_String_System_String_System_String_System_Int64_System_Object___" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog.GetParticularPluralString(System.String,System.String,System.String,System.Int64,System.Object[])">GetParticularPluralString(String, String, String, Int64, Object[])</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the plural form for <code data-dev-comment-type="paramref" class="paramref">n</code> of the translation of <code data-dev-comment-type="paramref" class="paramref">text</code> using given <code data-dev-comment-type="paramref" class="paramref">context</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -219,27 +733,32 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">context</span></td>
-        <td></td>
+        <td><p>The context.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">text</span></td>
-        <td></td>
+        <td><p>The singular form of message to translate.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">pluralText</span></td>
-        <td></td>
+        <td><p>The plural form of message to translate.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
         <td><span class="parametername">n</span></td>
-        <td></td>
+        <td><p>The value that determines the plural form.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
         <td><span class="parametername">args</span></td>
-        <td></td>
+        <td><p>The optional arguments for <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string.format#System_String_Format_System_String_System_Object___">Format(String, Object[])</a> method.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -254,7 +773,8 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
+        <td><p>The translated text.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -263,11 +783,12 @@
     <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_SDK_Core_Locales_ILocaleCatalog_GetParticularString_System_String_System_String_.md&amp;value=---%0Auid%3A%20NFive.SDK.Core.Locales.ILocaleCatalog.GetParticularString(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NFive/SDK.Core/blob/master/Locales/ILocaleCatalog.cs/#L19">View Source</a>
+    <a href="https://github.com/NFive/SDK.Core/blob/master/Locales/ILocaleCatalog.cs/#L94">View Source</a>
   </span>
   <a id="NFive_SDK_Core_Locales_ILocaleCatalog_GetParticularString_" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog.GetParticularString*"></a>
   <h4 id="NFive_SDK_Core_Locales_ILocaleCatalog_GetParticularString_System_String_System_String_" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog.GetParticularString(System.String,System.String)">GetParticularString(String, String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns <code data-dev-comment-type="paramref" class="paramref">text</code> translated into the selected language using given <code data-dev-comment-type="paramref" class="paramref">context</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -286,12 +807,14 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">context</span></td>
-        <td></td>
+        <td><p>The context.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">text</span></td>
-        <td></td>
+        <td><p>The text to translate.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -306,7 +829,8 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
+        <td><p>The translated text.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -315,11 +839,12 @@
     <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_SDK_Core_Locales_ILocaleCatalog_GetParticularString_System_String_System_String_System_Object___.md&amp;value=---%0Auid%3A%20NFive.SDK.Core.Locales.ILocaleCatalog.GetParticularString(System.String%2CSystem.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NFive/SDK.Core/blob/master/Locales/ILocaleCatalog.cs/#L21">View Source</a>
+    <a href="https://github.com/NFive/SDK.Core/blob/master/Locales/ILocaleCatalog.cs/#L112">View Source</a>
   </span>
   <a id="NFive_SDK_Core_Locales_ILocaleCatalog_GetParticularString_" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog.GetParticularString*"></a>
   <h4 id="NFive_SDK_Core_Locales_ILocaleCatalog_GetParticularString_System_String_System_String_System_Object___" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog.GetParticularString(System.String,System.String,System.Object[])">GetParticularString(String, String, Object[])</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns <code data-dev-comment-type="paramref" class="paramref">text</code> translated into the selected language using given <code data-dev-comment-type="paramref" class="paramref">context</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -338,17 +863,20 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">context</span></td>
-        <td></td>
+        <td><p>The context.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">text</span></td>
-        <td></td>
+        <td><p>The text to translate.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
         <td><span class="parametername">args</span></td>
-        <td></td>
+        <td><p>The optional arguments for <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string.format#System_String_Format_System_String_System_Object___">Format(String, Object[])</a> method.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -363,7 +891,8 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
+        <td><p>The translated text.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -372,11 +901,12 @@
     <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_SDK_Core_Locales_ILocaleCatalog_GetPluralString_System_String_System_String_System_Int64_.md&amp;value=---%0Auid%3A%20NFive.SDK.Core.Locales.ILocaleCatalog.GetPluralString(System.String%2CSystem.String%2CSystem.Int64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NFive/SDK.Core/blob/master/Locales/ILocaleCatalog.cs/#L15">View Source</a>
+    <a href="https://github.com/NFive/SDK.Core/blob/master/Locales/ILocaleCatalog.cs/#L55">View Source</a>
   </span>
   <a id="NFive_SDK_Core_Locales_ILocaleCatalog_GetPluralString_" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog.GetPluralString*"></a>
   <h4 id="NFive_SDK_Core_Locales_ILocaleCatalog_GetPluralString_System_String_System_String_System_Int64_" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog.GetPluralString(System.String,System.String,System.Int64)">GetPluralString(String, String, Int64)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the plural form for <code data-dev-comment-type="paramref" class="paramref">n</code> of the translation of <code data-dev-comment-type="paramref" class="paramref">text</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -395,17 +925,20 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">text</span></td>
-        <td></td>
+        <td><p>The singular form of message to translate.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">pluralText</span></td>
-        <td></td>
+        <td><p>The plural form of message to translate.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
         <td><span class="parametername">n</span></td>
-        <td></td>
+        <td><p>The value that determines the plural form.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -420,7 +953,8 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
+        <td><p>The translated text.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -429,11 +963,12 @@
     <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_SDK_Core_Locales_ILocaleCatalog_GetPluralString_System_String_System_String_System_Int64_System_Object___.md&amp;value=---%0Auid%3A%20NFive.SDK.Core.Locales.ILocaleCatalog.GetPluralString(System.String%2CSystem.String%2CSystem.Int64%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NFive/SDK.Core/blob/master/Locales/ILocaleCatalog.cs/#L17">View Source</a>
+    <a href="https://github.com/NFive/SDK.Core/blob/master/Locales/ILocaleCatalog.cs/#L75">View Source</a>
   </span>
   <a id="NFive_SDK_Core_Locales_ILocaleCatalog_GetPluralString_" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog.GetPluralString*"></a>
   <h4 id="NFive_SDK_Core_Locales_ILocaleCatalog_GetPluralString_System_String_System_String_System_Int64_System_Object___" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog.GetPluralString(System.String,System.String,System.Int64,System.Object[])">GetPluralString(String, String, Int64, Object[])</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the plural form for <code data-dev-comment-type="paramref" class="paramref">n</code> of the translation of <code data-dev-comment-type="paramref" class="paramref">text</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -452,22 +987,26 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">text</span></td>
-        <td></td>
+        <td><p>The singular form of message to translate.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">pluralText</span></td>
-        <td></td>
+        <td><p>The plural form of message to translate.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
         <td><span class="parametername">n</span></td>
-        <td></td>
+        <td><p>The value that determines the plural form.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
         <td><span class="parametername">args</span></td>
-        <td></td>
+        <td><p>The optional arguments for <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string.format#System_String_Format_System_String_System_Object___">Format(String, Object[])</a> method.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -482,7 +1021,8 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
+        <td><p>The translated text.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -491,11 +1031,12 @@
     <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_SDK_Core_Locales_ILocaleCatalog_GetString_System_String_.md&amp;value=---%0Auid%3A%20NFive.SDK.Core.Locales.ILocaleCatalog.GetString(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NFive/SDK.Core/blob/master/Locales/ILocaleCatalog.cs/#L11">View Source</a>
+    <a href="https://github.com/NFive/SDK.Core/blob/master/Locales/ILocaleCatalog.cs/#L21">View Source</a>
   </span>
   <a id="NFive_SDK_Core_Locales_ILocaleCatalog_GetString_" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog.GetString*"></a>
   <h4 id="NFive_SDK_Core_Locales_ILocaleCatalog_GetString_System_String_" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog.GetString(System.String)">GetString(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns <code data-dev-comment-type="paramref" class="paramref">text</code> translated into the catalog language.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -514,7 +1055,8 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">text</span></td>
-        <td></td>
+        <td><p>The text to translate.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -529,7 +1071,8 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
+        <td><p>The translated text.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -538,11 +1081,12 @@
     <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_SDK_Core_Locales_ILocaleCatalog_GetString_System_String_System_Object___.md&amp;value=---%0Auid%3A%20NFive.SDK.Core.Locales.ILocaleCatalog.GetString(System.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/NFive/SDK.Core/blob/master/Locales/ILocaleCatalog.cs/#L13">View Source</a>
+    <a href="https://github.com/NFive/SDK.Core/blob/master/Locales/ILocaleCatalog.cs/#L37">View Source</a>
   </span>
   <a id="NFive_SDK_Core_Locales_ILocaleCatalog_GetString_" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog.GetString*"></a>
   <h4 id="NFive_SDK_Core_Locales_ILocaleCatalog_GetString_System_String_System_Object___" data-uid="NFive.SDK.Core.Locales.ILocaleCatalog.GetString(System.String,System.Object[])">GetString(String, Object[])</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns <code data-dev-comment-type="paramref" class="paramref">text</code> translated into the catalog language.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -561,12 +1105,14 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">text</span></td>
-        <td></td>
+        <td><p>The text to translate.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
         <td><span class="parametername">args</span></td>
-        <td></td>
+        <td><p>The optional arguments for <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string.format#System_String_Format_System_String_System_Object___">Format(String, Object[])</a> method.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -581,7 +1127,8 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
+        <td><p>The translated text.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -596,7 +1143,7 @@
                     <a href="https://github.com/NFive/nfive.github.io/new/src/api/new?filename=NFive_SDK_Core_Locales_ILocaleCatalog.md&amp;value=---%0Auid%3A%20NFive.SDK.Core.Locales.ILocaleCatalog%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/NFive/SDK.Core/blob/master/Locales/ILocaleCatalog.cs/#L6" class="contribution-link">View Source</a>
+                    <a href="https://github.com/NFive/SDK.Core/blob/master/Locales/ILocaleCatalog.cs/#L9" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
